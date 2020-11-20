@@ -9,7 +9,7 @@ export default class ImplementHealthcare extends Component {
                     <section className="py-5">
                         <div className="container">
                             <blockquote className="blockquote bq-primary">
-                                <p className="bq-title">Client</p>
+                                <h5 className="mb-0">Client</h5>
                                 <p>A health & wellness company in India
             </p>
                             </blockquote>

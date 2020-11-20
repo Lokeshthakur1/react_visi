@@ -87,6 +87,9 @@ export const Links = {
 
     AiPowered: '/ai-powered',
     ImprovedCustomerRetention: '/improved-customer-retention',
-    TravelHospitality: '/travel-hospitality'
-
+    TravelHospitality: '/travel-hospitality',
+    ItItes: '/it-ites',
+    Marketing: '/marketing',
+    HumanRecource: '/human-resource',
+    SafetySecurity: '/safety-security'
 }

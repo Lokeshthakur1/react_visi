@@ -14,7 +14,7 @@ export default class Enterprise extends Component {
                                 time-to-market and enhance their business process solutions in terms of overall scalability and
                         maintainability.</p>
 
-                                <p className="text-justify">Over the years of permanent evolution and occasional revolutions the tech-guys here at Ideation
+                                <p className="text-justify">Over the years of permanent evolution and occasional revolutions the tech-guys here at VisionAize
                                 has developed an advanced, state of the art enterprise application platform (a.k.a. framework)
                                 that allows us to build advanced competencies in most of the enterprise business processes in
                                 today’s world. Through our product development activities added with our experience in a handful

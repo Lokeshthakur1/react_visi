@@ -11,7 +11,7 @@ export default class XmlData extends Component {
                         <div className="row">
                             <div className="col-lg-6 py-5">
                                 <div className="mb-5">
-                                    <h5 className="text-justify">Ideation has its own XML data management framework. This framework is designed towards
+                                    <h5 className="text-justify">VisionAize has its own XML data management framework. This framework is designed towards
                                     the idea of handling huge XML data files (3-5 GB), querying the data with uniform and
                                     minimum response time, providing low memory footprint and relatively low CPU usage for
                                             most of the time.</h5>

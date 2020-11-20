@@ -26,7 +26,7 @@ export default class BusinessProcess extends Component {
                                     the transactions are guaranteed, fault-insulated and secured.
                     </p>
                                 <p className="text-justify">
-                                    Ideation TS does have a special framework and methodology to create, integrate, maintain and
+                                    VisionAize does have a special framework and methodology to create, integrate, maintain and
                                     change processes to suit the strategic and tactical change managements.
                     </p>
                                 <p className="text-justify">
@@ -36,7 +36,7 @@ export default class BusinessProcess extends Component {
                                 <p className="text-justify">
                                     Helping companies “GO-ing Green” without paper, without perishable documentation and unnecessary
                                     storage of archives, and helping them to follow rule based engine driven processes automatically
-                                    triggered by events and impetuses is the forte of Ideation TS.
+                                    triggered by events and impetuses is the forte of VisionAize.
                     </p>
                             </div>
                             {/* <!-- Grid column --> */}

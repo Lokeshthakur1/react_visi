@@ -12,14 +12,14 @@ export default class PrivacyPolicy extends Component {
                                 PRIVACY <span className="font-weight-light">POLICY</span>
                             </h2>
                             <p className="text-justify">
-                                Your privacy is very important to us. Ideation respects your privacy and is committed to protect the
+                                Your privacy is very important to us. VisionAize respects your privacy and is committed to protect the
                                 personal information that you share with us. Generally, you can browse through our website without
                                 giving us any information about yourself. When we do need your personal information to provide
                                 services that you request or when you choose to provide us with your personal information, this
                                 policy describes how we collect and use your personal information.
         </p>
                             <p className="text-justify">
-                                Ideation does not rent, sell, or share personal information about you with other people or
+                                VisionAize does not rent, sell, or share personal information about you with other people or
                                 nonaffiliated companies except to provide products or services you've requeste or when we have your
                                 permission.
         </p>
@@ -41,9 +41,9 @@ export default class PrivacyPolicy extends Component {
                                 Cookies <span className="font-weight-light"></span>
                             </h4>
                             <p className="text-justify">We might define a cookie as any string of data and information that is automatically stored on your
-                            computer upon access to our services. Ideation employs cookies to assign temporary identification
-                            numbers to machines that access our website. All Ideation cookies are 1) of limited duration, 2)
-            only visible to Ideation, and 3) devoid of any personally identifiable information.</p>
+                            computer upon access to our services. VisionAize employs cookies to assign temporary identification
+                            numbers to machines that access our website. All VisionAize cookies are 1) of limited duration, 2)
+            only visible to VisionAize, and 3) devoid of any personally identifiable information.</p>
                             <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
                                 Links to <span className="font-weight-light">Other Sites</span>
                             </h4>
@@ -55,7 +55,7 @@ export default class PrivacyPolicy extends Component {
                             <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
                                 Guidelines for <span className="font-weight-light">Children</span>
                             </h4>
-                            <p className="text-justify">Ideation does not knowingly market to children under the age of 18 nor do we solicit personal
+                            <p className="text-justify">VisionAize does not knowingly market to children under the age of 18 nor do we solicit personal
                             information from children. Children are not eligible to purchase any products or services from us,
             and we ask that minors do not submit any personal information to us.</p>
                             <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
@@ -69,15 +69,15 @@ export default class PrivacyPolicy extends Component {
                             a part of this policy, and shall not limit or otherwise affect in any way the meaning or
             interpretation of this policy.</p>
                             <p className="text-justify">All covenants, agreements, representations and warranties made in this policy, as may be amended by
-                            Ideation from time to time, shall survive your opting out of this policy and the termination and/or
+                            VisionAize from time to time, shall survive your opting out of this policy and the termination and/or
             amendment of this policy. This policy cannot be orally modified or amended.</p>
-                            <p>This policy represents the entire understanding and agreement between you and Ideation regarding its
+                            <p>This policy represents the entire understanding and agreement between you and VisionAize regarding its
                             subject matter, and supersedes all other previous policies, agreements, understandings and/or
             representations regarding the same.</p>
                             <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
                                 Contact Us <span className="font-weight-light"></span>
                             </h4>
-                            <p>If you have additional questions, you may send email to info@ideationts.com.</p>
+                            <p>If you have additional questions, you may send email to info@VisionAize.com.</p>
                         </section>
                         <hr className="my-5" />
 

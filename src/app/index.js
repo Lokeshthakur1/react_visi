@@ -75,6 +75,11 @@ import SocialMedia from '../component/SocialMedia'
 import SoftwareServices from '../component/SoftwareServices'
 import DataInformation from '../container/Services/DataInformation'
 import AiProwered from '../component/AiPowered'
+import TravelHospitality from '../container/Industries/TravelHospitality'
+import ItItes from '../container/Industries/ItItes'
+import Marketing from '../container/Industries/Marketing'
+import HumanRecource from '../container/Industries/HumanRecource'
+import SafetySecurity from '../container/Industries/SafetySecurity'
 
 import { Links } from './links'
 import XmlData from '../component/XmlData'
@@ -146,6 +151,13 @@ export default function index() {
                 <Route path={Links.Utility} component={Utility} />
                 <Route path={Links.TranspAndLogistic} component={TranspAndLogistic} />
                 <Route path={Links.Environmental} component={Environmental} />
+                <Route path={Links.TravelHospitality} component={TravelHospitality} />
+                <Route path={Links.ItItes} component={ItItes} />
+                <Route path={Links.Marketing} component={Marketing} />
+                <Route path={Links.HumanRecource} component={HumanRecource} />
+                <Route path={Links.SafetySecurity} component={SafetySecurity} />
+
+
                 {/* others */}
 
                 <Route path={Links.ClinicalTrial} component={ClinicalTrial} />

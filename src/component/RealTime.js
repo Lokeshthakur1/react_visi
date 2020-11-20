@@ -26,7 +26,7 @@ export default class RealTime extends Component {
                                     platforms have also emerged to change this technology practice.
                     </p>
                                 <p className="text-justify">
-                                    Ideation technology practice lab has been continuously enhancing its proprietary application
+                                    VisionAize technology practice lab has been continuously enhancing its proprietary application
                                     framework to support increasing demand of real-time processing with modern technology
                                     capabilities. One of the strength of this ecosystem is a rich array of available connectors
                                     specialized for receiving data from versatile sources. Adapters exist to make it straightforward

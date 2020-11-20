@@ -9,7 +9,7 @@ export default class DataDriven extends Component {
                     <div class="container">
                         <h4 class="title wow fadeIn font-weight-bold text-center" data-wow-delay="0.2s">FOR DRUG DISCOVERY
                         </h4>
-                        <img class="img-fluid" src="img/svg/data_driven-img.svg"/>
+                        <img class="img-fluid" src="img/svg/data_driven-img.svg" />
                     </div>
                 </section>
             </main>

@@ -16,7 +16,7 @@ export default class Healthcare extends Component {
                                         Healthcare <span className="font-weight-light"></span>
                                     </h2>
                                     <p className="text-justify">
-                                        As one of the pioneering companies Ideation Technology has embarked on providing the
+                                        As one of the pioneering companies VisionAize Technology has embarked on providing the
                                         Health
                                         Care Business world Analytics approach in making the Return on Investment and
                                         Care-as-a-Service with the best offer to the stakeholders. The optimization and
@@ -42,10 +42,57 @@ export default class Healthcare extends Component {
                                     <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
                                         The main features of this <span className="font-weight-light">application are</span>
                                     </h4>
-                                    <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
+
+                                    <div className="card p-3 mb-3">
+                                        <h5 className="font-weight-bold mb-3">Implementing Preventing Healthcare</h5>
+                                        <img src="img/svg/ImplementingPreventingHealthcare.svg" className="img-fluid px-3 my-3 w-100" />
+                                        <h5 className="mb-2">Client</h5>
+                                        <p>A health & wellness company in India</p>
+                                        <hr />
+                                        <h5 className="mb-2">Solution</h5>
+                                        <p className="text-justify">A comprehensive platform which analyses genomic, lifestyle and cognitive behavioral data to precisely predict individual health risk and engage users through personalized recommendations.</p>
+                                        <hr />
+                                        <h5 className="mb-2">Business Problem</h5>
+                                        <p className="text-justify">The specific health test lacks comprehensive interpretation of the test results, risk assessment and prediction and personalized recommendation.</p>
+                                        <hr />
+                                        <h5 className="mb-2">Business Benefits</h5>
+                                        <p className="text-justify">Health Risk Assessment Disease Susceptibility Prediction, Fitness & Nutritional Trait Analysis Personalized Prevention, Recommendation, Engagement & Gamification</p>
+                                    </div>
+
+                                    <div className="card p-3 mb-3">
+                                        <h5 className="font-weight-bold mb-3">Decision Support for Hospitals</h5>
+
+                                        <img src="img/svg/DecisionSupport.svg" className="img-fluid px-3 my-3 w-100 h-70" />
+
+                                        <h5 className="mb-2">Client</h5>
+                                        <p>Multiple Hospitals in India</p>
+                                        <hr />
+                                        <h5 className="mb-2">Business Problem</h5>
+                                        <p className="text-justify">Hospital operations generates data from heterogeneous sources and needs unified approach for generating data driven decisions and predictive action items.</p>
+                                        <hr />
+                                        <h5 className="mb-2">Solution</h5>
+                                        <p className="text-justify">A platform for heterogeneous data collection, collation and unification for  generating actionable insights, predictions (bed occupancy, epidemic and pandemic alerts etc.) and optimization (cost of packages, inventory etc.)</p>
+                                        <hr />
+                                        <h5 className="mb-2">Business Benefits</h5>
+                                        <p className="text-justify">Increased operational efficiency Preparedness to handle epidemic and pandemic situations Better patient service and satisfaction</p>
+                                    </div>
+
+                                    <div className="card p-3 mb-3">
+                                        <h5 className="font-weight-bold mb-3">Data Driven Decision Support</h5>
+                                        <img class="img-fluid" src="img/svg/data_driven-img.svg" />
+                                    </div>
+
+                                    <div className="card p-3 mb-3">
+                                        <h5 className="font-weight-bold mb-3">Clinical Trial Planning and Execution</h5>
+                                        <img class="img-fluid" src="img/svg/clinical_trial-img.svg" />
+                                    </div>
+
+
+
+                                    {/* <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
                                         <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="https://goodnewsplanet.com/wp-content/uploads/2020/09/happy-nurses-doctors-hospital_13339-6305-1.jpg"
+                                                <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                                                     className="img_bg" />
 
                                                 <h6>Implementing preventing healthcare<br /> <Link to={Links.ImplementHealthcare}
@@ -56,7 +103,7 @@ export default class Healthcare extends Component {
                                         </div>
                                         <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="https://www.testtargettreat.com/content/ttt/en/home/educational-resources/case-studies/influenza-case-study/_jcr_content/mainpar/alereimage_1665461060.img.jpg"
+                                                <img src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                                                     className="img_bg" />
                                                 <h6>Decision supports for hospitals<br /> <Link to={Links.DecisionSupports}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
@@ -66,7 +113,7 @@ export default class Healthcare extends Component {
                                         </div>
                                         <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="https://etimg.etb2bimg.com/thumb/msid-72818662,width-1200,resizemode-4/.jpg"
+                                                <img src="https://images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
                                                     className="img_bg" />
                                                 <h6>Data driven decision support for drug discovery<br /> <Link
                                                     to={Links.DataDriven}
@@ -77,7 +124,7 @@ export default class Healthcare extends Component {
                                         </div>
                                         <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="https://www.biospectrumasia.com/uploads/articles/patients_slider-8842.jpg"
+                                                <img src="https://images.unsplash.com/photo-1582719367079-bc1b8e5fed9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                                                     className="img_bg" />
                                                 <h6>clinical trial planning and execution <br /> <Link to={Links.ClinicalTrial}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
@@ -85,7 +132,7 @@ export default class Healthcare extends Component {
                                                 more</Link></h6>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                 </section>
                             </div>
@@ -107,7 +154,7 @@ export default class Healthcare extends Component {
                     </div>
                 </section>
 
-            </main>
+            </main >
 
 
 

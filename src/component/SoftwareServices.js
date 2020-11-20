@@ -16,16 +16,16 @@ export default class SoftwareServices extends Component {
                                 </h3>
                             </div>
                             <p className="text-justify">Web-based software, on-demand software, or hosted software whatever you name it,
-                            IdeationTS has been delivering it for your business to grow in parallel with the technology
+                            VisionAize has been delivering it for your business to grow in parallel with the technology
             advancement.</p>
                             <p className="text-justify">Delivering software or technology services as services promises speed, agility
                             and scalability which will drive innovation and lower costs. A seasoned cloud consulting partner
-                            like IdeationTS helps you to decide on cloud solutions that truly reflect the needs of your
+                            like VisionAize helps you to decide on cloud solutions that truly reflect the needs of your
             business.</p>
                             <p className="text-justify">A constructive partnership with you to understand your ideas and nature of your
                             business, adopting an organised and managed approach to utilize the most value from cloud options is
             what we aim at every business relationships we involve ourselves with.</p>
-                            <p className="text-justify">IdeationTS offers cloud solutions, tailored for your specific requirements, built
+                            <p className="text-justify">VisionAize offers cloud solutions, tailored for your specific requirements, built
                             on top of a very advanced, feature-rich, secured and of course multitenant cloud computing
             foundation framework with following characteristics:</p>
 
@@ -148,7 +148,7 @@ export default class SoftwareServices extends Component {
                                     high scalability, which gives customers the option to access more, or fewer, services or
                                     features on-demand. The way SaaS framework is designed, these specific customisations are
                                     unique to each customer or user and are always ensured across technology or solution
-                                    upgrades. IdeationTS upgrades its technology and solutions more often, with minimum customer
+                                    upgrades. VisionAize upgrades its technology and solutions more often, with minimum customer
                     risk and very less adoption cost.</p>
 
 
