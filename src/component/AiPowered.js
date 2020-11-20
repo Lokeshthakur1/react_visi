@@ -339,7 +339,7 @@ export default class AiPowered extends Component {
                                         </ul>
 
                                     </div>
-                                    <div className="col-md-6 pt-5 px-3">
+                                    <div className="col-md-6 pt-5 px-3 d-flex align-items-center">
                                         <img src="img/svg/management.svg" className="img-fluid w-100" />
                                     </div>
                                 </div>
@@ -347,7 +347,7 @@ export default class AiPowered extends Component {
                             <div className="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="3">
                                 <div className="row px-3">
 
-                                    <div className="col-md-6 pt-5 px-3">
+                                    <div className="col-md-6 pt-5 px-3 d-flex align-items-center">
                                         <img src="img/svg/High Brand Equity.svg" className="img-fluid w-100" />
                                     </div>
 

@@ -27,6 +27,9 @@ html {
 .waves-effect.waves-light .waves-ripple {
     display: none;
 }
+.bluecolor {
+    color: #009ffd;
+}
 body {
     overflow-x: hidden;
     transition: all ease-in-out;

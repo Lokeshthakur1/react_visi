@@ -75,7 +75,7 @@ export default class SoftwareServices extends Component {
                             <div className="row align-items-center pt-5">
 
                                 {/* <!-- Grid column --> */}
-                                <div className="col-lg-7">
+                                <div className="col-lg-6">
                                     {/* <!-- Post title --> */}
                                     <h4 className="font-weight-bold mb-3">MULTI TENANT MODEL</h4>
                                     {/* <!-- Excerpt --> */}
@@ -104,11 +104,11 @@ export default class SoftwareServices extends Component {
                                 </div>
                                 {/* <!-- Grid column --> */}
                                 {/* <!-- Grid column --> */}
-                                <div className="col-lg-5">
+                                <div className="col-lg-6">
 
                                     {/* <!-- Featured image --> */}
                                     <div className="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                                        <img className="img-fluid" src="img/Images/Pic-580x380.png" alt="Sample image" />
+                                        <img className="img-fluid p-3" src="img/svg/multi_tenet_1.svg" alt="Sample image" />
                                         <a>
                                             <div className="mask rgba-white-slight"></div>
                                         </a>

@@ -17,27 +17,27 @@ export default class XmlData extends Component {
                                             most of the time.</h5>
 
                                     <ul className="list-group list-group-flush mt-5 fancylist">
-                                        <li className="list-group-item"><i className="far fa-check-circle"></i>
+                                        <li className="list-group-item"><i className="far bluecolor fa-check-circle fa-2x mr-3"></i>
                                             <p className="text-justify">The framework uses an XQUERY compliant XML DB in the back and provides a façade
                                             for controlling access to the XML DB. The façade also makes it possible to
                                                     switch XMLDB vendors transparently.</p>
                                         </li>
-                                        <li className="list-group-item"> <i className="far fa-check-circle"></i>
+                                        <li className="list-group-item"> <i className="far bluecolor fa-check-circle fa-2x mr-3"></i>
                                             <p className="text-justify">The façade incorporates a proprietary second level caching mechanism to further
                                                     minimise query response time.</p>
                                         </li>
-                                        <li className="list-group-item"> <i className="far fa-check-circle"></i>
+                                        <li className="list-group-item"> <i className="far bluecolor fa-check-circle fa-2x mr-3"></i>
                                             <p className="text-justify">The façade incorporates a configurable latching mechanism. This mechanism, used
                                             along with the configurable caching system can be used effectively to optimize a
                                                     server's performance according to the hardware configuration of the server.</p>
                                         </li>
-                                        <li className="list-group-item"> <i className="far fa-check-circle"></i>
+                                        <li className="list-group-item"> <i className="far bluecolor fa-check-circle fa-2x mr-3"></i>
                                             <p className="text-justify">The framework has its own XML based protocol for query and response. The façade
                                             can be configured to expose a set of query services. This means, for most of the
                                             cases, exposing a particular sub-set of data as a service will mean writing an
                                                     X-QUERY and registering it with the façade.</p>
                                         </li>
-                                        <li className="list-group-item"> <i className="far fa-check-circle"></i>
+                                        <li className="list-group-item"> <i className="far bluecolor fa-check-circle fa-2x mr-3"></i>
                                             <p className="text-justify">The framework comes ready to be deployed in servlet containers and can respond to
                                                     REST queries readily.</p>
                                         </li>

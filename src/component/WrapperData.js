@@ -32,7 +32,7 @@ export const WrapperData = {
     Banking: {
         heading: 'BANKING & FINANCIAL',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1423666523292-b458da343f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80',
+        bannerImgL: 'img/Images/banking.jpg',
         Controls: true
     },
     BusinessModelMakeover: {
@@ -43,7 +43,7 @@ export const WrapperData = {
     Chatbots: {
         heading: 'BANKING & FINANCIAL',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1423666523292-b458da343f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80'
+        bannerImgL: 'img/Images/banking.jpg'
     },
     ClaimsPredictions: {
         heading: 'Healthcare',
@@ -64,7 +64,7 @@ export const WrapperData = {
     CustomizedInvestments: {
         heading: 'BANKING & FINANCIAL',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1423666523292-b458da343f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80'
+        bannerImgL: 'img/Images/banking.jpg'
     },
     DataEngineering: {
         heading: 'Data Engineering & Visualization',
@@ -124,7 +124,7 @@ export const WrapperData = {
     ImprovedRustomerRetention: {
         heading: 'BANKING & FINANCIAL',
         description: ``,///////////////////////////
-        bannerImgL: 'https://images.unsplash.com/photo-1423666523292-b458da343f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80'
+        bannerImgL: 'img/Images/banking.jpg'
     },
     Utility: {
         heading: 'Utility',
@@ -149,7 +149,7 @@ export const WrapperData = {
     SmartRiskPredictorAgileProcess: {
         heading: 'BANKING & FINANCIAL',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1423666523292-b458da343f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80'
+        bannerImgL: 'img/Images/banking.jpg'
     },
     Services: {
         heading: '',
@@ -194,7 +194,7 @@ export const WrapperData = {
     LifeTimeValuePrediction: {
         heading: 'BANKING & FINANCIAL',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1423666523292-b458da343f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80',
+        bannerImgL: 'img/Images/banking.jpg',
     },
     InventoryManage: {
         heading: 'RETAIL',
@@ -203,10 +203,7 @@ export const WrapperData = {
     },
     Industries: {
         heading: 'Industries',
-        description: `As industries converge and new industries emerge,
-        we are re-imagining our strategy, solutions, and platforms as well. Our
-        innovators and thought leaders are in continuing conversations with those who
-        influence and shape the future of industries.`,
+        description: ``,
         bannerImgL: 'img/Images/industries.jpg',
         // exp:Know
         classname: 'text-justify',
