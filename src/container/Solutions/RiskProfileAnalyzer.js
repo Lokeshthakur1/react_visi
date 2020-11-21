@@ -23,7 +23,7 @@ export default class RiskProfileAnalyzer extends Component {
                                     </div>
                                     <p className="mt-4 text-justify">AI software and hardware, including deep learning algorithms and the
                                     graphics processing units, can be used as genomics to process large and complex genomic
-                                    datasets. <b className="font-weight-bold">VisionAIze’s</b> AI-based systems are well
+                                    datasets. VisionAize’s AI-based systems are well
                                     developed to perform clinical diagnostic tasks. It can be used for risk prediction in
                                     both common and uncommon complex diseases. The physical model that controls the diseases
                                     is unknown. Hence, the advanced interpretation of genomics-based on artificial

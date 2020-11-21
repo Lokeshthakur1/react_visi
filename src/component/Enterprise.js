@@ -179,16 +179,16 @@ export default class Enterprise extends Component {
 
 
                                         </div>
-                                        <div className="col-md-6 py-3 px-3 text-center">
-                                            <img className="roundImage" src="img/Images/multi_tenet.jpg" />
+                                        <div className="col-md-6 text-center px-0">
+                                            <img className="roundImage" src="img/Images/multi_tenet.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="second" role="tabpanel" aria-labelledby="2">
                                     <div className="row px-3">
 
-                                        <div className="col-md-6 mx-auto py-3 text-center px-3">
-                                            <img className="roundImage" src="img/Images/database.jpg" />
+                                        <div className="col-md-6 mx-auto text-center px-0">
+                                            <img className="roundImage" src="img/Images/database.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
 
                                         <div className="col-md-6 p-3">
@@ -221,15 +221,15 @@ export default class Enterprise extends Component {
                                 </p>
 
                                         </div>
-                                        <div className="col-md-6 mx-auto text-center py-3 px-3">
-                                            <img className="roundImage" src="img/Images/api.jpg" />
+                                        <div className="col-md-6 mx-auto text-center px-0">
+                                            <img className="roundImage" src="img/Images/api.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="3">
                                     <div className="row px-3">
-                                        <div className="col-md-6 mx-auto text-center py-3 px-3">
-                                            <img className="roundImage" src="img/Images/accesskey.jpg" />
+                                        <div className="col-md-6 mx-auto text-center px-0">
+                                            <img className="roundImage" src="img/Images/accesskey.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                         <div className="col-md-6 p-3">
 
@@ -260,8 +260,8 @@ export default class Enterprise extends Component {
 
 
                                         </div>
-                                        <div className="col-md-6 mx-auto py-3 px-3">
-                                            <img className="roundImage" src="img/Images/alert.jpg" />
+                                        <div className="col-md-6 mx-auto px-0">
+                                            <img className="roundImage" src="img/Images/alert.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>

@@ -26,7 +26,7 @@ export default class DrugRecovery extends Component {
                                     designing new drugs, drug repurposing, enhancing the R & D efficiency, aggregating, and
                                     studying biomedicine data. </p>
     
-                                    <p className="text-justify"><b className="font-weight-bold">VisionAize’s</b> high tech AI solutions can accumulate
+                                    <p className="text-justify">VisionAize’s high tech AI solutions can accumulate
                                     diverse streams of biomedical and healthcare data. It can collect and relate
                                     longitudinal electronic medical records, next-generation sequencing, and other data into
                                     mechanistic computer models representing individual patients. AI can design new

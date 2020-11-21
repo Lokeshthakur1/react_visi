@@ -80,7 +80,7 @@ export default class Industries extends Component {
                                                 more</Link>
                                     </div>
                                 </div>
-                                <p className="text-uppercase text-center font-weight-bold mt-4 mb-0 text-uppercase">HIGH-TECH</p>
+                                <p className="text-uppercase text-center font-weight-bold mt-4 mb-0 text-uppercase">Hi-Tech</p>
 
                             </div>
                             <div className="col-lg-4 col-md-12 mb-4">

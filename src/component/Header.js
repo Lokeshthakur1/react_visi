@@ -51,7 +51,7 @@ class Header extends Component {
                                             <li className="dropdown_item-1"><Link className="tablink waves-effect waves-light"
                                                 to={Links.Healthcare}>HEALTHCARE & PHRAMA</Link></li>
                                             <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
-                                                to={Links.Hightech}>HIGH-TECH</Link></li>
+                                                to={Links.Hightech}>Hi-Tech</Link></li>
                                             <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
                                                 to={Links.Retail}>RETAIL</Link></li>
                                             <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
@@ -105,7 +105,7 @@ class Header extends Component {
                                                 </ul>
                                             </li>
                                             <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                className="tablink waves-effect waves-light" to={Links.Hightech}>HIGH-TECH</Link>
+                                                className="tablink waves-effect waves-light" to={Links.Hightech}>Hi-Tech</Link>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
                                                     <li className="dropdown_item-2"><Link className="waves-effect waves-light"
                                                         to={Links.SmartRiskPredictorAgileProcess}>Smart Risk Predictor for
@@ -232,7 +232,7 @@ class Header extends Component {
                                                         </ul> */}
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.Hightech}>HIGH-TECH</Link>
+                                                        className="tablink waves-effect waves-light" to={Links.Hightech}>Hi-Tech</Link>
                                                         {/* <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
                                                             <li className="dropdown_item-2"><Link className="waves-effect waves-light"
                                                                 to={Links.SmartRiskPredictorAgileProcess}>Smart Risk Predictor for

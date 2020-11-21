@@ -33,7 +33,7 @@ export default class IntelligentDemandForecast extends Component {
                                     be optimized with the use of AI. Companies can get a holistic approach to their
                                     operations. </p>
 
-                                    <p className="text-justify"><b className="font-weight-bold">VisionAize’s</b> AI can eliminate human error and prejudice
+                                    <p className="text-justify">VisionAize’s AI can eliminate human error and prejudice
                                     that is natural in the case of a professional human inspector. AI does not have the
                                     drawback of human inspectors, such as fatigue. Its skills are regularly updated.
                                     Especially after the Corona Pandemic, AI is an important tool for the utility sector.

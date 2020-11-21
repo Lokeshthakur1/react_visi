@@ -27,7 +27,7 @@ export default class Chatbots extends Component {
                                     to
                                     messaging everything. So why keep banking in the Stone Age? The AI-based chatbots have
                                     gained a global appreciation. The reason is simple. Customers feel special with a
-                                    personalized conversation and <b className="font-weight-bold">VisionAize</b> makes sure of
+                                    personalized conversation and VisionAize makes sure of
                                     that.</p>
     
                                     <p className="text-justify">It is an ever-improving technology that makes use of Natural Language Processing. The

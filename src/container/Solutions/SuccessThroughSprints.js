@@ -13,7 +13,7 @@ export default class SuccessThroughSprints extends Component {
                             <div className="col-md-8">
                                 <section>
                                     <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
-                                        High-Tech Solutions
+                                        Hi-Tech Solutions
                             </h2>
                                     <div className="mb-4">
                                         <img src="img/svg/sprint_Poc.svg" className="img-fluid w-100" />
@@ -26,10 +26,10 @@ export default class SuccessThroughSprints extends Component {
                                 present. </p>
 
                                     <p className="text-justify">This is conventionally done through manual Sprints.
-                                <b className="font-weight-bold">VisionAize’s</b> AI-based Sprint's main advantage is that AI can enhance parts of your business better
-                                than manual sprints in a
-                                minimal time. An AI-based sprint can also provide you with a better understanding of the
-                                problem, key performance indicators relevant for the particular project, a summary of
+                                    VisionAize’s AI-based Sprint's main advantage is that AI can enhance parts of your business better
+                                    than manual sprints in a
+                                    minimal time. An AI-based sprint can also provide you with a better understanding of the
+                                    problem, key performance indicators relevant for the particular project, a summary of
                                 process changes, and proposal roadmaps. </p>
 
                                     <p className="text-justify">AI sprints are short in term and take within one to three weeks. AI sprints can time

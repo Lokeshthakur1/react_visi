@@ -26,7 +26,7 @@ export default class ClaimsPredictions extends Component {
                                     sure that the API based integration is easy to deploy. The processing of claims becomes
                                     efficient. It can take hours and days to process claims. </p>
 
-                                    <p className="text-justify">The <b className="font-weight-bold">VisionAIze’s</b> AI aided platform can fast forward the
+                                    <p className="text-justify">The VisionAize’s AI aided platform can fast forward the
                                     process of claim closure. Insurance is a risky business and leads to considerable losses
                                     to the company if the prediction is not accurate. One of the major causes of increased
                                     payments is human errors made while processing claims. It also adds to a significant

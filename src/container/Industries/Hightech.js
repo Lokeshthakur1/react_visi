@@ -12,7 +12,7 @@ export default class Hightech extends Component {
                             <div className="col-md-8">
                                 <section>
                                     <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
-                                        High-Tech Solutions
+                                        Hi-Tech Solutions
 
                             </h2>
                                     <p className="text-justify">VisionAize helping market-leaders those who are looking at artificial intelligence to
@@ -22,7 +22,7 @@ export default class Hightech extends Component {
                             </p>
                                     <h4 className="title my-5 wow fadeIn font-weight-bold" data-wow-delay="0.2s"
                                         style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>VisionAize
-                                        helping Businesses with the high-tech AI solutions to reconstruct 3 major areas:
+                                        helping Businesses with the Hi-Tech AI solutions to reconstruct 3 major areas:
                             </h4>
 
                                     <ul className="list-group list-group-flush py-3">

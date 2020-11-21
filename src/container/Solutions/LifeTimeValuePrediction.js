@@ -19,12 +19,12 @@ export default class LifeTimeValuePrediction extends Component {
                                         <img src="img/svg/life_time_value_preduction.svg" height="300" className="img-fluid" />
                                     </div>
                                     <p className="mt-4 text-justify">In a customer-centric organisation like banking, it is essential to know the
-                                customer's lifetime value. <b className="font-weight-bold">VisionAize</b> helps your
-                                institution identify your most profitable clients to provide them high priority service.
-                                It is one level up that retains your customers. According to the Pareto Principle, it is
-                                more about the 20% customer responsible for 80% of your profits. Using AI will give you
-                                future earnings at an attractive discounted rate. Calculating a Customer's Lifetime
-                                Value is a complicated calculation. You need to know the RFM- Recency, Frequency, and
+                                    customer's lifetime value. VisionAize helps your
+                                    institution identify your most profitable clients to provide them high priority service.
+                                    It is one level up that retains your customers. According to the Pareto Principle, it is
+                                    more about the 20% customer responsible for 80% of your profits. Using AI will give you
+                                    future earnings at an attractive discounted rate. Calculating a Customer's Lifetime
+                                    Value is a complicated calculation. You need to know the RFM- Recency, Frequency, and
                                 Monetary Value. </p>
 
                                     <p className="text-justify">AI can not only compile it but also give you a clear cut insight into your customers'
@@ -34,11 +34,11 @@ export default class LifeTimeValuePrediction extends Component {
                                 trends. </p>
 
                                     <p className="text-justify">AI can increase the quality of your customer service. This triggers the customers to
-                                invest more in you. <b className="font-weight-bold">VisionAize</b> can work with a
-                                hyper-targeted and holistic approach to
-                                ensure that the customers agree to a long-term agreement. Customers feel that their
-                                brand has become indispensable. They grow comfortable with you and cannot think about
-                                moving out. AI can also predict a Customer's Lifetime Value. This keeps you a step ahead
+                                    invest more in you. VisionAize can work with a
+                                    hyper-targeted and holistic approach to
+                                    ensure that the customers agree to a long-term agreement. Customers feel that their
+                                    brand has become indispensable. They grow comfortable with you and cannot think about
+                                    moving out. AI can also predict a Customer's Lifetime Value. This keeps you a step ahead
                                 always.</p>
 
 

@@ -206,12 +206,12 @@ export default class AdvancedAnalyticsAi extends Component {
                             <div className="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="1">
                                 <div className="row">
                                     {/*Grid column*/}
-                                    <div className="col-lg-6 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-                                        <img src="img/Images/learning.jpg" className="img-fluid" style={{ objectFit: 'cover' }} alt="" />
+                                    <div className="col-lg-4 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
+                                        <img src="img/Images/learning.jpg" className="img-fluid" style={{ objectFit: 'cover', height: '100%', width: '100%' }} alt="" />
                                     </div>
                                     {/*Grid column*/}
                                     {/*Grid column*/}
-                                    <div className="col-lg-6 p-4 mb-lg-0">
+                                    <div className="col-lg-8 p-4 mb-lg-0">
                                         <ul className="list-group list-group-flush">
                                             <ul className="list-group">
                                                 <li className="list-group-item">
@@ -246,7 +246,7 @@ export default class AdvancedAnalyticsAi extends Component {
                                 <div className="row">
                                     {/*Grid column*/}
                                     <div className="col-lg-4 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-                                        <img src="img/Images/deep_learning.jpg" className="img-fluid" style={{ objectFit: 'cover' }}
+                                        <img src="img/Images/deep_learning.jpg" className="img-fluid" style={{ objectFit: 'cover', height: '100%', width: '100%' }}
                                             alt="" />
                                     </div>
                                     {/*Grid column*/}

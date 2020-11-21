@@ -19,7 +19,7 @@ export default class StayingAheadCurveWithAI extends Component {
                                 <div className="mb-4 text-center">
                                     <img src="img/svg/stay_ahead_ai.svg" className="img-fluid" height="300"/>
                                 </div>
-                                    <p className="text-justify"><b className="font-weight-bold">VisionAize’s</b> AI can help you to predict the next big
+                                    <p className="text-justify">VisionAize’s AI can help you to predict the next big
                                     thing in your business. AI can help you to predict the best for you, monitor your
                                     competition, organise your data, and much more. We are at the edge of the fourth
                                     industrial revolution, and the future is made of AI. </p>

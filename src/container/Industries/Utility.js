@@ -18,10 +18,10 @@ export default class Utility extends Component {
                                     <div className="mb-4 text-center">
                                         <img src="img/svg/utility.svg" className="img-fluid" height="400" />
                                     </div>
-                                    <p className="text-justify"><b className="font-weight-bold">VisionAize</b> has impactful solutions for the utility
-                                industry where AIML are playing key
-                                roles on many aspects of the business. Most of the Power companies are turning on for AI
-                                solutions to improve their electricity delivery channels for better, easy, fast and cost
+                                    <p className="text-justify">VisionAize has impactful solutions for the utility
+                                    industry where AIML are playing key
+                                    roles on many aspects of the business. Most of the Power companies are turning on for AI
+                                    solutions to improve their electricity delivery channels for better, easy, fast and cost
                                 effective solutions. </p>
                                     <p className="text-justify">Through advanced AI solutionis, data analysis, manufacturing, consumptions, energy
                                     savings has become a real advantage in Utility sectors. AIML algorithms are rapidly

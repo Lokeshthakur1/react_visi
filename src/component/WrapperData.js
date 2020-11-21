@@ -38,7 +38,7 @@ export const WrapperData = {
 
     },
     BusinessModelMakeover: {
-        heading: 'High-Tech',
+        heading: 'Hi-Tech',
         description: ``,
         bannerImgL: 'img/Images/software.jpg'
     },
@@ -119,7 +119,7 @@ export const WrapperData = {
         Controls: true
     },
     Hightech: {
-        heading: 'High-Tech',
+        heading: 'Hi-Tech',
         description: ``,
         bannerImgL: 'img/Images/software.jpg'
     },
@@ -139,12 +139,12 @@ export const WrapperData = {
         bannerImgL: 'img/Images/transportation_logistics.jpg'
     },
     SuccessThroughSprints: {
-        heading: 'High-Tech',
+        heading: 'Hi-Tech',
         description: ``,
         bannerImgL: 'img/Images/software.jpg'
     },
     StayingAheadCurveWith: {
-        heading: 'High-Tech',
+        heading: 'Hi-Tech',
         description: ``,
         bannerImgL: 'img/Images/software.jpg'
     },
@@ -214,7 +214,7 @@ export const WrapperData = {
 
     },
     ImprovementThroughDeepLearning: {
-        heading: 'High-Tech',
+        heading: 'Hi-Tech',
         description: ``,
         bannerImgL: 'img/Images/software.jpg',
     },
@@ -347,6 +347,7 @@ export const WrapperData = {
         heading: ' Environment',
         description: ``,
         bannerImgL: 'img/Images/environment.jpg',
+        classname: 'EnvironmentText'
     },
 
     AirPollutionMonitoringPrediction: {

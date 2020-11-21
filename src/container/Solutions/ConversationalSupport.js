@@ -28,11 +28,11 @@ export default class ConversationalSupport extends Component {
                                     transactions. So clearly, the optimization between online and offline worlds is crucial.
                             </p>
 
-                                    <p className="text-justify"><b className="font-weight-bold">VisionAize’s</b> AI solutions can help retailers to strike
-                                the perfect balance. Retailers need Speed, Convenience, Automation, and Immersion. These
-                                four pillars are the core of every retail business, and they can be made strong through
-                                AI-based deep learning algorithms that can create an intelligent experience. Further,
-                                the geographical barrier should not hold you back.
+                                    <p className="text-justify">VisionAize’s AI solutions can help retailers to strike
+                                    the perfect balance. Retailers need Speed, Convenience, Automation, and Immersion. These
+                                    four pillars are the core of every retail business, and they can be made strong through
+                                    AI-based deep learning algorithms that can create an intelligent experience. Further,
+                                    the geographical barrier should not hold you back.
                             </p>
 
                                     <p className="text-justify">There is a need for the ability to field customer queries from across time-zones.
