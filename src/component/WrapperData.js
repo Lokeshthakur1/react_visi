@@ -199,7 +199,7 @@ export const WrapperData = {
     InventoryManage: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg',
+        bannerImgL: 'img/Images/retail.jpg',
     },
     Industries: {
         heading: 'Industries',
