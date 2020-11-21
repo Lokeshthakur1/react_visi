@@ -8,7 +8,7 @@ export const WrapperData = {
     AdaptiveHomepage: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg'
+        bannerImgL: 'img/Images/retail.jpg'
     },
     AdvancedAnalyticsAi: {
         heading: 'Advanced Analytics & AI',
@@ -33,7 +33,9 @@ export const WrapperData = {
         heading: 'BANKING & FINANCIAL',
         description: ``,
         bannerImgL: 'img/Images/banking.jpg',
-        Controls: true
+        Controls: true,
+        classname: 'overlaybg'
+
     },
     BusinessModelMakeover: {
         heading: 'High-Tech',
@@ -59,7 +61,7 @@ export const WrapperData = {
     ConversationalSupport: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg'
+        bannerImgL: 'img/Images/retail.jpg'
     },
     CustomizedInvestments: {
         heading: 'BANKING & FINANCIAL',
@@ -93,7 +95,7 @@ export const WrapperData = {
     DemandForecasting: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg'
+        bannerImgL: 'img/Images/retail.jpg'
     },
     DrillingNptPredictor: {
         heading: 'Oil, Gas & Petrochemical',
@@ -165,7 +167,7 @@ export const WrapperData = {
     Retail: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg',
+        bannerImgL: 'img/Images/retail.jpg',
     },
     ProcessAutomation: {
         heading: 'Process Automation',
@@ -195,6 +197,7 @@ export const WrapperData = {
         heading: 'BANKING & FINANCIAL',
         description: ``,
         bannerImgL: 'img/Images/banking.jpg',
+        // classname: 'overlaybg'
     },
     InventoryManage: {
         heading: 'RETAIL',
@@ -224,35 +227,35 @@ export const WrapperData = {
     ClinicalTrial: {
         heading: 'clinical trial planning and execution',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+        bannerImgL: 'https://Images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
         Controls: true
     },
     CustomerEngage: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg',
+        bannerImgL: 'img/Images/retail.jpg',
     },
     CustomerInsights: {
         heading: 'Business Process Automation Platform',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg',
+        bannerImgL: 'img/Images/retail.jpg',
     },
     DataDriven: {
         heading: 'DATA DRIVEN DECISION SUPPORT',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+        bannerImgL: 'https://Images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
         Controls: true
     },
     DecisionSupports: {
         heading: 'Decision support for Hospitals',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        bannerImgL: 'https://Images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         Controls: true
     },
     DocumentProcessing: {
         heading: 'AI powered Document Processing',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1603796846097-bee99e4a601f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80',
+        bannerImgL: 'https://Images.unsplash.com/photo-1603796846097-bee99e4a601f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80',
         Controls: true
     },
 
@@ -261,7 +264,7 @@ export const WrapperData = {
     EmailAutomation: {
         heading: 'AI powered E-mail Automation',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1512626120412-faf41adb4874?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=1350&q=80',
+        bannerImgL: 'https://Images.unsplash.com/photo-1512626120412-faf41adb4874?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=1350&q=80',
         Controls: true
     },
     PrivacyPolicy: {
@@ -293,18 +296,18 @@ export const WrapperData = {
     RespResearchDev: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg',
+        bannerImgL: 'img/Images/retail.jpg',
     },
     SmartCheqe: {
         heading: 'Smart cheque processing',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1562542472-c36f98399845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
+        bannerImgL: 'https://Images.unsplash.com/photo-1562542472-c36f98399845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
         Controls: true
     },
     SmartOptimization: {
         heading: 'RETAIL',
         description: ``,
-        bannerImgL: 'img/images/retail.jpg',
+        bannerImgL: 'img/Images/retail.jpg',
     },
     SocialMedia: {
         heading: 'Social Media Intelligence',
@@ -335,7 +338,7 @@ export const WrapperData = {
     ImplementHealthcare: {
         heading: 'Implementing preventing healthcare',
         description: ``,
-        bannerImgL: 'https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+        bannerImgL: 'https://Images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
         Controls: true
 
     },
@@ -366,7 +369,7 @@ export const WrapperData = {
         description: ``,
         bannerImgL: 'img/Images/oilgas5.jpg'
     },
-    HumanResource: {
+    HumanRecource: {
         heading: 'Human Resources',
         description: ``,
         bannerImgL: 'img/Images/hr.jpg'
