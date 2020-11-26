@@ -112,4 +112,16 @@ export const Links = {
 
     PreventiveHealthcare: '/preventive-healthcare',
 
+    VirtualClinic: '/virtual-clinic',
+
+    DiseasePrognosisAssessment: '/disease-prognosis-assessment-platform',
+
+    PrecisionMedicinePlatformAdma: '/precision-medicine-platform-adma',
+
+    PrecisionMedicinePlatformEcosystem: '/precision-medicine-platform-ecosystem',
+
+    PrecisionMedicinePlatformPropotion: '/precision-medicine-platform-propotion',
+
+    PriceOptimizationEngine: '/price-optimization-engine'
+
 }

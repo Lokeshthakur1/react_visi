@@ -96,6 +96,12 @@ import RetailsCaseStudies from '../container/Industries/RetailsCaseStudies'
 import CollaborativeHealth from '../container/Industries/CollaborativeHealth'
 import PopulationHealthcare from '../container/Industries/PopulationHealthcare'
 import PreventiveHealthcare from '../container/Industries/PreventiveHealthcare'
+import VirtualClinic from '../container/Industries/VirtualClinic'
+import DiseasePrognosisAssessment from '../container/Industries/DiseasePrognosisAssessment'
+import PrecisionMedicinePlatformAdma from '../container/Industries/PrecisionMedicinePlatformAdma'
+import PrecisionMedicinePlatformEcosystem from '../container/Industries/PrecisionMedicinePlatformEcosystem'
+import PrecisionMedicinePlatformPropotion from '../container/Industries/PrecisionMedicinePlatformPropotion'
+import PriceOptimizationEngine from '../container/Industries/PriceOptimizationEngine'
 
 import { Links } from './links'
 import XmlData from '../component/XmlData'
@@ -213,6 +219,12 @@ export default function index() {
                 <Route path={Links.CollaborativeHealth} component={CollaborativeHealth} />
                 <Route path={Links.PopulationHealthcare} component={PopulationHealthcare} />
                 <Route path={Links.PreventiveHealthcare} component={PreventiveHealthcare} />
+                <Route path={Links.VirtualClinic} component={VirtualClinic} />
+                <Route path={Links.DiseasePrognosisAssessment} component={DiseasePrognosisAssessment} />
+                <Route path={Links.PrecisionMedicinePlatformAdma} component={PrecisionMedicinePlatformAdma} />
+                <Route path={Links.PrecisionMedicinePlatformEcosystem} component={PrecisionMedicinePlatformEcosystem} />
+                <Route path={Links.PrecisionMedicinePlatformPropotion} component={PrecisionMedicinePlatformPropotion} />
+                <Route path={Links.PriceOptimizationEngine} component={PriceOptimizationEngine} />
 
                 <Route path={Links.Home} component={Home}></Route>
                 <Route path={Links.About} component={About} />

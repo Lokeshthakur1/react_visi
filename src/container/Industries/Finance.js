@@ -15,10 +15,10 @@ export default class HumanResource extends Component {
                                     <h2 class="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Finance <span class="font-weight-light"></span>
                                     </h2>
-                                    <h4 class="title mb-5 wow fadeIn" data-wow-delay="0.2s">Contracts Data Mining (CDM)</h4>
+                                    <h4 class="title font-weight-bold my-3 wow fadeIn" data-wow-delay="0.2s">Contracts Data Mining (CDM)</h4>
                                     <p className="text-justify">Data mining of contract documents and enables 4-way matching (complementing "audits of the future"). It facilitates the Contract-Invoice Reconciliation and hence avoids Revenue Leakage due to consideration of wrong contract information such as price, validity period etc.</p>
                                     <hr />
-                                    <h4 class="title my-3 wow fadeIn px-3 font-weight-bold" data-wow-delay="0.2s">Financial Statements Analyzer (FSA)</h4>
+                                    <h4 class="title my-3 wow fadeIn font-weight-bold" data-wow-delay="0.2s">Financial Statements Analyzer (FSA)</h4>
                                     <p className="text-justify">
                                         Provides real-time dynamic dashboards to the board and management to understand financial stability and the growth path of their organizations. It enables the following -
                                     </p>

@@ -21,9 +21,55 @@ export default class Banking extends Component {
                                         to compile, charts to prepare, graphs to plot and analyze. AI is a one-stop solution for
                                         many of these problems.
                             </p>
-
+                                    <div className="row wow w-100 px-2 mt-4 fadeIn" data-wow-delay="0.4s">
+                                        <div className="col-sm-6 text-left my-4">
+                                            <img src="img/svg/ai_Bot.svg" height="70" />
+                                            <h5 className="mt-3">AI Powered BOT for Prospect Sourcing</h5>
+                                            <small>Best Artificial Intelligence Powersed Bot for Sourcing</small><br />
+                                            <Link to={Links.AiPoweredProcessing}
+                                                className="font-weight-bold"
+                                                data-wow-delay="0.3s">View
+                                                more</Link>
+                                        </div>
+                                        <div className="col-sm-6 text-left my-4">
+                                            <img src="img/svg/cheque.svg" height="70" />
+                                            <h5 className="mt-3">Smart cheque processing</h5>
+                                            <small>Zero manual effort from customer side in processing</small><br />
+                                            <Link to={Links.SmartCheqe}
+                                                className="font-weight-bold"
+                                                data-wow-delay="0.3s">View
+                                                more</Link>
+                                        </div>
+                                        <div className="col-sm-6 text-left my-4">
+                                            <img src="img/svg/email.svg" height="70" />
+                                            <h5 className="mt-3">Email automation</h5>
+                                            <small>We were able to achieve 90% FTR and 95% efficiency with 1000 emails per intent in a highly accelerated time frame of 3 weeks.</small><br />
+                                            <Link to={Links.EmailAutomation}
+                                                className="font-weight-bold"
+                                                data-wow-delay="0.3s">View
+                                                more</Link>
+                                        </div>
+                                        <div className="col-sm-6 text-left my-4">
+                                            <img src="img/svg/document.svg" height="70" />
+                                            <h5 className="mt-3">AI powered document processing</h5>
+                                            <small>The solution classifies the document type and extracts required information from each document.</small><br />
+                                            <Link to={Links.DocumentProcessing}
+                                                className="font-weight-bold"
+                                                data-wow-delay="0.3s">View
+                                                more</Link>
+                                        </div>
+                                        <div className="col-sm-6 text-left my-4">
+                                            <img src="img/svg/non_perform_asset.svg" height="70" />
+                                            <h5 className="mt-3">Reduction of not performing assets</h5>
+                                            <small>Using Visionaize’s solution, the employees could identify & predict potential defaulters early in the cycle</small><br />
+                                            <Link to={Links.ReductionNotPerforming}
+                                                className="font-weight-bold"
+                                                data-wow-delay="0.3s">View
+                                                more</Link>
+                                        </div>
+                                    </div>
                                     <div className="row wow w-100 px-2 mt-4 justify-content-center fadeIn" data-wow-delay="0.4s">
-                                        <div className="text-left col-md-4 mb-3 px-2">
+                                        {/* <div className="text-left col-md-4 mb-3 px-2">
                                             <div className="feature-title title spacing">
                                                 <img src="https://www.intelligenttransport.com/wp-content/uploads/AI-1.jpg"
                                                     className="img_bg" />
@@ -74,7 +120,7 @@ export default class Banking extends Component {
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </section>
                                 <section>

@@ -89,7 +89,7 @@ export default class Healthcare extends Component {
                                                     className="img_bg" />
 
                                                 <h6>
-                                                    Virtual Clinical Trial Platform for Complex Diseases <br /> <Link to=''
+                                                    Virtual Clinical Trial Platform for Complex Diseases <br /> <Link to={Links.VirtualClinic}
                                                         className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                         data-wow-delay="0.3s">View
                                                 more</Link></h6>
@@ -99,7 +99,7 @@ export default class Healthcare extends Component {
                                             <div className="feature-title title spacing">
                                                 <img src="img/Images/Disease Prognosis Assessment Platform.jpg"
                                                     className="img_bg" />
-                                                <h6>Disease Prognosis Assessment Platform<br /> <Link to=''
+                                                <h6>Disease Prognosis Assessment Platform<br /> <Link to={Links.DiseasePrognosisAssessment}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
@@ -110,7 +110,7 @@ export default class Healthcare extends Component {
                                                 <img src="img/Images/edma.jpg"
                                                     className="img_bg" />
                                                 <h6>Precision Medicine Platform for Diabetic Macular Edema<br /> <Link
-                                                    to=''
+                                                    to={Links.PrecisionMedicinePlatformAdma}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link> </h6>
@@ -120,7 +120,7 @@ export default class Healthcare extends Component {
                                             <div className="feature-title title spacing">
                                                 <img src="img/Images/medicine.jpg"
                                                     className="img_bg" />
-                                                <h6>Precision Medicine Platform Solutions Ecosystem & Layout<br /> <Link to={Links.ClinicalTrial}
+                                                <h6>Precision Medicine Platform Solutions Ecosystem & Layout<br /> <Link to={Links.PrecisionMedicinePlatformEcosystem}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
@@ -130,7 +130,7 @@ export default class Healthcare extends Component {
                                             <div className="feature-title title spacing">
                                                 <img src="img/Images/medicin_.jpg"
                                                     className="img_bg" />
-                                                <h6>Precision Medicine Platform Unique Proposition<br /> <Link to={Links.ClinicalTrial}
+                                                <h6>Precision Medicine Platform Unique Proposition<br /> <Link to={Links.PrecisionMedicinePlatformPropotion}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>

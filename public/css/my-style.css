@@ -1354,7 +1354,7 @@ img.guyTablet {
 .contentShow {
     position: absolute;
     width: 100%;
-    background: rgb(0 0 0 / 78%);
+    background: #eaeaea;
     height: 100%;
     padding: 20px;
     display: flex;
@@ -1366,7 +1366,7 @@ img.guyTablet {
     transform-origin: bottom;
     transform: rotateY(-180deg);
     opacity: 0;
-    color: #fff;
+    color: #000;
 }
 .imageHolder_:hover .imgshow {
     transform: rotateY(180deg);
@@ -1377,11 +1377,11 @@ img.guyTablet {
     opacity: 1;
 }
 .contentShow h5 {
-    color: #fff;
+    color: #000;
     font-weight: 500;
 }
 .contentShow span {
-    color: #fff;
+    color: #000;
     font-style: italic;
     display: block;
     margin-bottom: 20px;

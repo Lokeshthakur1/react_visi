@@ -81,6 +81,31 @@ export const WrapperData = {
         description: ``,
         bannerImgL: 'img/Images/healthcare.png'
     },
+    PopulationHealthcare: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png'
+    },
+    PrecisionMedicinePlatformAdma: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png'
+    },
+    DiseasePrognosisAssessment: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png'
+    },
+    PrecisionMedicinePlatformEcosystem: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png'
+    },
+    PrecisionMedicinePlatformPropotion: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png'
+    },
     Cloud: {
         heading: 'Cloud Services',
         description: ``,
@@ -159,6 +184,12 @@ export const WrapperData = {
         bannerImgL: 'img/Images/healthcare.png',
         Controls: true
     },
+    VirtualClinic: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png',
+        Controls: true
+    },
     Hightech: {
         heading: 'Hi-Tech',
         description: ``,
@@ -166,7 +197,7 @@ export const WrapperData = {
     },
     ImprovedRustomerRetention: {
         heading: 'BANKING & FINANCIAL',
-        description: ``,///////////////////////////
+        description: ``,
         bannerImgL: 'img/Images/banking.jpg'
     },
     Utility: {
@@ -441,7 +472,20 @@ export const WrapperData = {
         description: ``,
         bannerImgL: 'img/Images/finance.jpg'
     },
-
-
+    TravelHospitality: {
+        heading: 'Travel & Hospitality',
+        description: ``,
+        bannerImgL: 'img/Images/travel_hospitality.jpg'
+    },
+    PriceOptimizationEngine: {
+        heading: 'Travel & Hospitality',
+        description: ``,
+        bannerImgL: 'img/Images/travel_hospitality.jpg'
+    },
+    ItItes: {
+        heading: 'It & Ites',
+        description: ``,
+        bannerImgL: 'img/Images/ItItes.jpg'
+    }
 }
 

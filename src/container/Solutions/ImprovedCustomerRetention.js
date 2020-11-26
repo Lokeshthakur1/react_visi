@@ -20,16 +20,8 @@ export default class ImprovedCustomerRetention extends Component {
                                         <img src="img/svg/customer_retention.svg" height="400" />
                                     </div>
                                     <p className="text-justify">A Banking institution depends entirely on its customers. Research says that if you
-                                    improve
-                                    your customer retention by as much as 5%, its profit may go up by 25% to 95%; this makes
-                                customer retention a very important factor. <b className="font-weight-bold">VisonAize </b>
-                                makes sure that AI can be used as
-                                an
-                                 effective aid to do so. You can build an intelligent experience by leveraging Artificial
-                                Intelligence and Machine Learning. By doing so, the machine would embed all the
-                                predictions and insights directly into your CRM workflow. Institutions lose their
-                                valuable
-                                time to predict customer flow. This is a double loss first, as time is money.</p>
+                                    improve your customer retention by as much as 5%, its profit may go up by 25% to 95%; this makes customer retention a very important factor. VisonAize makes sure that AI can be used as an effective aid to do so. You can build an intelligent experience by leveraging Artificial Intelligence and Machine Learning. By doing so, the machine would embed all the predictions and insights directly into your CRM workflow. Institutions lose their
+                                    valuable time to predict customer flow. This is a double loss first, as time is money.</p>
 
                                     <p className="text-justify">Second, missing the opportunity to connect to the customer at the right time.</p>
 
