@@ -192,10 +192,10 @@ class Header extends Component {
 
 
                                     <li className="nav-item ml-4 dropdown dropdown-8">
-                                        <Link className="nav-link title" to={Links.Industries} data-offset="90">Industries</Link>
+                                        <Link className="nav-link title" data-offset="90">Solutions</Link>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                             <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link className="tablink waves-effect waves-light" to={Links.Industries}>Domain</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.Industries}>By Industry</Link>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
                                                         className="tablink waves-effect waves-light" to={Links.Banking}>BANKING &
@@ -326,20 +326,21 @@ class Header extends Component {
                                             </li>
 
                                             <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link className="tablink waves-effect waves-light">Functions</Link>
+                                                <Link className="tablink waves-effect waves-light">By Functions</Link>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.Marketing}>Marketing</Link>
+                                                        className="tablink waves-effect waves-light" to='/ai-powered'>Marketing</Link>
+                                                    </li>
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link className="waves-effect waves-light"
+                                                        to="/social-media">Social Media Intelligence</Link>
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
                                                         className="tablink waves-effect waves-light" to={Links.HumanRecource}>Human Resource</Link>
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.Banking}>Finance</Link>
+                                                        className="tablink waves-effect waves-light" to={Links.Finance}>Finance</Link>
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.SafetySecurity}>Safety & Security</Link>
-                                                    </li>
+
 
                                                 </ul>
                                             </li>
@@ -348,7 +349,7 @@ class Header extends Component {
                                         </ul>
                                     </li>
 
-                                    <li className="nav-item ml-4 dropdown dropdown-8">
+                                    {/* <li className="nav-item ml-4 dropdown dropdown-8 d-none">
                                         <Link className="nav-link title" to={Links.Solution} data-offset="90">Solutions</Link>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                             <li className="dropdown_item-1"><Link className="waves-effect waves-light"
@@ -366,7 +367,7 @@ class Header extends Component {
                                             <li className="dropdown_item-5"><Link className="waves-effect waves-light"
                                                 to="/social-media">Social Media Intelligence</Link></li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item ml-4 dropdown dropdown-8">
                                         <Link className="nav-link title" to={Links.Services} data-offset="90">Services</Link>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">

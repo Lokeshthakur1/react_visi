@@ -10,7 +10,7 @@ export default class HumanResource extends Component {
                 <section class="py-5">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-8">
                                 <section>
                                     <h2 class="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Human <span class="font-weight-light"> Resource</span>
@@ -19,11 +19,14 @@ export default class HumanResource extends Component {
                                         Intelligent, integrated systems for critical infrastructure protection
                                     </h4> */}
                                     <p className="text-justify">
-                                        We implement a scalable, scientific model to extract predictions about employee engagement, performance and attrition based on demographic and performance data of employees coupled with measured indicators of the employment market.
-                                </p>
+                                        We implement a scalable, scientific model to extract predictions about employee engagement, performance and attrition based on demographic and performance data of employees coupled with measured indicators of the employment market. </p>
                                     <hr />
+                                    <h4 class="title my-3 wow fadeIn px-3 font-weight-bold" data-wow-delay="0.2s">
+                                        Proposed Predictive Model
+                                    </h4>
                                     <p className="text-justify">
                                         When forecasting in complex, uncertain situations, expertise is of little value. Decades of empirical research have led to the conclusion that experts, while good at diagnosis, are poor at prognosis. A more reliable and consistent methodology is based on modeling the trajectory of behaviour based on known data and basing conclusions on predictions derived as such.
+
                                     </p>
 
                                     <div className="row">
@@ -57,7 +60,7 @@ export default class HumanResource extends Component {
                                             <div className="list-group card shadow-lg">
                                                 <h4 class="title my-3 wow fadeIn px-3 font-weight-bold" data-wow-delay="0.2s">
                                                     The outcome (O) group
-                                            </h4>
+                                                </h4>
                                                 <ul class="list-group list-group-flush py-3">
                                                     <li class="list-group-item"><span class="pr-4"><i
                                                         class="fas fa-check"></i></span>The Outcome group is based on historic data about employees, both current and those who have left the company
@@ -82,7 +85,8 @@ export default class HumanResource extends Component {
                                             </h4>
                                                 <ul class="list-group list-group-flush py-3">
                                                     <li class="list-group-item"><span class="pr-4"><i
-                                                        class="fas fa-check"></i></span>The Outcome group is based on historic data about employees, both current and those who have left the company
+                                                        class="fas fa-check"></i></span>Historical data of employees
+
 
                                                         <ul className="mt-3">
                                                             <li className="text-muted">Employee data (personal, skill, education, training etc.)</li>
@@ -136,15 +140,16 @@ export default class HumanResource extends Component {
 
                                 </section>
                             </div>
-                            {/* <div class="col-md-4">
+                            <div class="col-md-4">
                                 <div class="list-group fanylist_group">
-                                    <Link to={Links.DrillingNptPredictor} class="list-group-item list-group-item-action"> <i
-                                        class="fas fa-check mr-2"></i> <span>Drilling/NPT Analyzer and Predictor</span></Link>
-                                    <Link to={Links.IncidentAnalyzerPredictor} class="list-group-item list-group-item-action">
-                                        <i class="fas fa-check mr-2"></i> <span>Incident Analyzer & Predictor (Refinery &
-                                        Pipeline</span></Link>
+                                    <Link to={Links.EmployeeAttr} class="list-group-item list-group-item-action"> <i
+                                        class="fas fa-check mr-2"></i> <span>Employee Attrition and Retain</span></Link>
+                                    <Link to={Links.EmployeeEngagement} class="list-group-item list-group-item-action">
+                                        <i class="fas fa-check mr-2"></i> <span>Employee Engagement</span></Link>
+                                    <Link to={Links.EmployeeProductivity} class="list-group-item list-group-item-action">
+                                        <i class="fas fa-check mr-2"></i> <span>Employee Productivity</span></Link>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </section>

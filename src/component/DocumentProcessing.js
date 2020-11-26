@@ -8,12 +8,12 @@ export default class DocumentProcessing extends Component {
 
                     <section className="py-5">
                         <div className="container">
-                            <blockquote className="blockquote bq-primary">
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Client</p>
                                 <p>US based MRO Operations company.
             </p>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Problem</p>
                                 <ul className="list-group list-group-flush py-3">
                                     <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>FAA regulated
@@ -28,8 +28,8 @@ export default class DocumentProcessing extends Component {
                     time for each part quotes review was about 5 hours.
                 </li>
                                 </ul>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Solution
 
             </p>
@@ -45,8 +45,8 @@ export default class DocumentProcessing extends Component {
                     rolled up by part by quote in a UI for the buyers to verify and decide on the quote.
                 </li>
                                 </ul>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Benefits</p>
                                 <div className="row text-center d-flex justify-content-center mt-4">
                                     <div className="col-lg-3 mb-5">
@@ -79,7 +79,7 @@ export default class DocumentProcessing extends Component {
                     </h5>
                                     </div>
                                 </div>
-                            </blockquote>
+                            </div>
 
                         </div>
                     </section>

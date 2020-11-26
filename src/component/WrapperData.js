@@ -1,7 +1,9 @@
 export const WrapperData = {
     About: {
         heading: 'About US',
-        description: `On today’s enterprise landscape a strategic IT Management is a crucial part of every successful company’s Business Plan. People, Process and Technology play a key role in developing this mature IT Business Strategy to optimize Organisational performance.`,
+        description: ``,
+        // On today’s enterprise landscape a strategic IT Management is a crucial part of every successful company’s Business Plan.People, Process and Technology play a key role in developing this mature IT Business Strategy to optimize Organisational performance.
+
         bannerImgL: 'img/Images/aboutus.jpg',
         classname: 'text-right col-md-6 ml-auto text-justify'
     },
@@ -35,7 +37,34 @@ export const WrapperData = {
         bannerImgL: 'img/Images/banking.jpg',
         Controls: true,
         classname: 'overlaybg'
-
+    },
+    AiPoweredBot: {
+        heading: 'BANKING & FINANCIAL',
+        description: ``,
+        bannerImgL: 'img/Images/banking.jpg',
+        Controls: true,
+        classname: 'overlaybg'
+    },
+    RiskAssesment: {
+        heading: 'BANKING & FINANCIAL',
+        description: ``,
+        bannerImgL: 'img/Images/banking.jpg',
+        Controls: true,
+        classname: 'overlaybg'
+    },
+    DigitalOutreach: {
+        heading: 'BANKING & FINANCIAL',
+        description: ``,
+        bannerImgL: 'img/Images/banking.jpg',
+        Controls: true,
+        classname: 'overlaybg'
+    },
+    CustomerSegmentation: {
+        heading: 'BANKING & FINANCIAL',
+        description: ``,
+        bannerImgL: 'img/Images/banking.jpg',
+        Controls: true,
+        classname: 'overlaybg'
     },
     BusinessModelMakeover: {
         heading: 'Hi-Tech',
@@ -98,7 +127,7 @@ export const WrapperData = {
         bannerImgL: 'img/Images/retail.jpg'
     },
     DrillingNptPredictor: {
-        heading: 'Oil, Gas & Petrochemical',
+        heading: 'Oil & Gas',
         description: ``,
         bannerImgL: 'img/Images/oilgas5.jpg'
     },
@@ -113,6 +142,18 @@ export const WrapperData = {
         bannerImgL: 'img/Images/healthcare.png'
     },
     Healthcare: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png',
+        Controls: true
+    },
+    CollaborativeHealth: {
+        heading: 'Healthcare',
+        description: ``,
+        bannerImgL: 'img/Images/healthcare.png',
+        Controls: true
+    },
+    PreventiveHealthcare: {
         heading: 'Healthcare',
         description: ``,
         bannerImgL: 'img/Images/healthcare.png',
@@ -188,7 +229,7 @@ export const WrapperData = {
         bannerImgL: 'img/Images/transportation_logistics.jpg',
     },
     Oilgas: {
-        heading: 'Oil, Gas & Petrochemical',
+        heading: 'Oil & Gas',
         description: ``,
         bannerImgL: 'img/Images/oilgas5.jpg',
         Controls: true
@@ -288,12 +329,17 @@ export const WrapperData = {
         Controls: true
     },
     ReductionNotPerforming: {
-        heading: 'Reduction of a Bank’s Non-Performing Assets',
+        heading: 'BANKING & FINANCIAL',
         description: ``,
         bannerImgL: 'img/Images/crm.png',
         Controls: true
     },
     RespResearchDev: {
+        heading: 'RETAIL',
+        description: ``,
+        bannerImgL: 'img/Images/retail.jpg',
+    },
+    RetailsCaseStudies: {
         heading: 'RETAIL',
         description: ``,
         bannerImgL: 'img/Images/retail.jpg',
@@ -366,7 +412,7 @@ export const WrapperData = {
         bannerImgL: 'img/Images/oilgas2.jpg',
     },
     IncidentAnalyzerPredictor: {
-        heading: 'Oil, Gas & Petrochemical',
+        heading: 'Oil & Gas',
         description: ``,
         bannerImgL: 'img/Images/oilgas5.jpg'
     },
@@ -374,6 +420,28 @@ export const WrapperData = {
         heading: 'Human Resources',
         description: ``,
         bannerImgL: 'img/Images/hr.jpg'
-    }
+    },
+    EmployeeAttr: {
+        heading: 'Human Resources',
+        description: ``,
+        bannerImgL: 'img/Images/hr.jpg'
+    },
+    EmployeeEngagement: {
+        heading: 'Human Resources',
+        description: ``,
+        bannerImgL: 'img/Images/hr.jpg'
+    },
+    EmployeeProductivity: {
+        heading: 'Human Resources',
+        description: ``,
+        bannerImgL: 'img/Images/hr.jpg'
+    },
+    Finance: {
+        heading: 'Finance',
+        description: ``,
+        bannerImgL: 'img/Images/finance.jpg'
+    },
+
+
 }
 

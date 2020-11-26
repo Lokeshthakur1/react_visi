@@ -91,5 +91,25 @@ export const Links = {
     ItItes: '/it-ites',
     Marketing: '/marketing',
     HumanRecource: '/human-resource',
-    SafetySecurity: '/safety-security'
+    SafetySecurity: '/safety-security',
+
+
+    AiPoweredBot: '/ai-powered-bot',
+    RiskAssesment: '/risk-assesment',
+    DigitalOutreach: '/Digital-outreach',
+    CustomerSegmentation: '/customer-segment',
+
+    EmployeeAttr: '/employee-attrition-retain',
+    EmployeeEngagement: '/employee-engagement',
+    EmployeeProductivity: '/employee-productivity',
+    Finance: '/finance',
+
+    RetailsCaseStudies: '/retail-case-studies',
+
+    CollaborativeHealth: '/collaborative-healthcare',
+
+    PopulationHealthcare: '/population-healthcare',
+
+    PreventiveHealthcare: '/preventive-healthcare',
+
 }

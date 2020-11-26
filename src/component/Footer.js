@@ -73,11 +73,11 @@ export default class Footer extends Component {
                             <p>
                                 <Link to={Links.About}>About</Link>
                             </p>
-                            <p>
+                            {/* <p>
                                 <Link to={Links.Industries}>Industries</Link>
-                            </p>
+                            </p> */}
                             <p>
-                                <Link to={Links.Solution}>Solution</Link>
+                                <Link to={Links.Solution}>Solutions</Link>
                             </p>
                             <p>
                                 <Link to={Links.Services}>Services</Link>
@@ -117,7 +117,7 @@ export default class Footer extends Component {
                     <div className="container-fluid">
                         <span className="white-text" style={{ fontWeight: '100' }}>© Copyright 2020. All Rights Reserved.</span><span
                             className="px-2 white-text">|</span><span><Link to={Links.PrivacyPolicy} target="_blank"
-                                className="white-text" style={{ fontWeight: '600;' }}>Privacy Policy Terms & Conditions</Link></span>
+                                className="white-text" style={{ fontWeight: '600' }}>Privacy Policy Terms & Conditions</Link></span>
                     </div>
                 </div>
             </footer>

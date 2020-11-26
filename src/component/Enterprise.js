@@ -180,7 +180,7 @@ export default class Enterprise extends Component {
 
                                         </div>
                                         <div className="col-md-6 text-center px-0">
-                                            <img className="roundImage" src="img/Images/multi_tenet.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img className="" src="img/Images/multi_tenet.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@ export default class Enterprise extends Component {
                                     <div className="row px-3">
 
                                         <div className="col-md-6 mx-auto text-center px-0">
-                                            <img className="roundImage" src="img/Images/database.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img className="" src="img/Images/database.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
 
                                         <div className="col-md-6 p-3">
@@ -222,14 +222,14 @@ export default class Enterprise extends Component {
 
                                         </div>
                                         <div className="col-md-6 mx-auto text-center px-0">
-                                            <img className="roundImage" src="img/Images/api.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img className="" src="img/Images/api.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="3">
                                     <div className="row px-3">
                                         <div className="col-md-6 mx-auto text-center px-0">
-                                            <img className="roundImage" src="img/Images/accesskey.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img className="" src="img/Images/accesskey.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                         <div className="col-md-6 p-3">
 
@@ -255,13 +255,10 @@ export default class Enterprise extends Component {
 
                                             <p className="text-justify">Integration with SMTP servers and SMS gateways provides an easy way to channelize the
                                             alerts generated during abnormal situations
-
                                 </p>
-
-
                                         </div>
                                         <div className="col-md-6 mx-auto px-0">
-                                            <img className="roundImage" src="img/Images/alert.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img className="" src="img/Images/alert.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>

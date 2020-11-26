@@ -27,7 +27,7 @@ export default class Banking extends Component {
                                             <div className="feature-title title spacing">
                                                 <img src="https://www.intelligenttransport.com/wp-content/uploads/AI-1.jpg"
                                                     className="img_bg" />
-                                                <h6>AI powered form processing<br /> <Link to={Links.AiPoweredProcessing}
+                                                <h6>AI Powered BOT for Prospect Sourcing <br /> <Link to={Links.AiPoweredProcessing}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
@@ -411,7 +411,7 @@ export default class Banking extends Component {
                                 </section>
                             </div>
                             <div className="col-md-4">
-                                <div className="list-group fanylist_group">
+                                {/* <div className="list-group fanylist_group">
                                     <Link to={Links.ImprovedCustomerRetention} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>Improved customer retention</span></Link>
                                     <Link to={Links.Chatbots} className="list-group-item list-group-item-action">
@@ -420,6 +420,18 @@ export default class Banking extends Component {
                                         <i className="fas fa-check mr-2"></i> <span>Customized Investments</span></Link>
                                     <Link to={Links.LifeTimeValuePrediction} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>Life Time Value Prediction</span></Link>
+                                </div> */}
+                                <div className="list-group fanylist_group">
+                                    <Link to={Links.AiPoweredBot} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>AI Powered BOT for Prospect Sourcing</span></Link>
+                                    <Link to={Links.RiskAssesment} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Risk Assessment & Propensity Model</span></Link>
+                                    <Link to={Links.DigitalOutreach} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Digital Outreach & Customer Engagement</span></Link>
+                                    <Link to={Links.CustomerSegmentation} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Customer Segmentations</span></Link>
+                                    <Link to={Links.ReductionNotPerforming} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Reduction of a Bank’s Non-Performing Assets</span></Link>
                                 </div>
                             </div>
                         </div>

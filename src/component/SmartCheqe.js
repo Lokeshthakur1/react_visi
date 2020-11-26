@@ -8,12 +8,12 @@ export default class SmartCheqe extends Component {
 
                     <section className="py-5">
                         <div className="container">
-                            <blockquote className="blockquote bq-primary">
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Client</p>
                                 <p className="text-justify">One of the largest Mutual Fund RTA with Regional centers spread over 1000 locations across the
                 country.</p>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Problem</p>
                                 <ul className="list-group list-group-flush py-3">
                                     <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>The existing
@@ -31,8 +31,8 @@ export default class SmartCheqe extends Component {
                 </li>
                                 </ul>
 
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Solution
 
             </p>
@@ -53,8 +53,8 @@ export default class SmartCheqe extends Component {
 
                 </li>
                                 </ul>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Benefits</p>
                                 <div className="row text-center d-flex justify-content-center mt-4">
                                     <div className="col-lg-4 mb-5">
@@ -76,7 +76,7 @@ export default class SmartCheqe extends Component {
                     </h5>
                                     </div>
                                 </div>
-                            </blockquote>
+                            </div>
 
                         </div>
                     </section>

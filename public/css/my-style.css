@@ -218,8 +218,8 @@ span {
 
 /* color greadient style for blue color */
 .blue-1 {
-    background-color: #537895;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    background-color: #40a3ff;
+    background-image: linear-gradient(315deg, #40a3ff 0%, #00b8ff 74%);
 }
 .blue-2 {
     background-color: #485461;
@@ -405,6 +405,7 @@ img.worldmap {
 .ourVision span:last-child {
     border-right: none;
 }
+
 .bg-footer {
     background-image: url(../img/svg/footer-map.svg);
     background-repeat: no-repeat;
@@ -649,7 +650,7 @@ span.closeIt {
 .box-ourPromise {
     min-height: calc(100vh - 100px);;
     display: flex;
-    background-image: url(../img/Images/ai_solution.png);
+    background-image: url(../img/Images/promise.jpg);
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -752,11 +753,27 @@ section#features {
     transform: scale(1);
     cursor: pointer;
 }
-blockquote.blockquote.bq-primary {
+.blockquote.bq-primary {
+    background: #fff;
+    border-width: 0px;
+    border-radius: 5px;
+    border: 0px solid !important;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+.bq-primary .bq-title {
+    color: #fff !important;
+    padding: 10px;
+    background: #40a3ff;
+    line-height: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+/* blockquote.blockquote.bq-primary {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.15);
-}
+} */
 li.list-group-item {
     font-size: 1rem;
 }
@@ -912,15 +929,15 @@ img.roundImage {
 table.box-table{
     width: 100%;
 }
-table.box-table tr th,table.box-table tr td{
+/* table.box-table tr th,table.box-table tr td{
 width: 50%;
-}
-table.box-table tr th:first-child,table.box-table tr td:first-child{
+} */
+/* table.box-table tr th:first-child,table.box-table tr td:first-child{
     width: 50px;
-}
-table.box-table tr th:last-child,table.box-table tr td:last-child{
+} */
+/* table.box-table tr th:last-child,table.box-table tr td:last-child{
     width: 200px;
-}
+} */
 ul.listFinancial_services{
     padding: 0;
     list-style: none;
@@ -1272,4 +1289,105 @@ button.next_.slick-arrow {
 .nav-tabs .nav-link {
     border: 2px solid #fff !important;
     border-radius: 0px;
+}
+ul.newFancy_list {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 20px;
+    /* margin-bottom: 200px; */
+}
+.flex-center ul li {
+    margin-bottom: 1rem;
+    display: flex;
+    font-weight: 500;
+}
+.flex-center ul li > span {
+    display: inline-block;
+    height: 40px;
+    min-width: 40px;
+    background: #40a3ff;
+    color: #ffff;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    border-radius: 20px 20px 0px 20px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+section#about_visionize {
+    background-image: url(../img/Images/aboutus_.jpg);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: cover;
+}
+img.guyTablet {
+    position: absolute;
+    left: 0;
+    height: 500px;
+    bottom: 0;
+}
+.imageHolder_ {
+    position: relative;
+    background: #fff;
+    /* overflow: hidden; */
+    border-radius: 20px;
+    height: 350px;
+    cursor: pointer;
+    perspective: 800px;
+}
+.imgshow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+    transform-origin: bottom;
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+.imgshow > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.contentShow {
+    position: absolute;
+    width: 100%;
+    background: rgb(0 0 0 / 78%);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: all 1s;
+    transform-origin: bottom;
+    transform: rotateY(-180deg);
+    opacity: 0;
+    color: #fff;
+}
+.imageHolder_:hover .imgshow {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+.imageHolder_:hover .contentShow {
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+.contentShow h5 {
+    color: #fff;
+    font-weight: 500;
+}
+.contentShow span {
+    color: #fff;
+    font-style: italic;
+    display: block;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+}
+.contentShow > p {
+    line-height: 18px;
+    font-size: 14px;
 }

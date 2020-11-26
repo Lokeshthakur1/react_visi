@@ -16,16 +16,9 @@ export default class Healthcare extends Component {
                                         Healthcare <span className="font-weight-light"></span>
                                     </h2>
                                     <p className="text-justify">
-                                        As one of the pioneering companies VisionAize Technology has embarked on providing the
-                                        Health
-                                        Care Business world Analytics approach in making the Return on Investment and
-                                        Care-as-a-Service with the best offer to the stakeholders. The optimization and
-                                        service-profitability to all stakeholders also reduces the cost-overhead to the
-                                        end-users
-                                        and service takers. Ideal Healthcare Solution proves this hypothesis into practice by
-                                        bringing in the Data Analytics and Business Intelligence technology.
+                                        We implement health-tech platform in the areas of collaborative healthcare, population healthcare,  preventive health risk assessment & management, and evidence-based care coordination.
                             </p>
-                                    <p className="text-justify">
+                                    {/* <p className="text-justify">
                                         Transparency, accountability, quantitative comparison and fullest possible visual
                                         rendition
                                         in Health Care is proffered to the patients and care-providers. A quantitative measure
@@ -38,12 +31,12 @@ export default class Healthcare extends Component {
                                         experts,
                                         technologists and hands on practitioners making people judge and decides their value of
                                         service they would get.
-                            </p>
+                            </p> */}
                                     <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
-                                        The main features of this <span className="font-weight-light">application are</span>
+                                        The main solutions of this <span className="font-weight-light">application are</span>
                                     </h4>
 
-                                    <div className="card p-3 mb-3">
+                                    {/* <div className="card p-3 mb-3">
                                         <h5 className="font-weight-bold mb-3">Implementing Preventing Healthcare</h5>
                                         <img src="img/svg/ImplementingPreventingHealthcare.svg" className="img-fluid px-3 my-3 w-100" />
                                         <h5 className="mb-2">Client</h5>
@@ -85,38 +78,39 @@ export default class Healthcare extends Component {
                                     <div className="card p-3 mb-3">
                                         <h5 className="font-weight-bold mb-3">Clinical Trial Planning and Execution</h5>
                                         <img class="img-fluid" src="img/svg/clinical_trial-img.svg" />
-                                    </div>
+                                    </div> */}
 
 
 
-                                    {/* <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
-                                        <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
+                                    <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
+                                        <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                                <img src="img/Images/virtual_clinic.jpg"
                                                     className="img_bg" />
 
-                                                <h6>Implementing preventing healthcare<br /> <Link to={Links.ImplementHealthcare}
+                                                <h6>
+                                                    Virtual Clinical Trial Platform for Complex Diseases <br /> <Link to=''
+                                                        className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                        data-wow-delay="0.3s">View
+                                                more</Link></h6>
+                                            </div>
+                                        </div>
+                                        <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
+                                            <div className="feature-title title spacing">
+                                                <img src="img/Images/Disease Prognosis Assessment Platform.jpg"
+                                                    className="img_bg" />
+                                                <h6>Disease Prognosis Assessment Platform<br /> <Link to=''
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
                                             </div>
                                         </div>
-                                        <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
+                                        <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                                                <img src="img/Images/edma.jpg"
                                                     className="img_bg" />
-                                                <h6>Decision supports for hospitals<br /> <Link to={Links.DecisionSupports}
-                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                    data-wow-delay="0.3s">View
-                                                more</Link></h6>
-                                            </div>
-                                        </div>
-                                        <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="https://images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
-                                                    className="img_bg" />
-                                                <h6>Data driven decision support for drug discovery<br /> <Link
-                                                    to={Links.DataDriven}
+                                                <h6>Precision Medicine Platform for Diabetic Macular Edema<br /> <Link
+                                                    to=''
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link> </h6>
@@ -124,20 +118,30 @@ export default class Healthcare extends Component {
                                         </div>
                                         <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="https://images.unsplash.com/photo-1582719367079-bc1b8e5fed9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                                <img src="img/Images/medicine.jpg"
                                                     className="img_bg" />
-                                                <h6>clinical trial planning and execution <br /> <Link to={Links.ClinicalTrial}
+                                                <h6>Precision Medicine Platform Solutions Ecosystem & Layout<br /> <Link to={Links.ClinicalTrial}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
                                             </div>
                                         </div>
-                                    </div> */}
+                                        <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
+                                            <div className="feature-title title spacing">
+                                                <img src="img/Images/medicin_.jpg"
+                                                    className="img_bg" />
+                                                <h6>Precision Medicine Platform Unique Proposition<br /> <Link to={Links.ClinicalTrial}
+                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                    data-wow-delay="0.3s">View
+                                                more</Link></h6>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                 </section>
                             </div>
                             <div className="col-md-4">
-                                <div className="list-group fanylist_group">
+                                {/* <div className="list-group fanylist_group">
                                     <Link to={Links.ClaimsPredictions} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Claims (Fraud & Rejection)
                                     Prediction</span></Link>
@@ -148,6 +152,17 @@ export default class Healthcare extends Component {
                                         className="fas fa-check mr-2"></i> <span>Drug Recovery</span></Link>
                                     <Link to={Links.RiskProfileAnalyzer} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Risk Profile Analyzer using Genomics</span></Link>
+                                </div> */}
+
+                                <div className="list-group fanylist_group">
+                                    <Link to={Links.CollaborativeHealth} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Collaborative Healthcare</span></Link>
+                                    <Link to={Links.PopulationHealthcare} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Population Healthcare</span></Link>
+                                    <Link to={Links.PreventiveHealthcare} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Preventive Healthcare</span></Link>
+                                    <Link to={Links.DecisionSupports} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Decision Support for Hospital</span></Link>
                                 </div>
                             </div>
                         </div>

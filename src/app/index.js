@@ -81,6 +81,22 @@ import Marketing from '../container/Industries/Marketing'
 import HumanRecource from '../container/Industries/HumanRecource'
 import SafetySecurity from '../container/Industries/SafetySecurity'
 
+import AiPoweredBot from '../container/Industries/AiPoweredBot'
+import RiskAssesment from '../container/Industries/RiskAssesment'
+import DigitalOutreach from '../container/Industries/DigitalOutreach'
+import CustomerSegmentation from '../container/Industries/CustomerSegmentation'
+
+import EmployeeAttr from '../container/Industries/EmployeeAttr'
+import EmployeeEngagement from '../container/Industries/EmployeeEngagement'
+import EmployeeProductivity from '../container/Industries/EmployeeProductivity'
+
+import Finance from '../container/Industries/Finance'
+import RetailsCaseStudies from '../container/Industries/RetailsCaseStudies'
+
+import CollaborativeHealth from '../container/Industries/CollaborativeHealth'
+import PopulationHealthcare from '../container/Industries/PopulationHealthcare'
+import PreventiveHealthcare from '../container/Industries/PreventiveHealthcare'
+
 import { Links } from './links'
 import XmlData from '../component/XmlData'
 
@@ -184,11 +200,23 @@ export default function index() {
                 <Route path={Links.XmlData} component={XmlData} />
                 <Route path={Links.DataDriven} component={DataDriven} />
 
+                <Route path={Links.AiPoweredBot} component={AiPoweredBot} />
+                <Route path={Links.RiskAssesment} component={RiskAssesment} />
+                <Route path={Links.DigitalOutreach} component={DigitalOutreach} />
+                <Route path={Links.CustomerSegmentation} component={CustomerSegmentation} />
+
+                <Route path={Links.EmployeeAttr} component={EmployeeAttr} />
+                <Route path={Links.EmployeeEngagement} component={EmployeeEngagement} />
+                <Route path={Links.EmployeeProductivity} component={EmployeeProductivity} />
+                <Route path={Links.Finance} component={Finance} />
+                <Route path={Links.RetailsCaseStudies} component={RetailsCaseStudies} />
+                <Route path={Links.CollaborativeHealth} component={CollaborativeHealth} />
+                <Route path={Links.PopulationHealthcare} component={PopulationHealthcare} />
+                <Route path={Links.PreventiveHealthcare} component={PreventiveHealthcare} />
 
                 <Route path={Links.Home} component={Home}></Route>
                 <Route path={Links.About} component={About} />
                 <Route path='/' exact component={Home}></Route>
-
 
 
                 <Redirect from='*' to="/" />

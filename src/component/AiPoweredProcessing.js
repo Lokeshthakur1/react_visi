@@ -8,14 +8,14 @@ export default class AiPoweredProcessing extends Component {
 
             <section class="py-5">
                 <div class="container">
-                    <blockquote class="blockquote bq-primary">
+                    <div class="blockquote bq-primary">
                         <p class="bq-title">Client</p>
                         <p >One of the largest Mutual Fund RTA with Regional centers spread over 1000 locations across the
                             country.
     
                         </p>
-                    </blockquote>
-                    <blockquote class="blockquote bq-primary">
+                    </div>
+                    <div class="blockquote bq-primary">
                         <p class="bq-title">Business Problem</p>
                         <ul class="list-group list-group-flush py-3">
                             <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>The forms were
@@ -34,8 +34,8 @@ export default class AiPoweredProcessing extends Component {
                             </li>
                         </ul>
     
-                    </blockquote>
-                    <blockquote class="blockquote bq-primary">
+                    </div>
+                    <div class="blockquote bq-primary">
                         <p class="bq-title">Solution
     
                         </p>
@@ -56,8 +56,8 @@ export default class AiPoweredProcessing extends Component {
                                 achieved 95% accuracy on handwriting recognition.
                             </li>
                         </ul>
-                    </blockquote>
-                    <blockquote class="blockquote bq-primary">
+                    </div>
+                    <div class="blockquote bq-primary">
                         <p class="bq-title">Business Benefits</p>
                         <div class="row text-center d-flex justify-content-center mt-4">
                             <div class="col-lg-3 mb-5">
@@ -83,7 +83,7 @@ export default class AiPoweredProcessing extends Component {
                                 </h5>
                             </div>
                         </div>
-                    </blockquote>
+                    </div>
     
                 </div>
             </section>

@@ -8,12 +8,12 @@ export default class ImplementHealthcare extends Component {
 
                     <section className="py-5">
                         <div className="container">
-                            <blockquote className="blockquote bq-primary">
+                            <div className="blockquote bq-primary">
                                 <h5 className="mb-0">Client</h5>
                                 <p>A health & wellness company in India
             </p>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Solution
 
             </p>
@@ -22,16 +22,16 @@ export default class ImplementHealthcare extends Component {
 
 
             </p>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Problem
             </p>
                                 <p className="text-justify">The specific health test lacks comprehensive interpretation of the test results, risk assessment
                                 and prediction and personalized recommendation.
 
             </p>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Benefits
 
             </p>
@@ -41,7 +41,7 @@ export default class ImplementHealthcare extends Component {
 
 
             </p>
-                            </blockquote>
+                            </div>
 
                         </div>
                     </section>

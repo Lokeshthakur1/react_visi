@@ -8,21 +8,20 @@ export default class DecisionSupports extends Component {
 
                     <section className="py-5">
                         <div className="container">
-                            <blockquote className="blockquote bq-primary">
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Client</p>
                                 <p>Multiple Hospitals in India
             </p>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Problem
             </p>
                                 <p className="text-justify">Hospital operations generates data from heterogeneous sources and needs unified approach for
                                 generating data driven decisions and predictive action items.
 
-
             </p>
-                            </blockquote>
-                            <blockquote className="blockquote bq-primary">
+                            </div>
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Solution
 
             </p>
@@ -33,9 +32,9 @@ export default class DecisionSupports extends Component {
 
 
             </p>
-                            </blockquote>
+                            </div>
 
-                            <blockquote className="blockquote bq-primary">
+                            <div className="blockquote bq-primary">
                                 <p className="bq-title">Business Benefits
 
             </p>
@@ -45,7 +44,7 @@ export default class DecisionSupports extends Component {
 
 
             </p>
-                            </blockquote>
+                            </div>
 
                         </div>
                     </section>
