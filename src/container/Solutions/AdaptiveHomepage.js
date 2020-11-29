@@ -17,7 +17,7 @@ export default class AdaptiveHomepage extends Component {
                                         Adaptive Homepage <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mt-4 text-center">
-                                        <img src="img/svg/retail_adaptive_hompage.svg" height="400" />
+                                        <img alt="img" src="img/svg/retail_adaptive_hompage.svg" height="400" />
 
                                     </div>
                                     <p className="mt-4 text-justify">AI technology has the inbuilt ability to learn and adapt as they continue to

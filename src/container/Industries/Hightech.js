@@ -16,7 +16,7 @@ export default class Hightech extends Component {
 
                             </h2>
                                     <div className="text-center mb-4" >
-                                        <img src="img/svg/hi-tech_img.svg" className="img-fluid" />
+                                        <img alt="img" src="img/svg/hi-tech_img.svg" className="img-fluid" />
                                     </div>
                                     <p className="text-justify">VisionAize helping market-leaders those who are looking at artificial intelligence to
                                     achieve unparalleled scale and speed in getting results. VisionAize high tech AI

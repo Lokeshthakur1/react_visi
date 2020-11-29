@@ -106,7 +106,7 @@ export default class Home extends Component {
                         <div className="carousel-item active">
                             <div className="view overflow-hidden">
                                 <div className="backgroundDrop"></div>
-                                <img src="img/Images/03.png" className="d-block w-100" alt="..." />
+                                <img alt="img" src="img/Images/03.png" className="d-block w-100" alt="..." />
                                 <div className="container d-flex align-items-center justify-content-start mask text-left">
                                     <ul className="list-unstyled animated fadeInUp col-md-12">
                                         <li>
@@ -125,7 +125,7 @@ export default class Home extends Component {
                     <div className="arrowdown ">
                         <Link to={{ pathname: Links.Home, state: 'ai_powered_solution' }}>
                             {/* <div className="mb-2">SCROLL DOWN</div> */}
-                            <img src="img/svg/down-arrow.svg" alt="arrow-down" />
+                            <img alt="img" src="img/svg/down-arrow.svg" alt="arrow-down" />
                         </Link>
                     </div>
                 </Element>
@@ -143,139 +143,155 @@ export default class Home extends Component {
                                     We Empower Organisations To Be an AI Company
                             </h5>
                                 {/*Grid row*/}
-                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="industry-tab" data-toggle="tab" href="#industry" role="tab" aria-controls="industry"
+                                <ul className="nav nav-tabs" id="myTab" role="tablist">
+                                    <li className="nav-item">
+                                        <a className="nav-link active" id="industry-tab" data-toggle="tab" href="#industry" role="tab" aria-controls="industry"
                                             aria-selected="true">Industries</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="functions-tab" data-toggle="tab" href="#functions" role="tab" aria-controls="functions"
+                                    <li className="nav-item">
+                                        <a className="nav-link" id="functions-tab" data-toggle="tab" href="#functions" role="tab" aria-controls="functions"
                                             aria-selected="false">Functions</a>
                                     </li>
                                 </ul>
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="industry" role="tabpanel" aria-labelledby="industry-tab">
+                                <div className="tab-content" id="myTabContent">
+                                    <div className="tab-pane fade show active" id="industry" role="tabpanel" aria-labelledby="industry-tab">
                                         <div className="row py-5 justify-content-center">
                                             {/* <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/Manufacturing.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/Manufacturing.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Manufacturing</h4>
                                                     <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
                                                 </div>
                                             </div> */}
+
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/truck.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Transportation & Logistics</h4>
-                                                    <Link to={Links.TranspAndLogistic} className="stretched-link"></Link>
+                                                    <img alt="img" src="img/svg/money.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Banking and Financial</h4>
+                                                    <Link to={Links.Finance} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/medicine.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/medicine.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Healthcare & Pharma</h4>
                                                     <Link to={Links.Healthcare} className="stretched-link"></Link>
                                                 </div>
                                             </div>
+
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/pay.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Banking & Insurance</h4>
-                                                    <Link to={Links.Banking} className="stretched-link"></Link>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-3 mb-5">
-                                                <div className="fancyBox text-center">
-                                                    <img src="img/svg/oil-industry.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/oil-industry.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Oil & Gas</h4>
                                                     <Link to={Links.Oilgas} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/sprout.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Environment</h4>
-                                                    <Link to={Links.Environmental} className="stretched-link"></Link>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-3 mb-5">
-                                                <div className="fancyBox text-center">
-                                                    <img src="img/svg/technical-support.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/technical-support.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Utilities</h4>
                                                     <Link to={Links.Utility} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/technology.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/truck.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Transport & Logistics</h4>
+                                                    <Link to={Links.TranspAndLogistic} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-3 mb-5">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/sprout.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Environment</h4>
+                                                    <Link to={Links.Environmental} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-3 mb-5">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/technology.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Hi-Tech</h4>
                                                     <Link to={Links.Hightech} className="stretched-link"></Link>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-3 mb-5">
+                                            {/* <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/helicopter.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/helicopter.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Travel & Hospitality</h4>
                                                     <Link to="javascript:void(0);" className="stretched-link"></Link>
                                                 </div>
-                                            </div>
+                                            </div> */}
+
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/it_ites.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">IT & ITES</h4>
-                                                    <Link to="javascript:void(0);" className="stretched-link"></Link>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-3 mb-5">
-                                                <div className="fancyBox text-center">
-                                                    <img src="img/svg/retail.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/retail.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Retail</h4>
                                                     <Link to={Links.Retail} className="stretched-link" ></Link>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="functions" role="tabpanel" aria-labelledby="functions-tab">
+                                    <div className="tab-pane fade" id="functions" role="tabpanel" aria-labelledby="functions-tab">
                                         <div className="row py-5 justify-content-center">
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/digital-marketing.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Marketing</h4>
-                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
+                                                    <img alt="img" src="img/svg/money.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Fintech</h4>
+                                                    <Link to={Links.Finance} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/hr.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/hr.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Human Resource</h4>
-                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
+                                                    <Link to={Links.HumanRecource} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/money.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Finance</h4>
-                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
+                                                    <img alt="img" src="img/svg/it_ites.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">IT & ITES</h4>
+                                                    <Link to={Links.ItItes} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/safety.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Safety & Security</h4>
-                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
-                                                </div>
-                                            </div>
-
-                                            {/* <div className="col-lg-3 mb-5">
-                                                <div className="fancyBox text-center">
-                                                    <img src="img/svg/supply-chain.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/supply-chain.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Supply Chain</h4>
                                                     <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
                                                 </div>
-                                            </div> */}
+                                            </div>
+                                            <div className="col-lg-3 mb-5">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/digital-marketing.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Marketing</h4>
+                                                    <Link to={Links.AiPowered} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-3 mb-5">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/business-and-finance.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Sales</h4>
+                                                    <Link to={Links.Sales} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-3 mb-5">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/touch.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Digital Outreach</h4>
+                                                    <Link to={Links.DigitalOutreach} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-3 mb-5">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/Organizational_data.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Organizational Data</h4>
+                                                    <Link to={Links.OrganizationalData} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
                                             {/* <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
-                                                    <img src="img/svg/engineering.svg" className="boxicon" />
+                                                    <img alt="img" src="img/svg/engineering.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Engineering</h4>
                                                     <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
                                                 </div>
@@ -306,7 +322,7 @@ export default class Home extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/automation.svg" height="50px" />
+                                            <img alt="img" src="img/svg/automation.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Process Automation
@@ -319,7 +335,7 @@ export default class Home extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/cloud-service.svg" height="50px" />
+                                            <img alt="img" src="img/svg/cloud-service.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Cloud Services
@@ -331,7 +347,7 @@ export default class Home extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/context.svg" height="50px" />
+                                            <img alt="img" src="img/svg/context.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Data Management
@@ -345,7 +361,7 @@ export default class Home extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/001-workflow.svg" height="50px" />
+                                            <img alt="img" src="img/svg/001-workflow.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Data Engineering
@@ -355,10 +371,10 @@ export default class Home extends Component {
                                     </p>
                                     </div>
                                 </a>
-                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                {/* <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/big-data.svg" height="50px" />
+                                            <img alt="img" src="img/svg/big-data.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Big Data Analytics
@@ -368,12 +384,12 @@ export default class Home extends Component {
                                         <p className="text-white">Glean actionable insights from your organisation's data.
                                     </p>
                                     </div>
-                                </a>
+                                </a> */}
 
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/analytics.svg" height="50px" />
+                                            <img alt="img" src="img/svg/analytics.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Advanced Analytics and AI
@@ -383,18 +399,16 @@ export default class Home extends Component {
                                     </div>
                                 </a>
 
-                                {/* <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
-                                <div className="icon-area">
-                                    <div>
-                                        <img src="img/svg/data-warehouse.svg" height="50px"/>
+                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                    <div className="icon-area">
+                                        <div>
+                                            <img alt="img" src="img/svg/vr-glasses.svg" height="50px" />
+                                        </div>
+                                        <br />
+                                        <h5 className="mt-2 font-weight-bold text-white">AR/VR</h5>
+                                        <p className="text-white">Augmented reality (AR) and Virtual reality (VR)</p>
                                     </div>
-                                    <br/>
-                                    <h5 className="mt-2 font-weight-bold text-white">Data Warehouse Modernization
-                                    </h5>
-                                    <p className="text-white">Upgrade your data warehouse with our expert services and support.
-                                    </p>
-                                </div>
-                            </a> */}
+                                </a>
 
                             </div>
                             {/*/First row*/}
@@ -403,7 +417,7 @@ export default class Home extends Component {
                 </Element>
                 <Element name="clients">
                     <section id="clients" className="box-partner position-relative">
-                        <img src="img/Images/worldmap.jpg" className="worldmap" style={{ width: '100%' }} />
+                        <img alt="img" src="img/Images/worldmap.jpg" className="worldmap" style={{ width: '100%' }} />
 
                         <div className="container">
 
@@ -420,52 +434,52 @@ export default class Home extends Component {
                             {/*/First row*/}
                             <Slider {...settings} className="col-12 regular responsive slider">
                                 <div>
-                                    <img src="img/client/tibco.png" />
+                                    <img alt="img" src="img/client/tibco.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/talend.png" />
+                                    <img alt="img" src="img/client/talend.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/salesforce.png" />
+                                    <img alt="img" src="img/client/salesforce.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/stitch-fix.png" />
+                                    <img alt="img" src="img/client/stitch-fix.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/adobe.png" />
+                                    <img alt="img" src="img/client/adobe.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/riverbed.png" />
+                                    <img alt="img" src="img/client/riverbed.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/Masterclass.png" />
+                                    <img alt="img" src="img/client/Masterclass.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/Varo Money.png" />
+                                    <img alt="img" src="img/client/Varo Money.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/barclays.png" />
+                                    <img alt="img" src="img/client/barclays.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/docker.png" />
+                                    <img alt="img" src="img/client/docker.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/lendinghome_logo.png" />
+                                    <img alt="img" src="img/client/lendinghome_logo.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/firstrepublic.png" />
+                                    <img alt="img" src="img/client/firstrepublic.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/BNP Paribas.jfif" />
+                                    <img alt="img" src="img/client/BNP Paribas.jfif" />
                                 </div>
                                 <div>
-                                    <img src="img/client/vmware.png" />
+                                    <img alt="img" src="img/client/vmware.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/Pfizer.png" />
+                                    <img alt="img" src="img/client/Pfizer.png" />
                                 </div>
                                 <div>
-                                    <img src="img/client/university_logo.png" />
+                                    <img alt="img" src="img/client/university_logo.png" />
                                 </div>
                             </Slider>
                         </div>

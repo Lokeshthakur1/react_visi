@@ -17,7 +17,7 @@ export default class Retail extends Component {
                                     </h2>
 
                                     <div className="text-center">
-                                        <img src="img/svg/retail_img.svg" className="img-fluid" />
+                                        <img alt="img" src="img/svg/retail_img.svg" className="img-fluid" />
                                     </div>
                                     <p className="text-justify">
                                         Retail analytics is the process of providing analytical data on inventory levels, supply chain movement, consumer demand, sales, etc. that are crucial for making marketing, and procurement decisions.
@@ -28,6 +28,8 @@ export default class Retail extends Component {
                                 </p>
                                     <div className="row">
                                         <div className="col-md-12 mt-3">
+
+                                            <img alt="img" src="img/svg/retail_infographic.svg" className="img-fluid my-4" />
                                             <div className="list-group p-3 card shadow-lg">
                                                 <h4 className="title my-3 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
                                                     Customer Segmentation & <span className="font-weight-light">profiling</span>
@@ -36,11 +38,11 @@ export default class Retail extends Component {
                                                     Segmenting or dividing a company’s customers into groups relevant to a particular business with the goal of deciding how to relate to customers in each segment in order to maximize the value of each customer to the business. Customer profiling, which can be done even without segmentation, is the next step to understand in-depth the nature of the segments
 
                                 </p>
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Customer purchase history, customer data (demographic, psychographic, behavioural etc.)</li>
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Clustering, CHAID, recursive partitioning, Classification tree etc.</li>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Customer purchase history, customer data (demographic, psychographic, behavioural etc.)</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Clustering, CHAID, recursive partitioning, Classification tree etc.</li>
 
-                                                    <li class="list-group-item">
+                                                    <li className="list-group-item">
                                                         <ul className="mt-3">
                                                             <li>Identify engaged/disengaged customer segments</li>
                                                             <li>Develop customer retention/acquisition strategy</li>
@@ -68,11 +70,11 @@ export default class Retail extends Component {
                                                     Association analysis, Affinity analysis and Recommender based approach
                                     </p>
 
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Product placements</li>
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Product bundling</li>
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Other promotion types planning such as coupons</li>
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Cross-sell/Up-sell</li>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Product placements</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Product bundling</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Other promotion types planning such as coupons</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Cross-sell/Up-sell</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -85,11 +87,11 @@ export default class Retail extends Component {
                                                     Sales/demand forecasting critical to retail to manage the entire supply chain & maximize profits. Sales/demand forecasting based on historical data or factors influencing sales/demand.  Demand history can be created by scrubbing the sales history and at times adding to the sales history as demand is sales plus opportunity lost
                                     </p>
 
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Product sales/demand data, data on influencing factors</li>
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Time series forecasting, Regression analysis</li>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Product sales/demand data, data on influencing factors</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Time series forecasting, Regression analysis</li>
 
-                                                    <li class="list-group-item">
+                                                    <li className="list-group-item">
                                                         <ul className="mt-3">
                                                             <li>Sales planning</li>
                                                             <li>Inventory management</li>
@@ -109,11 +111,11 @@ export default class Retail extends Component {
                                                 <p>
                                                     Optimizing safety stock to minimise demand-supply mismatch cost & maximise profits in case of dynamic demand & supply lead times for a given customer service level. Simulations based on derived distributions for demand & lead times help businesses to derive safety stocks and prepare for various uncertain scenarios
                                     </p>
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Product dispatch dates (expected/actual), actual product delivery date, actual quantity delivered, actual quantity consumed</li>
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Distribution fitting, Simulations</li>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Product dispatch dates (expected/actual), actual product delivery date, actual quantity delivered, actual quantity consumed</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Distribution fitting, Simulations</li>
 
-                                                    <li class="list-group-item">
+                                                    <li className="list-group-item">
                                                         <ul className="mt-3">
                                                             <li>Safety stock optimisation</li>
                                                             <li>Estimation of optimal production level</li>
@@ -131,11 +133,11 @@ export default class Retail extends Component {
                                                 <p>
                                                     Promotion is crucial to retail and it is very important to understand how promotions affect sale. Promotion impact varies from product category to category & generally tends to follow an S-curve i.e. a minimum & a maximum level of promotion. Also, the impact can change when one promotion is combined with another
                                     </p>
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Item level sale data with promotion discount</li>
-                                                    <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Regression paradigm and Optimization modeling</li>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Item level sale data with promotion discount</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Regression paradigm and Optimization modeling</li>
 
-                                                    <li class="list-group-item">
+                                                    <li className="list-group-item">
                                                         <ul className="mt-3">
                                                             <li>Promotion impact on sales</li>
                                                             <li>Minimum, maximum & optimum discount levels</li>
@@ -149,7 +151,7 @@ export default class Retail extends Component {
                                     {/* 
                                 <div className="row text-center d-flex justify-content-center mt-4">
                                     <div className="col-lg-6 p-3 hoverable-2">
-                                        <img src="img/svg/012-system-1.svg" height="60px"/>
+                                        <img alt="img" src="img/svg/012-system-1.svg" height="60px"/>
                                         <h6 className="my-4 font-weight-bold">Customer Segmentation and Profiling
     
                                         </h6>
@@ -159,7 +161,7 @@ export default class Retail extends Component {
                                         </p>
                                     </div>
                                     <div className="col-lg-6 p-3 hoverable-2">
-                                        <img src="img/svg/001-market.svg" height="60px"/>
+                                        <img alt="img" src="img/svg/001-market.svg" height="60px"/>
                                         <h6 className="my-4 font-weight-bold">Market Basket Analysis
     
                                         </h6>
@@ -168,7 +170,7 @@ export default class Retail extends Component {
                                             product placements accordingly</p>
                                     </div>
                                     <div className="col-lg-6 p-3 hoverable-2">
-                                        <img src="img/svg/002-demand.svg" height="60px"/>
+                                        <img alt="img" src="img/svg/002-demand.svg" height="60px"/>
                                         <h6 className="my-4 font-weight-bold">Demand Forecasting
     
                                         </h6>
@@ -176,7 +178,7 @@ export default class Retail extends Component {
                                             inventory management and resource deployment</p>
                                     </div>
                                     <div className="col-lg-6 p-3 hoverable-2">
-                                        <img src="img/svg/002-speaker.svg" height="60px"/>
+                                        <img alt="img" src="img/svg/002-speaker.svg" height="60px"/>
                                         <h6 className="my-4 font-weight-bold">Promotion Impact
     
                                         </h6>

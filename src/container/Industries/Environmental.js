@@ -15,37 +15,63 @@ export default class Environmental extends Component {
                                         Environment
                                     </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/svg/environment.svg" alt="environment" className="w-100" />
+                                        <img alt="img" src="img/svg/environment.svg" alt="environment" className="w-100" />
                                     </div>
-                                    <p className="text-justify">The environment industry, otherwise known as the "eco-industry" as the name suggests,
-                                    is related to environment
-                                    wellbeing and protection. There are two major sub-sectors in the environment industry,
-                                    pollution management and
-                                        resource management.</p>
-                                    <p className="text-justify">The environment industry is referred to as the ones that have been producing marketable
-                                    goods or services in a way to
-                                    control pollution and use eco-efficient technologies and promote the use of the same.
-                                    They prevent damage and helps in
-                                    sustainable development. Being in favor of being eco-friendly, they use eco-efficient
-                                    technologies to assist in
-                                        environment growth.</p>
-                                    <p className="text-justify">The environment industry is policy-based and corporate, and environment governance is
-                                    of utmost importance to these
-                                    industries. The focus is majorly on using renewable energy sources and saving the
-                                    replenishing energy source. This can
-                                    include environmentally efficient fuel, eco-friendly construction methods, and
-                                        eco-friendly methods of production.</p>
-                                    <p className="text-justify">The industry had been invisible or out of the limelight of industries for a long time.
-                                    With the increase in
-                                    environment degradation, the industry has also come to light to the people with its
-                                    efforts in making the effects
-                                    reduce as much as possible. This has been possible due to the industry's innovation
-                                    focus as they always innovate things
-                                        that can result in higher sustainable development.</p>
-                                    <p className="text-justify">A major use of technology in the environment industry is seen in the field of air
-                                    pollution. The innovative
-                                    technologies are used to monitor the pollution and also predict the effects of the same.
-                                    </p>
+                                    <p className="text-justify">VisionAize Ai powered solutions empowers communities, businesses and legislators to increase the awareness of the health impact of local air pollution and informs plans to minimize exposure.</p>
+                                    <p className="text-justify">We are helping industries with eco friendly & eco efficient innovative technologies to assist environment growth by air pollution monitor & prediction . Our Ai based solutions are playing a key role in the environment industry, pollution management & resource management. </p>
+
+
+                                    <div className="row">
+                                        <div className="col-md-12 mt-3">
+                                            <div className="list-group card shadow-lg">
+                                                <h4 className="font-weight-bold p-3">Focusing on health and wellbeing</h4>
+
+                                                <ul className="list-group list-group-flush pb-5 pt-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>“The true cost of climate change is felt in our hospitals and in our lungs” – WHO</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Urban neighborhoods suffer serious health implications from air pollution which particularly affect young children, the elderly and the vulnerable</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>VisionAize helps communities make informed decisions on their day to day activities: best time for children to be outdoors or alternative bus stops to avoid heavy pollution</li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12 mt-3">
+                                            <div className="list-group card shadow-lg">
+                                                <h4 className="font-weight-bold p-3">Transforming communities of the future</h4>
+
+                                                <ul className="list-group list-group-flush pb-5 pt-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Sustainable cities have to consider social, economic & environmental impacts to remain resilient into the future</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>VisionAize helps communities take part in understanding their environment by providing hyper-local measurements to enable intervention at a localized level</li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12 mt-3">
+                                            <div className="list-group card shadow-lg">
+                                                <h4 className="font-weight-bold p-3">Identify clean and green routes</h4>
+
+                                                <ul className="list-group list-group-flush pb-5 pt-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Green urban spaces help filter harmful air pollution, including airborne particulate matter and are a great benefit to the environment</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Combining the local air quality data with external data such as traffic & weather information, VisionAize uses machine learning to guide on the ‘cleanest’ & ‘greenest’ zones</li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12 mt-3">
+                                            <div className="list-group card shadow-lg">
+                                                <h4 className="font-weight-bold p-3">Leading the proposition against pollution</h4>
+
+                                                <ul className="list-group list-group-flush pb-5 pt-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>VisionAize is leading the proposition towards a pollution free environment by facilitating dialogue with community & city authorities</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>By identifying key local pollution sources, VisionAize enables the design & development of localised control prescriptions and helps build community awareness</li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
                                 </section>
                             </div>
                             <div className="col-md-4">

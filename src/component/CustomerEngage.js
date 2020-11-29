@@ -20,7 +20,7 @@ export default class CustomerEngage extends Component {
                                             Customer Engagement <span className="font-weight-light"></span>
                                         </h2>
                                         <div className="mb-4 text-center">
-                                            <img src="img/svg/iot.svg" className="img-fluid " height="300" />
+                                            <img alt="img" src="img/svg/iot.svg" className="img-fluid " height="300" />
                                         </div>
                                         <p className="text-justify">IoT-enabled technologies are playing key roles to interact with customers, retailers and
                                         gaining valuable insights on consumer behavior preferences without ever directly

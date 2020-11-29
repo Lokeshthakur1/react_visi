@@ -17,7 +17,7 @@ export default class RespResearchDev extends Component {
                                             Responsive Research & Development <span className="font-weight-light"></span>
                                         </h2>
                                         <div className="mb-4">
-                                            <img src="img/svg/Responsive Research & Development.svg" className="img-fluid w-100" />
+                                            <img alt="img" src="img/svg/Responsive Research & Development.svg" className="img-fluid w-100" />
                                         </div>
                                         <p className="text-justify">Today, AIML is effective in learning from experience, adjusting to new inputs, and
                                         performing human-like tasks. It quickly combines large database with rapid, iterative

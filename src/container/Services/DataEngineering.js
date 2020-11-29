@@ -44,7 +44,7 @@ export default class DataEngineering extends Component {
                         <div className="row">
                             {/*Grid column*/}
                             <div className="col-lg-6 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-                                <img src="img/Images/a4.jpg" className="img-fluid" style={{ objectFit: 'cover' }} alt="" />
+                                <img alt="img" src="img/Images/a4.jpg" className="img-fluid" style={{ objectFit: 'cover' }} alt="" />
                             </div>
                             {/*Grid column*/}
                             {/*Grid column*/}
@@ -122,7 +122,7 @@ export default class DataEngineering extends Component {
                             {/*Grid column*/}
                             {/*Grid column*/}
                             <div className="col-lg-6 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-                                <img src="img/Images/a3.jpg" className="img-fluid" style={{ objectFit: 'cover' }} alt="" />
+                                <img alt="img" src="img/Images/a3.jpg" className="img-fluid" style={{ objectFit: 'cover' }} alt="" />
                             </div>
                             {/*Grid column*/}
                         </div>
@@ -169,7 +169,7 @@ export default class DataEngineering extends Component {
                         </div>
                         <div className="row text-center d-flex justify-content-center mt-4">
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/Page-1.svg" height="60px" />
+                                <img alt="img" src="img/svg/Page-1.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Strategic Services</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Roadmap Architecture
@@ -179,7 +179,7 @@ export default class DataEngineering extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/001-application.svg" height="60px" />
+                                <img alt="img" src="img/svg/001-application.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Application Services</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Development
@@ -202,7 +202,7 @@ export default class DataEngineering extends Component {
                            <span className="font-weight-light border-line"> (Analytics Implementation Methodology)</span>
                             </h3>
                         </div>
-                        <img className="img-fluid py-5" src="img/svg/VisionAIze.svg" />
+                        <img alt="img" className="img-fluid py-5" src="img/svg/VisionAIze.svg" />
                     </div>
                 </section>
             </main>

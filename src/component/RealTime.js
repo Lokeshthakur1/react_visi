@@ -47,7 +47,7 @@ export default class RealTime extends Component {
 
                                 {/* <!-- Featured image --> */}
                                 <div className="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                                    <img className="img-fluid" src="img/Images/realtime.jpg" alt="Sample image" />
+                                    <img alt="img" className="img-fluid" src="img/Images/realtime.jpg" alt="Sample image" />
                                     <a>
                                         <div className="mask rgba-white-slight"></div>
                                     </a>

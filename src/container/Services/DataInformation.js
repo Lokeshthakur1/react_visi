@@ -86,7 +86,7 @@ export default class DataInformation extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <img src="img/svg/dataops.svg" className="img-fluid" />
+                                <img alt="img" src="img/svg/dataops.svg" className="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -110,12 +110,12 @@ export default class DataInformation extends Component {
                             myriad of data sources till visualization for business consumption. Leveraging CI/CD practices, it
                             orchestrates and automates the pipeline to ensure optimum production.
                 </p>
-                        <img className="img-fluid mb-4" src="img/svg/design_data_pipe.svg" />
+                        <img alt="img" className="img-fluid mb-4" src="img/svg/design_data_pipe.svg" />
                         <p className="text-justify">
                             This process is illustrated by the succession of three loops, in which data models get promoted
                             between environments, as new data is added in the pipeline.
                 </p>
-                        <img className="img-fluid mb-4" src="img/Images/DataOps.png" />
+                        <img alt="img" className="img-fluid mb-4" src="img/Images/DataOps.png" />
 
                     </div>
                 </section>
@@ -190,7 +190,7 @@ export default class DataInformation extends Component {
                     <div className="container">
                         <div className="row my-5 justify-content-center align-items-center">
                             <div className="col-md-4">
-                                <img src="img/Images/Data-Governance.png" className="img-fluid" />
+                                <img alt="img" src="img/Images/Data-Governance.png" className="img-fluid" />
                             </div>
                             <div className="col-md-8">
                                 <h4 className="title my-4 wow fadeIn font-weight-bold" data-wow-delay="0.2s"
@@ -235,7 +235,7 @@ export default class DataInformation extends Component {
                             data management.</p>
                             </div>
                             <div className="col-md-4">
-                                <img src="img/svg/dataqwl.svg" className="img-fluid" />
+                                <img alt="img" src="img/svg/dataqwl.svg" className="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -244,7 +244,7 @@ export default class DataInformation extends Component {
                     <div className="container">
                         <div className="row my-5 justify-content-center align-items-center">
                             <div className="col-md-4">
-                                <img src="img/Images/Data-Integration.png" className="img-fluid" />
+                                <img alt="img" src="img/Images/Data-Integration.png" className="img-fluid" />
                             </div>
                             <div className="col-md-8">
                                 <h4 className="title my-4 wow fadeIn font-weight-bold" data-wow-delay="0.2s"
@@ -278,7 +278,7 @@ export default class DataInformation extends Component {
                                 <div className="card shadow">
 
                                     {/* Card image */}
-                                    <img className="card-img-top obj_H200" src="img/Images/datasqr.jpg" alt="Card image cap" />
+                                    <img alt="img" className="card-img-top obj_H200" src="img/Images/datasqr.jpg" alt="Card image cap" />
 
                                     {/* Card content */}
                                     <div className="card-body">
@@ -302,7 +302,7 @@ export default class DataInformation extends Component {
                                 <div className="card shadow-lg">
 
                                     {/* Card image */}
-                                    <img className="card-img-top obj_H200" src="img/Images/metadata.jpg" alt="Card image cap" />
+                                    <img alt="img" className="card-img-top obj_H200" src="img/Images/metadata.jpg" alt="Card image cap" />
 
                                     {/* Card content */}
                                     <div className="card-body">
@@ -327,7 +327,7 @@ export default class DataInformation extends Component {
                                 <div className="card shadow">
 
                                     {/* Card image */}
-                                    <img className="card-img-top obj_H200" src="img/Images/master_data.jpg" alt="Card image cap" />
+                                    <img alt="img" className="card-img-top obj_H200" src="img/Images/master_data.jpg" alt="Card image cap" />
 
                                     {/* Card content */}
                                     <div className="card-body">

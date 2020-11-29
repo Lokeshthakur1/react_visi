@@ -16,7 +16,7 @@ export default class DrugRecovery extends Component {
                                     Drug Discovery <span className="font-weight-light"></span>
                                 </h2>
                                 <div className="mb-4">
-                                    <img className="img-fluid" src="img/svg/drug_discovery.svg" className="w-100 img-fluid"/>
+                                    <img alt="img" className="img-fluid" src="img/svg/drug_discovery.svg" className="w-100 img-fluid"/>
     
                                 </div>
                                     <p className="mt-4 text-justify">

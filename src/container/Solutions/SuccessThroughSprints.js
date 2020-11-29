@@ -16,7 +16,7 @@ export default class SuccessThroughSprints extends Component {
                                         Hi-Tech Solutions
                             </h2>
                                     <div className="mb-4">
-                                        <img src="img/svg/sprint_Poc.svg" className="img-fluid w-100" />
+                                        <img alt="img" src="img/svg/sprint_Poc.svg" className="img-fluid w-100" />
                                     </div>
                                     <p className="text-justify">Sprints and Marathons are a great starting point to go through your project's business
                                     and technical details. This step is done before you reach the PoC. AI Sprints use AI

@@ -220,7 +220,7 @@ export default class ProcessAutomation extends Component {
                                 <div className="row mb-5">
                                     <div className="col-2">
                                         <span className="my-0 waves-effect waves-light">
-                                            <img src="img/svg/001-intelligence.svg" width="70px" />
+                                            <img alt="img" src="img/svg/001-intelligence.svg" width="70px" />
                                         </span>
                                     </div>
                                     <div className="col-9 pl-5">
@@ -250,7 +250,7 @@ export default class ProcessAutomation extends Component {
                                 <div className="row mb-5">
                                     <div className="col-2">
                                         <span className="my-0 waves-effect waves-light">
-                                            <img src="img/svg/001-robotics.svg" width="60px" />
+                                            <img alt="img" src="img/svg/001-robotics.svg" width="60px" />
                                         </span>
                                     </div>
                                     <div className="col-9 pl-5">
@@ -289,7 +289,7 @@ export default class ProcessAutomation extends Component {
                         </div>
                         <div className="row text-center d-flex justify-content-center mt-4">
                             <div className="col-lg-6 col-md-6 mb-5">
-                                <img src="img/svg/001-delivery-truck.svg" height="60px" />
+                                <img alt="img" src="img/svg/001-delivery-truck.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Supply Chain Planning</h5>
                                 <p className="text-muted px-2 mb-lg-0 text-justify">
                                     Revenue Planning, Demand Planning, Demand Sensing and Supply Planning, Inventory Planning,
@@ -297,7 +297,7 @@ export default class ProcessAutomation extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 col-md-6 mb-5">
-                                <img src="img/svg/Bar graph.svg" height="60px" />
+                                <img alt="img" src="img/svg/Bar graph.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Sales Planning and Sales Performance Management</h5>
                                 <p className="text-muted px-2 mb-lg-0 text-justify">
                                     Sales Hierarchy Definition, People Assignments, Account Transfers, Territory Planning,
@@ -306,7 +306,7 @@ export default class ProcessAutomation extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 col-md-6 mb-5">
-                                <img src="img/svg/013-solution-1.svg" height="60px" />
+                                <img alt="img" src="img/svg/013-solution-1.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Service Lifecycle Planning</h5>
                                 <p className="text-muted px-2 mb-lg-0 text-justify">
                                     Service Parts Demand Planning, Parts Inventory Planning, Repairs and Returns Planning, Parts
@@ -314,7 +314,7 @@ export default class ProcessAutomation extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 col-md-6 mb-5">
-                                <img src="img/svg/004-planning.svg" height="60px" />
+                                <img alt="img" src="img/svg/004-planning.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Finance Planningt</h5>
                                 <p className="text-muted px-2 mb-lg-0 text-justify">
                                     Long Range Strategy Planning, Annual Operating Plan, CapEx Planning, OpEx Planning,

@@ -17,7 +17,7 @@ export default class Wrapper extends Component {
                         <div className="carousel-inner" role="listbox">
                             <div className="carousel-item active">
                                 <div className="view banner-height">
-                                    {this.props.getKey.bannerImgL && <img src={this.props.getKey.bannerImgL} className="d-block w-100" alt="..." />}
+                                    {this.props.getKey.bannerImgL && <img alt="img" src={this.props.getKey.bannerImgL} className="d-block w-100" alt="..." />}
                                     <div
                                         className="container h-100 d-flex align-items-center justify-content-center mask white-text text-center">
                                         <ul className={`list-unstyled animated fadeInUp ${this.props.getKey.classname ? this.props.getKey.classname : 'text-center'}`}>
@@ -40,7 +40,7 @@ export default class Wrapper extends Component {
                             </div>
                             <div className="carousel-item">
                                 <div className="view banner-height">
-                                    <img src="img/Images/banking.jpg" className="d-block w-100" alt="..." />
+                                    <img alt="img" src="img/Images/banking.jpg" className="d-block w-100" alt="..." />
                                     <div
                                         className="container h-100 d-flex align-items-center justify-content-center mask white-text text-left">
                                         <ul className="list-unstyled animated fadeInUp mr-auto col-md-6">
@@ -64,7 +64,7 @@ export default class Wrapper extends Component {
                             </div>
                             <div className="carousel-item">
                                 <div className="view banner-height">
-                                    <img src="img/Images/mobility.jpg" className="d-block w-100" alt="..." />
+                                    <img alt="img" src="img/Images/mobility.jpg" className="d-block w-100" alt="..." />
 
                                     <div
                                         className="container h-100 d-flex align-items-center justify-content-center mask white-text text-right">

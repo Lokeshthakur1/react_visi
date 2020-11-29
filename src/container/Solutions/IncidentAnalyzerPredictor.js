@@ -16,7 +16,7 @@ export default class IncidentAnalyzerPredictor extends Component {
                                         Incident and analyzer and predictor
                                     </h2>
                                     <div className="view overlay rounded mb-lg-0 mb-4">
-                                        <img className="img-fluid m-auto" src="img/Images/oilgas_incident.png" alt="Sample image" />
+                                        <img alt="img" className="img-fluid m-auto" src="img/Images/oilgas_incident.png" alt="Sample image" />
                                         <a>
                                             <div className="mask rgba-white-slight waves-effect waves-light"></div>
                                         </a>

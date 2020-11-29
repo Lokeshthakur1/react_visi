@@ -57,7 +57,7 @@ export default class Cloud extends Component {
                         <div className="row">
                             {/*Grid column*/}
                             <div className="col-lg-6 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-                                <img src="img/Images/a4.jpg" className="img-fluid" style={{ objectFit: 'cover' }} alt="" />
+                                <img alt="img" src="img/Images/a4.jpg" className="img-fluid" style={{ objectFit: 'cover' }} alt="" />
                             </div>
                             {/*Grid column*/}
                             {/*Grid column*/}

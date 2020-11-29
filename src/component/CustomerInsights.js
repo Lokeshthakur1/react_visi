@@ -19,7 +19,7 @@ export default class CustomerInsights extends Component {
                                             Customer Insights <span className="font-weight-light"></span>
                                         </h2>
                                         <div className="mb-4 text-center">
-                                            <img src="img/svg/ai_speech.svg" className="" height="300" />
+                                            <img alt="img" src="img/svg/ai_speech.svg" className="" height="300" />
                                         </div>
 
                                         <p className="text-justify">AI based solutions are playing a revolutionary role in today’s retail industry. AIML

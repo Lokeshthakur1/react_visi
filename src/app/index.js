@@ -69,7 +69,7 @@ import PrivacyPolicy from '../component/PrivacyPolicy'
 import RealTime from '../component/RealTime'
 import ReductionNotPerforming from '../component/ReductionNotPerforming'
 import RespResearchDev from '../component/RespResearchDev'
-import SmartCheqe from '../component/SmartCheqe'
+import SmartCheque from '../component/SmartCheque'
 import SmartOptimization from '../component/SmartOptimization'
 import SocialMedia from '../component/SocialMedia'
 import SoftwareServices from '../component/SoftwareServices'
@@ -103,6 +103,20 @@ import PrecisionMedicinePlatformEcosystem from '../container/Industries/Precisio
 import PrecisionMedicinePlatformPropotion from '../container/Industries/PrecisionMedicinePlatformPropotion'
 import PriceOptimizationEngine from '../container/Industries/PriceOptimizationEngine'
 
+import NonPerformingAssetPrediction from '../container/Industries/NonPerformingAssetPrediction'
+import KYCAMLCustomOnBoarding from '../container/Industries/KYCAMLCustomOnBoarding'
+import AIPoweredProspectTargeting from '../container/Industries/AIPoweredProspectTargeting'
+import MultiChannelChurn from '../container/Industries/MultiChannelChurn'
+import InternationalArbitrageTrading from '../container/Industries/InternationalArbitrageTrading'
+
+import SmartTransportSolution from '../container/Industries/SmartTransportSolution'
+import DemandSupplyHyperLogistics from '../container/Industries/DemandSupplyHyperLogistics'
+import IntraCityFreightFlow from '../container/Industries/IntraCityFreightFlow'
+
+import AdobeCaseStudy from '../container/Industries/AdobeCaseStudy'
+import TransportRouteOptimization from '../container/Industries/TransportRouteOptimization'
+import InsurancePolicyRenewability from '../container/Industries/InsurancePolicyRenewability'
+
 import { Links } from './links'
 import XmlData from '../component/XmlData'
 
@@ -111,7 +125,7 @@ export default function index() {
     return (
         <Router>
             <Header />
-            <a href="#scrollPage" className="scroll-btn jump-2"><img src="img/svg/arrow.svg" /></a>
+            <a href="#scrollPage" className="scroll-btn jump-2"><img alt="img" src="img/svg/arrow.svg" /></a>
             <Switch>
 
                 {/* service */}
@@ -196,7 +210,7 @@ export default function index() {
                 <Route path={Links.RealTime} component={RealTime} />
                 <Route path={Links.ReductionNotPerforming} component={ReductionNotPerforming} />
                 <Route path={Links.RespResearchDev} component={RespResearchDev} />
-                <Route path={Links.SmartCheqe} component={SmartCheqe} />
+                <Route path={Links.SmartCheque} component={SmartCheque} />
                 <Route path={Links.SmartOptimization} component={SmartOptimization} />
                 <Route path={Links.SocialMedia} component={SocialMedia} />
                 <Route path={Links.SoftwareServices} component={SoftwareServices} />
@@ -225,6 +239,21 @@ export default function index() {
                 <Route path={Links.PrecisionMedicinePlatformEcosystem} component={PrecisionMedicinePlatformEcosystem} />
                 <Route path={Links.PrecisionMedicinePlatformPropotion} component={PrecisionMedicinePlatformPropotion} />
                 <Route path={Links.PriceOptimizationEngine} component={PriceOptimizationEngine} />
+
+                <Route path={Links.NonPerformingAssetPrediction} component={NonPerformingAssetPrediction} />
+                <Route path={Links.KYCAMLCustomOnBoarding} component={KYCAMLCustomOnBoarding} />
+                <Route path={Links.AIPoweredProspectTargeting} component={AIPoweredProspectTargeting} />
+                <Route path={Links.MultiChannelChurn} component={MultiChannelChurn} />
+                <Route path={Links.InternationalArbitrageTrading} component={InternationalArbitrageTrading} />
+
+                <Route path={Links.SmartTransportSolution} component={SmartTransportSolution} />
+                <Route path={Links.DemandSupplyHyperLogistics} component={DemandSupplyHyperLogistics} />
+                <Route path={Links.IntraCityFreightFlow} component={IntraCityFreightFlow} />
+
+                <Route path={Links.AdobeCaseStudy} component={AdobeCaseStudy} />
+                <Route path={Links.TransportRouteOptimization} component={TransportRouteOptimization} />
+                <Route path={Links.InsurancePolicyRenewability} component={InsurancePolicyRenewability} />
+
 
                 <Route path={Links.Home} component={Home}></Route>
                 <Route path={Links.About} component={About} />

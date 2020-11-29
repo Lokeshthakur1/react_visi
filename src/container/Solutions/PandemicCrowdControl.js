@@ -15,7 +15,7 @@ export default class PandemicCrowdControl extends Component {
                                         Pandemic Crowd Control App
                                     </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/svg/crowd_control.svg" className="w-100" />
+                                        <img alt="img" src="img/svg/crowd_control.svg" className="w-100" />
                                     </div>
                                     <p className="text-justify" className="text-justify">Another solution that has been introduced by the e-commerce industry is the "pandemic
                                     crowd control app." These apps

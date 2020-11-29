@@ -16,7 +16,7 @@ export default class SmartRiskPredictorAgileProcess extends Component {
                                         Smart Risk Predictor for Agile <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mb-4">
-                                        <img src="img/svg/financial_services.svg" className="img-fluid w-100" height="" />
+                                        <img alt="img" src="img/svg/financial_services.svg" className="img-fluid w-100" height="" />
                                     </div>
                                     <p className="text-justify">
                                         One of the serious issues of the Agile Process is the lack of proper software backup. AI

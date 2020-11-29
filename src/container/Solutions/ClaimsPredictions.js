@@ -16,7 +16,7 @@ export default class ClaimsPredictions extends Component {
                                         Claims predictor <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mb-4">
-                                        <img className="img-fluid w-100" src="img/svg/claim_preduction.svg" />
+                                        <img alt="img" className="img-fluid w-100" src="img/svg/claim_preduction.svg" />
 
                                     </div>
                                     <p className="mt-4 text-justify">A cloud-based AI platform is purposefully built to ingest claims data

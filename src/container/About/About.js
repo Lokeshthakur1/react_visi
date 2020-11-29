@@ -6,7 +6,7 @@ export default class About extends Component {
         return (
             <main>
                 <section id="about_visionize" className="section feature-box wow fadeIn position-relative" data-wow-delay="0.2s">
-                    {/* <img className="guyTablet" src="img/svg/guy_with_tablet.svg" /> */}
+                    {/* <img alt="img" className="guyTablet" src="img/svg/guy_with_tablet.svg" /> */}
                     <div className="flex-center view">
                         <div className="container py-3">
                             {/*Section heading*/}
@@ -17,11 +17,11 @@ export default class About extends Component {
                             </h2>
                             <div className="row features-small py-5">
                                 <ul className="newFancy_list col-md-10 text-left">
-                                    <li><span><i class="fas fa-check"></i></span>VisionAize is a Silicon Valley based company focusing on creating smarter and intelligent enterprises.</li>
-                                    <li><span><i class="fas fa-check"></i></span>100+ AI & Data Engineering Experts (Data Scientists, Ai Experts, Cloud & Data engineers)</li>
-                                    <li><span><i class="fas fa-check"></i></span>Decades of combined experience</li>
-                                    <li><span><i class="fas fa-check"></i></span>Global reach with offices in Silicon Valley and India.</li>
-                                    <li><span><i class="fas fa-check"></i></span>Proven experience with fortune 500 customers</li>
+                                    <li><span><i className="fas fa-check"></i></span>VisionAize is a Silicon Valley based company focusing on creating smarter and intelligent enterprises.</li>
+                                    <li><span><i className="fas fa-check"></i></span>100+ AI & Data Engineering Experts (Data Scientists, Ai Experts, Cloud & Data engineers)</li>
+                                    <li><span><i className="fas fa-check"></i></span>Decades of combined experience</li>
+                                    <li><span><i className="fas fa-check"></i></span>Global reach with offices in Silicon Valley and India.</li>
+                                    <li><span><i className="fas fa-check"></i></span>Proven experience with fortune 500 customers</li>
                                 </ul>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default class About extends Component {
                             <a href="#" className="col-lg-4 text-center hoverable p-4">
                                 <div className="icon-area">
                                     <div>
-                                        <img src="img/svg/001-workflow.svg" width="50px" />
+                                        <img alt="img" src="img/svg/001-workflow.svg" width="50px" />
                                     </div>
                                     <br />
                                     <h5 className="mt-2 font-weight-bold text-white">Data Science</h5>
@@ -55,7 +55,7 @@ export default class About extends Component {
                             <a href="#" className="col-lg-4 text-center hoverable p-4">
                                 <div className="icon-area">
                                     <div>
-                                        <img src="img/svg/002-innovation.svg" width="50px" />
+                                        <img alt="img" src="img/svg/002-innovation.svg" width="50px" />
                                     </div>
                                     <br />
                                     <h5 className="mt-2 font-weight-bold text-white">AI Solutions</h5>
@@ -69,7 +69,7 @@ export default class About extends Component {
                             <a href="#" className="col-lg-4 text-center hoverable p-4">
                                 <div className="icon-area">
                                     <div>
-                                        <img src="img/svg/003-concept.svg" width="50px" />
+                                        <img alt="img" src="img/svg/003-concept.svg" width="50px" />
                                     </div>
                                     <br />
                                     <h5 className="mt-2 font-weight-bold text-white">Experience</h5>
@@ -96,7 +96,7 @@ export default class About extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img className="mx-auto" src="img/svg/datascientist.svg" height="50px" />
+                                            <img alt="img" className="mx-auto" src="img/svg/datascientist.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Expert and Experienced Data Scientists
@@ -109,7 +109,7 @@ export default class About extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img className="mx-auto" src="img/svg/analytics.svg" height="50px" />
+                                            <img alt="img" className="mx-auto" src="img/svg/analytics.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Expert Marketing Intelligence<br />Solutions
@@ -122,7 +122,7 @@ export default class About extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img className="mx-auto" src="img/svg/multidomain.svg" height="50px" />
+                                            <img alt="img" className="mx-auto" src="img/svg/multidomain.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Multi-Domain<br />Knowledge
@@ -135,7 +135,7 @@ export default class About extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img className="mx-auto" src="img/svg/settings.svg" height="50px" />
+                                            <img alt="img" className="mx-auto" src="img/svg/settings.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Unparalleled Data<br />Harmonization</h5>
@@ -147,7 +147,7 @@ export default class About extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img className="mx-auto" src="img/svg/idea.svg" height="50px" />
+                                            <img alt="img" className="mx-auto" src="img/svg/idea.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Mapping Meaningful<br />Outcomes
@@ -160,7 +160,7 @@ export default class About extends Component {
                                 <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
-                                            <img className="mx-auto" src="img/svg/innovation.svg" height="50px" />
+                                            <img alt="img" className="mx-auto" src="img/svg/innovation.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Technological Expertise with<br />Innovative
@@ -198,7 +198,7 @@ export default class About extends Component {
                             {/* Grid column */}
                             {/* 
             <div className="col-lg-12 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
-               <img src="img/svg/our-mission2.svg" className="img-fluid"/>
+               <img alt="img" src="img/svg/our-mission2.svg" className="img-fluid"/>
             </div>
             */}
                             {/* Grid column */}
@@ -226,7 +226,7 @@ export default class About extends Component {
                         <div className="row pt-4">
                             <div className="col-md-4 mb-4">
                                 <div className="imageHolder_">
-                                    <div className="imgshow"><img src="img/team/1.jpg" /></div>
+                                    <div className="imgshow"><img alt="img" src="img/team/1.jpg" /></div>
                                     <div className="contentShow">
                                         <h5>Dr. Romesh Japra</h5>
                                         <span>Chairman</span>
@@ -236,7 +236,7 @@ export default class About extends Component {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="imageHolder_">
-                                    <div className="imgshow"><img src="img/team/2.jpg" /></div>
+                                    <div className="imgshow"><img alt="img" src="img/team/2.jpg" /></div>
                                     <div className="contentShow">
                                         <h5>Vikas Agrawal</h5>
                                         <span>CEO</span>
@@ -246,7 +246,7 @@ export default class About extends Component {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="imageHolder_">
-                                    <div className="imgshow"><img src="img/team/3.jpg" /></div>
+                                    <div className="imgshow"><img alt="img" src="img/team/3.jpg" /></div>
                                     <div className="contentShow">
                                         <h5>Subhash Sachdeva</h5>
                                         <span>CFO</span>
@@ -256,7 +256,7 @@ export default class About extends Component {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="imageHolder_">
-                                    <div className="imgshow"><img src="img/team/4.jpeg" /></div>
+                                    <div className="imgshow"><img alt="img" src="img/team/4.jpeg" /></div>
                                     <div className="contentShow">
                                         <h5>Sanjoy Chatterjee</h5>
                                         <span>CTO</span>
@@ -266,7 +266,7 @@ export default class About extends Component {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="imageHolder_">
-                                    <div className="imgshow"><img src="img/team/6.jpg" /></div>
+                                    <div className="imgshow"><img alt="img" src="img/team/6.jpg" /></div>
                                     <div className="contentShow">
                                         <h5>Sukumar Chakraborty</h5>
                                         <span>Chief Technical Architect</span>
@@ -276,7 +276,7 @@ export default class About extends Component {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <div className="imageHolder_">
-                                    <div className="imgshow"><img src="img/team/5.jpg" /></div>
+                                    <div className="imgshow"><img alt="img" src="img/team/5.jpg" /></div>
                                     <div className="contentShow">
                                         <h5>Shvon Mukherkee</h5>
                                         <span>Business Head, India</span>
@@ -299,7 +299,7 @@ export default class About extends Component {
                <div className="text-left col-md-4 mb-3 px-2">
                   <div className="round_img">
                      <span>
-                     <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/04/22/341408/666728946176c86ffcfc8e365f1d6668-700.jpg"
+                     <img alt="img" src="https://www.wallpaperup.com/uploads/wallpapers/2014/04/22/341408/666728946176c86ffcfc8e365f1d6668-700.jpg"
                         className="img_bg"/>
                      </span>
                      <h6>Silicon Valley based company focusing on creating smarter and intelligent
@@ -310,7 +310,7 @@ export default class About extends Component {
                <div className="text-left col-md-4 mb-3 px-2">
                   <div className="round_img">
                      <span>
-                     <img src="https://www.newhorizons.com/Portals/278/Images/Blog/How-to-Become-a-Network-Engineer.jpg"
+                     <img alt="img" src="https://www.newhorizons.com/Portals/278/Images/Blog/How-to-Become-a-Network-Engineer.jpg"
                         className="img_bg"/>
                      </span>
                      <h6>100+ AI & Data Engineering Experts (Data Scientists, AI Experts, Cloud & Data
@@ -321,7 +321,7 @@ export default class About extends Component {
                <div className="text-left col-md-4 mb-3 px-2">
                   <div className="round_img">
                      <span>
-                     <img src="https://www.furnessphotography.com/wp-content/uploads/2020/01/2.png"
+                     <img alt="img" src="https://www.furnessphotography.com/wp-content/uploads/2020/01/2.png"
                         className="img_bg"/>
                      </span>
                      <h6>Decades of combined experience.</h6>
@@ -330,7 +330,7 @@ export default class About extends Component {
                <div className="text-left col-md-4 mb-3 px-2">
                   <div className="round_img">
                      <span>
-                     <img src="https://www.siliconvalleymeetsswitzerland.com/archiv/2015/img/backgrounds/1.jpg"
+                     <img alt="img" src="https://www.siliconvalleymeetsswitzerland.com/archiv/2015/img/backgrounds/1.jpg"
                         className="img_bg"/>
                      </span>
                      <h6>Global reach with offices in Silicon Valley and India.</h6>
@@ -339,7 +339,7 @@ export default class About extends Component {
                <div className="text-left col-md-4 mb-3 px-2">
                   <div className="round_img">
                      <span>
-                     <img src="https://www.incimages.com/uploaded_files/image/970x450/getty_897748630_404888.jpg"
+                     <img alt="img" src="https://www.incimages.com/uploaded_files/image/970x450/getty_897748630_404888.jpg"
                         className="img_bg"/>
                      </span>
                      <h6>Proven experience with Fortune 500 customers.</h6>
@@ -364,7 +364,7 @@ export default class About extends Component {
                <div className="card testimonial-card">
                   <div className="card-up info-color"></div>
                   <div className="avatar mx-auto white">
-                     <img src="img/team/1.jpg" className="rounded-circle img-fluid"/>
+                     <img alt="img" src="img/team/1.jpg" className="rounded-circle img-fluid"/>
                   </div>
                   <div className="card-body">
                      <h4 className="font-weight-bold">Dr. Romesh Japra</h4>
@@ -385,7 +385,7 @@ export default class About extends Component {
                   <div className="card-up blue-gradient">
                   </div>
                   <div className="avatar mx-auto white">
-                     <img src="img/team/2.jpg" className="rounded-circle img-fluid"/>
+                     <img alt="img" src="img/team/2.jpg" className="rounded-circle img-fluid"/>
                   </div>
                   <div className="card-body">
                      <h4 className="font-weight-bold">Vikas Agrawal</h4>
@@ -405,7 +405,7 @@ export default class About extends Component {
                <div className="card testimonial-card">
                   <div className="card-up indigo"></div>
                   <div className="avatar mx-auto white">
-                     <img src="img/team/3.jpg" className="rounded-circle img-fluid"/>
+                     <img alt="img" src="img/team/3.jpg" className="rounded-circle img-fluid"/>
                   </div>
                   <div className="card-body">
                      <h4 className="font-weight-bold">Subhash Sachdeva</h4>
@@ -426,7 +426,7 @@ export default class About extends Component {
                <div className="card testimonial-card">
                   <div className="card-up info-color"></div>
                   <div className="avatar mx-auto white">
-                     <img src="img/team/4.jpg" className="rounded-circle img-fluid"/>
+                     <img alt="img" src="img/team/4.jpg" className="rounded-circle img-fluid"/>
                   </div>
                   <div className="card-body">
                      <h4 className="font-weight-bold">Sanjay Chatterjee</h4>
@@ -446,7 +446,7 @@ export default class About extends Component {
                   <div className="card-up blue-gradient">
                   </div>
                   <div className="avatar mx-auto white">
-                     <img src="img/team/5.jpg" className="rounded-circle img-fluid"/>
+                     <img alt="img" src="img/team/5.jpg" className="rounded-circle img-fluid"/>
                   </div>
                   <div className="card-body">
                      <h4 className="font-weight-bold">Cliff Emmons</h4>
@@ -465,7 +465,7 @@ export default class About extends Component {
                <div className="card testimonial-card">
                   <div className="card-up indigo"></div>
                   <div className="avatar mx-auto white">
-                     <img src="img/team/6.jpg" className="rounded-circle img-fluid"/>
+                     <img alt="img" src="img/team/6.jpg" className="rounded-circle img-fluid"/>
                   </div>
                   <div className="card-body">
                      <h4 className="font-weight-bold">SKaren Driscoll</h4>

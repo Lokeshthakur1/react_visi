@@ -15,7 +15,7 @@ export default class SafetySecurity extends Component {
                                         Safety And Security
                                     </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/svg/environment.svg" alt="environment" className="w-100" />
+                                        <img alt="img" src="img/svg/environment.svg" alt="environment" className="w-100" />
                                     </div>
                                     <p className="text-justify">Comming Soon</p>
 

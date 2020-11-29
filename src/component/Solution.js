@@ -21,7 +21,7 @@ export default class Solution extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/Advanced Analytics.jpg" className="img-fluid obj_H200" alt="Sample image" />
+                                    <img alt="img" src="img/Images/Advanced Analytics.jpg" className="img-fluid obj_H200" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Enterprise} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -33,7 +33,7 @@ export default class Solution extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/data_information.jpg" className="img-fluid obj_H200" alt="Sample image" />
+                                    <img alt="img" src="img/Images/data_information.jpg" className="img-fluid obj_H200" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.SoftwareServices} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -45,7 +45,7 @@ export default class Solution extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/bussinessb.jpg" className="img-fluid obj_H200" alt="Sample image" />
+                                    <img alt="img" src="img/Images/bussinessb.jpg" className="img-fluid obj_H200" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.BusinessProcess} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -57,7 +57,7 @@ export default class Solution extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/realtimep.jpg" className="img-fluid obj_H200" alt="Sample image" />
+                                    <img alt="img" src="img/Images/realtimep.jpg" className="img-fluid obj_H200" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.RealTime} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -69,7 +69,7 @@ export default class Solution extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="https://www.analyticsinsight.net/wp-content/uploads/2019/12/AI-for-Data-Management.jpg"
+                                    <img alt="img" src="img/Images/XML-Data-Management.jpg"
                                         className="img-fluid obj_H200" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.XmlData} className="btn btn-outline-white btn-rounded">see more</Link>
@@ -82,7 +82,7 @@ export default class Solution extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="https://miro.medium.com/max/700/1*KzfbQ397hCn0pVUZMlksaQ.jpeg"
+                                    <img alt="img" src="https://miro.medium.com/max/700/1*KzfbQ397hCn0pVUZMlksaQ.jpeg"
                                         className="img-fluid obj_H200" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.AiPowered} className="btn btn-outline-white btn-rounded">see more</Link>
@@ -95,7 +95,7 @@ export default class Solution extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/social.jpg" className="img-fluid obj_H200" alt="Sample image" />
+                                    <img alt="img" src="img/Images/social.jpg" className="img-fluid obj_H200" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.SocialMedia} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>

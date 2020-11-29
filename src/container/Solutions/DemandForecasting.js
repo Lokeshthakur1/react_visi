@@ -16,7 +16,7 @@ export default class DemandForecasting extends Component {
                                         Demand Forecasting <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mb-4">
-                                        <img src="img/svg/demand_forecasting.svg" className="img-fluid w-100" />
+                                        <img alt="img" src="img/svg/demand_forecasting.svg" className="img-fluid w-100" />
                                     </div>
                                     <p className="text-justify">VisionAize’s Demand Forecasting solutions are one of the
                                     promising applications for the supply chain. Through model training technology analysis

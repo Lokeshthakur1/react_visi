@@ -14,7 +14,7 @@ export default class TranspPlatform extends Component {
                                         Transport Platform
                                     </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/svg/logistic_transportation.svg" className="w-100" />
+                                        <img alt="img" src="img/svg/logistic_transportation.svg" className="w-100" />
                                     </div>
                                     <p className="text-justify">With the never-ending increasing pandemic, the transportation and logistics industries
                                     had to come up with a solution to

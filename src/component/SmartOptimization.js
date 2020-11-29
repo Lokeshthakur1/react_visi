@@ -18,7 +18,7 @@ export default class SmartOptimization extends Component {
                                             Smart Optimization <span className="font-weight-light"></span>
                                         </h2>
                                         <div className="mb-4 text-center">
-                                            <img src="img/svg/smart_optimization.svg" height="400" />
+                                            <img alt="img" src="img/svg/smart_optimization.svg" height="400" />
                                         </div>
                                         <p className="text-justify">AI-helps to manage logistic models for inventory, staffing, distribution, and delivery
                                         schemes to create the most efficient supply and fulfillment chains.

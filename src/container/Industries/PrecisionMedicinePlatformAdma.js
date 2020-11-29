@@ -7,28 +7,28 @@ export default class VirtualClinic extends Component {
         return (
             <main>
 
-                <section class="py-5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
+                <section className="py-5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8">
                                 <section>
-                                    <h2 class="title mb-4 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
-                                        PRECISION MEDICINE <span class="font-weight-light"> PLATFORM</span>
+                                    <h2 className="title mb-4 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                        PRECISION MEDICINE <span className="font-weight-light"> PLATFORM</span>
                                         <br /><small>FOR DIABETIC MACULAR EDEMA</small>
                                     </h2>
                                     <div className="row">
                                         <div className="col-md-12">
                                             <div className="list-group card shadow-lg">
-                                                <img src="img/Images/SOLUTION ECOSYSTEM & LAYOUT.jpg" className="img-fluid p-4" />
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>DECISION SUPPORT FOR ANTI-VEGF THERAPY</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>OUTCOME ASSESSMENT</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>INSIGHT FOR THERAPY CHOICE</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>IMPROVES EFFCIENCY AND THERAPY OUTCOME</li>
+                                                <img alt="img" src="img/Images/SOLUTION ECOSYSTEM & LAYOUT.jpg" className="img-fluid p-4" />
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>DECISION SUPPORT FOR ANTI-VEGF THERAPY</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>OUTCOME ASSESSMENT</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>INSIGHT FOR THERAPY CHOICE</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>IMPROVES EFFCIENCY AND THERAPY OUTCOME</li>
 
                                                 </ul>
                                             </div>
@@ -37,14 +37,14 @@ export default class VirtualClinic extends Component {
 
                                 </section>
                             </div>
-                            <div class="col-md-4">
-                                <div class="list-group fanylist_group">
-                                    <Link to={Links.EmployeeAttr} class="list-group-item list-group-item-action"> <i
-                                        class="fas fa-check mr-2"></i> <span>Employee Attrition and Retain</span></Link>
-                                    <Link to={Links.EmployeeEngagement} class="list-group-item list-group-item-action">
-                                        <i class="fas fa-check mr-2"></i> <span>Employee Engagement</span></Link>
-                                    <Link to={Links.EmployeeProductivity} class="list-group-item list-group-item-action">
-                                        <i class="fas fa-check mr-2"></i> <span>Employee Productivity</span></Link>
+                            <div className="col-md-4">
+                                <div className="list-group fanylist_group">
+                                    <Link to={Links.EmployeeAttr} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Employee Attrition and Retain</span></Link>
+                                    <Link to={Links.EmployeeEngagement} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Employee Engagement</span></Link>
+                                    <Link to={Links.EmployeeProductivity} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Employee Productivity</span></Link>
                                 </div>
                             </div>
                         </div>

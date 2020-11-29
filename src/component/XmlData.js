@@ -46,7 +46,7 @@ export default class XmlData extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-6 py-5">
-                                <img src="img/svg/Enterprise Network.svg" className="img-fluid" />
+                                <img alt="img" src="img/svg/Enterprise Network.svg" className="img-fluid" />
                             </div>
                         </div>
                         {/* <!--Grid row--> */}

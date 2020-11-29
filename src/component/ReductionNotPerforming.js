@@ -10,7 +10,10 @@ export default class ReductionNotPerforming extends Component {
 
 
                         <div className="container">
-                            <h2 class="title mb-5 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s" >Reduction of a Bank’s Non-Performing Assets<span class="font-weight-light"></span></h2>
+                            <h2 className="title mb-5 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s" >Reduction of a Bank’s Non-Performing Assets<span className="font-weight-light"></span></h2>
+                            <div className="blockquote bq-primary py-3">
+                                <img alt="img" src="img/Images/causalitv_matrix.jpg" className=" w-100" />
+                            </div>
                             <div className="blockquote bq-primary">
                                 <p className="bq-title">The Business Problem</p>
                                 <p className="text-justify">A bank with a high number of non-performing assets (NPA) and wanted to forecast to see if a new loan applicant was likely to be a defaulter or a non-defaulter.</p>
@@ -47,10 +50,48 @@ export default class ReductionNotPerforming extends Component {
                                         className="font-weight-bold">Increased Throughput:</span> Reduction in NPAs made more funds available for earning interest and hence increased profits for the bank</li>
                                 </ul>
                             </div>
-
+                            <div className="blockquote bq-primary pt-3">
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <table className="table table-bordered box-table mb-3">
+                                            <thead className="blue-1 white-text">
+                                                <tr>
+                                                    <th style={{ width: 200 }}>Tickets Analyzed</th>
+                                                    <th>Years of Data Analyzed</th>
+                                                    <th style={{ width: 200 }}>Input Attributes</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>500,000+</td>
+                                                    <td>1+</td>
+                                                    <td>18+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <table className="table table-bordered box-table mb-3">
+                                            <thead className="blue-1 white-text">
+                                                <tr>
+                                                    <th style={{ width: 200 }}>Data Points</th>
+                                                    <th>Reliability of Model</th>
+                                                    <th style={{ width: 200 }}>$ Savings</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>9M+</td>
+                                                    <td>72%</td>
+                                                    <td>$1M+ / yr</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
-
                 </main>
             </div>
         )

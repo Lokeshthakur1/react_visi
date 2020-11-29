@@ -21,9 +21,9 @@ export default class Banking extends Component {
                                         to compile, charts to prepare, graphs to plot and analyze. AI is a one-stop solution for
                                         many of these problems.
                             </p>
-                                    <div className="row wow w-100 px-2 mt-4 fadeIn" data-wow-delay="0.4s">
+                                    {/* <div className="row wow w-100 px-2 mt-4 fadeIn" data-wow-delay="0.4s">
                                         <div className="col-sm-6 text-left my-4">
-                                            <img src="img/svg/ai_Bot.svg" height="70" />
+                                            <img alt="img" src="img/svg/ai_Bot.svg" height="70" />
                                             <h5 className="mt-3">AI Powered BOT for Prospect Sourcing</h5>
                                             <small>Best Artificial Intelligence Powersed Bot for Sourcing</small><br />
                                             <Link to={Links.AiPoweredProcessing}
@@ -32,16 +32,16 @@ export default class Banking extends Component {
                                                 more</Link>
                                         </div>
                                         <div className="col-sm-6 text-left my-4">
-                                            <img src="img/svg/cheque.svg" height="70" />
+                                            <img alt="img" src="img/svg/cheque.svg" height="70" />
                                             <h5 className="mt-3">Smart cheque processing</h5>
                                             <small>Zero manual effort from customer side in processing</small><br />
-                                            <Link to={Links.SmartCheqe}
+                                            <Link to={Links.SmartCheque}
                                                 className="font-weight-bold"
                                                 data-wow-delay="0.3s">View
                                                 more</Link>
                                         </div>
                                         <div className="col-sm-6 text-left my-4">
-                                            <img src="img/svg/email.svg" height="70" />
+                                            <img alt="img" src="img/svg/email.svg" height="70" />
                                             <h5 className="mt-3">Email automation</h5>
                                             <small>We were able to achieve 90% FTR and 95% efficiency with 1000 emails per intent in a highly accelerated time frame of 3 weeks.</small><br />
                                             <Link to={Links.EmailAutomation}
@@ -50,7 +50,7 @@ export default class Banking extends Component {
                                                 more</Link>
                                         </div>
                                         <div className="col-sm-6 text-left my-4">
-                                            <img src="img/svg/document.svg" height="70" />
+                                            <img alt="img" src="img/svg/document.svg" height="70" />
                                             <h5 className="mt-3">AI powered document processing</h5>
                                             <small>The solution classifies the document type and extracts required information from each document.</small><br />
                                             <Link to={Links.DocumentProcessing}
@@ -59,7 +59,7 @@ export default class Banking extends Component {
                                                 more</Link>
                                         </div>
                                         <div className="col-sm-6 text-left my-4">
-                                            <img src="img/svg/non_perform_asset.svg" height="70" />
+                                            <img alt="img" src="img/svg/non_perform_asset.svg" height="70" />
                                             <h5 className="mt-3">Reduction of not performing assets</h5>
                                             <small>Using Visionaize’s solution, the employees could identify & predict potential defaulters early in the cycle</small><br />
                                             <Link to={Links.ReductionNotPerforming}
@@ -67,44 +67,37 @@ export default class Banking extends Component {
                                                 data-wow-delay="0.3s">View
                                                 more</Link>
                                         </div>
-                                    </div>
-                                    <div className="row wow w-100 px-2 mt-4 justify-content-center fadeIn" data-wow-delay="0.4s">
-                                        {/* <div className="text-left col-md-4 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="https://www.intelligenttransport.com/wp-content/uploads/AI-1.jpg"
-                                                    className="img_bg" />
-                                                <h6>AI Powered BOT for Prospect Sourcing <br /> <Link to={Links.AiPoweredProcessing}
-                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                    data-wow-delay="0.3s">View
-                                                more</Link></h6>
-                                            </div>
-                                        </div>
-                                        <div className="text-left col-md-4 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="img/Images/b-2.jpg" className="img_bg" />
-                                                <h6>Smart cheque processing<br /> <Link to={Links.SmartCheqe}
-                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                    data-wow-delay="0.3s">View
-                                                more</Link></h6>
-                                            </div>
-                                        </div>
-                                        <div className="text-left col-md-4 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="img/Images/b-3.jpg" className="img_bg" />
+                                    </div> */}
 
-                                                <h6>Email automation<br /> <Link to={Links.EmailAutomation}
+
+                                    <div className="row wow w-100 px-2 mt-4 justify-content-center fadeIn" data-wow-delay="0.4s">
+                                        <div className="text-left col-md-6 mb-3 px-2">
+                                            <div className="feature-title title spacing">
+                                                <img alt="img" src="img/Images/risk_management.jpg"
+                                                    className="img_bg" />
+                                                <h6>Risk Assessment & Propensity Model <br /> <Link to={Links.RiskAssesment}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
                                             </div>
                                         </div>
+                                        <div className="text-left col-md-6 mb-3 px-2">
+                                            <div className="feature-title title spacing">
+                                                <img alt="img" src="img/Images/degital_outreach.jpg" className="img_bg" />
+                                                <h6>Digital Outreach & Customer Engagement<br /> <Link to={Links.DigitalOutreach}
+                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                    data-wow-delay="0.3s">View
+                                                more</Link></h6>
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
                                         <div className="text-left col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="img/Images/b-4.jpg" className="img_bg" />
+                                                <img alt="img" src="img/Images/npa.jpg" className="img_bg" />
 
-                                                <h6>AI powered document processing<br /> <Link to={Links.DocumentProcessing}
+                                                <h6>Reduction of a Bank’s Non-Performing Assets<br /> <Link to={Links.ReductionNotPerforming}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
@@ -112,7 +105,17 @@ export default class Banking extends Component {
                                         </div>
                                         <div className="text-left col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
-                                                <img src="img/Images/b-5.jpg" className="img_bg" />
+                                                <img alt="img" src="img/Images/customer_segment.jpg" className="img_bg" />
+
+                                                <h6>Customer Segmentations<br /> <Link to={Links.CustomerSegmentation}
+                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                    data-wow-delay="0.3s">View
+                                                more</Link></h6>
+                                            </div>
+                                        </div>
+                                        {/* <div className="text-left col-md-6 mb-3 px-2">
+                                            <div className="feature-title title spacing">
+                                                <img alt="img" src="img/Images/b-5.jpg" className="img_bg" />
 
                                                 <h6>Reduction of not performing assets<br /> <Link
                                                     to={Links.ReductionNotPerforming}
@@ -263,6 +266,8 @@ export default class Banking extends Component {
                                         </div>
 
                                     </div>
+
+
                                     {/* <table className="table table-bordered box-table">
                                             <thead className="blue-1 white-text">
                                                 <tr>
@@ -457,18 +462,9 @@ export default class Banking extends Component {
                                 </section>
                             </div>
                             <div className="col-md-4">
-                                {/* <div className="list-group fanylist_group">
-                                    <Link to={Links.ImprovedCustomerRetention} className="list-group-item list-group-item-action">
-                                        <i className="fas fa-check mr-2"></i> <span>Improved customer retention</span></Link>
-                                    <Link to={Links.Chatbots} className="list-group-item list-group-item-action">
-                                        <i className="fas fa-check mr-2"></i> <span>Chatbots</span></Link>
-                                    <Link to={Links.CustomizedInvestments} className="list-group-item list-group-item-action">
-                                        <i className="fas fa-check mr-2"></i> <span>Customized Investments</span></Link>
-                                    <Link to={Links.LifeTimeValuePrediction} className="list-group-item list-group-item-action">
-                                        <i className="fas fa-check mr-2"></i> <span>Life Time Value Prediction</span></Link>
-                                </div> */}
+
                                 <div className="list-group fanylist_group">
-                                    <Link to={Links.AiPoweredBot} className="list-group-item list-group-item-action">
+                                    {/* <Link to={Links.AiPoweredBot} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>AI Powered BOT for Prospect Sourcing</span></Link>
                                     <Link to={Links.RiskAssesment} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>Risk Assessment & Propensity Model</span></Link>
@@ -477,7 +473,19 @@ export default class Banking extends Component {
                                     <Link to={Links.CustomerSegmentation} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>Customer Segmentations</span></Link>
                                     <Link to={Links.ReductionNotPerforming} className="list-group-item list-group-item-action">
-                                        <i className="fas fa-check mr-2"></i> <span>Reduction of a Bank’s Non-Performing Assets</span></Link>
+                                        <i className="fas fa-check mr-2"></i> <span>Reduction of a Bank’s Non-Performing Assets</span></Link> */}
+
+
+                                    <Link to={Links.AiPoweredBot} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>AI Powered BOT for Prospect Sourcing</span></Link>
+                                    <Link to={Links.SmartCheque} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Smart cheque processing</span></Link>
+                                    <Link to={Links.EmailAutomation} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Email automation</span></Link>
+                                    <Link to={Links.AiPoweredProcessing} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>AI powered document processing</span></Link>
+                                    {/* <Link to={Links.ReductionNotPerforming} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Reduction of a Bank’s Non-Performing Assets</span></Link> */}
                                 </div>
                             </div>
                         </div>

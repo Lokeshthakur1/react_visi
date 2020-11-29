@@ -17,7 +17,7 @@ export default class FludemicPrediction extends Component {
                                     <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/svg/datadriven_healthcare.svg" className="img-fluid" height="300" />
+                                        <img alt="img" src="img/svg/datadriven_healthcare.svg" className="img-fluid" height="300" />
                                     </div>
                                     <p className="text-justify">
                                         The world population is increasing every day. With such high numbers, the conventional
@@ -64,7 +64,7 @@ export default class FludemicPrediction extends Component {
                                 </div>
                             </div>
                             {/* <!-- <div className="col-12 mt-4">
-                                <img className="img-fluid w-100" src="img/svg/solution_data_model.svg" >
+                                <img alt="img" className="img-fluid w-100" src="img/svg/solution_data_model.svg" >
                                
                         </div> --> */}
                         </div>

@@ -17,7 +17,7 @@ export default class ConversationalSupport extends Component {
                                         Conversational Support <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="=mb-4">
-                                        <img className="img-fluid w-100" src="img/svg/conversational_support.svg"
+                                        <img alt="img" className="img-fluid w-100" src="img/svg/conversational_support.svg"
                                             alt="Sample image" />
                                     </div>
                                     <p className="mt-4 text-justify">In the current scenario of increased internet marketing and online shopping,

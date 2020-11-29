@@ -16,7 +16,7 @@ export default class LifeTimeValuePrediction extends Component {
                                         Life Time Value Prediction <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mt-4 text-center">
-                                        <img src="img/svg/life_time_value_preduction.svg" height="300" className="img-fluid" />
+                                        <img alt="img" src="img/svg/life_time_value_preduction.svg" height="300" className="img-fluid" />
                                     </div>
                                     <p className="mt-4 text-justify">In a customer-centric organisation like banking, it is essential to know the
                                     customer's lifetime value. VisionAize helps your

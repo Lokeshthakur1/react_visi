@@ -16,7 +16,7 @@ export default class ImprovementThroughDeepLearning extends Component {
                                         Improvement through deep learning
                                 </h2>
                                     <div className="mb-4">
-                                        <img src="img/svg/deep_learning.svg" className="img-fluid w-100" />
+                                        <img alt="img" src="img/svg/deep_learning.svg" className="img-fluid w-100" />
                                     </div>
                                     <p className="text-justify">Deep learning is a secondary feature of artificial intelligence and machine learning. It
                                     makes use of artificial neural networks and algorithms inspired by the human brain. But

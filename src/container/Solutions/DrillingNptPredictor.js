@@ -16,7 +16,7 @@ export default class DrillingNptPredictor extends Component {
                                         Drilling/NPT predictor and analyzer
                                 </h2>
                                     <div className="view overlay rounded mb-lg-0 mb-4">
-                                        <img className="img-fluid m-auto" src="img/Images/oil_drilling.png" alt="Sample image" />
+                                        <img alt="img" className="img-fluid m-auto" src="img/Images/oil_drilling.png" alt="Sample image" />
                                         <a>
                                             <div className="mask rgba-white-slight waves-effect waves-light"></div>
                                         </a>

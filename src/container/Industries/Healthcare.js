@@ -11,14 +11,19 @@ export default class Healthcare extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8">
-                                <section>
-                                    <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
-                                        Healthcare <span className="font-weight-light"></span>
-                                    </h2>
-                                    <p className="text-justify">
-                                        We implement health-tech platform in the areas of collaborative healthcare, population healthcare,  preventive health risk assessment & management, and evidence-based care coordination.
-                            </p>
-                                    {/* <p className="text-justify">
+                                <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                    Healthcare <span className="font-weight-light"></span>
+                                </h2>
+                                <div className="text-center mb-4">
+                                    <img alt="img" src="img/svg/solution_data_model.svg" className="img-fluid" />
+                                </div>
+                                <p className="text-justify">
+                                    Modern Healthcare industry is evolving rapidly with new technologies and smart solutions. Healthcare management has become a challenge with large volumes of data in cost & patient outcomes. Ai powered solutions are playing key roles in taking care of patients, hospital management, data management and other problems.
+                                </p>
+                                <p className="text-justify">
+                                    As a automotion leader in Ai VisionAize’s is empowering leading healthcare companies and changing the industry. We implement a health-tech platform in the areas of collaborative healthcare, population healthcare, preventive health risk assessment & management, and evidence-based care coordination.
+                                </p>
+                                {/* <p className="text-justify">
                                         Transparency, accountability, quantitative comparison and fullest possible visual
                                         rendition
                                         in Health Care is proffered to the patients and care-providers. A quantitative measure
@@ -32,13 +37,13 @@ export default class Healthcare extends Component {
                                         technologists and hands on practitioners making people judge and decides their value of
                                         service they would get.
                             </p> */}
-                                    <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
-                                        The main solutions of this <span className="font-weight-light">application are</span>
-                                    </h4>
+                                <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
+                                    The main solutions of this <span className="font-weight-light">application are</span>
+                                </h4>
 
-                                    {/* <div className="card p-3 mb-3">
+                                {/* <div className="card p-3 mb-3">
                                         <h5 className="font-weight-bold mb-3">Implementing Preventing Healthcare</h5>
-                                        <img src="img/svg/ImplementingPreventingHealthcare.svg" className="img-fluid px-3 my-3 w-100" />
+                                        <img alt="img" src="img/svg/ImplementingPreventingHealthcare.svg" className="img-fluid px-3 my-3 w-100" />
                                         <h5 className="mb-2">Client</h5>
                                         <p>A health & wellness company in India</p>
                                         <hr />
@@ -55,7 +60,7 @@ export default class Healthcare extends Component {
                                     <div className="card p-3 mb-3">
                                         <h5 className="font-weight-bold mb-3">Decision Support for Hospitals</h5>
 
-                                        <img src="img/svg/DecisionSupport.svg" className="img-fluid px-3 my-3 w-100 h-70" />
+                                        <img alt="img" src="img/svg/DecisionSupport.svg" className="img-fluid px-3 my-3 w-100 h-70" />
 
                                         <h5 className="mb-2">Client</h5>
                                         <p>Multiple Hospitals in India</p>
@@ -72,73 +77,72 @@ export default class Healthcare extends Component {
 
                                     <div className="card p-3 mb-3">
                                         <h5 className="font-weight-bold mb-3">Data Driven Decision Support</h5>
-                                        <img class="img-fluid" src="img/svg/data_driven-img.svg" />
+                                        <img alt="img" className="img-fluid" src="img/svg/data_driven-img.svg" />
                                     </div>
 
                                     <div className="card p-3 mb-3">
                                         <h5 className="font-weight-bold mb-3">Clinical Trial Planning and Execution</h5>
-                                        <img class="img-fluid" src="img/svg/clinical_trial-img.svg" />
+                                        <img alt="img" className="img-fluid" src="img/svg/clinical_trial-img.svg" />
                                     </div> */}
 
 
 
-                                    <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
-                                        <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="img/Images/virtual_clinic.jpg"
-                                                    className="img_bg" />
+                                <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
+                                    <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
+                                        <div className="feature-title title spacing">
+                                            <img alt="img" src="img/Images/virtual_clinic.jpg"
+                                                className="img_bg" />
 
-                                                <h6>
-                                                    Virtual Clinical Trial Platform for Complex Diseases <br /> <Link to={Links.VirtualClinic}
-                                                        className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                        data-wow-delay="0.3s">View
-                                                more</Link></h6>
-                                            </div>
-                                        </div>
-                                        <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="img/Images/Disease Prognosis Assessment Platform.jpg"
-                                                    className="img_bg" />
-                                                <h6>Disease Prognosis Assessment Platform<br /> <Link to={Links.DiseasePrognosisAssessment}
+                                            <h6>
+                                                Virtual Clinical Trial Platform for Complex Diseases <br /> <Link to={Links.VirtualClinic}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
                                                     data-wow-delay="0.3s">View
                                                 more</Link></h6>
-                                            </div>
-                                        </div>
-                                        <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="img/Images/edma.jpg"
-                                                    className="img_bg" />
-                                                <h6>Precision Medicine Platform for Diabetic Macular Edema<br /> <Link
-                                                    to={Links.PrecisionMedicinePlatformAdma}
-                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                    data-wow-delay="0.3s">View
-                                                more</Link> </h6>
-                                            </div>
-                                        </div>
-                                        <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="img/Images/medicine.jpg"
-                                                    className="img_bg" />
-                                                <h6>Precision Medicine Platform Solutions Ecosystem & Layout<br /> <Link to={Links.PrecisionMedicinePlatformEcosystem}
-                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                    data-wow-delay="0.3s">View
-                                                more</Link></h6>
-                                            </div>
-                                        </div>
-                                        <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img src="img/Images/medicin_.jpg"
-                                                    className="img_bg" />
-                                                <h6>Precision Medicine Platform Unique Proposition<br /> <Link to={Links.PrecisionMedicinePlatformPropotion}
-                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                    data-wow-delay="0.3s">View
-                                                more</Link></h6>
-                                            </div>
                                         </div>
                                     </div>
+                                    <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
+                                        <div className="feature-title title spacing">
+                                            <img alt="img" src="img/Images/Disease Prognosis Assessment Platform.jpg"
+                                                className="img_bg" />
+                                            <h6>Disease Prognosis Assessment Platform<br /> <Link to={Links.DiseasePrognosisAssessment}
+                                                className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                data-wow-delay="0.3s">View
+                                                more</Link></h6>
+                                        </div>
+                                    </div>
+                                    <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
+                                        <div className="feature-title title spacing">
+                                            <img alt="img" src="img/Images/edma.jpg"
+                                                className="img_bg" />
+                                            <h6>Precision Medicine Platform for Diabetic Macular Edema<br /> <Link
+                                                to={Links.PrecisionMedicinePlatformAdma}
+                                                className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                data-wow-delay="0.3s">View
+                                                more</Link> </h6>
+                                        </div>
+                                    </div>
+                                    <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
+                                        <div className="feature-title title spacing">
+                                            <img alt="img" src="img/Images/medicine.jpg"
+                                                className="img_bg" />
+                                            <h6>Precision Medicine Platform Solutions Ecosystem & Layout<br /> <Link to={Links.PrecisionMedicinePlatformEcosystem}
+                                                className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                data-wow-delay="0.3s">View
+                                                more</Link></h6>
+                                        </div>
+                                    </div>
+                                    <div className="text-left col-lg-6 col-md-6 mb-3 px-2">
+                                        <div className="feature-title title spacing">
+                                            <img alt="img" src="img/Images/medicin_.jpg"
+                                                className="img_bg" />
+                                            <h6>Precision Medicine Platform Unique Proposition<br /> <Link to={Links.PrecisionMedicinePlatformPropotion}
+                                                className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
+                                                data-wow-delay="0.3s">View
+                                                more</Link></h6>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                </section>
                             </div>
                             <div className="col-md-4">
                                 {/* <div className="list-group fanylist_group">
@@ -167,6 +171,7 @@ export default class Healthcare extends Component {
                             </div>
                         </div>
                     </div>
+
                 </section>
 
             </main >

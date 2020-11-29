@@ -17,7 +17,7 @@ export default class Chatbots extends Component {
                                 </h2>
     
                                 <div className="mt-4">
-                                    <img src="img/svg/chatbot.svg" className="img-fluid w-100"/>
+                                    <img alt="img" src="img/svg/chatbot.svg" className="img-fluid w-100"/>
                                 </div>
     
     

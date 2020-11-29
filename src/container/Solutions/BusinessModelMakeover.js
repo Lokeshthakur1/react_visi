@@ -16,7 +16,7 @@ export default class BusinessModelMakeover extends Component {
                                         The business model makeover
                                 </h2>
                                     <div className="mb-4">
-                                        <img src="img/svg/business_model_makeover.svg" className="img-fluid w-100" />
+                                        <img alt="img" src="img/svg/business_model_makeover.svg" className="img-fluid w-100" />
                                     </div>
                                     <p className="text-justify">Artificial intelligence is seen as a supporting tool and not something that serves as a
                                     replacement for human intelligence, instincts, and ingenuity. <b

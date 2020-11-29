@@ -50,21 +50,21 @@ export default class DocumentProcessing extends Component {
                                 <p className="bq-title">Business Benefits</p>
                                 <div className="row text-center d-flex justify-content-center mt-4">
                                     <div className="col-lg-3 mb-5">
-                                        <img src="img/svg/012-system-1.svg" height="60px" />
+                                        <img alt="img" src="img/svg/012-system-1.svg" height="60px" />
                                         <h5 className="my-4">24/7 Solution
 
 
                     </h5>
                                     </div>
                                     <div className="col-lg-3 mb-5">
-                                        <img src="img/svg/stop_watch.svg" height="60px" />
+                                        <img alt="img" src="img/svg/stop_watch.svg" height="60px" />
                                         <h5 className="my-4">TAT reduced from 5 hours to 30 mins
 
 
                     </h5>
                                     </div>
                                     <div className="col-lg-3 mb-5">
-                                        <img src="img/svg/002-wallet-with-card-sticking-out.svg" height="60px" />
+                                        <img alt="img" src="img/svg/002-wallet-with-card-sticking-out.svg" height="60px" />
                                         <h5 className="my-4">60%
                                         Cost Savings
 
@@ -72,7 +72,7 @@ export default class DocumentProcessing extends Component {
                     </h5>
                                     </div>
                                     <div className="col-lg-3 mb-5">
-                                        <img src="img/svg/020-analytics-1.svg" height="60px" />
+                                        <img alt="img" src="img/svg/020-analytics-1.svg" height="60px" />
                                         <h5 className="my-4">Increased throughput of buyer team
 
 

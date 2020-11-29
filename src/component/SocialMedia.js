@@ -18,7 +18,7 @@ export default class SocialMedia extends Component {
 
                                 {/* <!-- Featured image --> */}
                                 <div className="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                                    <img className="img-fluid" src="img/Images/real_socialmedia.jpg" alt="Sample image" />
+                                    <img alt="img" className="img-fluid" src="img/Images/real_socialmedia.jpg" alt="Sample image" />
                                     <a>
                                         <div className="mask rgba-white-slight"></div>
                                     </a>
@@ -80,7 +80,7 @@ export default class SocialMedia extends Component {
 
                                 {/* <!-- Featured image --> */}
                                 <div className="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                                    <img className="img-fluid" src="img/Images/social_roi.jpg" alt="Sample image" />
+                                    <img alt="img" className="img-fluid" src="img/Images/social_roi.jpg" alt="Sample image" />
                                     <a>
                                         <div className="mask rgba-white-slight"></div>
                                     </a>
@@ -106,7 +106,7 @@ export default class SocialMedia extends Component {
 
                                     {/* <!-- Card content --> */}
                                     <div className="card-body">
-                                        <img className="mb-4" src="img/svg/002-ear.svg" height="60px" />
+                                        <img alt="img" className="mb-4" src="img/svg/002-ear.svg" height="60px" />
                                         {/* <!-- Title --> */}
                                         <h5 className="card-title font-weight-bold">Listen</h5>
                                         {/* <!-- Text --> */}
@@ -125,7 +125,7 @@ export default class SocialMedia extends Component {
 
                                     {/* <!-- Card content --> */}
                                     <div className="card-body">
-                                        <img className="mb-4" src="img/svg/001-analytics.svg" height="60px" />
+                                        <img alt="img" className="mb-4" src="img/svg/001-analytics.svg" height="60px" />
                                         {/* <!-- Title --> */}
                                         <h5 className="card-title font-weight-bold">Analyze</h5>
                                         {/* <!-- Text --> */}
@@ -144,7 +144,7 @@ export default class SocialMedia extends Component {
 
                                     {/* <!-- Card content --> */}
                                     <div className="card-body">
-                                        <img className="mb-4" src="img/svg/Analysis-report-document-develop-infromation.svg"
+                                        <img alt="img" className="mb-4" src="img/svg/Analysis-report-document-develop-infromation.svg"
                                             height="60px" />
                                         {/* <!-- Title --> */}
                                         <h5 className="card-title font-weight-bold">Report</h5>
@@ -170,38 +170,36 @@ export default class SocialMedia extends Component {
                                     Benefits <span className="font-weight-light"></span>
                                 </h4>
                                 <ul className="list-group list-group-flush">
-                                    <ul className="list-group">
-                                        <li className="list-group-item">
-                                            <span className="pr-4"><i className="fas fa-check"></i></span> Our solution can help you
+                                    <li className="list-group-item">
+                                        <span className="pr-4"><i className="fas fa-check"></i></span> Our solution can help you
                                             Identify the latest trends, hashtags and topics in social media on-the-fly, and make
                                             critical decisions with confidence and speed.
                                         </li>
-                                        <li className="list-group-item">
-                                            <span className="pr-4"><i className="fas fa-check"></i></span> Understand the sentiment of
+                                    <li className="list-group-item">
+                                        <span className="pr-4"><i className="fas fa-check"></i></span> Understand the sentiment of
                                             your
                                             audience and get insights on how they feel about your brand
                                         </li>
-                                        <li className="list-group-item">
-                                            <span className="pr-4"><i className="fas fa-check"></i></span> Identify valuable users,
+                                    <li className="list-group-item">
+                                        <span className="pr-4"><i className="fas fa-check"></i></span> Identify valuable users,
                                             content,
                                             and platform to target audiences with insights on what time of the day works best
                                         </li>
-                                        <li className="list-group-item">
-                                            <span className="pr-4"><i className="fas fa-check"></i></span> Optimize your campaigns with
+                                    <li className="list-group-item">
+                                        <span className="pr-4"><i className="fas fa-check"></i></span> Optimize your campaigns with
                                             powerful insights by predicting user sentiments across social media channels and
                                             build
                                             new market segments
                                         </li>
-                                        <li className="list-group-item">
-                                            <span className="pr-4"><i className="fas fa-check"></i></span> Use sentiment tagging
+                                    <li className="list-group-item">
+                                        <span className="pr-4"><i className="fas fa-check"></i></span> Use sentiment tagging
                                             techniques
                                             you can examine your audience mindset with regards to your product or campaigns
                                         </li>
-                                        <li className="list-group-item">
-                                            <span className="pr-4"><i className="fas fa-check"></i></span> Perform in-depth competitive
+                                    <li className="list-group-item">
+                                        <span className="pr-4"><i className="fas fa-check"></i></span> Perform in-depth competitive
                                             analysis and leap ahead over your competition
                                         </li>
-                                    </ul>
                                 </ul>
                             </div>
                             {/* <!--Grid column--> */}

@@ -7,45 +7,45 @@ export default class VirtualClinic extends Component {
         return (
             <main>
 
-                <section class="py-5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
+                <section className="py-5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8">
                                 <section>
-                                    <h2 class="title mb-4 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
-                                        Virtual <span class="font-weight-light"> Clinic</span>
+                                    <h2 className="title mb-4 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                        Virtual <span className="font-weight-light"> Clinic</span>
                                     </h2>
                                     <div className="row">
                                         <div className="col-md-12">
                                             <div className="list-group card shadow-lg">
-                                                <img src="img/Images/SOLUTION_ECOSYSTEM.jpg" className="img-fluid p-4" />
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>ENSURE CLINIC ADHERANCE</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>BETTER CARE COORDINATION</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>IMPROVED DATA INTEGRATION & REPORTING</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>IMPROVED DATA VISUALIZATION</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>SEAMLESS INTEGRATION WITH THIRDPARTY APPLICATIONS AND SOFTWARE</li>
-                                                    <li class="list-group-item"><span class="pr-4">
-                                                        <i class="fas fa-check"></i></span>APP BASED REMOTE PATIENT MONITORING</li>
+                                                <img alt="img" src="img/Images/SOLUTION_ECOSYSTEM.jpg" className="img-fluid p-4" />
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>ENSURE CLINIC ADHERANCE</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>BETTER CARE COORDINATION</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>IMPROVED DATA INTEGRATION & REPORTING</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>IMPROVED DATA VISUALIZATION</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>SEAMLESS INTEGRATION WITH THIRDPARTY APPLICATIONS AND SOFTWARE</li>
+                                                    <li className="list-group-item"><span className="pr-4">
+                                                        <i className="fas fa-check"></i></span>APP BASED REMOTE PATIENT MONITORING</li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="col-md-12 mt-3">
                                             <div className="list-group card shadow-lg">
-                                                <img src="img/Images/SOLUTION_LAYOUT.jpg" className="img-fluid p-4" />
+                                                <img alt="img" src="img/Images/SOLUTION_LAYOUT.jpg" className="img-fluid p-4" />
                                             </div>
                                         </div>
 
                                         <div className="col-md-12 mt-3">
                                             <div className="list-group card shadow-lg p-3">
 
-                                                <table class="table table-bordered box-table">
-                                                    <thead class="blue-1 white-text">
+                                                <table className="table table-bordered box-table">
+                                                    <thead className="blue-1 white-text">
                                                         <tr>
                                                             <th style={{ width: 200 }}>INDUSTRY CHALLENGE</th>
                                                             <th>CURRENT SOLUTION</th>
@@ -100,14 +100,14 @@ export default class VirtualClinic extends Component {
 
                                 </section>
                             </div>
-                            <div class="col-md-4">
-                                <div class="list-group fanylist_group">
-                                    <Link to={Links.EmployeeAttr} class="list-group-item list-group-item-action"> <i
-                                        class="fas fa-check mr-2"></i> <span>Employee Attrition and Retain</span></Link>
-                                    <Link to={Links.EmployeeEngagement} class="list-group-item list-group-item-action">
-                                        <i class="fas fa-check mr-2"></i> <span>Employee Engagement</span></Link>
-                                    <Link to={Links.EmployeeProductivity} class="list-group-item list-group-item-action">
-                                        <i class="fas fa-check mr-2"></i> <span>Employee Productivity</span></Link>
+                            <div className="col-md-4">
+                                <div className="list-group fanylist_group">
+                                    <Link to={Links.EmployeeAttr} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Employee Attrition and Retain</span></Link>
+                                    <Link to={Links.EmployeeEngagement} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Employee Engagement</span></Link>
+                                    <Link to={Links.EmployeeProductivity} className="list-group-item list-group-item-action">
+                                        <i className="fas fa-check mr-2"></i> <span>Employee Productivity</span></Link>
                                 </div>
                             </div>
                         </div>

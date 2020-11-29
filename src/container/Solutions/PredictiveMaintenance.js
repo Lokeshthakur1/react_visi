@@ -16,7 +16,7 @@ export default class PredictiveMaintenance extends Component {
                                         Predictive Maintenance
                                     </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/svg/predictive_maintenance.svg" className="w-100" />
+                                        <img alt="img" src="img/svg/predictive_maintenance.svg" className="w-100" />
                                     </div>
                                     <p className="text-justify">Predictive Maintenance refers to the plan ahead of time in case a machine fails to
                                     operate. In this case, it needs to be

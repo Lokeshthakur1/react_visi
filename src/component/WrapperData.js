@@ -20,7 +20,7 @@ export const WrapperData = {
         Controls: true
     },
     AiPoweredProcessing: {
-        heading: 'AI powered form processing',
+        heading: 'BANKING & FINANCIAL',
         description: ``,
         bannerImgL: 'https://www.intelligenttransport.com/wp-content/uploads/AI-1.jpg',
         Controls: true
@@ -210,6 +210,21 @@ export const WrapperData = {
         description: ``,
         bannerImgL: 'img/Images/transportation_logistics.jpg'
     },
+    SmartTransportSolution: {
+        heading: 'Transportation and Logistics',
+        description: ``,
+        bannerImgL: 'img/Images/transportation_logistics.jpg'
+    },
+    DemandSupplyHyperLogistics: {
+        heading: 'Transportation and Logistics',
+        description: ``,
+        bannerImgL: 'img/Images/transportation_logistics.jpg'
+    },
+    IntraCityFreightFlow: {
+        heading: 'Transportation and Logistics',
+        description: ``,
+        bannerImgL: 'img/Images/transportation_logistics.jpg'
+    },
     SuccessThroughSprints: {
         heading: 'Hi-Tech',
         description: ``,
@@ -319,7 +334,7 @@ export const WrapperData = {
         Controls: true
     },
     DecisionSupports: {
-        heading: 'Decision support for Hospitals',
+        heading: 'Healthcare',
         description: ``,
         bannerImgL: 'https://Images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         Controls: true
@@ -334,7 +349,7 @@ export const WrapperData = {
 
 
     EmailAutomation: {
-        heading: 'AI powered E-mail Automation',
+        heading: 'BANKING & FINANCIAL',
         description: ``,
         bannerImgL: 'https://Images.unsplash.com/photo-1512626120412-faf41adb4874?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=1350&q=80',
         Controls: true
@@ -375,7 +390,7 @@ export const WrapperData = {
         description: ``,
         bannerImgL: 'img/Images/retail.jpg',
     },
-    SmartCheqe: {
+    SmartCheque: {
         heading: 'Smart cheque processing',
         description: ``,
         bannerImgL: 'https://Images.unsplash.com/photo-1562542472-c36f98399845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
@@ -472,6 +487,31 @@ export const WrapperData = {
         description: ``,
         bannerImgL: 'img/Images/finance.jpg'
     },
+    NonPerformingAssetPrediction: {
+        heading: 'Finance',
+        description: ``,
+        bannerImgL: 'img/Images/finance.jpg'
+    },
+    KYCAMLCustomOnBoarding: {
+        heading: 'Finance',
+        description: ``,
+        bannerImgL: 'img/Images/finance.jpg'
+    },
+    AIPoweredProspectTargeting: {
+        heading: 'Finance',
+        description: ``,
+        bannerImgL: 'img/Images/finance.jpg'
+    },
+    MultiChannelChurn: {
+        heading: 'Finance',
+        description: ``,
+        bannerImgL: 'img/Images/finance.jpg'
+    },
+    InternationalArbitrageTrading: {
+        heading: 'Finance',
+        description: ``,
+        bannerImgL: 'img/Images/finance.jpg'
+    },
     TravelHospitality: {
         heading: 'Travel & Hospitality',
         description: ``,
@@ -483,7 +523,22 @@ export const WrapperData = {
         bannerImgL: 'img/Images/travel_hospitality.jpg'
     },
     ItItes: {
-        heading: 'It & Ites',
+        heading: 'IT & ITES',
+        description: ``,
+        bannerImgL: 'img/Images/ItItes.jpg'
+    },
+    AdobeCaseStudy: {
+        heading: 'IT & ITES',
+        description: ``,
+        bannerImgL: 'img/Images/ItItes.jpg'
+    },
+    TransportRouteOptimization: {
+        heading: 'IT & ITES',
+        description: ``,
+        bannerImgL: 'img/Images/ItItes.jpg'
+    },
+    InsurancePolicyRenewability: {
+        heading: 'IT & ITES',
         description: ``,
         bannerImgL: 'img/Images/ItItes.jpg'
     }

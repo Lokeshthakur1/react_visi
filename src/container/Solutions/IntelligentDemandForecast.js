@@ -16,7 +16,7 @@ export default class IntelligentDemandForecast extends Component {
                                         Intelligent Demand Forecast
                                 </h2>
                                     <div className="mb-4">
-                                        <img src="img/svg/demand_prediction.svg" className="w-100 img-fluid" />
+                                        <img alt="img" src="img/svg/demand_prediction.svg" className="w-100 img-fluid" />
                                     </div>
                                     <p className="mt-4 text-justify">
                                         AI can be used for load forecasting. It can predict the demand-supply rates ahead of

@@ -78,7 +78,7 @@ export const Links = {
     RealTime: '/real-time',
     ReductionNotPerforming: '/reduction-not-performing',
     RespResearchDev: '/resp-research-dev',
-    SmartCheqe: '/smart-cheqe',
+    SmartCheque: '/smart-cheque',
     SmartOptimization: '/smart-optimization',
     SocialMedia: '/social-media',
     SoftwareServices: '/software-services',
@@ -122,6 +122,24 @@ export const Links = {
 
     PrecisionMedicinePlatformPropotion: '/precision-medicine-platform-propotion',
 
-    PriceOptimizationEngine: '/price-optimization-engine'
+    PriceOptimizationEngine: '/price-optimization-engine',
+
+    NonPerformingAssetPrediction: '/non-performing-asset-prediction',
+
+    KYCAMLCustomOnBoarding: '/KYC_AML-custom-on-boarding',
+
+    AIPoweredProspectTargeting: '/AI-powered-prospect-targeting',
+
+    MultiChannelChurn: '/multi-channel-churn',
+
+    InternationalArbitrageTrading: '/international-arbitrage-trading',
+
+    SmartTransportSolution: '/smart-transport-solution',
+    DemandSupplyHyperLogistics: '/demand-supply-for-hyper-logistics',
+    IntraCityFreightFlow: '/intra-city-freight-flow-analysis',
+
+    AdobeCaseStudy: '/adobe-case-study',
+    TransportRouteOptimization: '/transport-route-optimization',
+    InsurancePolicyRenewability: '/insurance-policy-renewability',
 
 }

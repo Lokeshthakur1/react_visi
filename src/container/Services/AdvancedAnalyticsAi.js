@@ -45,7 +45,7 @@ export default class AdvancedAnalyticsAi extends Component {
                         areas.</p>
                         <div className="row text-center d-flex justify-content-center mt-4">
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/001-business.svg" height="60px" />
+                                <img alt="img" src="img/svg/001-business.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Business Analysis Strategy</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Helping clients build a comprehensive Analytics Strategy to rapidly enable business insights
@@ -53,7 +53,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/002-customer-service.svg" height="60px" />
+                                <img alt="img" src="img/svg/002-customer-service.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Decision Science and Support</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Building statistical and machine learning models to improve growth and operational
@@ -61,7 +61,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/004-lightbulb.svg" height="60px" />
+                                <img alt="img" src="img/svg/004-lightbulb.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Deploy, Improve Analytics and Decision Making capabilities
                             </h5>
                                 <p className="text-muted px-2 mb-lg-0">
@@ -83,20 +83,20 @@ export default class AdvancedAnalyticsAi extends Component {
                         </div>
                         <div className="row text-center d-flex justify-content-center mt-4">
                             <div className="col-lg-3 mb-5">
-                                <img src="img/svg/009-artificial-intelligence-2.svg" height="60px" />
+                                <img alt="img" src="img/svg/009-artificial-intelligence-2.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Models and Analytics</h5>
                             </div>
                             <div className="col-lg-3 mb-5">
-                                <img src="img/svg/005-artificial-intelligence.svg" height="60px" />
+                                <img alt="img" src="img/svg/005-artificial-intelligence.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Entity Resolution</h5>
                             </div>
                             <div className="col-lg-3 mb-5">
-                                <img src="img/svg/006-artificial-intelligence-1.svg" height="60px" />
+                                <img alt="img" src="img/svg/006-artificial-intelligence-1.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Business Optimization
                             </h5>
                             </div>
                             <div className="col-lg-3 mb-5">
-                                <img src="img/svg/011-system.svg" height="60px" />
+                                <img alt="img" src="img/svg/011-system.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Automation Through Machine Learning
                             </h5>
                             </div>
@@ -131,7 +131,7 @@ export default class AdvancedAnalyticsAi extends Component {
                         areas.</p>
                         <div className="row text-center d-flex justify-content-center mt-4">
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/001-consulting.svg" height="60px" />
+                                <img alt="img" src="img/svg/001-consulting.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Consulting</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Our Consulting services provide expertise in mapping business problems to technical
@@ -141,7 +141,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/012-system-1.svg" height="60px" />
+                                <img alt="img" src="img/svg/012-system-1.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">System Integration</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Our System Integration Services focus on building custom analytical systems that are enable
@@ -150,7 +150,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/013-solution-1.svg" height="60px" />
+                                <img alt="img" src="img/svg/013-solution-1.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Solution Development
                             </h5>
                                 <p className="text-muted px-2 mb-lg-0">
@@ -161,7 +161,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/Outline.svg" height="60px" />
+                                <img alt="img" src="img/svg/Outline.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Support
                             </h5>
                                 <p className="text-muted px-2 mb-lg-0">
@@ -207,7 +207,7 @@ export default class AdvancedAnalyticsAi extends Component {
                                 <div className="row">
                                     {/*Grid column*/}
                                     <div className="col-lg-4 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-                                        <img src="img/Images/learning.jpg" className="img-fluid" style={{ objectFit: 'cover', height: '100%', width: '100%' }} alt="" />
+                                        <img alt="img" src="img/Images/learning.jpg" className="img-fluid" style={{ objectFit: 'cover', height: '100%', width: '100%' }} alt="" />
                                     </div>
                                     {/*Grid column*/}
                                     {/*Grid column*/}
@@ -246,7 +246,7 @@ export default class AdvancedAnalyticsAi extends Component {
                                 <div className="row">
                                     {/*Grid column*/}
                                     <div className="col-lg-4 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-                                        <img src="img/Images/deep_learning.jpg" className="img-fluid" style={{ objectFit: 'cover', height: '100%', width: '100%' }}
+                                        <img alt="img" src="img/Images/deep_learning.jpg" className="img-fluid" style={{ objectFit: 'cover', height: '100%', width: '100%' }}
                                             alt="" />
                                     </div>
                                     {/*Grid column*/}
@@ -295,7 +295,7 @@ export default class AdvancedAnalyticsAi extends Component {
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="third" role="tabpanel" aria-labelledby="3">
-                                <img className="img-fluid" src="img/svg/ai.svg" />
+                                <img alt="img" className="img-fluid" src="img/svg/ai.svg" />
                             </div>
                         </div>
                     </div>
@@ -311,7 +311,7 @@ export default class AdvancedAnalyticsAi extends Component {
                         </div>
                         <div className="row text-center d-flex justify-content-center mt-4">
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/014-lightbulb-1.svg" height="60px" />
+                                <img alt="img" src="img/svg/014-lightbulb-1.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Improve Efficiency</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Save time and not just money by using the IDE you prefer, existing workflows and Visual
@@ -319,7 +319,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/015-presentation.svg" height="60px" />
+                                <img alt="img" src="img/svg/015-presentation.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Efficient Neural Architecture</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Manage the training using our training assets and focus on designing the most optimum neural
@@ -327,7 +327,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/016-infrastructure.svg" height="60px" />
+                                <img alt="img" src="img/svg/016-infrastructure.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Robust Infrastructure
                             </h5>
                                 <p className="text-muted px-2 mb-lg-0">
@@ -335,7 +335,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-6 mb-5">
-                                <img src="img/svg/017-visual.svg" height="60px" />
+                                <img alt="img" src="img/svg/017-visual.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Real-Time Visualizations
                             </h5>
                                 <p className="text-muted px-2 mb-lg-0">
@@ -360,7 +360,7 @@ export default class AdvancedAnalyticsAi extends Component {
                         </div>
                         <div className="row text-center d-flex justify-content-center mt-4">
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/018-parachute.svg" height="60px" />
+                                <img alt="img" src="img/svg/018-parachute.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Supply Chain Analytics</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     From demand forecasting, to optimization, to enabling better planning and providing
@@ -369,7 +369,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/019-analytics.svg" height="60px" />
+                                <img alt="img" src="img/svg/019-analytics.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Marketing Analytics</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Measuring, managing and analysing marketing performance and recommending ways to improve
@@ -377,7 +377,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/020-analytics-1.svg" height="60px" />
+                                <img alt="img" src="img/svg/020-analytics-1.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Customer Analytics
                             </h5>
                                 <p className="text-muted px-2 mb-lg-0">
@@ -386,7 +386,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/021-health-insurance.svg" height="60px" />
+                                <img alt="img" src="img/svg/021-health-insurance.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Insurance Analytics</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     Generating actionable insights and providing solutions on claims analytics, risk analytics,
@@ -394,7 +394,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/022-financial.svg" height="60px" />
+                                <img alt="img" src="img/svg/022-financial.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Financial Analytics</h5>
                                 <p className="text-muted px-2 mb-lg-0">
                                     From time-series problems to credit risk to fraud and AML, we offer a range of services
@@ -402,7 +402,7 @@ export default class AdvancedAnalyticsAi extends Component {
                             </p>
                             </div>
                             <div className="col-lg-4 mb-5">
-                                <img src="img/svg/Out line.svg" height="60px" />
+                                <img alt="img" src="img/svg/Out line.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">Retail Analytics
                             </h5>
                                 <p className="text-muted px-2 mb-lg-0">

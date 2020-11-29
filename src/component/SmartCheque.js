@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class SmartCheqe extends Component {
+export default class SmartCheque extends Component {
     render() {
         return (
             <div>
@@ -8,6 +8,10 @@ export default class SmartCheqe extends Component {
 
                     <section className="py-5">
                         <div className="container">
+
+                            <div className="text-center my-4">
+                                <img alt="img" src="img/svg/smart_cheque_process.svg" height="400" style={{ maxWidth: "100%" }} />
+                            </div>
                             <div className="blockquote bq-primary">
                                 <p className="bq-title">Client</p>
                                 <p className="text-justify">One of the largest Mutual Fund RTA with Regional centers spread over 1000 locations across the
@@ -58,19 +62,19 @@ export default class SmartCheqe extends Component {
                                 <p className="bq-title">Business Benefits</p>
                                 <div className="row text-center d-flex justify-content-center mt-4">
                                     <div className="col-lg-4 mb-5">
-                                        <img src="img/svg/012-system-1.svg" height="60px" />
+                                        <img alt="img" src="img/svg/012-system-1.svg" height="60px" />
                                         <h5 className="my-4">Zero manual effort from customer side in processing
 
                     </h5>
                                     </div>
                                     <div className="col-lg-4 mb-5">
-                                        <img src="img/svg/Icon metro-thumbs-up.svg" height="60px" />
+                                        <img alt="img" src="img/svg/Icon metro-thumbs-up.svg" height="60px" />
                                         <h5 className="my-4">Enhanced customer Experience
 
                     </h5>
                                     </div>
                                     <div className="col-lg-4 mb-5">
-                                        <img src="img/svg/002-wallet-with-card-sticking-out.svg" height="60px" />
+                                        <img alt="img" src="img/svg/002-wallet-with-card-sticking-out.svg" height="60px" />
                                         <h5 className="my-4">50% Cost Saving
 
                     </h5>

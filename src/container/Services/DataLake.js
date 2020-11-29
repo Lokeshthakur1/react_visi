@@ -26,7 +26,7 @@ export default class DataLake extends Component {
                 </section>
                 <section className="light-blue-back py-5">
                     <div className="container">
-                        <img className="img-fluid" src="img/svg/our journey.svg" />
+                        <img alt="img" className="img-fluid" src="img/svg/our journey.svg" />
                     </div>
                 </section>
                 <section>
@@ -78,7 +78,7 @@ export default class DataLake extends Component {
                                     </p>
                                 </div>
                                 <hr />
-                                <img className="img-fluid" src="img/Images/How-We-Help-organisations-Modernizing.png" />
+                                <img alt="img" className="img-fluid" src="img/Images/How-We-Help-organisations-Modernizing.png" />
                             </div>
                             <div className="tab-pane fade" id="second" role="tabpanel" aria-labelledby="2">
                                 <div className="row">
@@ -88,7 +88,7 @@ export default class DataLake extends Component {
                                         Warehouse <span className="font-weight-light"></span>
                                     </h4>
 
-                                    <img className="img-fluid" src="img/Images/Technical-Stack-Helps-Organisation-Modernising.png" />
+                                    <img alt="img" className="img-fluid" src="img/Images/Technical-Stack-Helps-Organisation-Modernising.png" />
                                 </div>
                             </div>
                         </div>

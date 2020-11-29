@@ -16,10 +16,10 @@ export default class CustomizedInvestments extends Component {
                                     Customized Investments <span className="font-weight-light"></span>
                                 </h2>
                                 <div className="mt-4 text-center">
-                                    <img src="img/svg/customize_investment.svg" height="300" className="img-fluid"/>
+                                    <img alt="img" src="img/svg/customize_investment.svg" height="300" className="img-fluid"/>
                                 </div>
                                 {/* <!-- <div className="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                                    <img className="img-fluid" src="img/Images/investment.jpg" alt="Sample image">
+                                    <img alt="img" className="img-fluid" src="img/Images/investment.jpg" alt="Sample image">
                                     <Link>
                                         <div className="mask rgba-white-slight waves-effect waves-light"></div>
                                     </Link>

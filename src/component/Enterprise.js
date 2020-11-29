@@ -54,7 +54,7 @@ export default class Enterprise extends Component {
 
                             </div>
                             <div className="col-md-6 text-center py-3">
-                                <img src="img/svg/diagram001.svg" className="img-fluid" />
+                                <img alt="img" src="img/svg/diagram001.svg" className="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default class Enterprise extends Component {
                                 <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/001-workflow.svg" height="50px" />
+                                            <img alt="img" src="img/svg/001-workflow.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Distributivity</h5>
@@ -83,7 +83,7 @@ export default class Enterprise extends Component {
                                 <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/002-innovation.svg" height="50px" />
+                                            <img alt="img" src="img/svg/002-innovation.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Scalability</h5>
@@ -101,7 +101,7 @@ export default class Enterprise extends Component {
                                 <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/003-concept.svg" height="50px" />
+                                            <img alt="img" src="img/svg/003-concept.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Security</h5>
@@ -119,7 +119,7 @@ export default class Enterprise extends Component {
                                 <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
-                                            <img src="img/svg/004-deliver_value.svg" height="50px" />
+                                            <img alt="img" src="img/svg/004-deliver_value.svg" height="50px" />
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Authentication & Authorization
@@ -180,7 +180,7 @@ export default class Enterprise extends Component {
 
                                         </div>
                                         <div className="col-md-6 text-center px-0">
-                                            <img className="" src="img/Images/multi_tenet.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img alt="img" className="" src="img/Images/multi_tenet.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@ export default class Enterprise extends Component {
                                     <div className="row px-3">
 
                                         <div className="col-md-6 mx-auto text-center px-0">
-                                            <img className="" src="img/Images/database.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img alt="img" className="" src="img/Images/database.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
 
                                         <div className="col-md-6 p-3">
@@ -222,14 +222,14 @@ export default class Enterprise extends Component {
 
                                         </div>
                                         <div className="col-md-6 mx-auto text-center px-0">
-                                            <img className="" src="img/Images/api.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img alt="img" className="" src="img/Images/api.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="3">
                                     <div className="row px-3">
                                         <div className="col-md-6 mx-auto text-center px-0">
-                                            <img className="" src="img/Images/accesskey.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img alt="img" className="" src="img/Images/accesskey.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                         <div className="col-md-6 p-3">
 
@@ -258,7 +258,7 @@ export default class Enterprise extends Component {
                                 </p>
                                         </div>
                                         <div className="col-md-6 mx-auto px-0">
-                                            <img className="" src="img/Images/alert.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
+                                            <img alt="img" className="" src="img/Images/alert.jpg" style={{ objectFit: 'cover', height: '100%', width: '100%' }} />
                                         </div>
                                     </div>
                                 </div>

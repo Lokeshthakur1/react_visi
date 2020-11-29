@@ -11,7 +11,7 @@ export default class ClinicalTrial extends Component {
                             & EXECUTION
 
                                     </h4>
-                            <img className="img-fluid" src="img/svg/clinical_trial-img.svg" />
+                            <img alt="img" className="img-fluid" src="img/svg/clinical_trial-img.svg" />
 
                         </div>
                     </section>

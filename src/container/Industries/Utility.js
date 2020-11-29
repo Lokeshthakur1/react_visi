@@ -16,7 +16,7 @@ export default class Utility extends Component {
                                         Utility
                             </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/svg/utility.svg" className="img-fluid" height="400" />
+                                        <img alt="img" src="img/svg/utility.svg" className="img-fluid" height="400" />
                                     </div>
                                     <p className="text-justify">Utilities Industry has Significantly changed over the last few years. Customers have high expectations for online services and support, digital payment, and account management. Consumers expect a personalized experience for clean energy, prepaid billing, home energy management, to real-time outage reporting.
 </p>
@@ -26,21 +26,21 @@ export default class Utility extends Component {
                                         <div className="col-md-12 mb-3">
                                             <div className="list-group card shadow-lg">
                                                 <h5 className="font-weight-bold p-3">Customer Acquisition:</h5>
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                             Product based research, analysis & solutions.
                                         </li>
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                             Offer creation
                                         </li>
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                             Intent centric services
                                         </li>
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                             Service Coverage & Locations.
                                         </li>
                                                 </ul>
@@ -49,19 +49,19 @@ export default class Utility extends Component {
                                         <div className="col-md-12 mb-3">
                                             <div className="list-group card shadow-lg">
                                                 <h5 className="font-weight-bold p-3">Retention & Loyalty </h5>
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                             Customer Support
 
                                         </li>
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                             Account Management programs
 
                                         </li>
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                             Rebates & Reward Programs.
 
                                         </li>
@@ -72,14 +72,14 @@ export default class Utility extends Component {
                                         <div className="col-md-12 mb-3">
                                             <div className="list-group card shadow-lg">
                                                 <h5 className="font-weight-bold p-3">Cost Optimization & Reduction </h5>
-                                                <ul class="list-group list-group-flush py-3">
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                                     Enable self services across all channels
 
                                         </li>
-                                                    <li class="list-group-item">
-                                                        <span class="pr-4"><i class="fas fa-check"></i></span>
+                                                    <li className="list-group-item">
+                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
                             Lower average handling time with AI and chatbot experiences
 
                                         </li>

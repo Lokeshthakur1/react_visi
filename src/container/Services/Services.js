@@ -18,7 +18,7 @@ export default class Services extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/Advanced Analytics.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/Advanced Analytics.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.AdvancedAnalyticsAi} className="btn btn-outline-white btn-rounded">see
                                     more</Link>
@@ -30,7 +30,7 @@ export default class Services extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/data_information.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/data_information.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.DataInformation} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -42,7 +42,7 @@ export default class Services extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/data.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/data.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.DataEngineering} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -54,7 +54,7 @@ export default class Services extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/data_l.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/data_l.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.DataLake} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -65,7 +65,7 @@ export default class Services extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/process.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/process.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.ProcessAutomation} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>
@@ -75,7 +75,7 @@ export default class Services extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/cloud.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/cloud.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Cloud} className="btn btn-outline-white btn-rounded">see more</Link>
                                     </div>

@@ -15,13 +15,13 @@ export default class PriceOptimizationEngine extends Component {
                                         Price Optimization Engine
                                     </h2>
                                     <div className="mb-4 text-center">
-                                        <img src="img/Images/travel_hospitality_1.jpg" alt="environment" className="w-100" />
+                                        <img alt="img" src="img/Images/travel_hospitality_1.jpg" alt="environment" className="w-100" />
                                     </div>
-                                    <p className="text-justify">The travel and hospitality industry needs to adapt to evolving business, technology, and market trends such as increased use of mobile devices and apps to enable more personalized travel experiences.</p>
+                                    <p className="text-justify">The travel & hospitality industry needs to adapt to evolving business, technology, and market trends such as increased use of mobile devices and apps to enable more personalized travel experiences.</p>
                                     <p>VisionAize offers artificial intelligence self-service solutions and AI-powered agents to optimize the customer experience (CX) across messaging, voice, and digital channels. We deliver the only platform that leverages behavioral, transactional, and historical data to anticipate consumer intent. If your call centers are flooded with reservation inquiries, itinerary changes, cancellations, or simple purchase and rewards questions—and you want to increase customer satisfaction and lower operating costs—now is the time to deploy a VisionAize conversational AI solution.</p>
 
                                     <div className="mb-4 text-center mt-3">
-                                        <img src="img/Images/travel_hospitality_2.jpg" alt="environment" className="w-100" />
+                                        <img alt="img" src="img/Images/travel_hospitality_2.jpg" alt="environment" className="w-100" />
                                     </div>
                                 </section>
                             </div>

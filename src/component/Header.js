@@ -35,7 +35,7 @@ class Header extends Component {
                             <Link className="navbar-brand title" to="home"></Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                                <img src="img/svg/menu.svg" height="25" />
+                                <img alt="img" src="img/svg/menu.svg" height="25" />
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -192,7 +192,7 @@ class Header extends Component {
 
 
                                     <li className="nav-item ml-4 dropdown dropdown-8">
-                                        <Link className="nav-link title" data-offset="90">Solutions</Link>
+                                        <Link to={Links.Solution} className="nav-link title" data-offset="90">Solutions</Link>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                             <li className="dropdown_item-1 dropdown dropdown-8">
                                                 <Link className="tablink waves-effect waves-light" to={Links.Industries}>By Industry</Link>
@@ -316,7 +316,7 @@ class Header extends Component {
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
                                                         className="tablink waves-effect waves-light"
-                                                        to={Links.TravelHospitality}>Travel and Hospitality</Link>
+                                                        to={Links.TravelHospitality}>travel & hospitality</Link>
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
                                                         className="tablink waves-effect waves-light"

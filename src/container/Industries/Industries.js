@@ -17,7 +17,7 @@ export default class Industries extends Component {
                         <div className="row justify-content-center category_gallery">
                             <div className="col-lg-4 col-md-12 mb-4">
                                 <div className="view overlay z-depth-1">
-                                    <img src="https://images.unsplash.com/photo-1478476868527-002ae3f3e159?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                                    <img alt="img" src="https://images.unsplash.com/photo-1478476868527-002ae3f3e159?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
                                         className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Healthcare}
@@ -30,7 +30,7 @@ export default class Industries extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                    <img alt="img" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                                         className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Banking}
@@ -45,7 +45,7 @@ export default class Industries extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/images/retail.jpg"
+                                    <img alt="img" src="img/images/retail.jpg"
                                         className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Retail}
@@ -59,7 +59,7 @@ export default class Industries extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay">
-                                    <img src="img/Images/oil_drilling.png" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/oil_drilling.png" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Oilgas}
                                             className="btn btn-outline-white btn-rounded waves-effect waves-light">see
@@ -73,7 +73,7 @@ export default class Industries extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/software.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/software.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Hightech}
                                             className="btn btn-outline-white btn-rounded waves-effect waves-light">see
@@ -86,7 +86,7 @@ export default class Industries extends Component {
                             <div className="col-lg-4 col-md-12 mb-4">
 
                                 <div className="view overlay z-depth-1">
-                                    <img src="img/Images/oilgas2.jpg" className="img-fluid" alt="Sample image" />
+                                    <img alt="img" src="img/Images/oilgas2.jpg" className="img-fluid" alt="Sample image" />
                                     <div className="mask flex-center blue-gradient-rgba">
                                         <Link to={Links.Utility}
                                             className="btn btn-outline-white btn-rounded waves-effect waves-light">see

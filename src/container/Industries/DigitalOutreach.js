@@ -7,27 +7,27 @@ export default class DigitalOutreach extends Component {
         return (
                  <main>
 
-            <section class="py-5">
-                <div class="container">
-                        <h2 class="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Digital Outreach & Customer Engagement<span class="font-weight-light"></span></h2>
-                    <div class="blockquote bq-primary">
-                        <p class="bq-title">Business Problem</p>
+            <section className="py-5">
+                <div className="container">
+                        <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Digital Outreach & Customer Engagement<span className="font-weight-light"></span></h2>
+                    <div className="blockquote bq-primary">
+                        <p className="bq-title">Business Problem</p>
                             <p>Because of DND policy, it is difficult to reach customer through Phone / SMS.  </p>
     
                     </div>
-                    <div class="blockquote bq-primary">
-                        <p class="bq-title">Solution
+                    <div className="blockquote bq-primary">
+                        <p className="bq-title">Solution
     
                         </p>
                             <p>Leveraging digital outreach through other channels – primarily WhatsApp, Social Media (Facebook, Instagram & LinkedIn). The solution includes Social Media Profiling, targeted campaigning and consequent customer engagement.  </p>
                     </div>
-                    <div class="blockquote bq-primary">
-                        <p class="bq-title">Business Benefits</p>
+                    <div className="blockquote bq-primary">
+                        <p className="bq-title">Business Benefits</p>
 
-                            <ul class="list-group list-group-flush py-3">
-                                <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Reaching customers / prospects without being non-compliant for DND. </li>
-                                <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Additional channels and social media profiling helps more prospect sourcing. </li>
-                                <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>More targeted customer campaign
+                            <ul className="list-group list-group-flush py-3">
+                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Reaching customers / prospects without being non-compliant for DND. </li>
+                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Additional channels and social media profiling helps more prospect sourcing. </li>
+                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>More targeted customer campaign
 </li>
                             </ul>
                      

@@ -18,7 +18,7 @@ export default class InventoryManage extends Component {
                                         Inventory Management <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mb-4">
-                                        <img className="img-fluid" src="img/svg/inventory_management.svg" className="w-100 img-fluid" />
+                                        <img alt="img" className="img-fluid" src="img/svg/inventory_management.svg" className="w-100 img-fluid" />
 
                                     </div>
                                     <p className="mt-4 text-justify">There are many problems in Inventory Management like Excess inventory
