@@ -93,6 +93,8 @@ export default class Utility extends Component {
                             </div>
                             <div className="col-md-4">
                                 <div className="list-group fanylist_group">
+                                    <div className="rightsidebarHead">Case Studies</div>
+
                                     <Link to={Links.IntelligentDemandForecast} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>Intelligent Demand Forecast</span></Link>
                                 </div>

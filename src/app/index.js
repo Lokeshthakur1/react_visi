@@ -116,6 +116,8 @@ import IntraCityFreightFlow from '../container/Industries/IntraCityFreightFlow'
 import AdobeCaseStudy from '../container/Industries/AdobeCaseStudy'
 import TransportRouteOptimization from '../container/Industries/TransportRouteOptimization'
 import InsurancePolicyRenewability from '../container/Industries/InsurancePolicyRenewability'
+import Sales from '../container/Industries/Sales'
+import SupplyChain from '../container/Industries/SupplyChain'
 
 import { Links } from './links'
 import XmlData from '../component/XmlData'
@@ -253,7 +255,8 @@ export default function index() {
                 <Route path={Links.AdobeCaseStudy} component={AdobeCaseStudy} />
                 <Route path={Links.TransportRouteOptimization} component={TransportRouteOptimization} />
                 <Route path={Links.InsurancePolicyRenewability} component={InsurancePolicyRenewability} />
-
+                <Route path={Links.Sales} component={Sales} />
+                <Route path={Links.SupplyChain} component={SupplyChain} />
 
                 <Route path={Links.Home} component={Home}></Route>
                 <Route path={Links.About} component={About} />

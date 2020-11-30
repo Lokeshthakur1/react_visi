@@ -6,7 +6,7 @@ export default class ImplementHealthcare extends Component {
             <div>
                 <main>
 
-                    <section className="py-5">
+                    <section className="py-5 case-studies_page">
                         <div className="container">
                             <div className="blockquote bq-primary">
                                 <h5 className="mb-0">Client</h5>

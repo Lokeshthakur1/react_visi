@@ -39,6 +39,8 @@ export default class PredictiveMaintenance extends Component {
                             </div>
                             <div className="col-md-4">
                                 <div className="list-group fanylist_group">
+                                    <div className="rightsidebarHead">Case Studies</div>
+
                                     <Link to={Links.TranspPlatform} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>Transport Platform</span></Link>
                                     <Link to={Links.PandemicCrowdControl} className="list-group-item list-group-item-action">

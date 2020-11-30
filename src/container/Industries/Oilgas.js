@@ -64,6 +64,8 @@ export default class Oilgas extends Component {
                             </div>
                             <div className="col-md-4">
                                 <div className="list-group fanylist_group">
+                                    <div className="rightsidebarHead">Case Studies</div>
+
                                     <Link to={Links.DrillingNptPredictor} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Drilling/NPT Analyzer and Predictor</span></Link>
                                     <Link to={Links.IncidentAnalyzerPredictor} className="list-group-item list-group-item-action">

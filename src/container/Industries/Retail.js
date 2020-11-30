@@ -202,8 +202,9 @@ export default class Retail extends Component {
                                     <Link to={Links.DemandForecasting} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Demand Forecasting</span></Link>
                                 </div> */}
-
                                 <div className="list-group fanylist_group">
+                                    <div className="rightsidebarHead">Case Studies</div>
+
                                     <Link to={Links.RetailsCaseStudies} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Retail Case Studies</span></Link>
                                 </div>

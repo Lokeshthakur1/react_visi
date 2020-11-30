@@ -15,8 +15,8 @@ export default class Wrapper extends Component {
                 <li data-target="#carousel-example-3" data-slide-to="2"></li>
             </ol> --> */}
                         <div className="carousel-inner" role="listbox">
-                            <div className="carousel-item active">
-                                <div className="view banner-height">
+                            <div className={`carousel-item active ${this.props.getKey.imgClass ? this.props.getKey.imgClass : ''}`}>
+                                <div className="view banner-height ">
                                     {this.props.getKey.bannerImgL && <img alt="img" src={this.props.getKey.bannerImgL} className="d-block w-100" alt="..." />}
                                     <div
                                         className="container h-100 d-flex align-items-center justify-content-center mask white-text text-center">

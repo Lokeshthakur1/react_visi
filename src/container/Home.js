@@ -140,7 +140,7 @@ export default class Home extends Component {
                                 </h2>
                                 <h5 className="w-responsive mx-auto mb-5 wow fadeIn animated text-center" data-wow-delay="0.2s"
                                     style={{ visibility: ' visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
-                                    We Empower Organisations To Be an AI Company
+                                    Transforming businesses with robust Ai solutions
                             </h5>
                                 {/*Grid row*/}
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">
@@ -167,8 +167,8 @@ export default class Home extends Component {
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/money.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Banking and Financial</h4>
-                                                    <Link to={Links.Finance} className="stretched-link"></Link>
+                                                    <h4 className="font-weight-bold">Fintech</h4>
+                                                    <Link to={Links.Banking} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
@@ -236,7 +236,7 @@ export default class Home extends Component {
                                             <div className="col-lg-3 mb-5">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/money.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Fintech</h4>
+                                                    <h4 className="font-weight-bold">Finance</h4>
                                                     <Link to={Links.Finance} className="stretched-link"></Link>
                                                 </div>
                                             </div>
@@ -258,7 +258,7 @@ export default class Home extends Component {
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/supply-chain.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Supply Chain</h4>
-                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
+                                                    <Link to={Links.SupplyChain} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-5">
@@ -406,7 +406,7 @@ export default class Home extends Component {
                                         </div>
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">AR/VR</h5>
-                                        <p className="text-white">Augmented reality (AR) and Virtual reality (VR)</p>
+                                        <p className="text-white">Add Digital Values with enhanced ARVR technology for greater user experiences</p>
                                     </div>
                                 </a>
 

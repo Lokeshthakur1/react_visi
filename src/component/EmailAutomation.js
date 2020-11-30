@@ -6,7 +6,7 @@ export default class EmailAutomation extends Component {
             <div>
                 <main>
 
-                    <section className="py-5">
+                    <section className="py-5 case-studies_page">
                         <div className="container">
                             <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">AI powered E-mail Automation
 <span className="font-weight-light"></span>

@@ -7,7 +7,7 @@ export default class PopulationHealthcare extends Component {
         return (
                  <main>
 
-            <section className="py-5">
+                <section className="py-5 case-studies_page">
                 <div className="container">
                         <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Preventive Healthcare<span className="font-weight-light"></span></h2>
                         <div className="text-center my-4">

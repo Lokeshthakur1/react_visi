@@ -195,10 +195,10 @@ class Header extends Component {
                                         <Link to={Links.Solution} className="nav-link title" data-offset="90">Solutions</Link>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                             <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link className="tablink waves-effect waves-light" to={Links.Industries}>By Industry</Link>
+                                                <Link className="tablink waves-effect waves-light">By Industry</Link>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                                     <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.Banking}>BANKING &
+                                                        className="tablink waves-effect waves-light">BANKING &
                                                 FINANCIAL</Link>
                                                         {/* <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
                                                             <li className="dropdown_item-2"><Link className="waves-effect waves-light"

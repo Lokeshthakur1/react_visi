@@ -50,6 +50,7 @@ export default class DrugRecovery extends Component {
                             </section>
                         </div>
                         <div className="col-md-4">
+                            <div className="rightsidebarHead">Case Studies</div>
                             <div className="list-group fanylist_group">
                                 <Link to={Links.ClaimsPredictions} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Claims (Fraud & Rejection)

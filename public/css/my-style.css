@@ -19,10 +19,34 @@ body,
 html {
     height: 100%;
     /* font-family: "Montserrat", sans-serif; */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     color: #132437;
     scroll-behavior: smooth;
     behavior: smooth;
+    font-size: .95rem;
+    font-weight: 500;
+}
+.blockquote p,
+table.table td, table.table th {
+    font-size: .95rem;
+    font-weight: 500;
+}
+table.table thead th {
+    border-top: none;
+    font-weight: 700;
+}
+.carousel-item.pathmap > .view.banner-height {
+    height: 100%!important;
+}
+.rightsidebarHead {
+    font-weight: 700;
+    color: #ffffff;
+    background: #40a3ff;
+    padding: 7px 7px;
+    border-left: 4px solid #1e74c3;
+    margin: -6px -2px 10px -2px;
+    border-radius: 4px;
+    text-transform: uppercase;
 }
 .waves-effect.waves-light .waves-ripple {
     display: none;
@@ -110,7 +134,8 @@ p.h5 {
     display: block;
     color: #fff;
     transition: all 0.5s ease-in-out;
-    font-weight: 400;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 .navbar .nav-item .nav-link:hover{
     color: #2196f3;
@@ -826,6 +851,8 @@ li.list-group-item {
 .oswaldFont {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    text-transform: uppercase;
 }
 .backgroundDrop {
     position: absolute;
@@ -1091,7 +1118,7 @@ img.boxicon {
     padding: 10px;
     /* background: #2e41611c; */
     margin: 3px 0px;
-    font-size: 18px;
+    font-size: 16px;
     transition: all .5s;
 }
 .fancyBox:hover h4 {

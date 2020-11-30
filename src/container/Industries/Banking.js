@@ -462,8 +462,9 @@ export default class Banking extends Component {
                                 </section>
                             </div>
                             <div className="col-md-4">
-
                                 <div className="list-group fanylist_group">
+                                    <div className="rightsidebarHead">Case Studies</div>
+
                                     {/* <Link to={Links.AiPoweredBot} className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>AI Powered BOT for Prospect Sourcing</span></Link>
                                     <Link to={Links.RiskAssesment} className="list-group-item list-group-item-action">

@@ -59,6 +59,7 @@ export default class Chatbots extends Component {
     
                         </div>
                         <div className="col-md-4">
+                            <div className="rightsidebarHead">Case Studies</div>
                             <div className="list-group fanylist_group">
                                 <Link to={Links.ImprovedCustomerRetention} className="list-group-item list-group-item-action">
                                     <i className="fas fa-check mr-2"></i> <span>Improved customer retention</span></Link>

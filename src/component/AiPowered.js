@@ -469,6 +469,7 @@ export default class AiPowered extends Component {
                         </div>
                     </div>
                     <div className="container">
+
                         <div className="row">
                             <ul className="nav nav-tabs  md-tabs mt-3 box-tab" id="myTabJust" role="tablist">
                                 <li className="nav-item">
@@ -560,6 +561,7 @@ export default class AiPowered extends Component {
                                 </div>
                             </div>
                         </div>
+                  
                     </div>
                 </section >
             </main >

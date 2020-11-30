@@ -6,7 +6,7 @@ export default class SmartCheque extends Component {
             <div>
                 <main>
 
-                    <section className="py-5">
+                    <section className="py-5 case-studies_page">
                         <div className="container">
 
                             <div className="text-center my-4">

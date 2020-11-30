@@ -141,5 +141,6 @@ export const Links = {
     AdobeCaseStudy: '/adobe-case-study',
     TransportRouteOptimization: '/transport-route-optimization',
     InsurancePolicyRenewability: '/insurance-policy-renewability',
-
-}
+    Sales: '/sales',
+    SupplyChain: '/supply-chain'
+}   

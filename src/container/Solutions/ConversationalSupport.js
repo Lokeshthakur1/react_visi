@@ -47,6 +47,8 @@ export default class ConversationalSupport extends Component {
                             </div>
                             <div className="col-md-4">
                                 <div className="list-group fanylist_group">
+                                    <div className="rightsidebarHead">Case Studies</div>
+
                                     <Link to={Links.InventoryManage} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Inventory Management</span></Link>
                                     <Link to={Links.AdaptiveHomepage} className="list-group-item list-group-item-action"> <i

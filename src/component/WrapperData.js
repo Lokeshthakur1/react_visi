@@ -244,7 +244,8 @@ export const WrapperData = {
         heading: '',
         description: ``,
         bannerImgL: 'img/Images/digram.jpg',
-        Controls: true
+        Controls: true,
+        imgClass: 'pathmap'
     },
     RiskProfileAnalyzer: {
         heading: 'Healthcare',
@@ -541,6 +542,16 @@ export const WrapperData = {
         heading: 'IT & ITES',
         description: ``,
         bannerImgL: 'img/Images/ItItes.jpg'
+    },
+    Sales: {
+        heading: 'Sales',
+        description: ``,
+        bannerImgL: 'img/Images/sales.jpg'
+    },
+    SupplyChain: {
+        heading: 'Supply Chain',
+        description: ``,
+        bannerImgL: 'img/Images/supply-chain.jpg'
     }
 }
 

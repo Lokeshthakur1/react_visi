@@ -6,7 +6,7 @@ export default class DecisionSupports extends Component {
             <div>
                 <main>
 
-                    <section className="py-5">
+                    <section className="py-5 case-studies_page">
                         <div className="container">
                             <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Decision support for Hospitals <span className="font-weight-light"></span></h2>
                             <div className="text-center my-4">

@@ -157,8 +157,9 @@ export default class Healthcare extends Component {
                                     <Link to={Links.RiskProfileAnalyzer} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Risk Profile Analyzer using Genomics</span></Link>
                                 </div> */}
-
                                 <div className="list-group fanylist_group">
+                                    <div className="rightsidebarHead">Case Studies</div>
+
                                     <Link to={Links.CollaborativeHealth} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Collaborative Healthcare</span></Link>
                                     <Link to={Links.PopulationHealthcare} className="list-group-item list-group-item-action"> <i
