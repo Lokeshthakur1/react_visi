@@ -519,8 +519,38 @@ nav {
 .dropdown:hover {
     cursor: pointer;
 }
-.dropdown:hover > .dropdown_menu > li {
+.dropdown > .dropdown_menu > li {
+       display: block;
+    padding: 10px 15px;
+    color: #fff;
+    border-right: 1px solid #ddd!important;
+}
+
+.megamenu h5 {
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.megamenu > li:last-child {
+    border-right: 0px solid !important;
+}
+.megamenu {
+    display: flex;
+    width: auto!important;
+    background: #fff!important;
+    padding: 12px!important;
+    border-radius: 8px;
+    box-shadow: 3px 0px 20px 0px rgba(0,0,0,.3);
+}
+.megamenu a.tablink {
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    padding: 15px 15px;
+    text-transform: uppercase;
     display: block;
+    white-space: nowrap;
 }
 .dropdown_menu {
     position: absolute;
@@ -533,8 +563,7 @@ nav {
     /* border-top: 5px solid #2196f3;
     border-bottom: 5px solid #2196f3; */
 }
-.dropdown_menu li > a {
-    /* display: none; */
+/* .dropdown_menu li > a {
     background-color: #40a3ff;
     padding: 10px;
     font-size: 14px;
@@ -544,7 +573,7 @@ nav {
     border-bottom: 1px solid rgb(0 0 0 / 15%);
     border-left: 1px solid rgb(0 0 0 / 15%);
     text-transform: uppercase;
-}
+} */
 /* .dropdown_menu li:last-child {
     border-bottom: none;
 }
@@ -585,9 +614,10 @@ nav {
 }
 .dropdown_menu--animated li > a:hover {
     background: #2d8be5;
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    color: #fff !important;
 }
-.dropdown_menu--animated a:before {
+/* .dropdown_menu--animated a:before {
     height: 1px;
     width: 10px;
     content: "";
@@ -602,7 +632,7 @@ nav {
 
 .dropdown_menu--animated a:hover:before {
     opacity: 1;
-}
+} */
 .sol-height{
     object-fit: cover;
     height: 250px;
@@ -989,21 +1019,8 @@ ul.listFinancial_services li{
     transition: all .55s ease-in-out;
 }
 
-.megamenu {
-    display: flex;
-    width: 800px;
-    background: #fff!important;
-    padding: 12px!important;
-    border-radius: 8px;
-    box-shadow: 3px 0px 20px 0px rgba(0,0,0,.3);
-}
-.megamenu a.tablink {
-    background: #fff;
-    color: #000;
-    border-bottom: 1px solid #ddd;
-    border-left: 0px solid;
-    border-right: 0px solid;
-}
+
+
 .navbar .navbar-toggler {
     outline: 0;
     border-width: 0;
@@ -1336,9 +1353,10 @@ button.next_.slick-arrow {
 }
 ul.newFancy_list {
     list-style: none;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     font-size: 20px;
     /* margin-bottom: 200px; */
+    /* text-align: justify!important; */
 }
 .flex-center ul li {
     margin-bottom: 1rem;

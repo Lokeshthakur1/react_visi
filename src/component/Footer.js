@@ -50,11 +50,11 @@ export default class Footer extends Component {
                 </div>
 
                 {/*Footer Links*/}
-                <div className="container mt-5 mb-4 text-center text-md-left">
+                <div className="container mt-md-5 mb-4 text-center text-md-left">
                     <div className="row mt-3">
 
                         {/*First column*/}
-                        <div className="col-md-4 mb-5">
+                        <div className="col-md-4 mb-md-5 mb-3">
                             <img alt="img" className="mb-5" src="img/logo/logo.png" width="150px" />
 
                             <p className="text-justify">We help companies Build Intelligent Enterprises by leveraging the emerging and next-generation technologies to accelerate digital transformation and speed of innovation to provide competitive advantage and success as the Enterprise of Tomorrow.</p>

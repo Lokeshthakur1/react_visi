@@ -36,7 +36,7 @@ export default class SoftwareServices extends Component {
                         <div className="container">
 
                             {/* <!-- Grid row --> */}
-                            <div className="row align-items-center pt-5">
+                            <div className="row align-items-center pt-mb-5 pt-3">
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-lg-5">
@@ -70,9 +70,9 @@ export default class SoftwareServices extends Component {
 
                             </div>
                             {/* <!-- Grid row --> */}
-                            <hr className="mt-5" />
+                            <hr className="mt-md-5 my-3" />
                             {/* <!-- Grid row --> */}
-                            <div className="row align-items-center pt-5">
+                            <div className="row align-items-center pt-md-5 pt-3">
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-lg-6">
@@ -119,9 +119,9 @@ export default class SoftwareServices extends Component {
 
                             </div>
                             {/* <!-- Grid row --> */}
-                            <hr className="mt-5" />
+                            <hr className="mt-md-5 mt-3" />
                             {/* <!-- Grid row --> */}
-                            <div className="row align-items-center pt-5">
+                            <div className="row align-items-center pt-md-5 pt-3">
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-lg-5">
@@ -157,9 +157,9 @@ export default class SoftwareServices extends Component {
 
                             </div>
                             {/* <!-- Grid row --> */}
-                            <hr className="mt-5" />
+                            <hr className="mt-md-5 mt-3" />
                             {/* <!-- Grid row --> */}
-                            <div className="row align-items-center pt-5">
+                            <div className="row align-items-center pt-md-5 pt-3">
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-lg-7">
@@ -192,7 +192,7 @@ export default class SoftwareServices extends Component {
 
                             </div>
                             {/* <!-- Grid row --> */}
-                            <hr className="mt-5" />
+                            {/* <hr className="mt-md-5 mt-3" /> */}
                         </div>
                     </section>
                 </main>

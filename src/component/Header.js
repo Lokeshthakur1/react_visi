@@ -208,7 +208,7 @@ class Header extends Component {
                                             <li>
                                                 <h5>By Functions</h5>
                                                 <Link className="tablink waves-effect waves-light" to='/ai-powered'>Marketing</Link>
-                                                <Link className="waves-effect waves-light" to="/social-media">Social Media Intelligence</Link>
+                                                <Link className="tablink waves-effect waves-light" to="/social-media">Social Media Intelligence</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.HumanRecource}>Human Resource</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Finance}>Finance</Link>
                                             </li>
@@ -314,7 +314,19 @@ class Header extends Component {
                                     </li> */}
                                     <li className="nav-item ml-4 dropdown dropdown-8">
                                         <Link className="nav-link title" to={Links.Services} data-offset="90">Services</Link>
-                                        <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
+
+                                        <ul className="dropdown_menu dropdown_menu--animated megamenu dropdown_menu-8">
+                                            <li>
+                                                <h5>By Industry</h5>
+                                                <Link className="tablink waves-effect waves-light" to={Links.AdvancedAnalyticsAi}>Advanced Analytics & AI</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.DataInformation}>Data & Information Management</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.DataEngineering}>Data Engineering & Visualization</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.DataLake}>Data Lake Modernization</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.ProcessAutomation}>Process Automation</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.Cloud}>Cloud</Link>
+                                            </li>
+                                        </ul>
+                                        {/* <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
                                             <li className="dropdown_item-1"><Link className="waves-effect waves-light"
                                                 to={Links.AdvancedAnalyticsAi}>Advanced Analytics & AI</Link></li>
                                             <li className="dropdown_item-2"><Link className="waves-effect waves-light"
@@ -327,7 +339,7 @@ class Header extends Component {
                                                 to={Links.ProcessAutomation}>Process Automation</Link></li>
                                             <li className="dropdown_item-5"><Link className="waves-effect waves-light"
                                                 to={Links.Cloud}>Cloud</Link></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
 
 

@@ -23,7 +23,7 @@ export default class Hightech extends Component {
                                     solutions enables companies to understand how companies can improve processes, enhance
                                     partnerships and gauge market forces.
                             </p>
-                                    <h4 className="title my-5 wow fadeIn font-weight-bold" data-wow-delay="0.2s"
+                                    <h4 className="title my-md-5 my-3 wow fadeIn font-weight-bold" data-wow-delay="0.2s"
                                         style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>VisionAize
                                         helping Businesses with the Hi-Tech AI solutions to reconstruct 3 major areas:
                             </h4>

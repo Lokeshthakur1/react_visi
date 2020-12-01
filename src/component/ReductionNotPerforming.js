@@ -53,40 +53,44 @@ export default class ReductionNotPerforming extends Component {
                             <div className="blockquote bq-primary pt-3">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <table className="table table-bordered box-table mb-3">
-                                            <thead className="blue-1 white-text">
-                                                <tr>
-                                                    <th style={{ width: 200 }}>Tickets Analyzed</th>
-                                                    <th>Years of Data Analyzed</th>
-                                                    <th style={{ width: 200 }}>Input Attributes</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>500,000+</td>
-                                                    <td>1+</td>
-                                                    <td>18+</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <div className="table-responsive">
+                                            <table className="table table-bordered box-table mb-3">
+                                                <thead className="blue-1 white-text">
+                                                    <tr>
+                                                        <th style={{ width: 200 }}>Tickets Analyzed</th>
+                                                        <th>Years of Data Analyzed</th>
+                                                        <th style={{ width: 200 }}>Input Attributes</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>500,000+</td>
+                                                        <td>1+</td>
+                                                        <td>18+</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                     <div className="col-md-6">
-                                        <table className="table table-bordered box-table mb-3">
-                                            <thead className="blue-1 white-text">
-                                                <tr>
-                                                    <th style={{ width: 200 }}>Data Points</th>
-                                                    <th>Reliability of Model</th>
-                                                    <th style={{ width: 200 }}>$ Savings</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>9M+</td>
-                                                    <td>72%</td>
-                                                    <td>$1M+ / yr</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <div className="table-responsive">
+                                            <table className="table table-bordered box-table mb-3">
+                                                <thead className="blue-1 white-text">
+                                                    <tr>
+                                                        <th style={{ width: 200 }}>Data Points</th>
+                                                        <th>Reliability of Model</th>
+                                                        <th style={{ width: 200 }}>$ Savings</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>9M+</td>
+                                                        <td>72%</td>
+                                                        <td>$1M+ / yr</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

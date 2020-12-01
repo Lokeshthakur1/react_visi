@@ -64,7 +64,7 @@ export default class Enterprise extends Component {
                             <div className="row features wow fadeIn mb-5 pt-5 " data-wow-delay="0.2s">
 
                                 {/* <!--Grid column--> */}
-                                <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
+                                <a href="javascript:void(0);" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/001-workflow.svg" height="50px" />
@@ -80,7 +80,7 @@ export default class Enterprise extends Component {
                                 {/* <!--Grid column--> */}
 
                                 {/* <!--Grid column--> */}
-                                <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
+                                <a href="javascript:void(0);" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/002-innovation.svg" height="50px" />
@@ -98,7 +98,7 @@ export default class Enterprise extends Component {
                                 {/* <!--Grid column--> */}
 
                                 {/* <!--Grid column--> */}
-                                <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
+                                <a href="javascript:void(0);" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/003-concept.svg" height="50px" />
@@ -116,7 +116,7 @@ export default class Enterprise extends Component {
                                 {/* <!--Grid column--> */}
 
                                 {/* <!--Grid column--> */}
-                                <a href="#" className="col-lg-3 col-md-6 text-center hoverable p-4">
+                                <a href="javascript:void(0);" className="col-lg-3 col-md-6 text-center hoverable p-4">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/004-deliver_value.svg" height="50px" />

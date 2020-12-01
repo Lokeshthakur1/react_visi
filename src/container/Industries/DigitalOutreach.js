@@ -141,80 +141,81 @@ export default class DigitalOutreach extends Component {
                             </div>
 
                             <p className="text-justify">The above chart shows the penetration of social media amongst the Indian population, especially within the youth segment.</p>
+                            <div className="table-responsive">
+                                <table className="table table-bordered box-table mb-3">
+                                    <thead className="blue-1 white-text">
+                                        <tr>
+                                            <th>Network</th>
+                                            <th>Number of users</th>
+                                            <th colspan="2">Demographic Information</th>
+                                            <th>More Information</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Facebook</td>
+                                            <td>1.28 Billion Users</td>
+                                            <td>65% Female / 35% Male</td>
+                                            <td>48% of Users aged 18-34, 31% aged 35-54</td>
+                                            <td>Social network leader with largest audience, large focus on interaction with friends and family</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twitter</td>
+                                            <td>255 Million Users</td>
+                                            <td>68% Female / 32% Male</td>
+                                            <td>90% of Users under 35 year old</td>
+                                            <td>Platform for sharing visual content</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Instagram</td>
+                                            <td>1 Billion Users</td>
+                                            <td>62% Female / 38% Male</td>
+                                            <td>66% of Users aged 15-34</td>
+                                            <td>Open network geared towards conversational via message (140 characters maximum)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>YouTube</td>
+                                            <td>1 Billion Users</td>
+                                            <td>Reaches more U.S. adults than any cable network</td>
+                                            <td>Predominant user base is 18-34 years old</td>
+                                            <td>Platform for hosting and sharing video content</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="table-responsive">
+                                <table className="table table-bordered box-table mb-3">
+                                    <thead className="blue-1 white-text">
+                                        <tr>
+                                            <th>Network</th>
+                                            <th>Focus</th>
+                                            <th>Frequency</th>
+                                            <th>Tip</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Facebook</td>
+                                            <td>Quality</td>
+                                            <td>5-10 per week</td>
+                                            <td>Aim for 2 posts per day to keep audience interested</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twitter</td>
+                                            <td>Quantity</td>
+                                            <td>3-5 per day</td>
+                                            <td>1 per hour is optimal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Instagram</td>
+                                            <td>Rich Imagery</td>
+                                            <td>1-2 per day</td>
+                                            <td>There is not real fatigue with posting but ensure consistency week after week</td>
+                                        </tr>
 
-                            <table className="table table-bordered box-table mb-3">
-                                <thead className="blue-1 white-text">
-                                    <tr>
-                                        <th>Network</th>
-                                        <th>Number of users</th>
-                                        <th colspan="2">Demographic Information</th>
-                                        <th>More Information</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Facebook</td>
-                                        <td>1.28 Billion Users</td>
-                                        <td>65% Female / 35% Male</td>
-                                        <td>48% of Users aged 18-34, 31% aged 35-54</td>
-                                        <td>Social network leader with largest audience, large focus on interaction with friends and family</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Twitter</td>
-                                        <td>255 Million Users</td>
-                                        <td>68% Female / 32% Male</td>
-                                        <td>90% of Users under 35 year old</td>
-                                        <td>Platform for sharing visual content</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Instagram</td>
-                                        <td>1 Billion Users</td>
-                                        <td>62% Female / 38% Male</td>
-                                        <td>66% of Users aged 15-34</td>
-                                        <td>Open network geared towards conversational via message (140 characters maximum)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>YouTube</td>
-                                        <td>1 Billion Users</td>
-                                        <td>Reaches more U.S. adults than any cable network</td>
-                                        <td>Predominant user base is 18-34 years old</td>
-                                        <td>Platform for hosting and sharing video content</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <table className="table table-bordered box-table mb-3">
-                                <thead className="blue-1 white-text">
-                                    <tr>
-                                        <th>Network</th>
-                                        <th>Focus</th>
-                                        <th>Frequency</th>
-                                        <th>Tip</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Facebook</td>
-                                        <td>Quality</td>
-                                        <td>5-10 per week</td>
-                                        <td>Aim for 2 posts per day to keep audience interested</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Twitter</td>
-                                        <td>Quantity</td>
-                                        <td>3-5 per day</td>
-                                        <td>1 per hour is optimal</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Instagram</td>
-                                        <td>Rich Imagery</td>
-                                        <td>1-2 per day</td>
-                                        <td>There is not real fatigue with posting but ensure consistency week after week</td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-
+                                    </tbody>
+                                </table>
+                            </div>
 
                             <h5 className="font-weight-bold">Framework to handle COVID -19 and other health emergencies</h5>
                             <p className="text-justify">This section is for empowering the response of state, and local governments during the COVID-19 pandemic. The major three focus areas are:</p>

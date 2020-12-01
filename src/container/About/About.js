@@ -38,7 +38,7 @@ export default class About extends Component {
                                 VisionAize offers world class AI powered solutions to empower data driven businesses with high an accuracy results.</p>
                         </div>
                         <div className="row features wow fadeIn my-5 pt-5" data-wow-delay="0.2s">
-                            <a href="#" className="col-lg-4 text-center hoverable p-4">
+                            <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4">
                                 <div className="icon-area">
                                     <div>
                                         <img alt="img" src="img/svg/001-workflow.svg" width="50px" />
@@ -52,7 +52,7 @@ export default class About extends Component {
                                     </ul>
                                 </div>
                             </a>
-                            <a href="#" className="col-lg-4 text-center hoverable p-4">
+                            <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4">
                                 <div className="icon-area">
                                     <div>
                                         <img alt="img" src="img/svg/002-innovation.svg" width="50px" />
@@ -66,7 +66,7 @@ export default class About extends Component {
                                     </ul>
                                 </div>
                             </a>
-                            <a href="#" className="col-lg-4 text-center hoverable p-4">
+                            <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4">
                                 <div className="icon-area">
                                     <div>
                                         <img alt="img" src="img/svg/003-concept.svg" width="50px" />
@@ -93,7 +93,7 @@ export default class About extends Component {
                                 WHY<span className="font-weight-light border-line-white text-white"> VisionAIze</span>
                             </h2>
                             <div className="row features-small py-5">
-                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/datascientist.svg" height="50px" />
@@ -106,7 +106,7 @@ export default class About extends Component {
                      </p>
                                     </div>
                                 </a>
-                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/analytics.svg" height="50px" />
@@ -119,7 +119,7 @@ export default class About extends Component {
                      </p>
                                     </div>
                                 </a>
-                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/multidomain.svg" height="50px" />
@@ -132,7 +132,7 @@ export default class About extends Component {
                      </p>
                                     </div>
                                 </a>
-                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/settings.svg" height="50px" />
@@ -144,7 +144,7 @@ export default class About extends Component {
                      </p>
                                     </div>
                                 </a>
-                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/idea.svg" height="50px" />
@@ -157,7 +157,7 @@ export default class About extends Component {
                      </p>
                                     </div>
                                 </a>
-                                <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/innovation.svg" height="50px" />
@@ -181,15 +181,15 @@ export default class About extends Component {
                     {/* Section: About 2*/}
                     <section id="about" className="section about pb-3 wow fadeIn" data-wow-delay="0.2s">
                         {/* Grid row */}
-                        <div className="row pt-4 mt-5">
+                        <div className="row pt-4 mt-md-5">
                             {/* Grid column */}
-                            <div className="col-lg-12 col-md-12 wow fadeIn text-center mb-5" data-wow-delay="0.4s">
+                            <div className="col-lg-12 col-md-12 wow fadeIn text-center mb-md-5 mb-1" data-wow-delay="0.4s">
                                 {/* Secion heading */}
                                 <h2 className="title wow fadeIn text-center font-weight-bold mb-5" data-wow-delay="0.2s">
                                     OUR<span className="font-weight-light border-line"> VISION</span>
                                 </h2>
                                 {/* Description */}
-                                <p>We help companies Build Intelligent Enterprises by leveraging the emerging
+                                <p className="mb-0">We help companies Build Intelligent Enterprises by leveraging the emerging
                                 and next-generation technologies to accelerate digital transformation and speed of
                                 innovation to provide competitive advantage and success as the Enterprise of Tomorrow.
                </p>
@@ -204,7 +204,7 @@ export default class About extends Component {
                             {/* Grid column */}
                         </div>
                         {/* Grid row */}
-                        <div className="ourVision my-5">
+                        <div className="ourVision my-md-5 my-3">
                             <span className="text-primary">Customer</span>
                             <span className="text-second">Product</span>
                             <span className="text-primary">People</span>
@@ -218,7 +218,7 @@ export default class About extends Component {
 
                 <section className="section ">
                     <div className="container py-3">
-                        <h2 className="title my-5 wow fadeIn font-weight-bold animated text-center "
+                        <h2 className="title my-md-5 my-3 wow fadeIn font-weight-bold animated text-center "
                             data-wow-delay="0.2s"
                             style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>
                             Our<span className="font-weight-light border-line"> Team</span>

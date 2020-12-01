@@ -31,7 +31,7 @@ export default class DataEngineering extends Component {
                             Our Value
                        <span className="font-weight-light border-line"> Offerings</span>
                         </h3>
-                        <h4 className="title my-5 wow fadeIn font-weight-bold text-center" data-wow-delay="0.2s"
+                        <h4 className="title my-md-5 my-3 wow fadeIn font-weight-bold text-center" data-wow-delay="0.2s"
                             style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
                             We bring the following features to each of <span className="font-weight-light">our
                             Customers</span>

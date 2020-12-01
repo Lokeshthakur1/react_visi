@@ -38,85 +38,89 @@ export default class RetailCaseStudies extends Component {
                                 <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Suggest promos based on available inventory count and environmental driver details</li>
                             </ul>
                         </div>
-                        <table className="table table-bordered box-table">
-                            <thead className="blue-1 white-text">
-                                <tr>
-                                    <th scope="col">Marketing</th>
-                                    <th scope="col">Merchandising</th>
-                                    <th scope="col">Vendor Management</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <ul className="listFinancial_services">
-                                            <li><i className="fas fa-check pr-2"></i>Market basket analysis</li>
-                                            <li><i className="fas fa-check pr-2"></i>Promo mix modeling</li>
-                                            <li><i className="fas fa-check pr-2"></i>Optimizing discount offering</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul className="listFinancial_services">
-                                            <li><i className="fas fa-check pr-2"></i>Assortment optimization</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul className="listFinancial_services">
-                                            <li><i className="fas fa-check pr-2"></i>Automation of vendor’s approval on product discount offering </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className="table-responsive">
+                            <table className="table table-bordered box-table">
+                                <thead className="blue-1 white-text">
+                                    <tr>
+                                        <th scope="col">Marketing</th>
+                                        <th scope="col">Merchandising</th>
+                                        <th scope="col">Vendor Management</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul className="listFinancial_services">
+                                                <li><i className="fas fa-check pr-2"></i>Market basket analysis</li>
+                                                <li><i className="fas fa-check pr-2"></i>Promo mix modeling</li>
+                                                <li><i className="fas fa-check pr-2"></i>Optimizing discount offering</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul className="listFinancial_services">
+                                                <li><i className="fas fa-check pr-2"></i>Assortment optimization</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul className="listFinancial_services">
+                                                <li><i className="fas fa-check pr-2"></i>Automation of vendor’s approval on product discount offering </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <p><b>Case Details:</b> Different Levels of Analysis</p>
-                        <table className="table table-bordered box-table">
-                            <thead className="blue-1 white-text">
-                                <tr>
-                                    <th style={{ width: 250 }}>Descriptive</th>
-                                    <th> Diagnostic</th>
-                                    <th> Predictive</th>
-                                    <th style={{ width: 250 }}> Prescriptive</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        What Happened?
+                        <div className="table-responsive">
+                            <table className="table table-bordered box-table">
+                                <thead className="blue-1 white-text">
+                                    <tr>
+                                        <th style={{ width: 250 }}>Descriptive</th>
+                                        <th> Diagnostic</th>
+                                        <th> Predictive</th>
+                                        <th style={{ width: 250 }}> Prescriptive</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            What Happened?
                                     </td>
-                                    <td>
-                                        Why Did it happen?
+                                        <td>
+                                            Why Did it happen?
                                     </td>
-                                    <td>
-                                        What will happen?
+                                        <td>
+                                            What will happen?
                                     </td>
-                                    <td>
-                                        How can I make it happen?
+                                        <td>
+                                            How can I make it happen?
                                     </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Standard reports/dashboards:</b>
-                                        <ul className="listFinancial_services">
-                                            <li><i className="fas fa-check pr-2"></i>Historical distribution of sales by promo</li>
-                                            <li><i className="fas fa-check pr-2"></i>Historical distribution of margin by promo</li>
-                                            <li><i className="fas fa-check pr-2"></i>Forecasted sales vs. actual sales</li>
-                                        </ul>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Standard reports/dashboards:</b>
+                                            <ul className="listFinancial_services">
+                                                <li><i className="fas fa-check pr-2"></i>Historical distribution of sales by promo</li>
+                                                <li><i className="fas fa-check pr-2"></i>Historical distribution of margin by promo</li>
+                                                <li><i className="fas fa-check pr-2"></i>Forecasted sales vs. actual sales</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            Comparing expected unprofitable but actual profitable promos
                                     </td>
-                                    <td>
-                                        Comparing expected unprofitable but actual profitable promos
+                                        <td>
+                                            What is the dollar value lift can be achieved by changing the price discount or removing some SKUs or adding some SKUs to a promo bucket
                                     </td>
-                                    <td>
-                                        What is the dollar value lift can be achieved by changing the price discount or removing some SKUs or adding some SKUs to a promo bucket
-                                    </td>
-                                    <td>
-                                        <ul className="listFinancial_services">
-                                            <li><i className="fas fa-check pr-2"></i>Set and respond to triggers for timely actions</li>
-                                            <li><i className="fas fa-check pr-2"></i>Evaluate true profitability by tracking vendor funded coupon receivables, Cost to serve, Voluminous SKUs, Long Lead SKUs</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        <td>
+                                            <ul className="listFinancial_services">
+                                                <li><i className="fas fa-check pr-2"></i>Set and respond to triggers for timely actions</li>
+                                                <li><i className="fas fa-check pr-2"></i>Evaluate true profitability by tracking vendor funded coupon receivables, Cost to serve, Voluminous SKUs, Long Lead SKUs</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </section>
             </main>

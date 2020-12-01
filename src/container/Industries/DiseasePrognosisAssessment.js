@@ -54,8 +54,6 @@ export default class DiseasePrognosisAssessment extends Component {
                             <div className="col-md-4">
                                 <div className="list-group fanylist_group">
                                     <div className="rightsidebarHead">Case Studies</div>
-
-                                    <div className="rightsidebarHead">Case Studies</div>
                                     <Link to={Links.EmployeeAttr} className="list-group-item list-group-item-action"> <i
                                         className="fas fa-check mr-2"></i> <span>Employee Attrition and Retain</span></Link>
                                     <Link to={Links.EmployeeEngagement} className="list-group-item list-group-item-action">

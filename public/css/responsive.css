@@ -1,4 +1,10 @@
 @media only screen and (max-width: 993px) {
+    .megamenu {
+        display: none;
+    }
+    li.nav-item.dropdown:hover > .megamenu {
+        display: block;
+    }
     .ourVision {
         text-align: center;
         display: flex;
@@ -63,25 +69,32 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .border-line {
+    line-height: 50px;
+}
     .slick-prev {
     left: -10px !important;
+}
+footer.bg-footer > .blue h6 {
+    margin-bottom: 18px!important;
 }
 .slick-next {
     right: -10px !important;
 }
-    .box-mainslide .view img {
-        height: 100%;
-        object-fit: cover;
-        object-position: 74%;
-        min-height: 100vh;
-    }
+.box-mainslide .view img {
+    height: 100%;
+    object-fit: cover;
+    object-position: 34%;
+    min-height: 100vh;
+}
     .arrowdown img {
         height: 30px;
     }
+
     .view .mask {
-        align-items: end!important;
-        padding-top: 80px;
-    }
+    /* align-items: end!important; */
+    padding-top: 80px;
+}
     .title {
         font-size: 22px;
     }

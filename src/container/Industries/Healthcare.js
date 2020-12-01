@@ -87,7 +87,7 @@ export default class Healthcare extends Component {
 
 
 
-                                <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
+                                <div className="row wow px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
                                     <div className="text-left col-lg-4 col-md-6 mb-3 px-2">
                                         <div className="feature-title title spacing">
                                             <img alt="img" src="img/Images/virtual_clinic.jpg"
