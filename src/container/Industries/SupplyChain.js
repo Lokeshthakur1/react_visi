@@ -13,11 +13,7 @@ export default class SupplyChain extends Component {
                             <img src="img/svg/supplychain1.svg" className="img-fluid" />
                         </div>
                         <div className="row px-2">
-
-
-
                             <div className="col-md-12 px-2">
-
                                 <div className="list-group card shadow-lg mb-3">
                                     <h4 className="title my-3 wow fadeIn px-3 font-weight-bold" data-wow-delay="0.2s">Supply Chain Diagnosis</h4>
                                     <ul className="list-group list-group-flush py-3">
@@ -39,7 +35,6 @@ export default class SupplyChain extends Component {
                                 </div>
                             </div>
                             <div className="col-md-12 px-2">
-
                                 <div className="list-group card shadow-lg mb-3">
                                     <h4 className="title my-3 wow fadeIn px-3 font-weight-bold" data-wow-delay="0.2s">Supply Chain Optimization</h4>
                                     <ul className="list-group list-group-flush py-3">
@@ -49,10 +44,8 @@ export default class SupplyChain extends Component {
                                         <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Continuous Improvement with feedback and learning models​ </li>
                                     </ul>
                                 </div>
-
                             </div>
                             <div className="col-md-12 px-2">
-
                                 <div className="list-group card shadow-lg mb-3">
                                     {/* <h4 className="title my-3 wow fadeIn px-3 font-weight-bold" data-wow-delay="0.2s">Supply Chain Optimization</h4> */}
                                     <ul className="list-group list-group-flush py-3">
@@ -62,11 +55,9 @@ export default class SupplyChain extends Component {
                                         <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Agile and modular Supply Chain service approach</li>
                                     </ul>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                     <div className="container pt-3">
                         <h4 className="font-weight-bold">Procure to Pay Anomaly Detection</h4>
                         <ul className="nav nav-tabs  md-tabs mt-3 box-tab" id="myTabJust" role="tablist">
@@ -82,15 +73,12 @@ export default class SupplyChain extends Component {
                                 <a className="nav-link px-4" id="2" data-toggle="tab" href="#BusinessBenifit" role="tab"
                                     aria-controls="banking" aria-selected="false">BUSINESS BENEFITS</a>
                             </li>
-
-
                         </ul>
                         <div className="tab-content card shadow-lg mb-5" id="myTabContentJust">
                             <div className="tab-pane fade show active" id="businessProblem" role="tabpanel" aria-labelledby="1">
                                 <div class="row align-items-center p-4">
                                     <div class="col-md-12">
                                         <h4 className="font-weight-bold mb-3">BUSINESS PROBLEM</h4>
-
                                         <ul className="list-group list-group-flush py-3">
                                             <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Due to multiple acquisitions and non-standardized processes across locations, this organization faced challenges in its Finance & Accounting process with leakages and other P2P risks</li>
                                             <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Clients data was located across 4 different ERP systems with cross platform anomalies including leakages and master data issues</li>
@@ -131,7 +119,6 @@ export default class SupplyChain extends Component {
                                             <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Improved audit process by shifting from sample-based audits to data-driven audits and 100% surveillance </li>
                                             <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Higher process efficiency by reduced back office quality control checks and targeted investigation efforts</li>
                                             <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Identified errors and anomalies previously unseen in near real time</li>
-
                                         </ul>
                                     </div>
                                 </div>
