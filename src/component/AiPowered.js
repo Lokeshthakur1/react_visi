@@ -6,6 +6,9 @@ export default class AiPowered extends Component {
             <main>
                 <section className="p-md-3 text-lg-left light-blue-back">
                     <div className="container pt-5">
+                        <div className="text-center my-4">
+                            <img src="img/svg/marketing_infographic_img.svg" className="img-fluid" />
+                        </div>
                         <div className="row d-flex justify-content-center">
                             <h3 className="title pb-5 wow fadeIn font-weight-bold text-center text-uppercase" data-wow-delay="0.2s"
                                 style={{ visibility: "visible", animationName: " fadeIn", animationDelay: "0.2s;" }}>
@@ -338,30 +341,23 @@ export default class AiPowered extends Component {
                             </div>
                             <div className="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="3">
                                 <div className="row px-3">
-
                                     <div className="col-md-6 pt-5 px-3 d-flex align-items-center">
                                         <img alt="img" src="img/svg/High Brand Equity.svg" className="img-fluid w-100" />
                                     </div>
-
                                     <div className="col-md-6 p-3">
-
                                         <h4 className="my-4">Understand How Your Activities Drive Your business With Marketing Mix
                                         Modelling
                                         </h4>
-
                                         <p className="text-justify">Branded products command a higher authority in the market. Therefore, an increase in
                                         brand equity translates directly into a higher value perception in the marketplace.
                                         Customer loyalty, improved profits, and market expansion are the key benefits of
                                         brand equity. Marketing Zen offers Brand Equity Management solutions that ensures
                                         improved customer trust and satisfaction to boost profit margins.
                                         </p>
-
                                         <p className="text-justify">We help you measure and understand brand equity to plan for strategic product
                                         positioning in the market. Our solutions ensure you gain a strong command in the
                                         market that leads to brand extensions, improved trade cooperation, and support.
-
                                         </p>
-
                                         <ul className="list-group list-group-flush py-5">
                                             <li className="list-group-item"><span className="pr-4"><i
                                                 className="fas fa-check"></i></span>Greater Trade Cooperation and Support
@@ -561,7 +557,7 @@ export default class AiPowered extends Component {
                                 </div>
                             </div>
                         </div>
-                  
+
                     </div>
                 </section >
             </main >

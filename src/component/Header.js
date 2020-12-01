@@ -196,7 +196,7 @@ class Header extends Component {
                                         <ul className="dropdown_menu dropdown_menu--animated megamenu dropdown_menu-8">
                                             <li>
                                                 <h5>By Industry</h5>
-                                                <Link className="tablink waves-effect waves-light">BANKING & FINANCIAL</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.Banking}>BANKING & FINANCIAL</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Healthcare}>HEALTHCARE & PHRAMA</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Hightech}>Hi-Tech</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Retail}>RETAIL</Link>

@@ -14,9 +14,10 @@ export default class Marketing extends Component {
                                     <h2 className="title mb-5 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Marketing
                                     </h2>
-                                    <div className="mb-4 text-center">
+                                    {/* <div className="mb-4 text-center">
                                         <img alt="img" src="img/svg/environment.svg" alt="environment" className="w-100" />
-                                    </div>
+                                    </div> */}
+
                                     <p className="text-justify">Comming Soon</p>
 
                                 </section>
@@ -24,7 +25,6 @@ export default class Marketing extends Component {
                             <div className="col-md-4">
                                 <div className="list-group fanylist_group">
                                     <div className="rightsidebarHead">Case Studies</div>
-
                                     <Link to={Links.AirPollutionMonitoringPrediction}
                                         className="list-group-item list-group-item-action">
                                         <i className="fas fa-check mr-2"></i> <span>Air Pollution Monitoring and

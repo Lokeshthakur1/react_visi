@@ -15,6 +15,10 @@ export default class Banking extends Component {
                                     <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Banking & Financial <span className="font-weight-light"></span>
                                     </h2>
+
+                                    <div className="text-center my-4">
+                                        <img src="img/svg/banking&financial_img.svg" className="img-fluid" />
+                                    </div>
                                     <p className="text-justify">
                                         Banking and Finance have always been a lot of work. The major energy is required to
                                         explain to the layman customer about everything. On top of that, there is so much data

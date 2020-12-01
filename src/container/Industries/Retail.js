@@ -17,7 +17,9 @@ export default class Retail extends Component {
                                     </h2>
 
                                     <div className="text-center">
-                                        <img alt="img" src="img/svg/retail_img.svg" className="img-fluid" />
+                                        {/* <img alt="img" src="img/svg/retail_img.svg" className="img-fluid" /> */}
+                                        <img alt="img" src="img/svg/retail_infographic.svg" className="img-fluid my-4" />
+
                                     </div>
                                     <p className="text-justify">
                                         Retail analytics is the process of providing analytical data on inventory levels, supply chain movement, consumer demand, sales, etc. that are crucial for making marketing, and procurement decisions.
@@ -29,7 +31,6 @@ export default class Retail extends Component {
                                     <div className="row">
                                         <div className="col-md-12 mt-3">
 
-                                            <img alt="img" src="img/svg/retail_infographic.svg" className="img-fluid my-4" />
                                             <div className="list-group p-3 card shadow-lg">
                                                 <h4 className="title my-3 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
                                                     Customer Segmentation & <span className="font-weight-light">profiling</span>
@@ -52,6 +53,11 @@ export default class Retail extends Component {
                                                         </ul>
                                                     </li>
                                                 </ul>
+                                            </div>
+                                        </div>
+                                        <div className="text-center col-12 my-4">
+                                            <div className="list-group p-3 card shadow-lg">
+                                                <img src="img/svg/retail_infographic_img.svg" className="img-fluid" />
                                             </div>
                                         </div>
 

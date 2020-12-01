@@ -14,8 +14,9 @@ export default class Healthcare extends Component {
                                 <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                     Healthcare <span className="font-weight-light"></span>
                                 </h2>
-                                <div className="text-center mb-4">
-                                    <img alt="img" src="img/svg/solution_data_model.svg" className="img-fluid" />
+
+                                <div className="text-center my-4">
+                                    <img src="img/svg/healthcare_img.svg" className="img-fluid" />
                                 </div>
                                 <p className="text-justify">
                                     Modern Healthcare industry is evolving rapidly with new technologies and smart solutions. Healthcare management has become a challenge with large volumes of data in cost & patient outcomes. Ai powered solutions are playing key roles in taking care of patients, hospital management, data management and other problems.
@@ -37,6 +38,11 @@ export default class Healthcare extends Component {
                                         technologists and hands on practitioners making people judge and decides their value of
                                         service they would get.
                             </p> */}
+
+                                <div className="text-center mb-4">
+                                    <img alt="img" src="img/svg/solution_data_model.svg" className="img-fluid" />
+                                </div>
+
                                 <h4 className="title my-5 wow fadeIn  font-weight-bold" data-wow-delay="0.2s">
                                     The main solutions of this <span className="font-weight-light">application are</span>
                                 </h4>
@@ -92,7 +98,6 @@ export default class Healthcare extends Component {
                                         <div className="feature-title title spacing">
                                             <img alt="img" src="img/Images/virtual_clinic.jpg"
                                                 className="img_bg" />
-
                                             <h6>
                                                 Virtual Clinical Trial Platform for Complex Diseases <br /> <Link to={Links.VirtualClinic}
                                                     className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
