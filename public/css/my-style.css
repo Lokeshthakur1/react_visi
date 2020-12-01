@@ -988,6 +988,22 @@ ul.listFinancial_services li{
     -o-transition: all .55s ease-in-out;
     transition: all .55s ease-in-out;
 }
+
+.megamenu {
+    display: flex;
+    width: 800px;
+    background: #fff!important;
+    padding: 12px!important;
+    border-radius: 8px;
+    box-shadow: 3px 0px 20px 0px rgba(0,0,0,.3);
+}
+.megamenu a.tablink {
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    border-left: 0px solid;
+    border-right: 0px solid;
+}
 .navbar .navbar-toggler {
     outline: 0;
     border-width: 0;
