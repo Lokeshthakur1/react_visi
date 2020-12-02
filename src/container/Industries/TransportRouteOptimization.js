@@ -19,7 +19,20 @@ export default class TransportRouteOptimization extends Component {
                                     <img src="img/Images/ML DRIVEN OPTMIZATION PLATFORM.jpg" className="w-100" />
                                 </div>
                             </div>
-                            <div class="col-md-12 mt-3">
+                            <div class="col-md-6 mt-3">
+                                <div class="list-group card shadow-lg p-3">
+                                    <h4 className="font-weight-bold">Client: </h4>
+                                    <ul class="list-group list-group-flush py-3">
+                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Create a master list of person locations (latitude and longitude)</li>
+                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Create a master of distances and times between each pair of employees</li>
+                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Partition each shift into groups : Set Partitioning Problem</li>
+                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Create a cost function combining the vehicle cost and the quality of service offered</li>
+                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Find the optimal route for each partition (selecting those which meet the distance and time constraints) : Travelling Salesman Problem</li>
+                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Assign employees to minimum cost vehicles that accommodate the groups</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
                                 <div class="list-group card shadow-lg p-3">
                                     <h4 className="font-weight-bold">Objective: </h4>
                                     <ul class="list-group list-group-flush py-3">
@@ -39,19 +52,7 @@ export default class TransportRouteOptimization extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-12 mt-3">
-                                <div class="list-group card shadow-lg p-3">
-                                    <h4 className="font-weight-bold">Client: </h4>
-                                    <ul class="list-group list-group-flush py-3">
-                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Create a master list of person locations (latitude and longitude)</li>
-                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Create a master of distances and times between each pair of employees</li>
-                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Partition each shift into groups : Set Partitioning Problem</li>
-                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Create a cost function combining the vehicle cost and the quality of service offered</li>
-                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Find the optimal route for each partition (selecting those which meet the distance and time constraints) : Travelling Salesman Problem</li>
-                                        <li class="list-group-item"><span class="pr-4"><i class="fas fa-check"></i></span>Assign employees to minimum cost vehicles that accommodate the groups</li>
-                                    </ul>
-                                </div>
-                            </div>
+
 
                         </div>
 

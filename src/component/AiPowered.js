@@ -6,7 +6,7 @@ export default class AiPowered extends Component {
             <main>
                 <section className="p-md-3 text-lg-left light-blue-back">
                     <div className="container pt-5">
-                        <div className="text-center my-4">
+                        <div className="text-center my-4 px-3">
                             <img src="img/svg/marketing_infographic_img.svg" className="img-fluid" />
                         </div>
                         <div className="row d-flex justify-content-center">

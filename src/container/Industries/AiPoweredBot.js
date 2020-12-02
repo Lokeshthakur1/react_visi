@@ -14,16 +14,22 @@ export default class AiPoweredBot extends Component {
                         <div className="text-center my-4">
                             <img alt="img" src="img/svg/ai_bot_prospact_sourcing.svg" height="400" style={{maxWidth:'100%'}}/>
                         </div>
+                        <div className="row">
+                            <div className="col-md-12">
                     <div className="blockquote bq-primary">
                         <p className="bq-title">Business Problem</p>
                             <p>There is a need for qualification and categorization of prospects (inbound) from multiple channels (website, social media and mobile apps).</p>
                     </div>
+                            </div>
+                            <div className="col-md-6">
                     <div className="blockquote bq-primary">
                         <p className="bq-title">Solution
     
                         </p>
                             <p>The solution is an AI powered multi-lingual conversational BOT to capture relevant data through intelligent  interaction and information dissemination as enquired by the customer along with human take-over as required. </p>
                     </div>
+                            </div>
+                            <div className="col-md-6">
                     <div className="blockquote bq-primary">
                         <p className="bq-title">Business Benefits</p>
 
@@ -34,7 +40,8 @@ export default class AiPoweredBot extends Component {
                             </ul>
                      
                     </div>
-    
+                    </div>
+                        </div>
                 </div>
             </section>
     

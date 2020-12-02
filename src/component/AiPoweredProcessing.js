@@ -13,6 +13,8 @@ export default class AiPoweredProcessing extends Component {
                     <div className="text-center my-5">
                             <img alt="img" src="img/svg/ai_form.svg" height="400" style={{maxWidth:'100%'}}/>
                     </div>
+                    <div className="row">
+                        <div className="col-md-12">
                     <div className="blockquote bq-primary">
                         <p className="bq-title">Client</p>
                         <p >One of the largest Mutual Fund RTA with Regional centers spread over 1000 locations across the
@@ -20,6 +22,8 @@ export default class AiPoweredProcessing extends Component {
     
                         </p>
                     </div>
+                    </div>
+                    <div className="col-md-6">
                     <div className="blockquote bq-primary">
                         <p className="bq-title">Business Problem</p>
                         <ul className="list-group list-group-flush py-3">
@@ -40,6 +44,9 @@ export default class AiPoweredProcessing extends Component {
                         </ul>
     
                     </div>
+                            </div>
+                            <div className="col-md-6">
+
                     <div className="blockquote bq-primary">
                         <p className="bq-title">Solution
     
@@ -62,34 +69,38 @@ export default class AiPoweredProcessing extends Component {
                             </li>
                         </ul>
                     </div>
+                    </div>
+                            <div className="col-md-12">
+
                     <div className="blockquote bq-primary">
                         <p className="bq-title">Business Benefits</p>
                         <div className="row text-center d-flex justify-content-center mt-4">
-                            <div className="col-lg-3 mb-5">
+                            <div className="col-lg-3">
                                 <img alt="img" src="img/svg/012-system-1.svg" height="60px"/>
-                                <h5 className="my-4">Scalable Automation
+                                <h5 className="mt-4">Scalable Automation
                                 </h5>
                             </div>
-                            <div className="col-lg-3 mb-5">
+                            <div className="col-lg-3">
                                 <img alt="img" src="img/svg/019-analytics.svg" height="60px"/>
-                                <h5 className="my-4">70% manual effort reduced Improved Productivity
+                                <h5 className="mt-4">70% manual effort reduced Improved Productivity
                                 </h5>
                             </div>
-                            <div className="col-lg-3 mb-5">
+                            <div className="col-lg-3">
                                 <img alt="img" src="img/svg/001-resize.svg" height="60px"/>
-                                <h5 className="my-4">TAT reduced from days to hours
+                                <h5 className="mt-4">TAT reduced from days to hours
     
                                 </h5>
                             </div>
-                            <div className="col-lg-3 mb-5">
+                            <div className="col-lg-3">
                                 <img alt="img" src="img/svg/002-wallet-with-card-sticking-out.svg" height="60px"/>
-                                <h5 className="my-4">50% Cost Saving
+                                <h5 className="mt-4">50% Cost Saving
     
                                 </h5>
                             </div>
                         </div>
                     </div>
-    
+                    </div>
+                        </div>
                 </div>
             </section>
     

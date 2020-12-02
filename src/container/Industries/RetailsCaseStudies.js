@@ -12,31 +12,40 @@ export default class RetailCaseStudies extends Component {
                         <div className="text-center my-4">
                             <img alt="img" src="img/svg/stores_.svg" height="400" style={{ maxWidth: '100%' }} />
                         </div>
-                        <div className="blockquote bq-primary">
-                            <p className="bq-title">Company</p>
-                            <p>American multinational office supply retailing corporation, with over 3,000 stores worldwide in 26 countries.</p>
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div className="blockquote bq-primary">
+                                    <p className="bq-title">Company</p>
+                                    <p>American multinational office supply retailing corporation, with over 3,000 stores worldwide in 26 countries.</p>
 
-                        </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="blockquote bq-primary">
+                                    <p className="bq-title">System</p>
+                                    <p>Staples Enterprise Promotion Platform (EPP) – a platform developed internally to create and manage promos across SKUs used by promo managers</p>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="blockquote bq-primary">
+                                    <p className="bq-title">Problem</p>
+                                    <ul className="list-group list-group-flush py-3">
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Current profitability report is static and clumsy with no drill downs from promo to SKU level</li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>No predictions or prescriptions</li>
 
-                        <div className="blockquote bq-primary">
-                            <p className="bq-title">System</p>
-                            <p>Staples Enterprise Promotion Platform (EPP) – a platform developed internally to create and manage promos across SKUs used by promo managers</p>
-                        </div>
-                        <div className="blockquote bq-primary">
-                            <p className="bq-title">Problem</p>
-                            <ul className="list-group list-group-flush py-3">
-                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Current profitability report is static and clumsy with no drill downs from promo to SKU level</li>
-                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>No predictions or prescriptions</li>
-
-                            </ul>
-                        </div>
-                        <div className="blockquote bq-primary">
-                            <p className="bq-title">Solution</p>
-                            <ul className="list-group list-group-flush py-3">
-                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Dynamic dashboards for promo managers with drill down to granular levels</li>
-                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Suggestive negotiation with vendor while creating promos that require vendor funding</li>
-                                <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Suggest promos based on available inventory count and environmental driver details</li>
-                            </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="blockquote bq-primary">
+                                    <p className="bq-title">Solution</p>
+                                    <ul className="list-group list-group-flush py-3">
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Dynamic dashboards for promo managers with drill down to granular levels</li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Suggestive negotiation with vendor while creating promos that require vendor funding</li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Suggest promos based on available inventory count and environmental driver details</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <div className="table-responsive">
                             <table className="table table-bordered box-table">
