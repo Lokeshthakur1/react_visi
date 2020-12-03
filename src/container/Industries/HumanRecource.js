@@ -12,12 +12,15 @@ export default class HumanResource extends Component {
                         <div className="row">
                             <div className="col-md-8">
                                 <section>
-                                    <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                    <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Human <span className="font-weight-light"> Resource</span>
                                     </h2>
-                                    {/* <h4 className="title mb-5 wow fadeIn" data-wow-delay="0.2s">
+                                    {/* <h4 className="title mb-md-5 mb-2 wow fadeIn" data-wow-delay="0.2s">
                                         Intelligent, integrated systems for critical infrastructure protection
                                     </h4> */}
+                                    <div className="text-center my-4">
+                                        <img src="img/svg/hr_img.svg" className="img-fluid" />
+                                    </div>
                                     <p className="text-justify">
                                         We implement a scalable, scientific model to extract predictions about employee engagement, performance and attrition based on demographic and performance data of employees coupled with measured indicators of the employment market. </p>
                                     <hr />

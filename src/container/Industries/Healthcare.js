@@ -11,7 +11,7 @@ export default class Healthcare extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8">
-                                <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                     Healthcare <span className="font-weight-light"></span>
                                 </h2>
 

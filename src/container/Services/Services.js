@@ -9,7 +9,7 @@ export default class Services extends Component {
             <main>
                 <div className="container">
                     <section className="text-center py-5">
-                        <h2 className="title mb-5 wow fadeIn font-weight-bold text-center" data-wow-delay="0.2s"
+                        <h2 className="title mb-md-5 mb-2 wow fadeIn font-weight-bold text-center" data-wow-delay="0.2s"
                             style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
                             Services<span className="font-weight-light border-line-white text-white"></span>
                         </h2>

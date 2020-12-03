@@ -35,7 +35,7 @@ export default class About extends Component {
                                 OUR <span className="font-weight-light border-line-white text-white">PROMISE</span>
                             </h2>
                             <p className="text-center mb-3 wow text-white fadeIn" data-wow-delay="0.2s">
-                                VisionAize offers world class AI powered solutions to empower data driven businesses with high an accuracy results.</p>
+                                VisionAize offers world class AI powered solutions to empower data driven businesses with high accuracy results.</p>
                         </div>
                         <div className="row features wow fadeIn my-5 pt-5" data-wow-delay="0.2s">
                             <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4">

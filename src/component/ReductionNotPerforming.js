@@ -10,7 +10,7 @@ export default class ReductionNotPerforming extends Component {
 
 
                         <div className="container">
-                            <h2 className="title mb-5 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s" >Reduction of a Bank’s Non-Performing Assets<span className="font-weight-light"></span></h2>
+                            <h2 className="title mb-md-5 mb-2 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s" >Reduction of a Bank’s Non-Performing Assets<span className="font-weight-light"></span></h2>
                             <div className="blockquote bq-primary py-3">
                                 <img alt="img" src="img/Images/causalitv_matrix.jpg" className=" w-100" />
                             </div>

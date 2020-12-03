@@ -101,7 +101,7 @@ export default class Home extends Component {
     render() {
         return (
             <main>
-                <Element name="topsec" id="topsec" className="box-mainslide carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                <Element name="topsec" id="topsec" className="box-mainslide carousel slide carousel-fade homepage" data-ride="carousel" data-interval="false">
                     <div className="carousel-inner" role="listbox" style={{ height: 'calc(100vh - 100px)' }}>
                         <div className="carousel-item active">
                             <div className="view overflow-hidden">

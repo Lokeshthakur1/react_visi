@@ -9,7 +9,7 @@ export default class RiskAssesment extends Component {
 
                 <section className="py-5 case-studies_page">
                 <div className="container">
-                        <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Risk Assessment & Propensity Model<span className="font-weight-light"></span></h2>
+                        <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Risk Assessment & Propensity Model<span className="font-weight-light"></span></h2>
 
                         <div className="text-center py-3 mb-4">
                             <img alt="img" src="img/Images/riskAssesmentAndPropensity.jpg" className="img-fluid w-100"/>

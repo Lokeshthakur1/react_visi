@@ -44,7 +44,7 @@ export default class DataLake extends Component {
                         <div className="tab-content card p-5 mb-5" id="myTabContentJust">
                             <div className="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="1">
                                 <div className="row">
-                                    <h4 className="title mb-5 wow fadeIn font-weight-bold" data-wow-delay="0.2s"
+                                    <h4 className="title mb-md-5 mb-2 wow fadeIn font-weight-bold" data-wow-delay="0.2s"
                                         style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
                                         The Challenge <span className="font-weight-light"></span>
                                     </h4>
@@ -82,7 +82,7 @@ export default class DataLake extends Component {
                             </div>
                             <div className="tab-pane fade" id="second" role="tabpanel" aria-labelledby="2">
                                 <div className="row">
-                                    <h4 className="title mb-5 wow fadeIn text-center font-weight-bold" data-wow-delay="0.2s"
+                                    <h4 className="title mb-md-5 mb-2 wow fadeIn text-center font-weight-bold" data-wow-delay="0.2s"
                                         style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
                                         Our AWS/Azure -Driven Technical Stack Helps Organisation Modernising Their Data
                                         Warehouse <span className="font-weight-light"></span>

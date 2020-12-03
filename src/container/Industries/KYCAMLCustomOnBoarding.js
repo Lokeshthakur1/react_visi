@@ -7,7 +7,7 @@ export default class KYCAMLCustomOnBoarding extends Component {
                 <main>
                     <section className="py-5 case-studies_page">
                         <div className="container">
-                            <h2 className="title mb-5 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s" >KYC/AML Custom On-Boarding<span className="font-weight-light"></span></h2>
+                            <h2 className="title mb-md-5 mb-2 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s" >KYC/AML Custom On-Boarding<span className="font-weight-light"></span></h2>
                             <img alt="img" src="img/svg/KYC_AMLCUSTO ONBOARDING.svg" className="w-100" />
                             <div className="row">
                                 <div className="col-md-12">

@@ -9,7 +9,7 @@ export default class EmployeeProductivity extends Component {
 
                 <section className="py-5 case-studies_page">
                     <div className="container">
-                        <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Employee Productivity<span className="font-weight-light"></span></h2>
+                        <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Employee Productivity<span className="font-weight-light"></span></h2>
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="blockquote bq-primary">

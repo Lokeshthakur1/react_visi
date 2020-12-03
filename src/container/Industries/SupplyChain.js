@@ -8,7 +8,7 @@ export default class SupplyChain extends Component {
             <main>
                 <section className="py-5">
                     <div className="container">
-                        <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Supply Chain<span className="font-weight-light"></span></h2>
+                        <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">Supply Chain<span className="font-weight-light"></span></h2>
                         <div className="text-center my-4">
                             <img src="img/svg/supplychain1.svg" className="img-fluid" />
                         </div>

@@ -12,7 +12,7 @@ export default class Oilgas extends Component {
                         <div className="row">
                             <div className="col-md-8">
                                 <section>
-                                    <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                    <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Oil & Gas <span className="font-weight-light">Situational Awareness
                                         Solutions</span>
                                     </h2>
@@ -21,7 +21,7 @@ export default class Oilgas extends Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-md-12 mt-3">
-                                            <h4 className="title mb-5 wow fadeIn" data-wow-delay="0.2s">
+                                            <h4 className="title mb-md-5 mb-2 wow fadeIn" data-wow-delay="0.2s">
                                                 Intelligent, integrated systems for critical infrastructure protection
                                 </h4>
                                             <p className="text-justify">

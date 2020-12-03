@@ -8,7 +8,7 @@ export default class AiPoweredProcessing extends Component {
 
             <section className="py-5 case-studies_page">
                 <div className="container">
-                        <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">AI powered form processing<span className="font-weight-light"></span>
+                        <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">AI powered form processing<span className="font-weight-light"></span>
                         </h2>
                     <div className="text-center my-5">
                             <img alt="img" src="img/svg/ai_form.svg" height="400" style={{maxWidth:'100%'}}/>

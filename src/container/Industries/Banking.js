@@ -12,7 +12,7 @@ export default class Banking extends Component {
                         <div className="row">
                             <div className="col-md-8">
                                 <section>
-                                    <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                    <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Banking & Financial <span className="font-weight-light"></span>
                                     </h2>
 
@@ -74,7 +74,7 @@ export default class Banking extends Component {
                                     </div> */}
 
 
-                                    <div className="row wow w-100 px-2 mt-4 justify-content-center fadeIn" data-wow-delay="0.4s">
+                                    <div className="row wow px-2 mt-4 justify-content-center fadeIn" data-wow-delay="0.4s">
                                         <div className="text-left col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
                                                 <img alt="img" src="img/Images/risk_management.jpg"
@@ -96,7 +96,7 @@ export default class Banking extends Component {
                                         </div>
 
                                     </div>
-                                    <div className="row wow w-100 px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
+                                    <div className="row wow px-2 justify-content-center fadeIn" data-wow-delay="0.4s">
                                         <div className="text-left col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
                                                 <img alt="img" src="img/Images/npa.jpg" className="img_bg" />

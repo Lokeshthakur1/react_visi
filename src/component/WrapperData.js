@@ -22,7 +22,7 @@ export const WrapperData = {
     AiPoweredProcessing: {
         heading: 'BANKING & FINANCIAL',
         description: ``,
-        bannerImgL: 'https://www.intelligenttransport.com/wp-content/uploads/AI-1.jpg',
+        bannerImgL: 'img/Images/AiPoweredProcessing_bg.png',
         Controls: true
     },
     AiPowered: {
@@ -315,7 +315,7 @@ export const WrapperData = {
     ClinicalTrial: {
         heading: 'clinical trial planning and execution',
         description: ``,
-        bannerImgL: 'https://Images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+        bannerImgL: 'img/Images/clinical trial planning and execution.jpg',
         Controls: true
     },
     CustomerEngage: {
@@ -331,19 +331,19 @@ export const WrapperData = {
     DataDriven: {
         heading: 'DATA DRIVEN DECISION SUPPORT',
         description: ``,
-        bannerImgL: 'https://Images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+        bannerImgL: 'img/Images/data_driven_decesion_support.jpg',
         Controls: true
     },
     DecisionSupports: {
         heading: 'Healthcare',
         description: ``,
-        bannerImgL: 'https://Images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        bannerImgL: 'img/Images/decision_support_img.jpg',
         Controls: true
     },
     DocumentProcessing: {
         heading: 'AI powered Document Processing',
         description: ``,
-        bannerImgL: 'https://Images.unsplash.com/photo-1603796846097-bee99e4a601f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80',
+        bannerImgL: 'img/Images/ducument_process_automation.jpg',
         Controls: true
     },
 
@@ -352,7 +352,7 @@ export const WrapperData = {
     EmailAutomation: {
         heading: 'BANKING & FINANCIAL',
         description: ``,
-        bannerImgL: 'https://Images.unsplash.com/photo-1512626120412-faf41adb4874?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=1350&q=80',
+        bannerImgL: 'img/Images/email_automation.jpg',
         Controls: true
     },
     PrivacyPolicy: {
@@ -394,7 +394,7 @@ export const WrapperData = {
     SmartCheque: {
         heading: 'Smart cheque processing',
         description: ``,
-        bannerImgL: 'https://Images.unsplash.com/photo-1562542472-c36f98399845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
+        bannerImgL: 'img/Images/smart_cheque_process.jpg',
         Controls: true
     },
     SmartOptimization: {
@@ -431,7 +431,7 @@ export const WrapperData = {
     ImplementHealthcare: {
         heading: 'Implementing preventing healthcare',
         description: ``,
-        bannerImgL: 'https://Images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+        bannerImgL: 'img/Images/healthcare_equipments.jpg',
         Controls: true
 
     },

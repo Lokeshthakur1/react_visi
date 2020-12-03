@@ -9,7 +9,7 @@ export default class ProcessAutomation extends Component {
         return (
             <main>
                 <div className="container">
-                    <p className="pt-5">
+                    <p className="pt-5 text-justify">
                         Enterprises need to digitalize their business capabilities and processes to step up their game for the
                         future. Digitalization efforts necessitate the adoption of technologies for analytics, automation and
                         integration, as well as the development of data enabling transparency and sharing applications.
@@ -26,7 +26,7 @@ export default class ProcessAutomation extends Component {
                             style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
                             Steps for Successful Digitalization
                     </h4>
-                        <p>
+                        <p className="text-justify">
                             The most commonly observed flaw is when the plethora of point technology solutions make enterprises
                             start from ‘step 3’ without a proper understanding of steps 1 and step 2.
                     </p>
@@ -226,7 +226,7 @@ export default class ProcessAutomation extends Component {
                                     <div className="col-9 pl-5">
                                         <h4 className="feature-title font-weight-bold">Intelligent Process Automation
                                     </h4>
-                                        <p className="">VisionAIze’s IPA solutions make your processes smarter. Our
+                                        <p className="text-justify">VisionAIze’s IPA solutions make your processes smarter. Our
                                         solutions not only elevate workforce productivity by automating mundane tasks, but
                                         also end-to-end business operations. Integrating robotic process automation with
                                         machine learning and cognitive technologies to generate intelligent operations, we
@@ -256,7 +256,7 @@ export default class ProcessAutomation extends Component {
                                     <div className="col-9 pl-5">
                                         <h4 className="feature-title font-weight-bold">
                                             Robotic Process Automation</h4>
-                                        <p className="">VisionAIze’s Robotic Process Automation (RPA), together with a
+                                        <p className="text-justify">VisionAIze’s Robotic Process Automation (RPA), together with a
                                         unique continuous improvement methodology, simplifies routine and repetitive
                                         processes for clients. This involves automating labor-intensive and error-prone back
                                         office tasks like data entry, account creation and data processing.

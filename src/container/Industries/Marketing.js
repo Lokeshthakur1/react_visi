@@ -11,7 +11,7 @@ export default class Marketing extends Component {
                         <div className="row">
                             <div className="col-md-8">
                                 <section>
-                                    <h2 className="title mb-5 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                    <h2 className="title mb-md-5 mb-2 wow fadeIn font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Marketing
                                     </h2>
                                     {/* <div className="mb-4 text-center">

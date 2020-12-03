@@ -353,7 +353,11 @@ span {
     height: 100%;
     object-fit: cover;
     object-position: top;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    height: calc(100vh - 100px);
+}
+.carousel-inner .view .mask {
+    height: calc(100vh - 100px);
 }
 .box-imgset {
     position: absolute;
@@ -446,6 +450,7 @@ img.worldmap {
     padding: 15px;
     /* border: 2px solid #2196f3; */
     position: relative;
+    cursor: pointer;
 }
 
 .feature-title.title > img.img_bg {
@@ -474,12 +479,21 @@ img.worldmap {
     color: #fff;
     font-weight: bold;
     line-height: 19px;
-    bottom: 0px;
-    /* min-height: 70px; */
+    bottom: -8px;
+    width: 100%;    
     opacity: 0.5;
     transition: all 0.5s;
+    background: rgba(0,0,0,0);
+    left: 0;
+    padding: 10px;
 }
-
+.feature-title.title:hover h6 {
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    /* min-height: 90px; */
+    /* transform: translateY(-30px); */
+    padding: 10px 10px 40px 10px;
+}
 /*--------------LT---------------*/
 
 .menu-container {
@@ -645,11 +659,7 @@ nav {
 .view.jarallax.pageHeading .list-unstyled {
     margin-top: 50px;
 }
-.feature-title.title:hover h6 {
-    opacity: 1;
-    /* min-height: 90px; */
-    transform: translateY(-30px);
-}
+
 .searchSection {
     position: fixed;
     left: 0;
@@ -935,9 +945,14 @@ header .view {
     align-items: center;
     display: flex;
 }
+
 #why_visionize .hoverable:hover {
     transform: translateY(-30px);
     background: #8d39ff;
+}
+.box-ourPromise .hoverable:hover {
+    transform: translateY(-30px);
+    background: #0e5196;
 }
 .media .blueSmImg > img {  
     margin: 0px!important;

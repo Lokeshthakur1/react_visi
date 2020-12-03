@@ -13,7 +13,7 @@ export default class AdaptiveHomepage extends Component {
                             <div className="col-md-8">
 
                                 <section>
-                                    <h2 className="title mb-5 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
+                                    <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         Adaptive Homepage <span className="font-weight-light"></span>
                                     </h2>
                                     <div className="mt-4 text-center">
