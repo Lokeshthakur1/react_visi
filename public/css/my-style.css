@@ -74,6 +74,19 @@ body {
 .md-form .form-control{
     color: #fff !important;
 }
+.border-box {
+    padding: 20px;
+    border: 0px solid #ddd;
+    height: 100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, .2);
+    border-top: 3px solid #3e9fff;
+}
+.border-box > img {
+    margin: 10px 0px 0px 0px;
+    height: 90px;
+}
 .slick-list {
     height: 159px;
 }
@@ -389,7 +402,7 @@ span {
     object-fit: cover;
     object-position: top;
     /* min-height: 100vh; */
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
 }
 .carousel-inner .view .mask {
     height: calc(100vh - 100px);

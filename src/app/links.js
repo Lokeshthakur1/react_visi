@@ -142,5 +142,7 @@ export const Links = {
     TransportRouteOptimization: '/transport-route-optimization',
     InsurancePolicyRenewability: '/insurance-policy-renewability',
     Sales: '/sales',
-    SupplyChain: '/supply-chain'
+    SupplyChain: '/supply-chain',
+    Success: '/success'
+
 }   

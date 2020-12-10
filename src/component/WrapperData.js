@@ -552,6 +552,11 @@ export const WrapperData = {
         heading: 'Supply Chain',
         description: ``,
         bannerImgL: 'img/Images/supply-chain.jpg'
+    },
+    Success: {
+        heading: 'Success',
+        description: ``,
+        bannerImgL: 'img/Images/success.jpg'
     }
 }
 

@@ -123,6 +123,9 @@ import { Links } from './links'
 import XmlData from '../component/XmlData'
 
 import DataDriven from '../component/DataDriven'
+
+import Success from '../container/success/Success'
+
 export default function index() {
     return (
         <Router>
@@ -257,6 +260,8 @@ export default function index() {
                 <Route path={Links.InsurancePolicyRenewability} component={InsurancePolicyRenewability} />
                 <Route path={Links.Sales} component={Sales} />
                 <Route path={Links.SupplyChain} component={SupplyChain} />
+
+                <Route path={Links.Success} component={Success} />
 
                 <Route path={Links.Home} component={Home}></Route>
                 <Route path={Links.About} component={About} />
