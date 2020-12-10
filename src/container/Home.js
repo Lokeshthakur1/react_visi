@@ -111,7 +111,7 @@ export default class Home extends Component {
                                     <ul className="list-unstyled animated fadeInUp col-md-12">
                                         <li>
                                             <h1 className="display-3 mb-4 oswaldFont ">Building Intelligent Enterprises</h1>
-                                            <p className="h5 mb-4">Accelerating the Digital and AI transformation journey for Competitive Advantage.</p>
+                                            <p className="h5 mb-4">Accelerating Your Digital Transformation Journey.</p>
                                         </li>
                                         <li>
                                             <Link to={Links.About + '#contactus'} className="btn btn-outline-primary btn-lg wow fadeIn"
@@ -134,13 +134,14 @@ export default class Home extends Component {
                         <div className="row w-100">
                             <div className="container py-3">
                                 {/*Section heading*/}
+                                 
                                 <h2 className="title my-5 wow fadeIn font-weight-bold animated text-center" data-wow-delay="0.2s"
                                     style={{ visibility: ' visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
-                                    OUR AI POWERED<span className="font-weight-light border-line"> SOLUTIONS</span>
+                                    AI POWERED SOLUTIONS<span className="font-weight-light border-line"> TO IMPROVE YOUR BUSINESS</span>
                                 </h2>
                                 <h5 className="w-responsive mx-auto mb-5 wow fadeIn animated text-center" data-wow-delay="0.2s"
                                     style={{ visibility: ' visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>
-                                    Transforming businesses with robust Ai solutions
+                                    Accelerate every step of your journey from Data to Value.
                             </h5>
                                 {/*Grid row*/}
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">

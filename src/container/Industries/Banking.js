@@ -20,10 +20,7 @@ export default class Banking extends Component {
                                         <img src="img/svg/banking&financial_img.svg" className="img-fluid" />
                                     </div>
                                     <p className="text-justify">
-                                        Banking and Finance have always been a lot of work. The major energy is required to
-                                        explain to the layman customer about everything. On top of that, there is so much data
-                                        to compile, charts to prepare, graphs to plot and analyze. AI is a one-stop solution for
-                                        many of these problems.
+                                        Fintech innovations over the last decade are responsible for a variety of finanical services being delivered on demand. The prolifiration of mobile phones worldwide created a unique distribution opportunity to reach Billions of consumers Worldwide. Whether you are a global financial conglomerate looking to accelerate your digital transformation journey, or a fintech startup thinking about disrupting the current financial models, we CAN help. Visionaize team has over 113.5 (and counting) years of combined experience delivering innovative, challenging fintech solutions on time and on budget. 
                             </p>
                                     {/* <div className="row wow w-100 px-2 mt-4 fadeIn" data-wow-delay="0.4s">
                                         <div className="col-sm-6 text-left my-4">
@@ -140,7 +137,7 @@ export default class Banking extends Component {
                                         <div className="col-12 mb-3">
                                             <div className="list-group fanylist_group px-3">
                                                 <div className="d-flex tabnlist_head mb-2 align-items-center">
-                                                    <p className="font-weight-bold mb-2 h5">Non Performing Asset Prediction Analysis
+                                                    <p className="mb-2 h5">Non Performing Asset Prediction Analysis
                                             </p>
                                                     <b className="font-weight-bold mb-2 ml-auto">$2M- $8M<br /><small>Est. ROI
                                                     Annually</small></b>
@@ -174,7 +171,7 @@ export default class Banking extends Component {
                                         <div className="col-12 mb-3">
                                             <div className="list-group fanylist_group px-3">
                                                 <div className="d-flex tabnlist_head mb-2 align-items-center">
-                                                    <p className="font-weight-bold mb-2 h5">KYC/AML Custom On-Boarding</p>
+                                                    <p className="mb-2 h5">KYC/AML Custom On-Boarding</p>
                                                     <b className="font-weight-bold mb-2 ml-auto">$10M- $15M<br /><small>Est. ROI
                                                     Annually</small></b>
                                                 </div>
@@ -197,7 +194,7 @@ export default class Banking extends Component {
                                         <div className="col-12 mb-3">
                                             <div className="list-group fanylist_group px-3">
                                                 <div className="d-flex tabnlist_head mb-2 align-items-center">
-                                                    <p className="font-weight-bold mb-2 h5">AI-Powered Prospect Targeting.</p>
+                                                    <p className="mb-2 h5">AI-Powered Prospect Targeting.</p>
                                                     <b className="font-weight-bold mb-2 ml-auto">$12-20M<br /><small>Est. ROI
                                                     Annually</small></b>
                                                 </div>
@@ -223,7 +220,7 @@ export default class Banking extends Component {
                                         <div className="col-12 mb-3">
                                             <div className="list-group fanylist_group px-3">
                                                 <div className="d-flex tabnlist_head mb-2 align-items-center">
-                                                    <p className="font-weight-bold mb-2 h5">Multi-Channel Churn</p>
+                                                    <p className="mb-2 h5">Multi-Channel Churn</p>
                                                     <b className="font-weight-bold mb-2 ml-auto">$2M- $18M<br /><small>Est. ROI
                                                     Annually</small></b>
                                                 </div>
@@ -249,7 +246,7 @@ export default class Banking extends Component {
                                         <div className="col-12 mb-3">
                                             <div className="list-group fanylist_group px-3">
                                                 <div className="d-flex tabnlist_head mb-2 align-items-center">
-                                                    <p className="font-weight-bold mb-2 h5">International Arbitrage Trading</p>
+                                                    <p className="mb-2 h5">International Arbitrage Trading</p>
                                                     <b className="font-weight-bold mb-2 ml-auto">$15M- $25M<br /><small>Est. ROI
                                                     Annually</small></b>
                                                 </div>

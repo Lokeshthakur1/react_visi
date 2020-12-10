@@ -10,12 +10,24 @@ export default class About extends Component {
                     <div className="flex-center view">
                         <div className="container py-3">
                             {/*Section heading*/}
-                            <h2 className="title my-5 wow fadeIn font-weight-bold animated text-center"
+
+                            <h2 className="title my-5 wow fadeIn font-weight-bold animated text-white px-3"
                                 data-wow-delay="0.2s"
                                 style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>
-                                About<span className="font-weight-light border-line"> VisionAIze</span>
+                                About<span className="font-weight-light border-line-white text-white"> VisionAIze</span>
                             </h2>
-                            <div className="row features-small py-5">
+                            <div className="col-md-7">
+                            <p className="h5 mb-4 text-justify text-white">
+                                VisionAize is an Ai product company focused on strategy, technology, and business transformation. We’re advisors, strategists, and engineers focused on helping companies tackle their most ambitious projects and build new capabilities.
+                            </p>
+                                <p className="h5 mb-4 text-justify text-white">
+                                Our team is driven to deliver reliable, innovative solutions and help our clients realize their vision. We believe in brainstorming new ideas and delivering improvements in business performance through Connected Data, Architecture & Experience. Our years of experience and technological expertise serves as the foundation for everything we do and supports the development of our solutions and services.
+                            </p>
+                                <p className="h5 mb-4 text-justify text-white">
+                                We are dedicated to help our customers achieve digitalization and digital transformation through our proven, industry-leading capabilities and solutions.
+                            </p>
+                            </div>
+                            {/* <div className="row features-small py-5">
                                 <ul className="newFancy_list col-md-10 text-left">
                                     <li><span><i className="fas fa-check"></i></span>VisionAize is a Silicon Valley based company focusing on creating smarter and intelligent enterprises.</li>
                                     <li><span><i className="fas fa-check"></i></span>100+ AI & Data Engineering Experts (Data Scientists, Ai Experts, Cloud & Data engineers)</li>
@@ -23,7 +35,7 @@ export default class About extends Component {
                                     <li><span><i className="fas fa-check"></i></span>Global reach with offices in Silicon Valley and India.</li>
                                     <li><span><i className="fas fa-check"></i></span>Proven experience with fortune 500 customers</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
