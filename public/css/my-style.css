@@ -1413,6 +1413,7 @@ button.next_.slick-arrow {
 .nav-tabs .nav-link {
     border: 2px solid #fff !important;
     border-radius: 0px;
+    color: #ffffff;
 }
 ul.newFancy_list {
     list-style: none;
