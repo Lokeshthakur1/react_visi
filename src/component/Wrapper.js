@@ -28,6 +28,8 @@ export default class Wrapper extends Component {
                                             {this.props.getKey.description && <li>
                                                 <p className="h5 mb-4">{this.props.getKey.description}
                                                 </p>
+                                                <p className="h5 mb-4">{this.props.getKey.secondDescription}
+                                                </p>
                                             </li>}
                                             {/* <!-- <li>
                                     <a href="#selecttab" className="btn btn-outline-white btn-lg wow fadeIn"

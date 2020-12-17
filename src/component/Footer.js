@@ -73,9 +73,9 @@ export default class Footer extends Component {
                             <p>
                                 <Link to={Links.About}>About</Link>
                             </p>
-                            {/* <p>
-                                <Link to={Links.Industries}>Industries</Link>
-                            </p> */}
+                            <p>
+                                <Link to={Links.Success}>Success</Link>
+                            </p>
                             <p>
                                 <Link to={Links.Solution}>Solutions</Link>
                             </p>

@@ -554,9 +554,11 @@ export const WrapperData = {
         bannerImgL: 'img/Images/supply-chain.jpg'
     },
     Success: {
-        heading: 'Success',
-        description: ``,
-        bannerImgL: 'img/Images/success.jpg'
+        heading: 'Success in AI-driven Enterprise',
+        description: `VisionAize is a combination of a dependent AI system and a dependent AI local strategic association for worldwide organizations that can utilize the benefits of AI to achieve success in the latest Intelligence Revolution.`,
+        secondDescription: `VisionAize offers innovative AI systems and a futuristic AI-native partnership for worldwide organizations.`,
+        bannerImgL: 'img/Images/success.jpg',
+        classname: 'successbanner'
     }
 }
 

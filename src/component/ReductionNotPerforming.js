@@ -36,8 +36,7 @@ export default class ReductionNotPerforming extends Component {
                     applicants with various solution approaches
 
                 </li>
-                                            <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Causal Matrix
-                    and Impact evaluation used to provide real time scoring
+                                            <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Causal Matrix and Impact evaluation used to provide real time scoring
                 </li>
                                         </ul>
                                     </div>
@@ -57,7 +56,7 @@ export default class ReductionNotPerforming extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-12">
                                     <div className="blockquote bq-primary pt-3">
                                         <div className="row">
                                             <div className="col-md-6">
