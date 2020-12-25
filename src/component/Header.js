@@ -43,9 +43,7 @@ class Header extends Component {
                                     <li className="nav-item ml-4">
                                         <Link className="nav-link title" to={Links.Home} data-offset="90">Home</Link>
                                     </li>
-                                    <li className="nav-item ml-4">
-                                        <Link className="nav-link title" to={Links.Success} data-offset="90">Success</Link>
-                                    </li>
+
                                     {/* <li className="nav-item ml-4 dropdown dropdown-8 d-none">
                                         <Link className="nav-link title" to={Links.Industries} data-offset="90">Industries</Link>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
@@ -332,6 +330,8 @@ class Header extends Component {
                                                 <Link className="tablink waves-effect waves-light" to={Links.DataLake}>Data Lake Modernization</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.ProcessAutomation}>Process Automation</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Cloud}>Cloud</Link>
+                                                <Link className="tablink waves-effect waves-light">AR/VR</Link>
+
                                             </li>
                                         </ul>
                                         {/* <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
@@ -349,11 +349,14 @@ class Header extends Component {
                                                 to={Links.Cloud}>Cloud</Link></li>
                                         </ul> */}
                                     </li>
-
+                                    <li className="nav-item ml-4">
+                                        <Link className="nav-link title" to={Links.Success} data-offset="90">Success</Link>
+                                    </li>
 
                                     <li className="nav-item ml-4">
                                         <Link className="nav-link title" to={Links.About} data-offset="90">About Us</Link>
                                     </li>
+
                                 </ul>
                                 {/* <ul className="navbar-nav nav-flex-icons mt-2">
                                     <li className="nav-item ml-3">

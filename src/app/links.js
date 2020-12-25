@@ -143,6 +143,6 @@ export const Links = {
     InsurancePolicyRenewability: '/insurance-policy-renewability',
     Sales: '/sales',
     SupplyChain: '/supply-chain',
-    Success: '/success'
-
+    Success: '/success',
+    Contact: '/about#contactus'
 }   

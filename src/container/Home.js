@@ -2,6 +2,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
+import { HashLink } from 'react-router-hash-link';
+
 import { Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 // @import "~slick-carousel/slick/slick.css";
 // @import "~slick-carousel/slick/slick-theme.css";
@@ -114,8 +116,8 @@ export default class Home extends Component {
                                             <p className="h5 mb-4">Accelerating Your Digital Transformation Journey.</p>
                                         </li>
                                         <li>
-                                            <Link to={Links.About + '#contactus'} className="btn btn-outline-primary btn-lg wow fadeIn"
-                                                data-wow-delay="0.3s">Contact Us</Link>
+                                            <HashLink to={Links.Contact} className="btn btn-outline-primary btn-lg wow fadeIn"
+                                                data-wow-delay="0.3s">Contact Us</HashLink>
                                         </li>
                                     </ul>
                                 </div>
@@ -165,17 +167,19 @@ export default class Home extends Component {
                                                 </div>
                                             </div> */}
 
+
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
-                                                    <img alt="img" src="img/svg/money.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Fintech</h4>
-                                                    <Link to={Links.Banking} className="stretched-link"></Link>
+                                                    <img alt="img" src="img/svg/healthcare.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Healthcare</h4>
+                                                    <Link to={Links.Healthcare} className="stretched-link"></Link>
                                                 </div>
                                             </div>
+
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/medicine.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Healthcare & Pharma</h4>
+                                                    <h4 className="font-weight-bold">Pharma</h4>
                                                     <Link to={Links.Healthcare} className="stretched-link"></Link>
                                                 </div>
                                             </div>
@@ -194,11 +198,19 @@ export default class Home extends Component {
                                                     <Link to={Links.Utility} className="stretched-link"></Link>
                                                 </div>
                                             </div>
+
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
-                                                    <img alt="img" src="img/svg/truck.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Transport & Logistics</h4>
-                                                    <Link to={Links.TranspAndLogistic} className="stretched-link"></Link>
+                                                    <img alt="img" src="img/svg/money.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Banking & Finance</h4>
+                                                    <Link to={Links.Banking} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-3 mb-md-5 mb-3">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/technology.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Hi-Tech</h4>
+                                                    <Link to={Links.Hightech} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-md-5 mb-3">
@@ -210,11 +222,13 @@ export default class Home extends Component {
                                             </div>
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
-                                                    <img alt="img" src="img/svg/technology.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Hi-Tech</h4>
-                                                    <Link to={Links.Hightech} className="stretched-link"></Link>
+                                                    <img alt="img" src="img/svg/truck.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Transport & Logistics</h4>
+                                                    <Link to={Links.TranspAndLogistic} className="stretched-link"></Link>
                                                 </div>
                                             </div>
+
+
                                             {/* <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/helicopter.svg" className="boxicon" />
@@ -223,17 +237,24 @@ export default class Home extends Component {
                                                 </div>
                                             </div> */}
 
-                                            <div className="col-lg-3 mb-md-5 mb-3">
+                                            {/* <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/retail.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Retail</h4>
                                                     <Link to={Links.Retail} className="stretched-link" ></Link>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="tab-pane fade" id="functions" role="tabpanel" aria-labelledby="functions-tab">
                                         <div className="row py-5 justify-content-center">
+                                            <div className="col-lg-3 mb-md-5 mb-3">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/digital-marketing.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Marketing</h4>
+                                                    <Link to={Links.AiPowered} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/money.svg" className="boxicon" />
@@ -242,6 +263,20 @@ export default class Home extends Component {
                                                 </div>
                                             </div>
                                             <div className="col-lg-3 mb-md-5 mb-3">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/supply-chain.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Supply Chain</h4>
+                                                    <Link to={Links.SupplyChain} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-3 mb-md-5 mb-3">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/engineering.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Engineering</h4>
+                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
+                                                </div>
+                                            </div>
+                                            {/* <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/hr.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Human Resource</h4>
@@ -255,20 +290,8 @@ export default class Home extends Component {
                                                     <Link to={Links.ItItes} className="stretched-link"></Link>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-3 mb-md-5 mb-3">
-                                                <div className="fancyBox text-center">
-                                                    <img alt="img" src="img/svg/supply-chain.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Supply Chain</h4>
-                                                    <Link to={Links.SupplyChain} className="stretched-link"></Link>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-3 mb-md-5 mb-3">
-                                                <div className="fancyBox text-center">
-                                                    <img alt="img" src="img/svg/digital-marketing.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Marketing</h4>
-                                                    <Link to={Links.AiPowered} className="stretched-link"></Link>
-                                                </div>
-                                            </div>
+                                           
+                                            
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/business-and-finance.svg" className="boxicon" />
@@ -289,14 +312,8 @@ export default class Home extends Component {
                                                     <h4 className="font-weight-bold">Organizational Data</h4>
                                                     <Link to={Links.OrganizationalData} className="stretched-link"></Link>
                                                 </div>
-                                            </div>
-                                            {/* <div className="col-lg-3 mb-md-5 mb-3">
-                                                <div className="fancyBox text-center">
-                                                    <img alt="img" src="img/svg/engineering.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Engineering</h4>
-                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
-                                                </div>
                                             </div> */}
+
 
                                         </div>
                                     </div>
@@ -320,7 +337,7 @@ export default class Home extends Component {
 
                             {/*Grid row*/}
                             <div className="row features wow fadeIn justify-content-center my-5 pt-5" data-wow-delay="0.2s">
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <Link to={Links.ProcessAutomation} className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/automation.svg" height="50px" />
@@ -332,8 +349,9 @@ export default class Home extends Component {
                                         <p className="text-white">Streamline and digitize processes for greater efficiency.
                                     </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+
+                                </Link>
+                                <Link to={Links.Cloud} className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/cloud-service.svg" height="50px" />
@@ -344,8 +362,8 @@ export default class Home extends Component {
                                         <p className="text-white">Helps organisations to enhance customer experience.
                                     </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                </Link>
+                                <Link to={Links.DataInformation} className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/context.svg" height="50px" />
@@ -358,8 +376,8 @@ export default class Home extends Component {
                                         <p className="text-white">Comprehensive data and information management services.
                                     </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                </Link>
+                                <Link to={Links.DataEngineering} className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/001-workflow.svg" height="50px" />
@@ -371,7 +389,7 @@ export default class Home extends Component {
 
                                     </p>
                                     </div>
-                                </a>
+                                </Link>
                                 {/* <a href="#" className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
@@ -387,7 +405,7 @@ export default class Home extends Component {
                                     </div>
                                 </a> */}
 
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <Link to={Links.AdvancedAnalyticsAi} className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/analytics.svg" height="50px" />
@@ -398,9 +416,9 @@ export default class Home extends Component {
                                         <p className="text-white">Improve decision-making at every level through advanced analytics.
                                     </p>
                                     </div>
-                                </a>
+                                </Link>
 
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <Link className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/vr-glasses.svg" height="50px" />
@@ -409,7 +427,7 @@ export default class Home extends Component {
                                         <h5 className="mt-2 font-weight-bold text-white">AR/VR</h5>
                                         <p className="text-white">Add Digital Values with enhanced ARVR technology for greater user experiences</p>
                                     </div>
-                                </a>
+                                </Link>
 
                             </div>
                             {/*/First row*/}
@@ -435,20 +453,31 @@ export default class Home extends Component {
                             {/*/First row*/}
                             <Slider {...settings} className="col-12 regular responsive slider">
                                 <div>
+                                    <img alt="img" src="img/client/salesforce.png" />
+                                </div>
+                                <div>
+                                    <img alt="img" src="img/client/adobe.png" />
+                                </div>
+                                <div>
+                                    <img alt="img" src="img/client/barclays.png" />
+                                </div>
+                                <div>
+                                    <img alt="img" src="img/client/Pfizer.png" />
+                                </div>
+                                <div>
+                                    <img alt="img" src="img/client/docker.png" />
+                                </div>
+                                <div>
                                     <img alt="img" src="img/client/tibco.png" />
                                 </div>
                                 <div>
                                     <img alt="img" src="img/client/talend.png" />
                                 </div>
-                                <div>
-                                    <img alt="img" src="img/client/salesforce.png" />
-                                </div>
+
                                 <div>
                                     <img alt="img" src="img/client/stitch-fix.png" />
                                 </div>
-                                <div>
-                                    <img alt="img" src="img/client/adobe.png" />
-                                </div>
+
                                 <div>
                                     <img alt="img" src="img/client/riverbed.png" />
                                 </div>
@@ -458,12 +487,8 @@ export default class Home extends Component {
                                 <div>
                                     <img alt="img" src="img/client/Varo Money.png" />
                                 </div>
-                                <div>
-                                    <img alt="img" src="img/client/barclays.png" />
-                                </div>
-                                <div>
-                                    <img alt="img" src="img/client/docker.png" />
-                                </div>
+
+
                                 <div>
                                     <img alt="img" src="img/client/lendinghome_logo.png" />
                                 </div>
@@ -476,9 +501,7 @@ export default class Home extends Component {
                                 <div>
                                     <img alt="img" src="img/client/vmware.png" />
                                 </div>
-                                <div>
-                                    <img alt="img" src="img/client/Pfizer.png" />
-                                </div>
+
                                 <div>
                                     <img alt="img" src="img/client/university_logo.png" />
                                 </div>

@@ -10,47 +10,38 @@ export default class Footer extends Component {
                 <div className="blue">
                     <div className="container">
 
-                        {/*Grid row*/}
+                        {/*                        
                         <div className="row py-4 d-flex align-items-center">
-
-                            {/*Grid column*/}
                             <div className="col-md-6 col-lg-5 text-center text-md-left mb-md-0">
                                 <h6 className="mb-0 white-text">Get connected with us on social networks!</h6>
                             </div>
-                            {/*Grid column*/}
-
-                            {/*Grid column*/}
+               
                             <div className="col-md-6 col-lg-7 text-center text-md-right">
-                                {/*Facebook*/}
                                 <a className="p-2 m-2 fa-lg fb-ic ml-0">
                                     <i className="fab fa-facebook-f white-text mr-lg-4"> </i>
                                 </a>
-                                {/*Twitter*/}
-                                <a className="p-2 m-2 fa-lg tw-ic">
+                                <a className="p-2 m-2 fa-lg tw-ic d-none">
                                     <i className="fab fa-twitter white-text mr-lg-4"> </i>
                                 </a>
-                                {/*Google +*/}
-                                <a className="p-2 m-2 fa-lg gplus-ic">
+                        <a className="p-2 m-2 fa-lg gplus-ic d-none">
                                     <i className="fab fa-google-plus-g white-text mr-lg-4"> </i>
-                                </a>
-                                {/*Linkedin*/}
-                                <a className="p-2 m-2 fa-lg li-ic">
-                                    <i className="fab fa-linkedin-in white-text mr-lg-4"> </i>
-                                </a>
-                                {/*Instagram*/}
-                                <a className="p-2 m-2 fa-lg ins-ic">
+                                </a> 
+                        <a className="p-2 m-2 fa-lg li-ic">
+                            <i className="fab fa-linkedin-in white-text mr-lg-4"> </i>
+                        </a>
+                        <a className="p-2 m-2 fa-lg ins-ic d-none">
                                     <i className="fab fa-instagram white-text mr-lg-4"> </i>
-                                </a>
-                            </div>
-                            {/*Grid column*/}
-
-                        </div>
-                        {/*Grid row*/}
+                                </a> 
                     </div>
+
+
                 </div>
+                      */}
+                    </div>
+                </div >
 
                 {/*Footer Links*/}
-                <div className="container mt-md-5 mb-4 text-center text-md-left">
+                < div className="container mt-md-5 mb-4 text-center text-md-left pt-4" >
                     <div className="row mt-3">
 
                         {/*First column*/}
@@ -102,14 +93,14 @@ export default class Footer extends Component {
                                 202 SDF Building, Sector V, Salt Lake, Kolkata 700091 <br /> West Bengal, India</p>
                             {/* <p>
                             <i className="fas fa-envelope mr-3"></i> info@example.com</p> */}
-                            <p>
-                                <i className="fas fa-phone mr-3"></i> <span className="font-weight-bold">+1 (714)-388-6646</span></p>
+                            {/* <p>
+                                <i className="fas fa-phone mr-3"></i> <span className="font-weight-bold">+1 (714)-388-6646</span></p> */}
 
                         </div>
                         {/*/.Fourth column*/}
 
                     </div>
-                </div>
+                </div >
                 {/*/.Footer Links*/}
 
                 {/* Copyright*/}
@@ -120,7 +111,7 @@ export default class Footer extends Component {
                                 className="white-text" style={{ fontWeight: '600' }}>Privacy Policy Terms & Conditions</Link></span>
                     </div>
                 </div>
-            </footer>
+            </footer >
         )
     }
 }

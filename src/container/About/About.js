@@ -17,14 +17,14 @@ export default class About extends Component {
                                 About<span className="font-weight-light border-line-white text-white"> VisionAIze</span>
                             </h2>
                             <div className="col-md-7">
-                            <p className="h5 mb-4 text-justify text-white">
-                                VisionAize is an Ai product company focused on strategy, technology, and business transformation. We’re advisors, strategists, and engineers focused on helping companies tackle their most ambitious projects and build new capabilities.
+                                <p className="h5 mb-4 text-justify text-white">
+                                    VisionAize is an Ai product company focused on strategy, technology, and business transformation. We’re advisors, strategists, and engineers focused on helping companies tackle their most ambitious projects and build new capabilities.
                             </p>
                                 <p className="h5 mb-4 text-justify text-white">
-                                Our team is driven to deliver reliable, innovative solutions and help our clients realize their vision. We believe in brainstorming new ideas and delivering improvements in business performance through Connected Data, Architecture & Experience. Our years of experience and technological expertise serves as the foundation for everything we do and supports the development of our solutions and services.
+                                    Our team is driven to deliver reliable, innovative solutions and help our clients realize their vision. We believe in brainstorming new ideas and delivering improvements in business performance through Connected Data, Architecture & Experience. Our years of experience and technological expertise serves as the foundation for everything we do and supports the development of our solutions and services.
                             </p>
                                 <p className="h5 mb-4 text-justify text-white">
-                                We are dedicated to help our customers achieve digitalization and digital transformation through our proven, industry-leading capabilities and solutions.
+                                    We are dedicated to help our customers achieve digitalization and digital transformation through our proven, industry-leading capabilities and solutions.
                             </p>
                             </div>
                             {/* <div className="row features-small py-5">
@@ -49,8 +49,8 @@ export default class About extends Component {
                             <p className="text-center mb-3 wow text-white fadeIn" data-wow-delay="0.2s">
                                 VisionAize offers world class AI powered solutions to empower data driven businesses with high accuracy results.</p>
                         </div>
-                        <div className="row features wow fadeIn my-5 pt-5" data-wow-delay="0.2s">
-                            <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4">
+                        <div className="row features wow fadeIn my-5" data-wow-delay="0.2s">
+                            <div className="col-lg-4 text-center p-4">
                                 <div className="icon-area">
                                     <div>
                                         <img alt="img" src="img/svg/001-workflow.svg" width="50px" />
@@ -63,8 +63,8 @@ export default class About extends Component {
                                         <li>Skilled at data migration and cloud-scale data manipulation</li>
                                     </ul>
                                 </div>
-                            </a>
-                            <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4">
+                            </div>
+                            <div className="col-lg-4 text-center p-4">
                                 <div className="icon-area">
                                     <div>
                                         <img alt="img" src="img/svg/002-innovation.svg" width="50px" />
@@ -77,8 +77,8 @@ export default class About extends Component {
                                         <li>Works across ALL the data you have, not just numeric.</li>
                                     </ul>
                                 </div>
-                            </a>
-                            <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4">
+                            </div>
+                            <div className="col-lg-4 text-center p-4">
                                 <div className="icon-area">
                                     <div>
                                         <img alt="img" src="img/svg/003-concept.svg" width="50px" />
@@ -91,8 +91,17 @@ export default class About extends Component {
                                         <li>Our team combines all the skills you need for a successful project</li>
                                     </ul>
                                 </div>
-                            </a>
+                            </div>
                         </div>
+                        <hr style={{ borderColor: 'rgba(255,255,255,.3)' }} />
+                        <h2 className="title wow fadeIn text-white text-center font-weight-bold my-5" data-wow-delay="0.2s">
+                            OUR<span className="font-weight-light text-white border-line-white"> VISION</span>
+                        </h2>
+
+                        <p className="mb-0 text-white text-center">We help companies Build Intelligent Enterprises by leveraging the emerging
+                        and next-generation technologies to accelerate digital transformation and speed of
+                        innovation to provide competitive advantage and success as the Enterprise of Tomorrow.
+               </p>
                     </div>
                 </section>
                 <section id="why_visionize" className="section feature-box aipower">
@@ -104,8 +113,8 @@ export default class About extends Component {
                                 style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>
                                 WHY<span className="font-weight-light border-line-white text-white"> VisionAIze</span>
                             </h2>
-                            <div className="row features-small py-5">
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                            <div className="row features-small pb-5">
+                                <div className="col-lg-4 text-center p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/datascientist.svg" height="50px" />
@@ -113,12 +122,12 @@ export default class About extends Component {
                                         <br />
                                         <h5 className="mt-2 font-weight-bold text-white">Expert and Experienced Data Scientists
                      </h5>
-                                        <p className="text-white">Our Big Data Solutions are developed and deployed by highly
+                                        <p className="text-white">Our Ai Driven Intelligent Solutions are developed and deployed by highly
                                         experienced teams with over 200+ years of combined experience.
                      </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                </div>
+                                <div className="col-lg-4 text-center p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/analytics.svg" height="50px" />
@@ -130,8 +139,8 @@ export default class About extends Component {
                                         scenarios we can Rapidly develop marketing intelligence solution.
                      </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                </div>
+                                <div className="col-lg-4 text-center p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/multidomain.svg" height="50px" />
@@ -143,8 +152,8 @@ export default class About extends Component {
                                         domains by targeting and resolving domain-specific challenges.
                      </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                </div>
+                                <div className="col-lg-4 text-center p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/settings.svg" height="50px" />
@@ -155,8 +164,8 @@ export default class About extends Component {
                                         and make them ready for advanced data analytics.
                      </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                </div>
+                                <div className="col-lg-4 text-center p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/idea.svg" height="50px" />
@@ -168,8 +177,8 @@ export default class About extends Component {
                                         deliver business outcomes critical for increasing bottom line and market share.
                      </p>
                                     </div>
-                                </a>
-                                <a href="javascript:void(0);" className="col-lg-4 text-center hoverable p-4 mb-3">
+                                </div>
+                                <div className="col-lg-4 text-center p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" className="mx-auto" src="img/svg/innovation.svg" height="50px" />
@@ -182,53 +191,74 @@ export default class About extends Component {
                                         deliver a solution that meets your needs and gives your business a competitive edge.
                      </p>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
-                <div className="container">
-
-                    {/* Section: About 2*/}
-                    <section id="about" className="section about pb-3 wow fadeIn" data-wow-delay="0.2s">
-                        {/* Grid row */}
-                        <div className="row pt-4 mt-md-5">
-                            {/* Grid column */}
-                            <div className="col-lg-12 col-md-12 wow fadeIn text-center mb-md-5 mb-1" data-wow-delay="0.4s">
-                                {/* Secion heading */}
-                                <h2 className="title wow fadeIn text-center font-weight-bold mb-5" data-wow-delay="0.2s">
-                                    OUR<span className="font-weight-light border-line"> VISION</span>
-                                </h2>
-                                {/* Description */}
-                                <p className="mb-0">We help companies Build Intelligent Enterprises by leveraging the emerging
-                                and next-generation technologies to accelerate digital transformation and speed of
-                                innovation to provide competitive advantage and success as the Enterprise of Tomorrow.
-               </p>
+                <section id="" className="section feature-box">
+                    <div className="flex-center view">
+                        <div className="container pb-5">
+                            <h2 className="title my-5 wow fadeIn font-weight-bold animated text-center"
+                                data-wow-delay="0.2s"
+                                style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>
+                                Our<span className="font-weight-light border-line"> Values</span>
+                            </h2>
+                            <div className="row ">
+                                <img src="img/svg/ourvalues.svg" className="img-fluid" />
                             </div>
-                            {/* Grid column */}
-                            {/* Grid column */}
-                            {/* 
-            <div className="col-lg-12 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
-               <img alt="img" src="img/svg/our-mission2.svg" className="img-fluid"/>
-            </div>
-            */}
-                            {/* Grid column */}
                         </div>
-                        {/* Grid row */}
-                        <div className="ourVision my-md-5 my-3">
-                            <span className="text-primary">Customer</span>
-                            <span className="text-second">Product</span>
-                            <span className="text-primary">People</span>
-                            <span className="text-second">Cost</span>
-                            <span className="text-primary">Revenue</span>
-                            <span className="text-second">Growth</span>
+                    </div>
+                </section>
+                <section class="light-blue-back mb-0">
+                    <div class="container pt-5">
+                        <h2 className="title wow fadeIn font-weight-bold animated text-center"
+                            data-wow-delay="0.2s"
+                            style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>
+                            What Makes Us
+                            <span className="font-weight-light border-line">  Different</span>
+                        </h2>
+                        <div class="row p-5">
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="card-body">
+                                        <img alt="img" class="mb-4" src="img/svg/leadership.svg" height="60px" />
+                                        <h5 class="card-title font-weight-bold">Thought Leadership</h5>
+                                        <p class="card-text">We actively bring new ideas & strategic propositions</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="card-body">
+                                        <img alt="img" class="mb-4" src="img/svg/data_journy.svg" height="60px" />
+                                        <h5 class="card-title font-weight-bold">Data Journey</h5>
+                                        <p class="card-text">Taking you from reporting, to analytics, to dashboards & predictive</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="card-body">
+                                        <img alt="img" class="mb-4" src="img/svg/technologyExpertise.svg" height="60px" />
+                                        <h5 class="card-title font-weight-bold">Technology Expertise</h5>
+                                        <p class="card-text">State-of-the art visual analytics, reports and dashboard provide real-time insights in an easy-to-digest format.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="card-body">
+                                        <img alt="img" class="mb-4" src="img/svg/innovation__.svg" height="60px" />
+                                        <h5 class="card-title font-weight-bold">Innovation</h5>
+                                        <p class="card-text">We explore ways in which data can be leveraged in new & innovative ways</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </section>
-                    <hr />
-                </div>
-
-                <section className="section ">
+                    </div>
+                </section>
+                <section className="section d-none">
                     <div className="container py-3">
                         <h2 className="title my-md-5 my-3 wow fadeIn font-weight-bold animated text-center "
                             data-wow-delay="0.2s"
@@ -303,67 +333,8 @@ export default class About extends Component {
                     </div>
 
                 </section>
-                {/*             
-   <div className="container-fluid citybg px-0">
-      <div className="container">
-         <section id="about" className="section about mb-5 py-3 wow fadeIn" data-wow-delay="0.2s">
-            <div className="row wow w-100 px-2 py-5 justify-content-center fadeIn" data-wow-delay="0.4s">
-               <div className="text-left col-md-4 mb-3 px-2">
-                  <div className="round_img">
-                     <span>
-                     <img alt="img" src="https://www.wallpaperup.com/uploads/wallpapers/2014/04/22/341408/666728946176c86ffcfc8e365f1d6668-700.jpg"
-                        className="img_bg"/>
-                     </span>
-                     <h6>Silicon Valley based company focusing on creating smarter and intelligent
-                        enterprises.
-                     </h6>
-                  </div>
-               </div>
-               <div className="text-left col-md-4 mb-3 px-2">
-                  <div className="round_img">
-                     <span>
-                     <img alt="img" src="https://www.newhorizons.com/Portals/278/Images/Blog/How-to-Become-a-Network-Engineer.jpg"
-                        className="img_bg"/>
-                     </span>
-                     <h6>100+ AI & Data Engineering Experts (Data Scientists, AI Experts, Cloud & Data
-                        engineers)
-                     </h6>
-                  </div>
-               </div>
-               <div className="text-left col-md-4 mb-3 px-2">
-                  <div className="round_img">
-                     <span>
-                     <img alt="img" src="https://www.furnessphotography.com/wp-content/uploads/2020/01/2.png"
-                        className="img_bg"/>
-                     </span>
-                     <h6>Decades of combined experience.</h6>
-                  </div>
-               </div>
-               <div className="text-left col-md-4 mb-3 px-2">
-                  <div className="round_img">
-                     <span>
-                     <img alt="img" src="https://www.siliconvalleymeetsswitzerland.com/archiv/2015/img/backgrounds/1.jpg"
-                        className="img_bg"/>
-                     </span>
-                     <h6>Global reach with offices in Silicon Valley and India.</h6>
-                  </div>
-               </div>
-               <div className="text-left col-md-4 mb-3 px-2">
-                  <div className="round_img">
-                     <span>
-                     <img alt="img" src="https://www.incimages.com/uploaded_files/image/970x450/getty_897748630_404888.jpg"
-                        className="img_bg"/>
-                     </span>
-                     <h6>Proven experience with Fortune 500 customers.</h6>
-                  </div>
-               </div>
-            </div>
-         </section>
-      </div>
-   </div>
-   */}
 
-                {/* Section: About 2*/}
+
                 {/*Section: Team*/}
                 {/* 
    <section className="section team-section pb-5 mb-4">
@@ -598,7 +569,7 @@ export default class About extends Component {
                     </section>
                 </div>
                 {/*Section: Content*/}
-            </main>
+            </main >
         )
     }
 }

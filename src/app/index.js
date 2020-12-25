@@ -125,6 +125,7 @@ import XmlData from '../component/XmlData'
 import DataDriven from '../component/DataDriven'
 
 import Success from '../container/success/Success'
+import Contact from '../container/success/Success'
 
 export default function index() {
     return (
@@ -140,6 +141,8 @@ export default function index() {
                 <Route path={Links.DataLake} component={DataLake} />
                 <Route path={Links.DataEngineering} component={DataEngineering} />
                 <Route path={Links.AdvancedAnalyticsAi} component={AdvancedAnalyticsAi} />
+                <Route path={Links.Contact} component={About} />
+
 
                 {/* solution */}
                 {/* banking */}

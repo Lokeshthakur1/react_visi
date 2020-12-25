@@ -3,7 +3,7 @@ export const WrapperData = {
         heading: 'About US',
         description: ``,
         // On today’s enterprise landscape a strategic IT Management is a crucial part of every successful company’s Business Plan.People, Process and Technology play a key role in developing this mature IT Business Strategy to optimize Organisational performance.
-
+        imgClass: 'aboutheight',
         bannerImgL: 'img/Images/aboutus.jpg',
         classname: 'text-right col-md-6 ml-auto text-justify'
     },
@@ -554,9 +554,9 @@ export const WrapperData = {
         bannerImgL: 'img/Images/supply-chain.jpg'
     },
     Success: {
-        heading: 'Success in AI-driven Enterprise',
-        description: `VisionAize is a combination of a dependent AI system and a dependent AI local strategic association for worldwide organizations that can utilize the benefits of AI to achieve success in the latest Intelligence Revolution.`,
-        secondDescription: `VisionAize offers innovative AI systems and a futuristic AI-native partnership for worldwide organizations.`,
+        heading: 'Success',
+        // description: ``,
+        // secondDescription: ``,
         bannerImgL: 'img/Images/success.jpg',
         classname: 'successbanner'
     }

@@ -1,24 +1,36 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
+import { Links } from '../../app/links';
 export default class Success extends Component {
     render() {
         return (
             <main>
-                {/* <div className="container pb-5 pt-4"> 
-                   
-                    <h2 className="title my-4 wow fadeIn font-weight-bold text-uppercase text-center data-wow-delay="
-                        style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>Success in AI-driven Enterprise</h2>
-                    <p className="text-justify text-center">
-                        VisionAize is a combination of a dependant AI system and a dependant  AI-local strategic association for worldwide organizations that can harness AI’s energy to achieve success in the latest Intelligence Revolution.</p> 
-                    <p className="text-justify text-center">VisionAize offers innovative AI systems and a futuristic AI-native partnership for worldwide organizations</p> 
-
-                 </div> */}
-
 
                 <section className="section wow fadeIn py-5 mb-5" data-wow-delay="0.2s"
                     style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s', background: 'rgb(248 252 255)' }}>
                     <div className="container">
+                        <div className="media" style={{
+                            padding: '20px',
+                            background: '#fff',
+                            position: 'relative',
+                            marginBottom: '30px',
+                            boxShadow: '0px 10px 30px 0px  rgba(0,0,0,0.1)',
+                            borderRadius: '10px'
+                        }}>
+                            <div className="">
+                                <img src="img/svg/ai_success.svg" style={{ height: '300px' }} />
+                            </div>
+                            <div className="media-body pl-4">
+
+                                <h2 className="title my-4 wow fadeIn font-weight-bold text-uppercase data-wow-delay="
+                                    style={{ visibility: 'visible', animationName: 'fadeIn', animationDelay: '0.2s' }}>Success in AI-driven Enterprise</h2>
+                                <div className="h4 mb-4 ">
+                                    <p>VisionAize is a combination of a dependant AI system and a dependant  AI-local strategic association for worldwide organizations that can harness AI’s energy to achieve success in the latest Intelligence Revolution.</p>
+                                </div>
+                            </div>
+                        </div>
                         <div className="row  my-4">
                             <div className="col-md-12">
                                 <h2 className="title mb-4 wow fadeIn font-weight-bold  text-uppercase" data-wow-delay="0.2s"
@@ -109,7 +121,14 @@ export default class Success extends Component {
                                 Services
                                 </h2>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-12 mb-4 px-2">
+                        <div className="col-sm-6 col-12 mb-4 px-2">
+                            <div className="border-box">
+                                <img alt="img" src="img/svg/university.svg" height="60px" />
+                                <h5 className="font-weight-bold my-4">VisionAize Education</h5>
+                                <p className="text-muted px-2 mb-lg-0 text-justify">VisionAize educates you for how AI-Powered Solutions plays a key role to solve the real-world problem immediately. Because most technical challenges are automated by our enterprise AI platform. Our expert solutions focus on other skills development to ensure success. </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-12 mb-4 px-2">
                             <div className="border-box">
                                 <img alt="img" src="img/svg/roadmap.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">AI Roadmap</h5>
@@ -118,14 +137,14 @@ export default class Success extends Component {
                             </div>
                         </div>
 
-                        <div className="col-md-4 col-sm-6 col-12 mb-4 px-2">
+                        <div className="col-sm-6 col-12 mb-4 px-2">
                             <div className="border-box">
                                 <img alt="img" src="img/svg/Execution.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">To Execute</h5>
                                 <p className="text-muted px-2 mb-lg-0 text-justify">We can guide your group through seminars with concerned topics, including evaluation of use instances, education, and model tracking. We provide training and guidance on seminars and vital follow-ups. After completing training, your team has to lead further with tasks such as monitoring the logistics, securing existing members, and performing several use cases. </p>
                             </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-12 mb-4 px-2">
+                        <div className="col-sm-6 col-12 mb-4 px-2">
                             <div className="border-box">
                                 <img alt="img" src="img/svg/enable.svg" height="60px" />
                                 <h5 className="font-weight-bold my-4">To Enable</h5>
@@ -141,6 +160,48 @@ export default class Success extends Component {
                             <div className="row">
                                 <div className="h4 mb-0 col-12">
                                     <p>Experience can be helpful, and VisionAize has gained a lot through the years. With a listing of customers and use cases that reach nearly every industry, you can be confident that you are engaging with Business Enterprise AI professionals.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className="col-12 mt-5">
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <div className="caseStudies_card">
+                                        <div className="cardImg">
+                                            <img src="img/Images/3.jpg" className="caseImg w-100" />
+                                        </div>
+                                        <div className="cardDtls">
+                                            <label className="cardLbl">Case Study</label>
+                                            <p className="h5 font-weight-bold">AI Powered bot for Prospect Sourcing</p>
+                                            <Link to={Links.AiPoweredBot} className="stretched-link">Read More -</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="caseStudies_card">
+                                        <div className="cardImg">
+                                            <img src="img/Images/marketing.jpg" className="caseImg w-100" />
+                                        </div>
+                                        <div className="cardDtls">
+                                            <label className="cardLbl">Case Study</label>
+                                            <p className="h5 font-weight-bold">Marketing</p>
+                                            <Link to={Links.AiPowered} className="stretched-link">Read More -</Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="caseStudies_card">
+                                        <div className="cardImg">
+                                            <img src="img/Images/healthcare__.jpg" className="caseImg w-100" />
+                                        </div>
+                                        <div className="cardDtls">
+                                            <label className="cardLbl">Case Study</label>
+                                            <p className="h5 font-weight-bold">Collaborative Healthcare</p>
+                                            <Link to={Links.CollaborativeHealth} className="stretched-link">Read More -</Link>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>

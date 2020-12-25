@@ -14,7 +14,7 @@ export default class PrecisionMedicinePlatformPropotion extends Component {
                                 <section>
                                     <h2 className="title mb-4 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
                                         PRECISION MEDICINE <span className="font-weight-light"> PLATFORM</span>
-                                        <br /><small>FUNIQUE PROPOSITION</small>
+                                        <br /><small>UNIQUE PROPOSITION</small>
                                     </h2>
                                     <div className="row">
 
@@ -60,12 +60,14 @@ export default class PrecisionMedicinePlatformPropotion extends Component {
                                 <div className="list-group fanylist_group">
                                     <div className="rightsidebarHead">Case Studies</div>
 
-                                    <Link to={Links.EmployeeAttr} className="list-group-item list-group-item-action"> <i
-                                        className="fas fa-check mr-2"></i> <span>Employee Attrition and Retain</span></Link>
-                                    <Link to={Links.EmployeeEngagement} className="list-group-item list-group-item-action">
-                                        <i className="fas fa-check mr-2"></i> <span>Employee Engagement</span></Link>
-                                    <Link to={Links.EmployeeProductivity} className="list-group-item list-group-item-action">
-                                        <i className="fas fa-check mr-2"></i> <span>Employee Productivity</span></Link>
+                                    <Link to={Links.CollaborativeHealth} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Collaborative Healthcare</span></Link>
+                                    <Link to={Links.PopulationHealthcare} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Population Healthcare</span></Link>
+                                    <Link to={Links.PreventiveHealthcare} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Preventive Healthcare</span></Link>
+                                    <Link to={Links.DecisionSupports} className="list-group-item list-group-item-action"> <i
+                                        className="fas fa-check mr-2"></i> <span>Decision Support for Hospital</span></Link>
                                 </div>
                             </div>
                         </div>
