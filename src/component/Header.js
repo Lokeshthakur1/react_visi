@@ -216,7 +216,7 @@ class Header extends Component {
                                                 <Link className="tablink waves-effect waves-light" to={Links.Sales}>Sales</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.DigitalOutreach}>Digital Outreach</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Organisational}>Organisational Data</Link>
-
+                                                <Link className="tablink waves-effect waves-light" to={Links.Engineering}>Engineering</Link>
                                             </li>
                                         </ul>
                                         {/*                                         
@@ -330,7 +330,7 @@ class Header extends Component {
                                                 <Link className="tablink waves-effect waves-light" to={Links.DataLake}>Data Lake Modernization</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.ProcessAutomation}>Process Automation</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Cloud}>Cloud</Link>
-                                                <Link className="tablink waves-effect waves-light">AR/VR</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.Arvr}>AR/VR</Link>
 
                                             </li>
                                         </ul>

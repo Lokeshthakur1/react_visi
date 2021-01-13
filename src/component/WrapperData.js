@@ -559,6 +559,18 @@ export const WrapperData = {
         // secondDescription: ``,
         bannerImgL: 'img/Images/success.jpg',
         classname: 'successbanner'
+    },
+    Arvr: {
+        heading: 'AR/VR',
+        description: ``,
+        bannerImgL: 'img/Images/arvr_img.jpg',
+        Controls: true
+    },
+    Engineering: {
+        heading: 'Engineering',
+        description: ``,
+        bannerImgL: 'img/Images/engineering.jpg',
+        Controls: true
     }
 }
 

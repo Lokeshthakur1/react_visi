@@ -13,64 +13,128 @@ export default class Banking extends Component {
                             <div className="col-md-8">
                                 <section>
                                     <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">
-                                        Banking & Financial <span className="font-weight-light"></span>
+                                        AI Transformation in <span className="font-weight-light">Banking & Finance</span>
                                     </h2>
-
+                                    <h5 className="font-weight-bold my-3">Empowering the Banking and Financial Services with the power of AI-ML to excel the digital revolution</h5>
                                     <div className="text-center my-4">
                                         <img src="img/svg/banking&financial_img.svg" className="img-fluid" />
                                     </div>
-                                    <p className="text-justify">
-                                        Fintech innovations over the last decade are responsible for a variety of finanical services being delivered on demand. The prolifiration of mobile phones worldwide created a unique distribution opportunity to reach Billions of consumers Worldwide. Whether you are a global financial conglomerate looking to accelerate your digital transformation journey, or a fintech startup thinking about disrupting the current financial models, we CAN help. Visionaize team has over 113.5 (and counting) years of combined experience delivering innovative, challenging fintech solutions on time and on budget. 
-                            </p>
-                                    {/* <div className="row wow w-100 px-2 mt-4 fadeIn" data-wow-delay="0.4s">
-                                        <div className="col-sm-6 text-left my-4">
-                                            <img alt="img" src="img/svg/ai_Bot.svg" height="70" />
-                                            <h5 className="mt-3">AI Powered BOT for Prospect Sourcing</h5>
-                                            <small>Best Artificial Intelligence Powersed Bot for Sourcing</small><br />
-                                            <Link to={Links.AiPoweredProcessing}
-                                                className="font-weight-bold"
-                                                data-wow-delay="0.3s">View
-                                                more</Link>
-                                        </div>
-                                        <div className="col-sm-6 text-left my-4">
-                                            <img alt="img" src="img/svg/cheque.svg" height="70" />
-                                            <h5 className="mt-3">Smart cheque processing</h5>
-                                            <small>Zero manual effort from customer side in processing</small><br />
-                                            <Link to={Links.SmartCheque}
-                                                className="font-weight-bold"
-                                                data-wow-delay="0.3s">View
-                                                more</Link>
-                                        </div>
-                                        <div className="col-sm-6 text-left my-4">
-                                            <img alt="img" src="img/svg/email.svg" height="70" />
-                                            <h5 className="mt-3">Email automation</h5>
-                                            <small>We were able to achieve 90% FTR and 95% efficiency with 1000 emails per intent in a highly accelerated time frame of 3 weeks.</small><br />
-                                            <Link to={Links.EmailAutomation}
-                                                className="font-weight-bold"
-                                                data-wow-delay="0.3s">View
-                                                more</Link>
-                                        </div>
-                                        <div className="col-sm-6 text-left my-4">
-                                            <img alt="img" src="img/svg/document.svg" height="70" />
-                                            <h5 className="mt-3">AI powered document processing</h5>
-                                            <small>The solution classifies the document type and extracts required information from each document.</small><br />
-                                            <Link to={Links.DocumentProcessing}
-                                                className="font-weight-bold"
-                                                data-wow-delay="0.3s">View
-                                                more</Link>
-                                        </div>
-                                        <div className="col-sm-6 text-left my-4">
-                                            <img alt="img" src="img/svg/non_perform_asset.svg" height="70" />
-                                            <h5 className="mt-3">Reduction of not performing assets</h5>
-                                            <small>Using Visionaize’s solution, the employees could identify & predict potential defaulters early in the cycle</small><br />
-                                            <Link to={Links.ReductionNotPerforming}
-                                                className="font-weight-bold"
-                                                data-wow-delay="0.3s">View
-                                                more</Link>
-                                        </div>
-                                    </div> */}
 
 
+                                    <h5 className="title mb-3 mt-5 wow fadeIn font-weight-bold text-uppercase"
+                                        data-wow-delay="0.2s">
+                                        Overview
+                                    </h5>
+                                    <p className="text-justify">VisionAize is transforming the way banks and financial institutions operate. AI-ML enabled systems can help the organizations in the BFSI sector to streamline the processes ranging from payments, credit decisions to quantitative and financial risk management.</p>
+
+                                    <p className="text-justify">AI and ML can empower organizations with deepdive consumer insights and help take smarter decisions, realtime. </p>
+                                    <p className="text-justify">So what are the varied possibilities of AI-ML in Banking and Financial industry? </p>
+
+                                    <ul className="list-group list-group-flush py-3">
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span><span
+                                            className="font-weight-bold">AI-Powered BOT for Prospect Sourcing:</span>Qualify and Categorize your inbound leads from across different marketing channels with AI powered multi-lingual conversational BOT. </li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span><span
+                                            className="font-weight-bold">Risk Assessment & Propensity Model:</span>Improve your lending economics and increase customer value with smart cross sell opportunity assessment and profitable customer selection. </li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span><span
+                                            className="font-weight-bold">Digital Outreach & Customer Engagement:</span>Run smart campaigns with DND policy compliance and reachout to the right audience based on Social Media / user data Profiling, targeted campaigning and consequent customer engagement. </li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span><span
+                                            className="font-weight-bold">Customer Segmentation:</span> Boost your conversion rate with Customer Profiling, Geo-location, behavioural and lifestyle patterns,  and Credit score based customer segmentation. Segmentation of the target audience is based on continuous, quasi-continuous and categorical factors allowing effective mapping of the right product offering with the right customer. </li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span><span
+                                            className="font-weight-bold">Reduction of a Bank’s Non-Performing Assets:</span> Using Visionaize’s AI-ML based solution analyses historic data of the borrower and can help in identifying & predicting potential defaulters early in the cycle and thus providing enough room for financial institutions to address potential NPAs well in advance. </li>
+                                        <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span><span
+                                            className="font-weight-bold">Intelligent Process Automation:</span> Achieve higher profitability by Automating End-to-end and cross-functional processes including processing unstructured content thereby achieving a lean and efficient business process control. </li>
+                                    </ul>
+                                    <h5 className="title my-3 wow fadeIn  font-weight-bold text-uppercase"
+                                        data-wow-delay="0.2s">
+                                        APPLICATIONS
+                                    </h5>
+
+                                    <div className="row px-2">
+                                        <div className="col-md-6 px-2 mb-3">
+                                            <div className="list-group fanylist_group px-3 h-100">
+                                                <h5 className="mb-0">Commercial Banking</h5>
+                                                {/* <hr className="w-100" /> */}
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Know your Customer (KYC)</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Anti- Money Laundering (AML)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 px-2 mb-3">
+                                            <div className="list-group fanylist_group px-3">
+                                                <h5 className="mb-0">IT Infrastructure</h5>
+                                                {/* <hr className="w-100" /> */}
+                                                <ul className="list-group list-group-flush py-3 h-100">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Security Cyberlake</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Anti- Money Laundering (AML)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 px-2 mb-3">
+                                            <div className="list-group fanylist_group px-3">
+                                                <h5 className="mb-0">Card/Payments Business</h5>
+                                                {/* <hr className="w-100" /> */}
+                                                <ul className="list-group list-group-flush py-3 h-100">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Transaction Frauds</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Collusion Frauds</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Real Time Targeting</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Credit Risk Scoring</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 px-2 mb-3">
+                                            <div className="list-group fanylist_group px-3 h-100">
+                                                <h5 className="mb-0">Retail Banking</h5>
+                                                {/* <hr className="w-100" /> */}
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Customer Churn Prediction</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Deposit Fraud</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Real Time Targeting</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 className="title my-3 wow fadeIn  font-weight-bold text-uppercase"
+                                        data-wow-delay="0.2s">Key Areas where VisionAIez solutions can add value in your organization are:</h5>
+                                    <div className="row px-2">
+                                        <div className="col-md-12 px-2 mb-3">
+                                            <div className="list-group fanylist_group px-3 h-100">
+                                                <h5 className="mb-0">Client Experience</h5>
+                                                {/* <hr className="w-100" /> */}
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Identify which client is likely to avail specific products or services</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Deepen your relationships with customers</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Anticipate and Identify client needs </li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Precisely target offers</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12 px-2 mb-3">
+                                            <div className="list-group fanylist_group px-3 h-100">
+                                                <h5 className="mb-0">Lending</h5>
+                                                {/* <hr className="w-100" /> */}
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Build more precise credit models</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Actively manage your client portfolio</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Lead in small business credit with advanced analytics</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Proactively intervene when clients experience financial stress</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Forecast losses more accurately</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12 px-2 mb-3">
+                                            <div className="list-group fanylist_group px-3 h-100">
+                                                <h5 className="mb-0">Financial Markets</h5>
+                                                {/* <hr className="w-100" /> */}
+                                                <ul className="list-group list-group-flush py-3">
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Cut down back office costs related to process failures </li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Optimize trade execution and routing</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Match investment opportunities to potential investors</li>
+                                                    <li className="list-group-item"><span className="pr-4"><i className="fas fa-check"></i></span>Get research reports to the right clients</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div className="row wow px-2 mt-4 justify-content-center fadeIn" data-wow-delay="0.4s">
                                         <div className="text-left col-md-6 mb-3 px-2">
                                             <div className="feature-title title spacing">
@@ -114,17 +178,7 @@ export default class Banking extends Component {
                                                 more</Link></h6>
                                             </div>
                                         </div>
-                                        {/* <div className="text-left col-md-6 mb-3 px-2">
-                                            <div className="feature-title title spacing">
-                                                <img alt="img" src="img/Images/b-5.jpg" className="img_bg" />
 
-                                                <h6>Reduction of not performing assets<br /> <Link
-                                                    to={Links.ReductionNotPerforming}
-                                                    className="btn btn-outline-white btn-sm wow fadeIn waves-effect waves-light animated"
-                                                    data-wow-delay="0.3s">View
-                                                more</Link></h6>
-                                            </div>
-                                        </div> */}
                                     </div>
                                 </section>
                                 <section>
@@ -269,197 +323,7 @@ export default class Banking extends Component {
                                     </div>
 
 
-                                    {/* <table className="table table-bordered box-table">
-                                            <thead className="blue-1 white-text">
-                                                <tr>
-                                                    <th scope="col">S.No.</th>
-                                                    <th scope="col">Use Case</th>
-                                                    <th scope="col">Project Summary</th>
-                                                    <th scope="col">Estimated ROI</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>1</th>
-                                                    <td>
-                                                        <p>
-                                                            Non Performing Asset Prediction Analysis
-                                                </p>
-                                                        <p className="font-weight-bold">
-                                                            Business Problem:
-                                                </p>
-                                                        <p className="text-justify">Our client had an issue with Non Performing loans portfolio and was
-                                                        looking
-                                                        for a solution to identify and predict ”defaulters” earlier in the
-                                                        approval
-                                                        cycle.
-                                                </p>
-                                                    </td>
-                                                    <td>
-                                                        <ul className="listFinancial_services">
-                                                            <li><i className="fas fa-check pr-2"></i>Create analytics to improve
-                                                        classification accuracy</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Provide real time scoring based on
-                                                        casual matrix</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Correlated data across 9 Million
-                                                        data
-                                                        points to identify and predict defaulters early in the cycle.</li>
-                                                        </ul>
-                                                    </td>
-                                                    <td>
-                                                        <span className="font-weight-bold">
-                                                            $2M- $8M Estimated Annually
-                                                </span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>2</th>
-                                                    <td>
-                                                        <p>
-                                                            KYC/AML Custom On-Boarding
-                                                </p>
-                                                        <p className="font-weight-bold">
-                                                            Business Problem:
-                                                </p>
-                                                        <p className="text-justify">FinTech company leadership was looking to efficiently on-board customers
-                                                        to
-                                                        support its international expansion. Compliance with International KYC/
-                                                        AML
-                                                        regulations is necessary to provide such information to international
-                                                        authorities, while keeping the brokerage license.
-                                                </p>
-                                                    </td>
-                                                    <td>
-                                                        <ul className="listFinancial_services">
-                                                            <li className="text-justify"><i className="fas fa-check pr-2"></i>Identify possible behavior triggers
-                                                        to
-                                                        early identify and prevent inappropriate retail individuals to open
-                                                        account with the financial institution.</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Provide real time scoring based on
-                                                        casual matrix</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Identify additional aspects to
-                                                        improve
-                                                        user experience, and adoption</li>
-                                                        </ul>
-                                                    </td>
-                                                    <td>
-                                                        <span className="font-weight-bold">
-                                                            $10M- $15M Estimated Annually
-                                                </span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>3</th>
-                                                    <td>
-                                                        <p>
-                                                            AI-Powered Prospect Targeting.
-                                                </p>
-                                                        <p className="font-weight-bold">
-                                                            Business Problem:
-                                                </p>
-                                                        <p className="text-justify">The client had a strategic effort to identify and targeting 10,000
-                                                        potential
-                                                        customers, while optimizing marketing spend through its International
-                                                        expansion.
-                                                </p>
-                                                    </td>
-                                                    <td>
-                                                        <ul className="listFinancial_services ">
-                                                            <li><i className="fas fa-check pr-2"></i>Create a data model to focus on
-                                                        10,000
-                                                        best potential international customers that fit the Financial
-                                                        persona
-                                                        profile.</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Identify paths and patterns
-                                                        preceding
-                                                        to new account sign ups. </li>
-                                                            <li><i className="fas fa-check pr-2"></i>Correlate social media channels
-                                                        with a
-                                                        goal to identify the best path to a net new customer acquisition.
-                                                    </li>
-                                                            <li><i className="fas fa-check pr-2"></i>Extend the social media correlation
-                                                        to
-                                                        the data model to focus on 10,000 best potential customers</li>
-                                                        </ul>
-                                                    </td>
-                                                    <td>
-                                                        <span className="font-weight-bold">
-                                                            $12-20M Estimated Annually
-                                                </span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>4</th>
-                                                    <td>
-                                                        <p>
-                                                            Multi-Channel Churn
-                                                </p>
-                                                        <p className="font-weight-bold">
-                                                            Business Problem:
-                                                </p>
-                                                        <p className="text-justify">Our client wanted to create a predictable business process to reduce
-                                                        churn in
-                                                        their VIP clientele by 40%
-                                                </p>
-                                                    </td>
-                                                    <td>
-                                                        <ul className="listFinancial_services">
-                                                            <li><i className="fas fa-check pr-2"></i>Create analytics to understand
-                                                        multiple
-                                                        paths to churn by combining data from call center, retail and social
-                                                        media.</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Provide better visibility in
-                                                        different
-                                                        paths to churn with focus on VIP customers.</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Improve predictability of a churn
-                                                        in
-                                                        VIP customers.</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Create an operating procedure to
-                                                        notify
-                                                        business retail branch leadership of a potential VIP customer churn.
-                                                    </li>
-                                                        </ul>
-                                                    </td>
-                                                    <td>
-                                                        <span className="font-weight-bold">
-                                                            $2M- $18M Estimated Annually
-                                                </span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>5</th>
-                                                    <td>
-                                                        <p>
-                                                            International Arbitrage Trading
-                                                </p>
-                                                        <p className="font-weight-bold">
-                                                            Business Problem:
-                                                </p>
-                                                        <p className="text-justify">Our client wanted to explore profitable opportunities in trading of
-                                                        digital
-                                                        assets through international arbitrage at over 500 global exchanges.
-                                                </p>
-                                                    </td>
-                                                    <td>
-                                                        <ul className="listFinancial_services">
-                                                            <li><i className="fas fa-check pr-2"></i>Create a data model that included
-                                                        530
-                                                        global digital asset exchanges.</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Enrich the model with 1170 digital
-                                                        assets and ingest the trading data real-time</li>
-                                                            <li><i className="fas fa-check pr-2"></i>Identify trading opportunities in
-                                                        real-time and provide actionable visualizations and insight to the
-                                                        users.</li>
-                                                        </ul>
-                                                    </td>
-                                                    <td>
-                                                        <span className="font-weight-bold">
-                                                            $15M- $25M Estimated Annually
-                                                </span>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table> */}
+
                                 </section>
                             </div>
                             <div className="col-md-4">

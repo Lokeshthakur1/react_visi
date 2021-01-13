@@ -144,5 +144,9 @@ export const Links = {
     Sales: '/sales',
     SupplyChain: '/supply-chain',
     Success: '/success',
-    Contact: '/about#contactus'
+    Contact: '/about#contactus',
+    Arvr: '/Ar-vr',
+    Engineering: '/engineering',
+    // Engineeringpage: 'engineeringpage'
+
 }   

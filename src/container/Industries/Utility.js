@@ -18,76 +18,49 @@ export default class Utility extends Component {
                                     <div className="mb-4 text-center">
                                         <img alt="img" src="img/svg/utility.svg" className="img-fluid" height="400" />
                                     </div>
-                                    <p className="text-justify">Utilities Industry has Significantly changed over the last few years. Customers have high expectations for online services and support, digital payment, and account management. Consumers expect a personalized experience for clean energy, prepaid billing, home energy management, to real-time outage reporting.
-</p>
-                                    <p className="text-justify">VisionAize Ai based solutions can digitally assist your business and customer relationships with AI & machine learning. We provide the simplest choices for complex problems with our high end solutions to customers on devices of your customer’s choice. With the help of data analysis you can predict consumer intent and then respond in real time, for creating happy customers.
-</p>
+                                    <h5 className="font-weight-bold my-3">Experience Intelligent Demand Forecasting with the power of AI and ML</h5>
+                                    <p className="text-justify">Smart Demand Forecasting can help businesses Reduce the utility costs with accurate production & distribution capacity planning. VisionAIze can help you identify peak hours, essential and non-essential distribution areas and optimize the operating expenses.   </p>
+                                    <p className="text-justify">With AI-ML driven Demand Forecasting technologies, eliminate the operational challenges and supply chain scope creeps from your utility demand. </p>
+                                    <p className="text-justify">Upgrade to an efficient business process</p>
+
+                                    <h5 className="title mb-3 mt-5 wow fadeIn  font-weight-bold text-uppercase"
+                                        data-wow-delay="0.2s">OVERVIEW</h5>
+
+                                    <p className="text-justify">We aim to Make every utility a strategic asset for the organization. </p>
+                                    <p className="text-justify">VisionAize accelerates how enterprises transform tons of data into a decision-making platform for busy and stressed engineers, behind the scenes.</p>
+                                    <p className="text-justify">VisionAize is an objective-tailored platform for AI applications that targets industry and company-specific use cases. It offers a cohesive development environment with a concise and comprehensive set of tools and services to design, build, deploy and operate advanced enterprise-scale AI applications.</p>
+
                                     <div className="row">
-                                        <div className="col-md-12 mb-3">
-                                            <div className="list-group card shadow-lg">
-                                                <h5 className="font-weight-bold p-3">Customer Acquisition:</h5>
+                                        <div className="col-md-12 my-3">
+                                            <div className="list-group fanylist_group px-3 h-100">
+                                                <h5 className="font-weight-bold p-3">How VisionAize can transform your utility management?</h5>
                                                 <ul className="list-group list-group-flush py-3">
                                                     <li className="list-group-item">
                                                         <span className="pr-4"><i className="fas fa-check"></i></span>
-                                            Product based research, analysis & solutions.
-                                        </li>
+                                                        <b>Effective Load Control Mechanism helps in attaining higher margins.</b><br />
+                                                        Timely & accurate predictions about the utility demand can help you cut down costs by reducing wastage and misuse. An efficient supply chain where you Produce, Distribute and consume only what is needed.
+                                                    </li>
                                                     <li className="list-group-item">
                                                         <span className="pr-4"><i className="fas fa-check"></i></span>
-                                            Offer creation
-                                        </li>
-                                                    <li className="list-group-item">
-                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
-                                            Intent centric services
-                                        </li>
-                                                    <li className="list-group-item">
-                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
-                                            Service Coverage & Locations.
-                                        </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-12 mb-3">
-                                            <div className="list-group card shadow-lg">
-                                                <h5 className="font-weight-bold p-3">Retention & Loyalty </h5>
-                                                <ul className="list-group list-group-flush py-3">
-                                                    <li className="list-group-item">
-                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
-                                            Customer Support
+                                                        <b>Improved profitability with predictive analysis of peak demand hours.</b><br />
+                                                        Be efficient with the operational planning and reduce Procurement Costs with advanced analysis and forecasting of the utility demand.
 
-                                        </li>
+                                                    </li>
                                                     <li className="list-group-item">
                                                         <span className="pr-4"><i className="fas fa-check"></i></span>
-                                            Account Management programs
+                                                        <b>Decrease Compliance Cost, plan Load Control Events and grow seamlessly.</b><br />
+                                                        With VisionAIze, you are monitoring and controlling the performance of your utility in automation. Reduce power outages on the customer side, minimal interruptions, competitive utility costs and advanced demand assessment reporting.
 
-                                        </li>
-                                                    <li className="list-group-item">
-                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
-                                            Rebates & Reward Programs.
-
-                                        </li>
+                                                    </li>
 
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className="col-md-12 mb-3">
-                                            <div className="list-group card shadow-lg">
-                                                <h5 className="font-weight-bold p-3">Cost Optimization & Reduction </h5>
-                                                <ul className="list-group list-group-flush py-3">
-                                                    <li className="list-group-item">
-                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
-                                    Enable self services across all channels
 
-                                        </li>
-                                                    <li className="list-group-item">
-                                                        <span className="pr-4"><i className="fas fa-check"></i></span>
-                            Lower average handling time with AI and chatbot experiences
-
-                                        </li>
+                                        <p>Let VisionAIze AI engine revolutionize your utility demand and supply chain with efficiency.
+</p>
 
 
-                                                </ul>
-                                            </div>
-                                        </div>
                                     </div>
                                 </section>
                             </div>

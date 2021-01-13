@@ -199,11 +199,11 @@ export default class About extends Component {
                 <section id="" className="section feature-box">
                     <div className="flex-center view">
                         <div className="container pb-5">
-                            <h2 className="title my-5 wow fadeIn font-weight-bold animated text-center"
+                            <h3 className="title my-5 wow fadeIn font-weight-bold animated text-center"
                                 data-wow-delay="0.2s"
                                 style={{ visibility: "visible", animationName: 'fadeIn', animationDelay: '0.2s' }}>
                                 Our<span className="font-weight-light border-line"> Values</span>
-                            </h2>
+                            </h3>
                             <div className="row ">
                                 <img src="img/svg/ourvalues.svg" className="img-fluid" />
                             </div>
@@ -223,7 +223,7 @@ export default class About extends Component {
                                 <div class="text-center">
                                     <div class="card-body">
                                         <img alt="img" class="mb-4" src="img/svg/leadership.svg" height="60px" />
-                                        <h5 class="card-title font-weight-bold">Thought Leadership</h5>
+                                        <h6 class="card-title font-weight-bold">Thought Leadership</h6>
                                         <p class="card-text">We actively bring new ideas & strategic propositions</p>
                                     </div>
                                 </div>
@@ -232,7 +232,7 @@ export default class About extends Component {
                                 <div class="text-center">
                                     <div class="card-body">
                                         <img alt="img" class="mb-4" src="img/svg/data_journy.svg" height="60px" />
-                                        <h5 class="card-title font-weight-bold">Data Journey</h5>
+                                        <h6 class="card-title font-weight-bold">Data Journey</h6>
                                         <p class="card-text">Taking you from reporting, to analytics, to dashboards & predictive</p>
                                     </div>
                                 </div>
@@ -241,8 +241,8 @@ export default class About extends Component {
                                 <div class="text-center">
                                     <div class="card-body">
                                         <img alt="img" class="mb-4" src="img/svg/technologyExpertise.svg" height="60px" />
-                                        <h5 class="card-title font-weight-bold">Technology Expertise</h5>
-                                        <p class="card-text">State-of-the art visual analytics, reports and dashboard provide real-time insights in an easy-to-digest format.</p>
+                                        <h6 class="card-title font-weight-bold">Technology Expertise</h6>
+                                        <p class="card-text">State-of-the art visual analytics, reports and dashboard provide real-time insights.</p>
                                     </div>
                                 </div>
                             </div>
@@ -250,7 +250,7 @@ export default class About extends Component {
                                 <div class="text-center">
                                     <div class="card-body">
                                         <img alt="img" class="mb-4" src="img/svg/innovation__.svg" height="60px" />
-                                        <h5 class="card-title font-weight-bold">Innovation</h5>
+                                        <h6 class="card-title font-weight-bold">Innovation</h6>
                                         <p class="card-text">We explore ways in which data can be leveraged in new & innovative ways</p>
                                     </div>
                                 </div>

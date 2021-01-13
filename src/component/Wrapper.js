@@ -9,15 +9,11 @@ export default class Wrapper extends Component {
                 {this.props.getKey &&
                     <div id="carousel-example-3" className="box-mainslide carousel slide carousel-fade" data-ride="carousel"
                         data-interval="false">
-                        {/* <!-- <ol className="carousel-indicators" id="selecttab">
-                <li data-target="#carousel-example-3" data-slide-to="0" className="active"></li>
-                <li data-target="#carousel-example-3" data-slide-to="1"></li>
-                <li data-target="#carousel-example-3" data-slide-to="2"></li>
-            </ol> --> */}
+
                         <div className="carousel-inner" role="listbox">
                             <div className={`carousel-item active ${this.props.getKey.imgClass ? this.props.getKey.imgClass : ''}`}>
                                 <div className="view banner-height ">
-                                    {this.props.getKey.bannerImgL && <img alt="img" src={this.props.getKey.bannerImgL} className="d-block w-100" alt="..." />}
+                                    {this.props.getKey.bannerImgL && <img alt="img" src={this.props.getKey.bannerImgL} className="d-block w-100" />}
                                     <div
                                         className="container h-100 d-flex align-items-center justify-content-center mask white-text text-center">
                                         <ul className={`list-unstyled animated fadeInUp ${this.props.getKey.classname ? this.props.getKey.classname : 'text-center'}`}>
@@ -31,18 +27,14 @@ export default class Wrapper extends Component {
                                                 <p className="h5 mb-4">{this.props.getKey.secondDescription}
                                                 </p>
                                             </li>}
-                                            {/* <!-- <li>
-                                    <a href="#selecttab" className="btn btn-outline-white btn-lg wow fadeIn"
-                                        data-wow-delay="0.3s">Know
-                                        more</a>
-                                </li> --> */}
+
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className="view banner-height">
-                                    <img alt="img" src="img/Images/banking.jpg" className="d-block w-100" alt="..." />
+                                    <img alt="img" src="img/Images/banking.jpg" className="d-block w-100" />
                                     <div
                                         className="container h-100 d-flex align-items-center justify-content-center mask white-text text-left">
                                         <ul className="list-unstyled animated fadeInUp mr-auto col-md-6">
@@ -66,7 +58,7 @@ export default class Wrapper extends Component {
                             </div>
                             <div className="carousel-item">
                                 <div className="view banner-height">
-                                    <img alt="img" src="img/Images/mobility.jpg" className="d-block w-100" alt="..." />
+                                    <img alt="img" src="img/Images/mobility.jpg" className="d-block w-100" />
 
                                     <div
                                         className="container h-100 d-flex align-items-center justify-content-center mask white-text text-right">

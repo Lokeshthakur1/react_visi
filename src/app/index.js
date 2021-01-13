@@ -125,7 +125,11 @@ import XmlData from '../component/XmlData'
 import DataDriven from '../component/DataDriven'
 
 import Success from '../container/success/Success'
-import Contact from '../container/success/Success'
+import Arvr from '../container/Industries/Arvr'
+import Engineering from '../container/Industries/Engineering'
+// import Engineeringpage from '../container/Industries/Engineeringpage'
+
+
 
 export default function index() {
     return (
@@ -265,11 +269,13 @@ export default function index() {
                 <Route path={Links.SupplyChain} component={SupplyChain} />
 
                 <Route path={Links.Success} component={Success} />
+                <Route path={Links.Arvr} component={Arvr} />
+                <Route path={Links.Engineering} component={Engineering} />
+                {/* <Route path={Links.Engineeringpage} component={Engineeringpage} /> */}
 
                 <Route path={Links.Home} component={Home}></Route>
                 <Route path={Links.About} component={About} />
                 <Route path='/' exact component={Home}></Route>
-
 
                 <Redirect from='*' to="/" />
             </Switch>

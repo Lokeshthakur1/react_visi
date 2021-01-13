@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-import { Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Element, animateScroll as scroll, scroller } from 'react-scroll';
 // @import "~slick-carousel/slick/slick.css";
 // @import "~slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
@@ -108,7 +108,7 @@ export default class Home extends Component {
                         <div className="carousel-item active">
                             <div className="view overflow-hidden">
                                 <div className="backgroundDrop"></div>
-                                <img alt="img" src="img/Images/03.png" className="d-block w-100" alt="..." />
+                                <img alt="img" src="img/Images/03.png" className="d-block w-100" />
                                 <div className="container d-flex align-items-center justify-content-start mask text-left">
                                     <ul className="list-unstyled animated fadeInUp col-md-12">
                                         <li>
@@ -127,7 +127,7 @@ export default class Home extends Component {
                     <div className="arrowdown ">
                         <Link to={{ pathname: Links.Home, state: 'ai_powered_solution' }}>
                             {/* <div className="mb-2">SCROLL DOWN</div> */}
-                            <img alt="img" src="img/svg/down-arrow.svg" alt="arrow-down" />
+                            <img src="img/svg/down-arrow.svg" alt="arrow-down" />
                         </Link>
                     </div>
                 </Element>
@@ -171,18 +171,24 @@ export default class Home extends Component {
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/healthcare.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Healthcare</h4>
+                                                    <h4 className="font-weight-bold">Healthcare & Pharma</h4>
                                                     <Link to={Links.Healthcare} className="stretched-link"></Link>
                                                 </div>
                                             </div>
-
                                             <div className="col-lg-3 mb-md-5 mb-3">
+                                                <div className="fancyBox text-center">
+                                                    <img alt="img" src="img/svg/retail.svg" className="boxicon" />
+                                                    <h4 className="font-weight-bold">Retail</h4>
+                                                    <Link to={Links.Retail} className="stretched-link" ></Link>
+                                                </div>
+                                            </div>
+                                            {/* <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/medicine.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Pharma</h4>
                                                     <Link to={Links.Healthcare} className="stretched-link"></Link>
                                                 </div>
-                                            </div>
+                                            </div> */}
 
                                             <div className="col-lg-3 mb-md-5 mb-3">
                                                 <div className="fancyBox text-center">
@@ -237,13 +243,7 @@ export default class Home extends Component {
                                                 </div>
                                             </div> */}
 
-                                            {/* <div className="col-lg-3 mb-md-5 mb-3">
-                                                <div className="fancyBox text-center">
-                                                    <img alt="img" src="img/svg/retail.svg" className="boxicon" />
-                                                    <h4 className="font-weight-bold">Retail</h4>
-                                                    <Link to={Links.Retail} className="stretched-link" ></Link>
-                                                </div>
-                                            </div> */}
+
                                         </div>
                                     </div>
                                     <div className="tab-pane fade" id="functions" role="tabpanel" aria-labelledby="functions-tab">
@@ -273,7 +273,7 @@ export default class Home extends Component {
                                                 <div className="fancyBox text-center">
                                                     <img alt="img" src="img/svg/engineering.svg" className="boxicon" />
                                                     <h4 className="font-weight-bold">Engineering</h4>
-                                                    <Link to={Links.About + '#contactus'} className="stretched-link"></Link>
+                                                    <Link to={Links.Engineering} className="stretched-link"></Link>
                                                 </div>
                                             </div>
                                             {/* <div className="col-lg-3 mb-md-5 mb-3">
@@ -418,7 +418,7 @@ export default class Home extends Component {
                                     </div>
                                 </Link>
 
-                                <Link className="col-lg-4 text-center hoverable p-4 mb-3">
+                                <Link to={Links.Arvr} className="col-lg-4 text-center hoverable p-4 mb-3">
                                     <div className="icon-area">
                                         <div>
                                             <img alt="img" src="img/svg/vr-glasses.svg" height="50px" />

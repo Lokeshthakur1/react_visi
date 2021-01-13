@@ -29,6 +29,9 @@ html {
 footer.bg-footer {
     border-top: 4px solid #40a3ff;
 }
+h3.title {
+    font-size: 2.5rem;
+}
 .aboutheight > .view.banner-height {
     max-height: 700px!important;
 }
