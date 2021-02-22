@@ -17,7 +17,7 @@ export default class Environmental extends Component {
                                     <div className="mb-4 text-center">
                                         <img alt="img" src="img/svg/environment.svg" alt="environment" className="w-100" />
                                     </div>
-                                    <p className="text-justify">VisionAize Ai powered solutions empowers communities, businesses and legislators to increase the awareness of the health impact of local air pollution and informs plans to minimize exposure.</p>
+                                    <p className="text-justify">VisionAize  empowers communities, businesses and legislators to increase the awareness of the health impact of local air pollution and informs plans to minimize exposure.</p>
                                     <p className="text-justify">We are helping industries with eco friendly & eco efficient innovative technologies to assist environment growth by air pollution monitor & prediction . Our Ai based solutions are playing a key role in the environment industry, pollution management & resource management. </p>
 
 

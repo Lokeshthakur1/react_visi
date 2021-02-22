@@ -53,7 +53,6 @@ export default class Home extends Component {
 
     componentDidMount() {
 
-        console.log(this.props.history.location.state)
         let idRoute = this.props.history ? this.props.history.location.state : false
         if (idRoute) {
             // idRoute = idRoute.slice(1)

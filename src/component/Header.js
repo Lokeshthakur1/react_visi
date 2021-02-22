@@ -45,146 +45,146 @@ class Header extends Component {
                                     </li>
 
                                     {/* <li className="nav-item ml-4 dropdown dropdown-8 d-none">
-                                        <Link className="nav-link title" to={Links.Industries} data-offset="90">Industries</Link>
+                                        <a className="nav-link title" href={Links.Industries} data-offset="90">Industries</a>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
-                                            <li className="dropdown_item-2"><Link className="tablink waves-effect waves-light"
-                                                to={Links.Banking}>BANKING & FINANCIAL</Link></li>
-                                            <li className="dropdown_item-1"><Link className="tablink waves-effect waves-light"
-                                                to={Links.Healthcare}>HEALTHCARE & PHRAMA</Link></li>
-                                            <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
-                                                to={Links.Hightech}>Hi-Tech</Link></li>
-                                            <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
-                                                to={Links.Retail}>RETAIL</Link></li>
-                                            <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
-                                                to={Links.Oilgas}>OIL & GAS</Link></li>
-                                            <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
-                                                to={Links.Utility}>UTILITY</Link></li>
-                                            <li className="dropdown_item-4"><Link className="tablink waves-effect waves-light"
-                                                to={Links.TranspAndLogistic}>Transportation & Logistics</Link></li>
+                                            <li className="dropdown_item-2"><a className="tablink waves-effect waves-light"
+                                                href={Links.Banking}>BANKING & FINANCIAL</a></li>
+                                            <li className="dropdown_item-1"><a className="tablink waves-effect waves-light"
+                                                href={Links.Healthcare}>HEALTHCARE & PHRAMA</a></li>
+                                            <li className="dropdown_item-4"><a className="tablink waves-effect waves-light"
+                                                href={Links.Hightech}>Hi-Tech</a></li>
+                                            <li className="dropdown_item-4"><a className="tablink waves-effect waves-light"
+                                                href={Links.Retail}>RETAIL</a></li>
+                                            <li className="dropdown_item-4"><a className="tablink waves-effect waves-light"
+                                                href={Links.Oilgas}>OIL & GAS</a></li>
+                                            <li className="dropdown_item-4"><a className="tablink waves-effect waves-light"
+                                                href={Links.Utility}>UTILITY</a></li>
+                                            <li className="dropdown_item-4"><a className="tablink waves-effect waves-light"
+                                                href={Links.TranspAndLogistic}>Transportation & Logistics</a></li>
                                             <li className="dropdown_item-4">
-                                                <Link className="tablink waves-effect waves-light"
-                                                    to={Links.Environmental}>Environmental</Link>
+                                                <a className="tablink waves-effect waves-light"
+                                                    href={Links.Environmental}>Environmental</a>
                                             </li>
                                         </ul>
                                     </li> */}
 
                                     {/* <li className="nav-item ml-4 dropdown dropdown-8">
-                                        <Link className="nav-link title" to="javascript:void(0)" data-offset="90">Industries</Link>
+                                        <a className="nav-link title" href="javascript:void(0)" data-offset="90">Industries</a>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
-                                            <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                className="tablink waves-effect waves-light" to={Links.Banking}>BANKING &
-                                                FINANCIAL</Link>
+                                            <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                className="tablink waves-effect waves-light" href={Links.Banking}>BANKING &
+                                                FINANCIAL</a>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.ImprovedRustomerRetention}>Improved customer retention</Link>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.ImprovedRustomerRetention}>Improved customer retention</a>
                                                     </li>
-                                                    <li className="dropdown_item-3"><Link className="waves-effect waves-light"
-                                                        to={Links.Chatbots}>Chatbots</Link></li>
-                                                    <li className="dropdown_item-4"><Link className="waves-effect waves-light"
-                                                        to={Links.CustomizedInvestments}>Customized Investments</Link></li>
-                                                    <li className="dropdown_item-5"><Link className="waves-effect waves-light"
-                                                        to={Links.LifeTimeValuePrediction}>Life Time Value Prediction</Link>
+                                                    <li className="dropdown_item-3"><a className="waves-effect waves-light"
+                                                        href={Links.Chatbots}>Chatbots</a></li>
+                                                    <li className="dropdown_item-4"><a className="waves-effect waves-light"
+                                                        href={Links.CustomizedInvestments}>Customized Investments</a></li>
+                                                    <li className="dropdown_item-5"><a className="waves-effect waves-light"
+                                                        href={Links.LifeTimeValuePrediction}>Life Time Value Prediction</a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link
-                                                    className="tablink waves-effect waves-light" to={Links.Healthcare}>HEALTHCARE &
-                                                PHRAMA</Link>
+                                                <a
+                                                    className="tablink waves-effect waves-light" href={Links.Healthcare}>HEALTHCARE &
+                                                PHRAMA</a>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.ClaimsPredictions}>Claims (Fraud & Rejection) Prediction</Link>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.ClaimsPredictions}>Claims (Fraud & Rejection) Prediction</a>
                                                     </li>
-                                                    <li className="dropdown_item-3"><Link className="waves-effect waves-light"
-                                                        to={Links.FludemicPrediction}>Fludemic (Data Driven Health)
-                                                        Prediction</Link></li>
-                                                    <li className="dropdown_item-4"><Link className="waves-effect waves-light"
-                                                        to={Links.DrugRecovery}>Drug Recovery</Link></li>
-                                                    <li className="dropdown_item-5"><Link className="waves-effect waves-light"
-                                                        to={Links.RiskProfileAnalyzer}>Risk Profile Analyzer using
-                                                        Genomics</Link></li>
+                                                    <li className="dropdown_item-3"><a className="waves-effect waves-light"
+                                                        href={Links.FludemicPrediction}>Fludemic (Data Driven Health)
+                                                        Prediction</a></li>
+                                                    <li className="dropdown_item-4"><a className="waves-effect waves-light"
+                                                        href={Links.DrugRecovery}>Drug Recovery</a></li>
+                                                    <li className="dropdown_item-5"><a className="waves-effect waves-light"
+                                                        href={Links.RiskProfileAnalyzer}>Risk Profile Analyzer using
+                                                        Genomics</a></li>
                                                 </ul>
                                             </li>
-                                            <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                className="tablink waves-effect waves-light" to={Links.Hightech}>Hi-Tech</Link>
+                                            <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                className="tablink waves-effect waves-light" href={Links.Hightech}>Hi-Tech</a>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.SmartRiskPredictorAgileProcess}>Smart Risk Predictor for
-                                                        Agile Process</Link></li>
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.SuccessThroughSprints}>Success through Sprints</Link></li>
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.ImprovementThroughDeepLearning}>Improvement through deep
-                                                        learning</Link></li>
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.BusinessModelMakeover}>The business model makeover</Link></li>
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.StayingAheadCurveWith}>Staying ahead of the curve with
-                                                        AI</Link></li>
-                                                </ul>
-                                            </li>
-                                            <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link className="tablink waves-effect waves-light" to={Links.Retail}>RETAIL</Link>
-                                                <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2">
-                                                        <Link className="waves-effect waves-light"
-                                                            to={Links.InventoryManage}>Inventory Management</Link>
-                                                    </li>
-                                                    <li className="dropdown_item-2">
-                                                        <Link className="waves-effect waves-light"
-                                                            to={Links.AdaptiveHomepage}>Adaptive homepage</Link>
-                                                    </li>
-                                                    <li className="dropdown_item-2">
-                                                        <Link className="waves-effect waves-light"
-                                                            to={Links.ConversationalSupport}>Conversational Support</Link>
-                                                    </li>
-                                                    <li className="dropdown_item-2">
-                                                        <Link className="waves-effect waves-light"
-                                                            to={Links.DemandForecasting}>Demand Forecasting</Link>
-                                                    </li>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.SmartRiskPredictorAgileProcess}>Smart Risk Predictor for
+                                                        Agile Process</a></li>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.SuccessThroughSprints}>Success through Sprints</a></li>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.ImprovementThroughDeepLearning}>Improvement through deep
+                                                        learning</a></li>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.BusinessModelMakeover}>The business model makeover</a></li>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.StayingAheadCurveWith}>Staying ahead of the curve with
+                                                        AI</a></li>
                                                 </ul>
                                             </li>
                                             <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link className="tablink waves-effect waves-light" to="oilgas">OIL & GAS</Link>
+                                                <a className="tablink waves-effect waves-light" href={Links.Retail}>RETAIL</a>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.DrillingNptPredictor}>Drilling/NPT Analyzer &
-                                                        Predictor</Link></li>
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.IncidentAnalyzerPredictor}>Incident Analyzer & Predictor
-                                                        (Refinery & Pipeline)</Link></li>
-                                                </ul>
-                                            </li>
-                                            <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                className="tablink waves-effect waves-light" to={Links.Utility}>UTILITY</Link>
-                                                <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.IntelligentDemandForecast}>Intelligent Demand Forecast</Link>
+                                                    <li className="dropdown_item-2">
+                                                        <a className="waves-effect waves-light"
+                                                            href={Links.InventoryManage}>Inventory Management</a>
+                                                    </li>
+                                                    <li className="dropdown_item-2">
+                                                        <a className="waves-effect waves-light"
+                                                            href={Links.AdaptiveHomepage}>Adaptive homepage</a>
+                                                    </li>
+                                                    <li className="dropdown_item-2">
+                                                        <a className="waves-effect waves-light"
+                                                            href={Links.ConversationalSupport}>Conversational Support</a>
+                                                    </li>
+                                                    <li className="dropdown_item-2">
+                                                        <a className="waves-effect waves-light"
+                                                            href={Links.DemandForecasting}>Demand Forecasting</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="dropdown_item-1 dropdown dropdown-8"><Link
+                                            <li className="dropdown_item-1 dropdown dropdown-8">
+                                                <a className="tablink waves-effect waves-light" href="oilgas">OIL & GAS</a>
+                                                <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.DrillingNptPredictor}>Drilling/NPT Analyzer &
+                                                        Predictor</a></li>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.IncidentAnalyzerPredictor}>Incident Analyzer & Predictor
+                                                        (Refinery & Pipeline)</a></li>
+                                                </ul>
+                                            </li>
+                                            <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                className="tablink waves-effect waves-light" href={Links.Utility}>UTILITY</a>
+                                                <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.IntelligentDemandForecast}>Intelligent Demand Forecast</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li className="dropdown_item-1 dropdown dropdown-8"><a
                                                 className="tablink waves-effect waves-light"
-                                                to={Links.TranspAndLogistic}>Transportation & Logistics</Link>
+                                                href={Links.TranspAndLogistic}>Transportation & Logistics</a>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.TranspPlatform}>Transport Platform</Link>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.TranspPlatform}>Transport Platform</a>
                                                     </li>
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.PandemicCrowdControl}>Pandemic Crowd Control App</Link>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.PandemicCrowdControl}>Pandemic Crowd Control App</a>
                                                     </li>
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.PredictiveMaintenance}>Predictive Maintenance</Link>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.PredictiveMaintenance}>Predictive Maintenance</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="dropdown_item-1 dropdown dropdown-8"><Link
+                                            <li className="dropdown_item-1 dropdown dropdown-8"><a
                                                 className="tablink waves-effect waves-light"
-                                                to={Links.Environmental}>Environment</Link>
+                                                href={Links.Environmental}>Environment</a>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-7">
-                                                    <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                        to={Links.AirPollutionMonitoringPrediction}>Air Pollution Monitoring
-                                                        & Prediction</Link>
+                                                    <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                        href={Links.AirPollutionMonitoringPrediction}>Air Pollution Monitoring
+                                                        & Prediction</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -193,13 +193,13 @@ class Header extends Component {
 
 
                                     <li className="nav-item ml-4 dropdown dropdown-8">
-                                        <Link className="nav-link title" data-offset="90">Solutions</Link>
+                                        <a className="nav-link title" data-offset="90">Solutions</a>
                                         <ul className="dropdown_menu dropdown_menu--animated megamenu dropdown_menu-8">
                                             <li>
                                                 <h5>By Industry</h5>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Banking}>FINTECH</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Healthcare}>HEALTHCARE & PHRAMA</Link>
-                                                <Link className="tablink waves-effect waves-light" to="oilgas">OIL & GAS</Link>
+                                                <Link className="tablink waves-effect waves-light" to="/oilgas">OIL & GAS</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Utility}>UTILITY</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.TranspAndLogistic}>Transportation & Logistics</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Environmental}>Environment</Link>
@@ -215,78 +215,78 @@ class Header extends Component {
                                                 <Link className="tablink waves-effect waves-light" to={Links.AiPowered}>Marketing</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.Sales}>Sales</Link>
                                                 <Link className="tablink waves-effect waves-light" to={Links.DigitalOutreach}>Digital Outreach</Link>
-                                                <Link className="tablink waves-effect waves-light" to={Links.Organisational}>Organisational Data</Link>
-                                                <Link className="tablink waves-effect waves-light" to={Links.Engineering}>Engineering</Link>
+                                                {/*<Link className="tablink waves-effect waves-light" to={Links.Organisational}>Organisational Data</Link>*/}
+                                                <Link className="tablink waves-effect waves-light" to={Links.Engineering}>Engineering</Link> 
                                             </li>
                                         </ul>
                                         {/*                                         
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8 d-none">
                                             <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link className="tablink waves-effect waves-light">By Industry</Link>
+                                                <a className="tablink waves-effect waves-light">By Industry</a>
 
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
                                                         className="tablink waves-effect waves-light">BANKING &
-                                                FINANCIAL</Link>
+                                                FINANCIAL</a>
                                                        
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8">
-                                                        <Link
-                                                            className="tablink waves-effect waves-light" to={Links.Healthcare}>HEALTHCARE &
-                                                PHRAMA</Link>
+                                                        <a
+                                                            className="tablink waves-effect waves-light" href={Links.Healthcare}>HEALTHCARE &
+                                                PHRAMA</a>
                                                        
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.Hightech}>Hi-Tech</Link>
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                        className="tablink waves-effect waves-light" href={Links.Hightech}>Hi-Tech</a>
                                                         
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8">
-                                                        <Link className="tablink waves-effect waves-light" to={Links.Retail}>RETAIL</Link>
+                                                        <a className="tablink waves-effect waves-light" href={Links.Retail}>RETAIL</a>
                                                   
                                                     </li>
                                                     <li className="dropdown_item-1 dropdown dropdown-8">
-                                                        <Link className="tablink waves-effect waves-light" to="oilgas">OIL & GAS</Link>
+                                                        <a className="tablink waves-effect waves-light" href="oilgas">OIL & GAS</a>
                                                        
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.Utility}>UTILITY</Link>
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                        className="tablink waves-effect waves-light" href={Links.Utility}>UTILITY</a>
                                                     
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
                                                         className="tablink waves-effect waves-light"
-                                                        to={Links.TranspAndLogistic}>Transportation & Logistics</Link>
+                                                        href={Links.TranspAndLogistic}>Transportation & Logistics</a>
                                                         
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
                                                         className="tablink waves-effect waves-light"
-                                                        to={Links.Environmental}>Environment</Link>
+                                                        href={Links.Environmental}>Environment</a>
                                                       
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
                                                         className="tablink waves-effect waves-light"
-                                                        to={Links.TravelHospitality}>travel & hospitality</Link>
+                                                        href={Links.TravelHospitality}>travel & hospitality</a>
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
                                                         className="tablink waves-effect waves-light"
-                                                        to={Links.ItItes}>IT & ITES</Link>
+                                                        href={Links.ItItes}>IT & ITES</a>
                                                     </li>
                                                 </ul>
                                             </li>
 
                                             <li className="dropdown_item-1 dropdown dropdown-8">
-                                                <Link className="tablink waves-effect waves-light">By Functions</Link>
+                                                <a className="tablink waves-effect waves-light">By Functions</a>
                                                 <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to='/ai-powered'>Marketing</Link>
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                        className="tablink waves-effect waves-light" href='/ai-powered'>Marketing</a>
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link className="waves-effect waves-light"
-                                                        to="/social-media">Social Media Intelligence</Link>
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a className="waves-effect waves-light"
+                                                        href="/social-media">Social Media Intelligence</a>
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.HumanRecource}>Human Resource</Link>
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                        className="tablink waves-effect waves-light" href={Links.HumanRecource}>Human Resource</a>
                                                     </li>
-                                                    <li className="dropdown_item-1 dropdown dropdown-8"><Link
-                                                        className="tablink waves-effect waves-light" to={Links.Finance}>Finance</Link>
+                                                    <li className="dropdown_item-1 dropdown dropdown-8"><a
+                                                        className="tablink waves-effect waves-light" href={Links.Finance}>Finance</a>
                                                     </li>
 
 
@@ -300,26 +300,26 @@ class Header extends Component {
                                     </li>
 
                                     {/* <li className="nav-item ml-4 dropdown dropdown-8 d-none">
-                                        <Link className="nav-link title" to={Links.Solution} data-offset="90">Solutions</Link>
+                                        <a className="nav-link title" href={Links.Solution} data-offset="90">Solutions</a>
                                         <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
-                                            <li className="dropdown_item-1"><Link className="waves-effect waves-light"
-                                                to="enterprise">Enterprise Application Platform</Link></li>
-                                            <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                to="/software-services">Software as a Service (SaaS) Framework</Link></li>
-                                            <li className="dropdown_item-3"><Link className="waves-effect waves-light"
-                                                to="/business-process">Business Process Automation Platform</Link></li>
-                                            <li className="dropdown_item-4"><Link className="waves-effect waves-light"
-                                                to="/real-time">Real Time Processing Framework</Link></li>
-                                            <li className="dropdown_item-5"><Link className="waves-effect waves-light" to="/xml-data">XML
-                                                Data Management Framework</Link></li>
-                                            <li className="dropdown_item-4"><Link className="waves-effect waves-light"
-                                                to="/ai-powered">AI-Powered Marketing Intelligence</Link></li>
-                                            <li className="dropdown_item-5"><Link className="waves-effect waves-light"
-                                                to="/social-media">Social Media Intelligence</Link></li>
+                                            <li className="dropdown_item-1"><a className="waves-effect waves-light"
+                                                href="enterprise">Enterprise Application Platform</a></li>
+                                            <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                href="/software-services">Software as a Service (SaaS) Framework</a></li>
+                                            <li className="dropdown_item-3"><a className="waves-effect waves-light"
+                                                href="/business-process">Business Process Automation Platform</a></li>
+                                            <li className="dropdown_item-4"><a className="waves-effect waves-light"
+                                                href="/real-time">Real Time Processing Framework</a></li>
+                                            <li className="dropdown_item-5"><a className="waves-effect waves-light" href="/xml-data">XML
+                                                Data Management Framework</a></li>
+                                            <li className="dropdown_item-4"><a className="waves-effect waves-light"
+                                                href="/ai-powered">AI-Powered Marketing Intelligence</a></li>
+                                            <li className="dropdown_item-5"><a className="waves-effect waves-light"
+                                                href="/social-media">Social Media Intelligence</a></li>
                                         </ul>
                                     </li> */}
                                     <li className="nav-item ml-4 dropdown dropdown-8">
-                                        <Link className="nav-link title" to={Links.Services} data-offset="90">Services</Link>
+                                        <a className="nav-link title" href={Links.Services} data-offset="90">Services</a>
 
                                         <ul className="dropdown_menu dropdown_menu--animated megamenu dropdown_menu-8">
                                             <li>
@@ -335,18 +335,18 @@ class Header extends Component {
                                             </li>
                                         </ul>
                                         {/* <ul className="dropdown_menu dropdown_menu--animated dropdown_menu-8">
-                                            <li className="dropdown_item-1"><Link className="waves-effect waves-light"
-                                                to={Links.AdvancedAnalyticsAi}>Advanced Analytics & AI</Link></li>
-                                            <li className="dropdown_item-2"><Link className="waves-effect waves-light"
-                                                to={Links.DataInformation}>Data & Information Management</Link></li>
-                                            <li className="dropdown_item-3"><Link className="waves-effect waves-light"
-                                                to={Links.DataEngineering}>Data Engineering & Visualization</Link></li>
-                                            <li className="dropdown_item-4"><Link className="waves-effect waves-light"
-                                                to={Links.DataLake}>Data Lake Modernization</Link></li>
-                                            <li className="dropdown_item-5"><Link className="waves-effect waves-light"
-                                                to={Links.ProcessAutomation}>Process Automation</Link></li>
-                                            <li className="dropdown_item-5"><Link className="waves-effect waves-light"
-                                                to={Links.Cloud}>Cloud</Link></li>
+                                            <li className="dropdown_item-1"><a className="waves-effect waves-light"
+                                                href={Links.AdvancedAnalyticsAi}>Advanced Analytics & AI</a></li>
+                                            <li className="dropdown_item-2"><a className="waves-effect waves-light"
+                                                href={Links.DataInformation}>Data & Information Management</a></li>
+                                            <li className="dropdown_item-3"><a className="waves-effect waves-light"
+                                                href={Links.DataEngineering}>Data Engineering & Visualization</a></li>
+                                            <li className="dropdown_item-4"><a className="waves-effect waves-light"
+                                                href={Links.DataLake}>Data Lake Modernization</a></li>
+                                            <li className="dropdown_item-5"><a className="waves-effect waves-light"
+                                                href={Links.ProcessAutomation}>Process Automation</a></li>
+                                            <li className="dropdown_item-5"><a className="waves-effect waves-light"
+                                                href={Links.Cloud}>Cloud</a></li>
                                         </ul> */}
                                     </li>
                                     <li className="nav-item ml-4">

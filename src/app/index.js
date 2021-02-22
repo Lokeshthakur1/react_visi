@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter , Route, Switch, Redirect } from 'react-router-dom'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
 import Home from '../container/Home'
@@ -133,7 +133,9 @@ import Engineering from '../container/Industries/Engineering'
 
 export default function index() {
     return (
-        <Router>
+        <Route path={'/app'} >
+
+            <>
             <Header />
             <a href="#scrollPage" className="scroll-btn jump-2"><img alt="img" src="img/svg/arrow.svg" /></a>
             <Switch>
@@ -273,13 +275,14 @@ export default function index() {
                 <Route path={Links.Engineering} component={Engineering} />
                 {/* <Route path={Links.Engineeringpage} component={Engineeringpage} /> */}
 
-                <Route path={Links.Home} component={Home}></Route>
+                <Route path={'/home'} component={Home}></Route>
                 <Route path={Links.About} component={About} />
                 <Route path='/' exact component={Home}></Route>
 
                 <Redirect from='*' to="/" />
             </Switch>
             <Footer />
-        </Router>
+            </>
+        </Route>
     )
 }
