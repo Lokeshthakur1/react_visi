@@ -8,7 +8,6 @@ import { WrapperData } from './WrapperData'
 
 class Header extends Component {
     getKey(object, value) {
-        console.log(value)
         let obj = WrapperData[Object.keys(object).find(key => object[key] === value)]
         // let bannerImgL = obj.bannerImgL,
         // description = obj.description,
@@ -352,6 +351,22 @@ class Header extends Component {
                                     <li className="nav-item ml-4">
                                         <Link className="nav-link title" to={Links.Success} data-offset="90">Success</Link>
                                     </li>
+
+                                    <li className="nav-item ml-4 dropdown dropdown-8">
+                                        <a className="nav-link title" href={Links.Industry} data-offset="90">Industry 4.0</a>
+
+                                        <ul className="dropdown_menu dropdown_menu--animated megamenu dropdown_menu-8">
+                                            <li>
+                                                <h5>By Industry 4.0</h5>
+                                                <Link className="tablink waves-effect waves-light" to={Links.SupplyChain2}>Supply Chain</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.Infrastructure}>Infrastructure</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.OilAndGas}>Oil and Gas</Link>
+                                                <Link className="tablink waves-effect waves-light" to={Links.Manufacturing}>Manufacturing</Link>
+
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    
 
                                     <li className="nav-item ml-4">
                                         <Link className="nav-link title" to={Links.About} data-offset="90">About Us</Link>

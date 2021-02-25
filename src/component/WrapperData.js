@@ -571,6 +571,32 @@ export const WrapperData = {
         description: ``,
         bannerImgL: 'img/Images/engineering.jpg',
         Controls: true
+    },
+    Industry: {
+        heading: 'Industry 4.0',
+        description: ``,
+        bannerImgL: 'img/Images/industry4.0-banner.jpg',
+    },
+    Infrastructure: {
+        heading: 'Infrastructure',
+        description: ``,
+        bannerImgL: 'img/Images/infustructure-banner.jpg',
+    },
+    OilAndGas: {
+        heading: 'Oil And Gas',
+        description: ``,
+        bannerImgL: 'img/Images/oil-and-gas-banner.jpg',
+    },
+    Manufacturing: {
+        heading: 'Manufacturing',
+        description: ``,
+        bannerImgL: 'img/Images/manufacturing-banner.jpg',
+    },
+    SupplyChain2: {
+        heading: 'Supply Chain',
+        description: ``,
+        bannerImgL: 'img/Images/supply-chain-banner.jpg',
     }
 }
+
 

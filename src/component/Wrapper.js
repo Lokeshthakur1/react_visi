@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react'
 
 export default class Wrapper extends Component {
     render() {
-        console.log(this.props.getKey, "Wrapper")
         return (
             <Fragment>
 

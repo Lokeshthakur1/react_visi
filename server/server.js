@@ -388,7 +388,28 @@ app.get('/about#contactus ', (req, res) => {
 app.get(' /Ar-vr', (req, res) => {
     add.add(req ,res)
 });
+
 app.get('/engineeringpage', (req, res) => {
+    add.add(req ,res)
+});
+
+app.get('/infrastructure', (req, res) => {
+    add.add(req ,res)
+});
+
+app.get('/industry', (req, res) => {
+    add.add(req ,res)
+});
+
+app.get('/oil-and-gas', (req, res) => {
+    add.add(req ,res)
+});
+
+app.get('/manufacturing', (req, res) => {
+    add.add(req ,res)
+});
+
+app.get('/supply-chains', (req, res) => {
     add.add(req ,res)
 });
 

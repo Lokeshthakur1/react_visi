@@ -147,6 +147,9 @@ export const Links = {
     Contact: '/about#contactus',
     Arvr: '/Ar-vr',
     Engineering: '/engineering',
-    // Engineeringpage: 'engineeringpage'
-
+    Industry: "/industry", 
+    Infrastructure: "/infrastructure",
+    OilAndGas: "/oil-and-gas",
+    Manufacturing: "/manufacturing",
+    SupplyChain2: "/supply-chains",
 }   

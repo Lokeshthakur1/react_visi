@@ -26,6 +26,99 @@ html {
     font-size: .95rem;
     font-weight: 500;
 }
+.industry-item-heading {
+    font-size: 26px;
+    margin-bottom: 15px !important;
+    color: #40a3ff;
+    text-shadow: 0 4px 10px #40a3ff38;
+}
+.list-group-item--abhi i {
+    color: #40a3ff;
+    font-size: 20px;
+}
+.industry-item-text-box {
+    padding: 5px 40px 30px;
+}
+.industry-ol--abhi strong {
+    color: #2a507a;
+}
+.industry--inner-main--box {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 35px 40px;
+    margin: 15px 0px;
+    box-shadow: 0 5px 28px #00000020;
+}
+.industry-image--inner {
+    width: auto;
+    height: 400px;
+}
+.industry-inner--para-details {
+    font-size: 16px;
+}
+.industry-inner--icons-box i {
+    color: #fff;
+    font-size: 40px;
+}
+.industry-image--inner {
+    width: auto;
+    height: 400px;
+}
+.industry-inner--icons-box {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E96F5;
+}
+.industry-inner--heading-h4 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    margin: 20px 0 8px 0;
+}
+.font-16 {
+    font-size: 16px;
+}
+.industry-inner--icon-box {
+    width: 100%;
+    height: 120px;
+}
+.industry-inner--icon-box-img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+.industry-inner--heading-h4 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    margin: 20px 0 8px 0;
+}
+.industry-item-box {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.industry-item--image img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.industry-item--image {
+    width: auto;
+    height: 340px;
+    text-align: center;
+}
 footer.bg-footer {
     border-top: 4px solid #40a3ff;
 }

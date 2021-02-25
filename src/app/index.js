@@ -127,6 +127,12 @@ import DataDriven from '../component/DataDriven'
 import Success from '../container/success/Success'
 import Arvr from '../container/Industries/Arvr'
 import Engineering from '../container/Industries/Engineering'
+
+import Industry from '../container/Industry4.0'
+import OilAndGas from '../container/Industry4.0/OilAndGas'
+import Manufacturing from '../container/Industry4.0/Manufacturing'
+import Infrastructure from '../container/Industry4.0/Infrastructure'
+import SupplyChainIndustry from '../container/Industry4.0/SupplyChainIndustry'
 // import Engineeringpage from '../container/Industries/Engineeringpage'
 
 
@@ -275,8 +281,17 @@ export default function index() {
                 <Route path={Links.Engineering} component={Engineering} />
                 {/* <Route path={Links.Engineeringpage} component={Engineeringpage} /> */}
 
-                <Route path={'/home'} component={Home}></Route>
+                {/* {Industry 4.0 } */}
+
+                <Route path={Links.Industry} component={Industry} />
+                <Route path={Links.Infrastructure} component={Infrastructure} />
+                <Route path={Links.OilAndGas} component={OilAndGas} />
+                <Route path={Links.Manufacturing} component={Manufacturing} />
+                <Route path={Links.SupplyChain2} component={SupplyChainIndustry} />
+
+
                 <Route path={Links.About} component={About} />
+                <Route path={'/home'} component={Home}></Route>
                 <Route path='/' exact component={Home}></Route>
 
                 <Redirect from='*' to="/" />
