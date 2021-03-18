@@ -949,7 +949,6 @@ section.section.feature-box {
 }
 
 .box-backimg {
-    background-image: url(../img/svg/img_1.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
