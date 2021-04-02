@@ -7,7 +7,7 @@ export default function Infrastructure() {
       <section className="py-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-8"> 
               <section>
                 <h2 className="title mb-md-5 mb-2 wow fadeIn  font-weight-bold text-uppercase" data-wow-delay="0.2s">DIGITAL INFRASTRUCTURE <span className="font-weight-light"> MANAGEMENT</span></h2>
                 <div className="text-center my-4"><img src="img/Images/infra-2.png" className="img-fluid industry-image--inner" /></div>
@@ -17,28 +17,28 @@ export default function Infrastructure() {
                 <div className="row">
                   <div className="col-md-6 col-sm-12">
                     <div className="industry--inner-main--box">
-                      <div className="industry-inner--icon-box"><img src="http://www.visionaize.ai/industrial-revolution/wp-content/uploads/2020/12/icon01.png" className="industry-inner--icon-box-img" /></div>
+                      <div className="industry-inner--icon-box"><img src="img/Images/Planning_Demand_Estimation.png" className="industry-inner--icon-box-img" /></div>
                       <h4 className="industry-inner--heading-h4">Planning &amp; Demand Estimation</h4>
                       <p className="industry-inner--para-details">With smart data metrics, analyse the key business performance indicators, the demand trends, the project resource management and predict the project requirements well in time. </p>
                     </div>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <div className="industry--inner-main--box">
-                      <div className="industry-inner--icon-box"><img src="http://www.visionaize.ai/industrial-revolution/wp-content/uploads/2020/12/icon02-1.png" className="industry-inner--icon-box-img" /></div>
+                      <div className="industry-inner--icon-box"><img src="img/Images/Improve_Quality_Profitability.png" className="industry-inner--icon-box-img" /></div>
                       <h4 className="industry-inner--heading-h4">Improve Quality &amp; Profitability</h4>
                       <p className="industry-inner--para-details">Attain profitable turnaround while keeping abreast with the best quality standards. Fine-tune operational routes, task allocation, and resource management with real-time data insights.</p>
                     </div>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <div className="industry--inner-main--box">
-                      <div className="industry-inner--icon-box"><img src="http://www.visionaize.ai/industrial-revolution/wp-content/uploads/2020/12/icon03-1.png" className="industry-inner--icon-box-img" /></div>
+                      <div className="industry-inner--icon-box"><img src="img/Images/Resource_Planning_Productivity.png" className="industry-inner--icon-box-img" /></div>
                       <h4 className="industry-inner--heading-h4">Resource Planning &amp; Productivity</h4>
                       <p className="industry-inner--para-details">Deploy the right resources at the right place as deemed fit. Achieve construction efficiencies with smart resource engagement planning. </p>
                     </div>
                   </div>
                   <div className="col-md-6 col-sm-12">
                     <div className="industry--inner-main--box">
-                      <div className="industry-inner--icon-box"><img src="http://www.visionaize.ai/industrial-revolution/wp-content/uploads/2020/12/icon04.png" className="industry-inner--icon-box-img" /></div>
+                      <div className="industry-inner--icon-box"><img src="img/Images/Building_Information_Control.png" className="industry-inner--icon-box-img" /></div>
                       <h4 className="industry-inner--heading-h4">Building Information Control</h4>
                       <p className="industry-inner--para-details">Identify abnormalities, detect errors, flag project scope creeps way before it’s badly hit and prevent project downtime &amp; resource wastage. </p>
                     </div>
